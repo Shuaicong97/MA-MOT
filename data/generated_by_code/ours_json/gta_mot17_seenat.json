@@ -1,0 +1,3002 @@
+[
+  {
+    "Video": "MOT17-10",
+    "Query ID": "1",
+    "Language Query": "A man walking past wooden yellow boxes",
+    "Type": "M",
+    "Track ID": "7",
+    "Start Frame": "349",
+    "End Frame": "410",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "2",
+    "Language Query": "A man walks past wooden yellow boxes",
+    "Type": "M",
+    "Track ID": "7",
+    "Start Frame": "349",
+    "End Frame": "410",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "3",
+    "Language Query": " A man trying to push wooden yellow box",
+    "Type": "M",
+    "Track ID": "12",
+    "Start Frame": "211",
+    "End Frame": "254",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "3",
+    "Language Query": " A man trying to push wooden yellow box",
+    "Type": "M",
+    "Track ID": "12",
+    "Start Frame": "476",
+    "End Frame": "528",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "4",
+    "Language Query": " A man trying to move wooden yellow box",
+    "Type": "M",
+    "Track ID": "12",
+    "Start Frame": "211",
+    "End Frame": "254",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "4",
+    "Language Query": " A man trying to move wooden yellow box",
+    "Type": "M",
+    "Track ID": "12",
+    "Start Frame": "476",
+    "End Frame": "528",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "5",
+    "Language Query": "A man walks around the yellow box as he inspects it",
+    "Type": "M",
+    "Track ID": "12",
+    "Start Frame": "265",
+    "End Frame": "341",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "6",
+    "Language Query": "A man looks at the yellow box closely as he walks around it",
+    "Type": "M",
+    "Track ID": "12",
+    "Start Frame": "265",
+    "End Frame": "341",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "7",
+    "Language Query": "A man walking away from one yellow box to another stops and looks back",
+    "Type": "M",
+    "Track ID": "12",
+    "Start Frame": "379",
+    "End Frame": "394",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "8",
+    "Language Query": "A man stops walking and looks back at the yellow box behind",
+    "Type": "M",
+    "Track ID": "12",
+    "Start Frame": "379",
+    "End Frame": "394",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "9",
+    "Language Query": "A man looks behind at the yellow box",
+    "Type": "M",
+    "Track ID": "12",
+    "Start Frame": "379",
+    "End Frame": "394",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "10",
+    "Language Query": "A man in yellow shirt slows down in his tracks to talk with another person",
+    "Type": "M",
+    "Track ID": "4",
+    "Start Frame": "164",
+    "End Frame": "250",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "11",
+    "Language Query": "A man in black shirt slows down in his tracks to talk with another person",
+    "Type": "M",
+    "Track ID": "13",
+    "Start Frame": "169",
+    "End Frame": "250",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "12",
+    "Language Query": "A man in jeans stopping in his tracks to talk with other people",
+    "Type": "M",
+    "Track ID": "7",
+    "Start Frame": "150",
+    "End Frame": "279",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "13",
+    "Language Query": "A man in blue jeans stops in front of a bench to talk with another person",
+    "Type": "M",
+    "Track ID": "7",
+    "Start Frame": "150",
+    "End Frame": "279",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "14",
+    "Language Query": "A man stops walking to talk with another person",
+    "Type": "M",
+    "Track ID": "4",
+    "Start Frame": "164",
+    "End Frame": "250",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "14",
+    "Language Query": "A man stops walking to talk with another person",
+    "Type": "M",
+    "Track ID": "13",
+    "Start Frame": "169",
+    "End Frame": "250",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "14",
+    "Language Query": "A man stops walking to talk with another person",
+    "Type": "M",
+    "Track ID": "7",
+    "Start Frame": "150",
+    "End Frame": "279",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "15",
+    "Language Query": "A man stopping to converse with other men while walking",
+    "Type": "M",
+    "Track ID": "4",
+    "Start Frame": "164",
+    "End Frame": "250",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "15",
+    "Language Query": "A man stopping to converse with other men while walking",
+    "Type": "M",
+    "Track ID": "13",
+    "Start Frame": "169",
+    "End Frame": "250",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "15",
+    "Language Query": "A man stopping to converse with other men while walking",
+    "Type": "M",
+    "Track ID": "7",
+    "Start Frame": "150",
+    "End Frame": "279",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "16",
+    "Language Query": "A woman is taking out a key from her back pocket",
+    "Type": "M",
+    "Track ID": "9",
+    "Start Frame": "116",
+    "End Frame": "345",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "17",
+    "Language Query": "A woman searching her back pocket for a key",
+    "Type": "M",
+    "Track ID": "9",
+    "Start Frame": "116",
+    "End Frame": "345",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "18",
+    "Language Query": "A woman in shorts looking left and then right through a shop window",
+    "Type": "M",
+    "Track ID": "14",
+    "Start Frame": "547",
+    "End Frame": "613",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "19",
+    "Language Query": "A woman turning her head left and then right as she walks",
+    "Type": "M",
+    "Track ID": "14",
+    "Start Frame": "547",
+    "End Frame": "613",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "20",
+    "Language Query": "A woman in shorts looking right through a shop window",
+    "Type": "M",
+    "Track ID": "14",
+    "Start Frame": "583",
+    "End Frame": "613",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "21",
+    "Language Query": "A woman looks right as she is walking",
+    "Type": "M",
+    "Track ID": "14",
+    "Start Frame": "583",
+    "End Frame": "613",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "22",
+    "Language Query": "A woman turns her head to the right as she is walking",
+    "Type": "M",
+    "Track ID": "14",
+    "Start Frame": "583",
+    "End Frame": "613",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "23",
+    "Language Query": "A woman glancing right as she is walking",
+    "Type": "M",
+    "Track ID": "14",
+    "Start Frame": "583",
+    "End Frame": "613",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "24",
+    "Language Query": "A man stopping two other men in the middle of their tracks asking for directions",
+    "Type": "M",
+    "Track ID": "7",
+    "Start Frame": "190",
+    "End Frame": "258",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "25",
+    "Language Query": "A woman getting inside the mall to the right",
+    "Type": "M",
+    "Track ID": "26",
+    "Start Frame": "380",
+    "End Frame": "396",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "26",
+    "Language Query": "A woman not walking past the mall in the right side",
+    "Type": "M",
+    "Track ID": "26",
+    "Start Frame": "380",
+    "End Frame": "396",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "27",
+    "Language Query": "Person walking past the mall in the right side",
+    "Type": "M",
+    "Track ID": "2",
+    "Start Frame": "338",
+    "End Frame": "466",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "27",
+    "Language Query": "Person walking past the mall in the right side",
+    "Type": "M",
+    "Track ID": "4",
+    "Start Frame": "315",
+    "End Frame": "486",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "27",
+    "Language Query": "Person walking past the mall in the right side",
+    "Type": "M",
+    "Track ID": "13",
+    "Start Frame": "315",
+    "End Frame": "486",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "28",
+    "Language Query": "Person walking past not entering the mall in the right side",
+    "Type": "M",
+    "Track ID": "2",
+    "Start Frame": "338",
+    "End Frame": "466",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "28",
+    "Language Query": "Person walking past not entering the mall in the right side",
+    "Type": "M",
+    "Track ID": "4",
+    "Start Frame": "315",
+    "End Frame": "486",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "28",
+    "Language Query": "Person walking past not entering the mall in the right side",
+    "Type": "M",
+    "Track ID": "13",
+    "Start Frame": "315",
+    "End Frame": "486",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "29",
+    "Language Query": "A man in black clothing glancing left as he walks with another person",
+    "Type": "M",
+    "Track ID": "10",
+    "Start Frame": "212",
+    "End Frame": "250",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "30",
+    "Language Query": "A man in black clothing looks left as he talks to another person",
+    "Type": "M",
+    "Track ID": "10",
+    "Start Frame": "212",
+    "End Frame": "250",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "31",
+    "Language Query": "A man in black looks at the person in the left as he talks to her",
+    "Type": "M",
+    "Track ID": "10",
+    "Start Frame": "212",
+    "End Frame": "250",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "32",
+    "Language Query": "A man in black shirt glancing right at the store",
+    "Type": "M",
+    "Track ID": "24",
+    "Start Frame": "166",
+    "End Frame": "220",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "33",
+    "Language Query": "A man in black shirt looks right at the store",
+    "Type": "M",
+    "Track ID": "24",
+    "Start Frame": "166",
+    "End Frame": "220",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "34",
+    "Language Query": "A man looks in the direction of the camera from the right",
+    "Type": "M",
+    "Track ID": "24",
+    "Start Frame": "221",
+    "End Frame": "231",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "35",
+    "Language Query": "A man turns his head in the direction he is walking",
+    "Type": "M",
+    "Track ID": "24",
+    "Start Frame": "221",
+    "End Frame": "231",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "36",
+    "Language Query": "A man with a black backpack looking back takes a step back and looks left",
+    "Type": "M",
+    "Track ID": "18",
+    "Start Frame": "390",
+    "End Frame": "433",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "37",
+    "Language Query": "A man with a backpack facing backwards turns his body and faces left",
+    "Type": "M",
+    "Track ID": "18",
+    "Start Frame": "390",
+    "End Frame": "433",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "38",
+    "Language Query": "A man in black shirt puts his hand in his pocket",
+    "Type": "M",
+    "Track ID": "25",
+    "Start Frame": "540",
+    "End Frame": "593",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "39",
+    "Language Query": "A man puts his hand down into his pocket",
+    "Type": "M",
+    "Track ID": "25",
+    "Start Frame": "540",
+    "End Frame": "593",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "40",
+    "Language Query": "A woman initially facing right looks back",
+    "Type": "M",
+    "Track ID": "34",
+    "Start Frame": "318",
+    "End Frame": "360",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "41",
+    "Language Query": "A woman with a cloth in her hand turns her head and looks back",
+    "Type": "M",
+    "Track ID": "34",
+    "Start Frame": "318",
+    "End Frame": "360",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "42",
+    "Language Query": "A woman turns her face forward",
+    "Type": "M",
+    "Track ID": "34",
+    "Start Frame": "410",
+    "End Frame": "445",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "43",
+    "Language Query": "A woman with a cloth in her hand turns her head and looks forward",
+    "Type": "M",
+    "Track ID": "34",
+    "Start Frame": "410",
+    "End Frame": "445",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "44",
+    "Language Query": "The cover from the face of the woman falls off",
+    "Type": "M",
+    "Track ID": "34",
+    "Start Frame": "547",
+    "End Frame": "562",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "45",
+    "Language Query": "A woman with a cloth in her hand covers her face",
+    "Type": "M",
+    "Track ID": "34",
+    "Start Frame": "480",
+    "End Frame": "533",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "46",
+    "Language Query": "A woman looks back as covers her face",
+    "Type": "M",
+    "Track ID": "34",
+    "Start Frame": "480",
+    "End Frame": "533",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "47",
+    "Language Query": "A woman covering her face and removing the cover",
+    "Type": "M",
+    "Track ID": "34",
+    "Start Frame": "480",
+    "End Frame": "553",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "48",
+    "Language Query": "A woman in white shirt stops walking and looks back and then starts walking again",
+    "Type": "M",
+    "Track ID": "44",
+    "Start Frame": "218",
+    "End Frame": "260",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "49",
+    "Language Query": "A woman stops in her tracks and looks back",
+    "Type": "M",
+    "Track ID": "44",
+    "Start Frame": "218",
+    "End Frame": "260",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "50",
+    "Language Query": "A man in black clothing leaned against a wooden structure looking back",
+    "Type": "M",
+    "Track ID": "45",
+    "Start Frame": "119",
+    "End Frame": "198",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "51",
+    "Language Query": "A woman flipping her hair as she looks left while walking",
+    "Type": "M",
+    "Track ID": "17",
+    "Start Frame": "233",
+    "End Frame": "250",
+    "Revision": "The bounding box ID changes from 16 to 17. "
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "52",
+    "Language Query": "A woman's hair flips as she turns her head left",
+    "Type": "M",
+    "Track ID": "17",
+    "Start Frame": "233",
+    "End Frame": "250",
+    "Revision": "The bounding box ID changes from 16 to 17. "
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "53",
+    "Language Query": "A person walking left and going behind a wall structure",
+    "Type": "M ",
+    "Track ID": "56",
+    "Start Frame": "374",
+    "End Frame": "529",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "53",
+    "Language Query": "A person walking left and going behind a wall structure",
+    "Type": "M ",
+    "Track ID": "57",
+    "Start Frame": "374",
+    "End Frame": "479",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "54",
+    "Language Query": "A person walks behind a wall structure",
+    "Type": "M ",
+    "Track ID": "56",
+    "Start Frame": "374",
+    "End Frame": "529",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "54",
+    "Language Query": "A person walks behind a wall structure",
+    "Type": "M ",
+    "Track ID": "57",
+    "Start Frame": "374",
+    "End Frame": "479",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "55",
+    "Language Query": "A man is coming out of the right side mall",
+    "Type": "M",
+    "Track ID": "31",
+    "Start Frame": "175",
+    "End Frame": "187",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "55",
+    "Language Query": "A man is coming out of the right side mall",
+    "Type": "M",
+    "Track ID": "32",
+    "Start Frame": "181",
+    "End Frame": "187",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "56",
+    "Language Query": "A man walks out of the right side mall",
+    "Type": "M",
+    "Track ID": "31",
+    "Start Frame": "175",
+    "End Frame": "187",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "56",
+    "Language Query": "A man walks out of the right side mall",
+    "Type": "M",
+    "Track ID": "32",
+    "Start Frame": "181",
+    "End Frame": "187",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "57",
+    "Language Query": "A man conversing in the middle of the street but not walking",
+    "Type": "M",
+    "Track ID": "18",
+    "Start Frame": "390",
+    "End Frame": "433",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "57",
+    "Language Query": "A man conversing in the middle of the street but not walking",
+    "Type": "M",
+    "Track ID": "25",
+    "Start Frame": "540",
+    "End Frame": "593",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "58",
+    "Language Query": "A man in black clothing looks back while walking",
+    "Type": "M",
+    "Track ID": "13",
+    "Start Frame": "489",
+    "End Frame": "512",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "58",
+    "Language Query": "A man in black clothing looks back while walking",
+    "Type": "M",
+    "Track ID": "13",
+    "Start Frame": "359",
+    "End Frame": "380",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "59",
+    "Language Query": "A man in black shirt turns back while walking",
+    "Type": "M",
+    "Track ID": "13",
+    "Start Frame": "489",
+    "End Frame": "512",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "59",
+    "Language Query": "A man in black shirt turns back while walking",
+    "Type": "M",
+    "Track ID": "13",
+    "Start Frame": "359",
+    "End Frame": "380",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "60",
+    "Language Query": "A man standing on the path looking at his phone",
+    "Type": "O",
+    "Track ID": "11",
+    "Start Frame": "68",
+    "End Frame": "171",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "61",
+    "Language Query": "A man walking with a phone in his hand",
+    "Type": "O",
+    "Track ID": "1",
+    "Start Frame": "1",
+    "End Frame": "99",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "62",
+    "Language Query": "A woman walking with a shopping bag",
+    "Type": "O",
+    "Track ID": "3",
+    "Start Frame": "1",
+    "End Frame": "60",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "63",
+    "Language Query": "A woman walking with a pink bag",
+    "Type": "O",
+    "Track ID": "6",
+    "Start Frame": "1",
+    "End Frame": "80",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "64",
+    "Language Query": "A man having conversation in the middle of the path",
+    "Type": "O",
+    "Track ID": "25",
+    "Start Frame": "165",
+    "End Frame": "610",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "64",
+    "Language Query": "A man having conversation in the middle of the path",
+    "Type": "O",
+    "Track ID": "18",
+    "Start Frame": "165",
+    "End Frame": "610",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "65",
+    "Language Query": "A man and a woman walking together",
+    "Type": "O",
+    "Track ID": "9,10",
+    "Start Frame": "180",
+    "End Frame": "380",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "65",
+    "Language Query": "A man and a woman walking together",
+    "Type": "O",
+    "Track ID": "29,30",
+    "Start Frame": "90",
+    "End Frame": "351",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "66",
+    "Language Query": "A man wearing a cross-body bag",
+    "Type": "O",
+    "Track ID": "29",
+    "Start Frame": "90",
+    "End Frame": "351",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "67",
+    "Language Query": "A man with a backpack walking out of the mall from the right and crossing the street",
+    "Type": "O",
+    "Track ID": "32",
+    "Start Frame": "184",
+    "End Frame": "475",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "68",
+    "Language Query": "A man in black clothing walking out of the mall from the right and crossing the street",
+    "Type": "O",
+    "Track ID": "31",
+    "Start Frame": "184",
+    "End Frame": "475",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "69",
+    "Language Query": "People sitting on the bench",
+    "Type": "O",
+    "Track ID": "51",
+    "Start Frame": "98",
+    "End Frame": "654",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "69",
+    "Language Query": "People sitting on the bench",
+    "Type": "O",
+    "Track ID": "52",
+    "Start Frame": "98",
+    "End Frame": "654",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "70",
+    "Language Query": "Person working inside the store",
+    "Type": "O",
+    "Track ID": "61",
+    "Start Frame": "1",
+    "End Frame": "250",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "71",
+    "Language Query": "Mannequin in display on the shop",
+    "Type": "O",
+    "Track ID": "62",
+    "Start Frame": "483",
+    "End Frame": "615",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "71",
+    "Language Query": "Mannequin in display on the shop",
+    "Type": "O",
+    "Track ID": "63",
+    "Start Frame": "483",
+    "End Frame": "615",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-10",
+    "Query ID": "71",
+    "Language Query": "Mannequin in display on the shop",
+    "Type": "O",
+    "Track ID": "64",
+    "Start Frame": "483",
+    "End Frame": "615",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "72",
+    "Language Query": "A woman in black dress walking while using her phone looks up",
+    "Type": "M",
+    "Track ID": "24",
+    "Start Frame": "97",
+    "End Frame": "122",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "73",
+    "Language Query": "A woman in black dress looks up from her phone while walking",
+    "Type": "M",
+    "Track ID": "24",
+    "Start Frame": "97",
+    "End Frame": "122",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "74",
+    "Language Query": "A man in full sleeve shirt looks back as he walks",
+    "Type": "M",
+    "Track ID": "27",
+    "Start Frame": "324",
+    "End Frame": "340",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "75",
+    "Language Query": "A man in black shirt looks back as he walks",
+    "Type": "M",
+    "Track ID": "27",
+    "Start Frame": "324",
+    "End Frame": "340",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "76",
+    "Language Query": "A boy in black shirt is looking right side while walking with another boy",
+    "Type": "M",
+    "Track ID": "3",
+    "Start Frame": "8",
+    "End Frame": "39",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "77",
+    "Language Query": "A boy in black shirt looks right at the boy beside him",
+    "Type": "M",
+    "Track ID": "3",
+    "Start Frame": "8",
+    "End Frame": "39",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "78",
+    "Language Query": "A boy in black shirt turns his head in the direction of the camera",
+    "Type": "M",
+    "Track ID": "3",
+    "Start Frame": "42",
+    "End Frame": "60",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "79",
+    "Language Query": "A boy in black shirt looks away from the boy beside him",
+    "Type": "M",
+    "Track ID": "3",
+    "Start Frame": "42",
+    "End Frame": "60",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "80",
+    "Language Query": "A boy in black shirt looks down as he is walking with another boy",
+    "Type": "M",
+    "Track ID": "4",
+    "Start Frame": "39",
+    "End Frame": "60",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "81",
+    "Language Query": "A boy in black shirt looks at the floor as he talks",
+    "Type": "M",
+    "Track ID": "4",
+    "Start Frame": "39",
+    "End Frame": "60",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "82",
+    "Language Query": "A boy in black shirt looks up as he walks",
+    "Type": "M",
+    "Track ID": "4",
+    "Start Frame": "61",
+    "End Frame": "100",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "82",
+    "Language Query": "A boy in black shirt looks up as he walks",
+    "Type": "M",
+    "Track ID": "4",
+    "Start Frame": "61",
+    "End Frame": "100",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "83",
+    "Language Query": "A lady looks down while walking with her partner",
+    "Type": "M",
+    "Track ID": "5",
+    "Start Frame": "187",
+    "End Frame": "230",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "84",
+    "Language Query": "A lady looks at the floor as she walks",
+    "Type": "M",
+    "Track ID": "5",
+    "Start Frame": "187",
+    "End Frame": "230",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "85",
+    "Language Query": "A woman in black clothing turns her head forward",
+    "Type": "M",
+    "Track ID": "7",
+    "Start Frame": "413",
+    "End Frame": "422",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "86",
+    "Language Query": "A woman in black clothing glances left",
+    "Type": "M",
+    "Track ID": "7",
+    "Start Frame": "358",
+    "End Frame": "409",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "87",
+    "Language Query": "A woman in black clothing looks left",
+    "Type": "M",
+    "Track ID": "7",
+    "Start Frame": "358",
+    "End Frame": "409",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "88",
+    "Language Query": "A man looking left initially looks forward and slightly glances to the right",
+    "Type": "M",
+    "Track ID": "20",
+    "Start Frame": "193",
+    "End Frame": "303",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "89",
+    "Language Query": "A man looking turns his head in the direction of the camera and slightly glances right",
+    "Type": "M",
+    "Track ID": "20",
+    "Start Frame": "193",
+    "End Frame": "303",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "90",
+    "Language Query": "A man walking looks left and then forward and again left, and right near the end",
+    "Type": "M",
+    "Track ID": "25",
+    "Start Frame": "62",
+    "End Frame": "860",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "91",
+    "Language Query": "A man looks left as he is walking",
+    "Type": "M",
+    "Track ID": "25",
+    "Start Frame": "62",
+    "End Frame": "168",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "91",
+    "Language Query": "A man looks left as he is walking",
+    "Type": "M",
+    "Track ID": "25",
+    "Start Frame": "462",
+    "End Frame": "507",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "91",
+    "Language Query": "A man looks left as he is walking",
+    "Type": "M",
+    "Track ID": "25",
+    "Start Frame": "316",
+    "End Frame": "393",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "91",
+    "Language Query": "A man looks left as he is walking",
+    "Type": "M",
+    "Track ID": "25",
+    "Start Frame": "666",
+    "End Frame": "727",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "92",
+    "Language Query": "A man turns his head left as he is walking",
+    "Type": "M",
+    "Track ID": "25",
+    "Start Frame": "62",
+    "End Frame": "168",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "92",
+    "Language Query": "A man turns his head left as he is walking",
+    "Type": "M",
+    "Track ID": "25",
+    "Start Frame": "462",
+    "End Frame": "507",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "92",
+    "Language Query": "A man turns his head left as he is walking",
+    "Type": "M",
+    "Track ID": "25",
+    "Start Frame": "316",
+    "End Frame": "393",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "92",
+    "Language Query": "A man turns his head left as he is walking",
+    "Type": "M",
+    "Track ID": "25",
+    "Start Frame": "666",
+    "End Frame": "727",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "93",
+    "Language Query": "A man looks right as he is walking",
+    "Type": "M",
+    "Track ID": "25",
+    "Start Frame": "771",
+    "End Frame": "801",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "94",
+    "Language Query": "A man turns his head right as he is walking",
+    "Type": "M",
+    "Track ID": "25",
+    "Start Frame": "771",
+    "End Frame": "801",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "95",
+    "Language Query": "A man looks forward as he is walking",
+    "Type": "M",
+    "Track ID": "25",
+    "Start Frame": "168",
+    "End Frame": "316",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "96",
+    "Language Query": "A woman in black clothing walking right stops walking and looks back and goes back",
+    "Type": "M",
+    "Track ID": "30",
+    "Start Frame": "372",
+    "End Frame": "572",
+    "Revision": "The bounding box disappears after frame number 150, the ID becomes 31, the activities continue till frame 572"
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "97",
+    "Language Query": "A man in white shirt stops walking",
+    "Type": "M",
+    "Track ID": "29",
+    "Start Frame": "372",
+    "End Frame": "512",
+    "Revision": "The bounding box disappears after frame number 148, the ID becomes 39"
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "98",
+    "Language Query": "A man wearing white shirt comes to a halt ",
+    "Type": "M",
+    "Track ID": "29",
+    "Start Frame": "372",
+    "End Frame": "512",
+    "Revision": "The bounding box disappears after frame number 148, the ID becomes 39"
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "99",
+    "Language Query": "A man in white shirt takes a step to the right and then turns to left and goes back a step",
+    "Type": "M",
+    "Track ID": "29",
+    "Start Frame": "517",
+    "End Frame": "660",
+    "Revision": "The bounding box disappears after frame number 148, the ID becomes 39, the activities continue till frame 790."
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "100",
+    "Language Query": "A man in white shirt turns forward and starts walking left",
+    "Type": "M",
+    "Track ID": "29",
+    "Start Frame": "661",
+    "End Frame": "790",
+    "Revision": "The bounding box disappears after frame number 148, the ID becomes 39, the activities continue till frame 790."
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "101",
+    "Language Query": "A man in black shirt glances to the right twice as he walks",
+    "Type": "M",
+    "Track ID": "40",
+    "Start Frame": "431",
+    "End Frame": "489",
+    "Revision": "Person with ID 26 becomes ID 40, the bounding box disappears after frame 600. "
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "102",
+    "Language Query": "A man in black shirt looks right twice while walking",
+    "Type": "M",
+    "Track ID": "40",
+    "Start Frame": "431",
+    "End Frame": "489",
+    "Revision": "Person with ID 26 becomes ID 40, the bounding box disappears after frame 600. "
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "103",
+    "Language Query": "A man in front of a shop takes a step back, looks right",
+    "Type": "M ",
+    "Track ID": "32",
+    "Start Frame": "260",
+    "End Frame": "332",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "104",
+    "Language Query": "A man in front of a shop takes a step forward and stands still",
+    "Type": "M ",
+    "Track ID": "32",
+    "Start Frame": "460",
+    "End Frame": "532",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "105",
+    "Language Query": "A man looks left as he walks towards the camera",
+    "Type": "M",
+    "Track ID": "38",
+    "Start Frame": "812",
+    "End Frame": "837",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "106",
+    "Language Query": "A man turns left as he walks in the direction of the camera",
+    "Type": "M",
+    "Track ID": "38",
+    "Start Frame": "812",
+    "End Frame": "837",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "107",
+    "Language Query": "A man turns his head left as he walks towards the camera",
+    "Type": "M",
+    "Track ID": "38",
+    "Start Frame": "812",
+    "End Frame": "837",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "108",
+    "Language Query": "A woman with a bag in her hand looking left as she walks towards the camera",
+    "Type": "M",
+    "Track ID": "35",
+    "Start Frame": "810",
+    "End Frame": "869",
+    "Revision": "The bounding box ID changes to 60. "
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "109",
+    "Language Query": "A young girl looks right as she walks",
+    "Type": "M",
+    "Track ID": "36",
+    "Start Frame": "833",
+    "End Frame": "869",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "110",
+    "Language Query": "A young girl turns her head right while walking",
+    "Type": "M",
+    "Track ID": "36",
+    "Start Frame": "833",
+    "End Frame": "869",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "111",
+    "Language Query": "A woman walks left and gets inside the shop",
+    "Type": "M",
+    "Track ID": "46",
+    "Start Frame": "431",
+    "End Frame": "540",
+    "Revision": "Bounding frame ends at 505. "
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "112",
+    "Language Query": "A man brings his backpack from his shoulders to his front",
+    "Type": "M",
+    "Track ID": "49",
+    "Start Frame": "843",
+    "End Frame": "900",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "113",
+    "Language Query": "A man gets his backpack from his shoulders ",
+    "Type": "M",
+    "Track ID": "49",
+    "Start Frame": "843",
+    "End Frame": "900",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "114",
+    "Language Query": "A woman stops walking, looks right and then looks back",
+    "Type": "M",
+    "Track ID": "51",
+    "Start Frame": "842",
+    "End Frame": "900",
+    "Revision": "The bounding frame doesn't appear until frame 783. She could be seen walking slowly before the bounding frame detected her. "
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "115",
+    "Language Query": "A woman who is facing right looks back",
+    "Type": "M",
+    "Track ID": "51",
+    "Start Frame": "876",
+    "End Frame": "900",
+    "Revision": "The bounding frame doesn't appear until frame 783. She could be seen walking slowly before the bounding frame detected her. "
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "116",
+    "Language Query": "A woman walking looks left initially, then looks forward and then to the right",
+    "Type": "M",
+    "Track ID": "12",
+    "Start Frame": "406",
+    "End Frame": "542",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "117",
+    "Language Query": "A woman looks forward while she is walking",
+    "Type": "M",
+    "Track ID": "12",
+    "Start Frame": "418",
+    "End Frame": "519",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "118",
+    "Language Query": "A woman turns her face in the direction of the camera from the left",
+    "Type": "M",
+    "Track ID": "12",
+    "Start Frame": "418",
+    "End Frame": "519",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "119",
+    "Language Query": "A woman looks right while she is walking",
+    "Type": "M",
+    "Track ID": "12",
+    "Start Frame": "521",
+    "End Frame": "542",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "120",
+    "Language Query": "A woman turns her head right while she is walking",
+    "Type": "M",
+    "Track ID": "12",
+    "Start Frame": "521",
+    "End Frame": "542",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "121",
+    "Language Query": "A man in white shirt walking forward looks left",
+    "Type": "M",
+    "Track ID": "14",
+    "Start Frame": "180",
+    "End Frame": "252",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "121",
+    "Language Query": "A man in white shirt walking forward looks left",
+    "Type": "M",
+    "Track ID": "14",
+    "Start Frame": "372",
+    "End Frame": "410",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "122",
+    "Language Query": "A man in white shirt turns his head to the left",
+    "Type": "M",
+    "Track ID": "14",
+    "Start Frame": "180",
+    "End Frame": "252",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "122",
+    "Language Query": "A man in white shirt turns his head to the left",
+    "Type": "M",
+    "Track ID": "14",
+    "Start Frame": "372",
+    "End Frame": "410",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "123",
+    "Language Query": "A man in white moves his shoulder a bit to avoid colliding with another person",
+    "Type": "M",
+    "Track ID": "14",
+    "Start Frame": "294",
+    "End Frame": "315",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "124",
+    "Language Query": "A man in white shirt turns his body to avoid collision with another person",
+    "Type": "M",
+    "Track ID": "14",
+    "Start Frame": "294",
+    "End Frame": "315",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "125",
+    "Language Query": "A boy in black shirt is looks right side while walking with another boy",
+    "Type": "M",
+    "Track ID": "4",
+    "Start Frame": "94",
+    "End Frame": "101",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "126",
+    "Language Query": "A man with mobile is recording the right side of the mall",
+    "Type": "M",
+    "Track ID": "1",
+    "Start Frame": "661",
+    "End Frame": "876",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "127",
+    "Language Query": "A man pointing the right side of the mall with his mobile as he walks",
+    "Type": "M",
+    "Track ID": "1",
+    "Start Frame": "661",
+    "End Frame": "876",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "128",
+    "Language Query": "A man videotaping the right side of the mall with his mobile",
+    "Type": "M",
+    "Track ID": "1",
+    "Start Frame": "661",
+    "End Frame": "876",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "129",
+    "Language Query": "A man with mobile is recording the left side of the mall",
+    "Type": "M",
+    "Track ID": "1",
+    "Start Frame": "1",
+    "End Frame": "623",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "130",
+    "Language Query": "A man pointing the left side of the mall with his mobile as he walks",
+    "Type": "M",
+    "Track ID": "1",
+    "Start Frame": "1",
+    "End Frame": "623",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "131",
+    "Language Query": "A man videotaping the left side of the mall with his mobile",
+    "Type": "M",
+    "Track ID": "1",
+    "Start Frame": "1",
+    "End Frame": "623",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "132",
+    "Language Query": "A man is looking left side while walking with his partner",
+    "Type": "M",
+    "Track ID": "6",
+    "Start Frame": "1",
+    "End Frame": "39",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "133",
+    "Language Query": "A man turns his head to the left while walking with his partner",
+    "Type": "M",
+    "Track ID": "6",
+    "Start Frame": "1",
+    "End Frame": "39",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "134",
+    "Language Query": "A man turns his head to the right while walking with his partner",
+    "Type": "M",
+    "Track ID": "6",
+    "Start Frame": "80",
+    "End Frame": "145",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "135",
+    "Language Query": "A man is looking right side while walking with his partner",
+    "Type": "M",
+    "Track ID": "6",
+    "Start Frame": "80",
+    "End Frame": "145",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "136",
+    "Language Query": "A lady looking left side while holding her partner's hand",
+    "Type": "M",
+    "Track ID": "12",
+    "Start Frame": "406",
+    "End Frame": "417",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "137",
+    "Language Query": "A lady turns her head to the left while walking with her partner",
+    "Type": "M",
+    "Track ID": "12",
+    "Start Frame": "406",
+    "End Frame": "417",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "138",
+    "Language Query": "A man wearing black cap is looking left side while holding his partner's hand",
+    "Type": "M",
+    "Track ID": "10",
+    "Start Frame": "388",
+    "End Frame": "420",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "139",
+    "Language Query": "A man wearing black cap turns his head left side while walking his partner",
+    "Type": "M",
+    "Track ID": "10",
+    "Start Frame": "388",
+    "End Frame": "420",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "140",
+    "Language Query": "A man walking towards the camera looks left ",
+    "Type": "M",
+    "Track ID": "48",
+    "Start Frame": "690",
+    "End Frame": "724",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "141",
+    "Language Query": "Man in blue shirt standing and on his phone",
+    "Type": "O",
+    "Track ID": "13",
+    "Start Frame": "1",
+    "End Frame": "294",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "142",
+    "Language Query": "A man videotaping as he walks forward",
+    "Type": "O",
+    "Track ID": "1",
+    "Start Frame": "1",
+    "End Frame": "900",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-11",
+    "Query ID": "143",
+    "Language Query": "A man in shorts checking his phone as he walks right",
+    "Type": "O",
+    "Track ID": "41",
+    "Start Frame": "499",
+    "End Frame": "601",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "144",
+    "Language Query": "A man in black jacket looks left as a car drives in front of him",
+    "Type": "M",
+    "Track ID": "7",
+    "Start Frame": "237",
+    "End Frame": "293",
+    "Revision": "The bounding box ID changes to 20"
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "145",
+    "Language Query": "A man in black jacket checks left as he is looking to cross the road",
+    "Type": "M",
+    "Track ID": "7",
+    "Start Frame": "237",
+    "End Frame": "293",
+    "Revision": "The bounding box ID changes to 20"
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "146",
+    "Language Query": "A car intially stopped at a red signal drives to the right",
+    "Type": "M",
+    "Track ID": "30",
+    "Start Frame": "245",
+    "End Frame": "333",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "146",
+    "Language Query": "A car intially stopped at a red signal drives to the right",
+    "Type": "M",
+    "Track ID": "76",
+    "Start Frame": "113",
+    "End Frame": "288",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "147",
+    "Language Query": "A car takes a right turn",
+    "Type": "M",
+    "Track ID": "30",
+    "Start Frame": "245",
+    "End Frame": "333",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "147",
+    "Language Query": "A car takes a right turn",
+    "Type": "M",
+    "Track ID": "76",
+    "Start Frame": "113",
+    "End Frame": "288",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "148",
+    "Language Query": "A car not driving straight",
+    "Type": "M",
+    "Track ID": "30",
+    "Start Frame": "245",
+    "End Frame": "333",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "148",
+    "Language Query": "A car not driving straight",
+    "Type": "M",
+    "Track ID": "76",
+    "Start Frame": "113",
+    "End Frame": "288",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "149",
+    "Language Query": "A car is going right side after green signal",
+    "Type": "M",
+    "Track ID": "30",
+    "Start Frame": "93",
+    "End Frame": "331",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "150",
+    "Language Query": "A car is going straight after green signal",
+    "Type": "M",
+    "Track ID": "29",
+    "Start Frame": "93",
+    "End Frame": "451",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "151",
+    "Language Query": "A car intially stopped at a red signal drives off straight",
+    "Type": "M",
+    "Track ID": "29",
+    "Start Frame": "101",
+    "End Frame": "450",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "152",
+    "Language Query": "A car drives forward after the green signal",
+    "Type": "M",
+    "Track ID": "29",
+    "Start Frame": "101",
+    "End Frame": "450",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "153",
+    "Language Query": "A car doesn't drive right after the green signal",
+    "Type": "M",
+    "Track ID": "29",
+    "Start Frame": "101",
+    "End Frame": "450",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "154",
+    "Language Query": "A man in black shirt walking along the sidewalk looks back and runs across the street",
+    "Type": "M",
+    "Track ID": "28",
+    "Start Frame": "636",
+    "End Frame": "742",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "155",
+    "Language Query": "A man in black shirt doesn't walk along the sidewalk anymore",
+    "Type": "M",
+    "Track ID": "28",
+    "Start Frame": "636",
+    "End Frame": "742",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "156",
+    "Language Query": "A man in blue shirt walks across the street from one sidewalk to another",
+    "Type": "M",
+    "Track ID": "4",
+    "Start Frame": "155",
+    "End Frame": "563",
+    "Revision": "The bounding box ID changes to 25."
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "157",
+    "Language Query": "A person crosses the street and reaches the sidewalk",
+    "Type": "M",
+    "Track ID": "35",
+    "Start Frame": "1",
+    "End Frame": "203",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "158",
+    "Language Query": "A man walking to the pedestrian safety islands from the sidewalk slows down walking as he reaches the main street",
+    "Type": "M",
+    "Track ID": "139",
+    "Start Frame": "392",
+    "End Frame": "412",
+    "Revision": "Multiple bounding box ID changes in this case, settled with the last one that is most clear"
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "158",
+    "Language Query": "A man walking to the pedestrian safety islands from the sidewalk slows down walking as he reaches the main street",
+    "Type": "M",
+    "Track ID": "147",
+    "Start Frame": "281",
+    "End Frame": "437",
+    "Revision": "Multiple bounding box ID changes in this case, settled with the last one that is most clear."
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "159",
+    "Language Query": "A man slows down walking as he reaches the main street",
+    "Type": "M",
+    "Track ID": "139",
+    "Start Frame": "392",
+    "End Frame": "412",
+    "Revision": "Multiple bounding box ID changes in this case, settled with the last one that is most clear"
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "159",
+    "Language Query": "A man slows down walking as he reaches the main street",
+    "Type": "M",
+    "Track ID": "147",
+    "Start Frame": "281",
+    "End Frame": "437",
+    "Revision": "Multiple bounding box ID changes in this case, settled with the last one that is most clear."
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "160",
+    "Language Query": "A man slows down walking before he starts to cross the main street",
+    "Type": "M",
+    "Track ID": "139",
+    "Start Frame": "392",
+    "End Frame": "412",
+    "Revision": "Multiple bounding box ID changes in this case, settled with the last one that is most clear"
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "160",
+    "Language Query": "A man slows down walking before he starts to cross the main street",
+    "Type": "M",
+    "Track ID": "147",
+    "Start Frame": "281",
+    "End Frame": "437",
+    "Revision": "Multiple bounding box ID changes in this case, settled with the last one that is most clear."
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "161",
+    "Language Query": "A man walking from the sidewalk to the pedestrian safety islands to cross the main street",
+    "Type": "M",
+    "Track ID": "139",
+    "Start Frame": "141",
+    "End Frame": "306",
+    "Revision": "Multiple bounding box ID changes in this case, settled with the last one that is most clear."
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "161",
+    "Language Query": "A man walking from the sidewalk to the pedestrian safety islands to cross the main street",
+    "Type": "M",
+    "Track ID": "147",
+    "Start Frame": "141",
+    "End Frame": "307",
+    "Revision": "Multiple bounding box ID changes in this case, settled with the last one that is most clear."
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "162",
+    "Language Query": "A man not walking along the sidewalk anymore ",
+    "Type": "M",
+    "Track ID": "139",
+    "Start Frame": "141",
+    "End Frame": "306",
+    "Revision": "Multiple bounding box ID changes in this case, settled with the last one that is most clear."
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "162",
+    "Language Query": "A man not walking along the sidewalk anymore ",
+    "Type": "M",
+    "Track ID": "147",
+    "Start Frame": "141",
+    "End Frame": "307",
+    "Revision": "Multiple bounding box ID changes in this case, settled with the last one that is most clear."
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "163",
+    "Language Query": "A woman walking from the sidewalk to the pedestrian safety islands to cross the main street",
+    "Type": "M",
+    "Track ID": "133",
+    "Start Frame": "132",
+    "End Frame": "298",
+    "Revision": "Multiple bounding box ID changes in this case, settled with the last one that is most clear."
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "163",
+    "Language Query": "A woman walking from the sidewalk to the pedestrian safety islands to cross the main street",
+    "Type": "M",
+    "Track ID": "135",
+    "Start Frame": "117",
+    "End Frame": "358",
+    "Revision": "Multiple bounding box ID changes in this case, settled with the last one that is most clear."
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "163",
+    "Language Query": "A woman walking from the sidewalk to the pedestrian safety islands to cross the main street",
+    "Type": "M",
+    "Track ID": "157",
+    "Start Frame": "161",
+    "End Frame": "369",
+    "Revision": "Multiple bounding box ID changes in this case, settled with the last one that is most clear."
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "164",
+    "Language Query": "A woman not walking along the sidewalk anymore ",
+    "Type": "M",
+    "Track ID": "133",
+    "Start Frame": "132",
+    "End Frame": "298",
+    "Revision": "Multiple bounding box ID changes in this case, settled with the last one that is most clear."
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "164",
+    "Language Query": "A woman not walking along the sidewalk anymore ",
+    "Type": "M",
+    "Track ID": "135",
+    "Start Frame": "117",
+    "End Frame": "358",
+    "Revision": "Multiple bounding box ID changes in this case, settled with the last one that is most clear."
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "164",
+    "Language Query": "A woman not walking along the sidewalk anymore ",
+    "Type": "M",
+    "Track ID": "157",
+    "Start Frame": "161",
+    "End Frame": "369",
+    "Revision": "Multiple bounding box ID changes in this case, settled with the last one that is most clear."
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "165",
+    "Language Query": "A woman walking to the pedestrian safety islands from the sidewalk slows down walking",
+    "Type": "M",
+    "Track ID": "133",
+    "Start Frame": "396",
+    "End Frame": "410",
+    "Revision": "Multiple bounding box ID changes in this case, settled with the last one that is most clear"
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "165",
+    "Language Query": "A woman walking to the pedestrian safety islands from the sidewalk slows down walking",
+    "Type": "M",
+    "Track ID": "135",
+    "Start Frame": "421",
+    "End Frame": "430",
+    "Revision": "Multiple bounding box ID changes in this case, settled with the last one that is most clear"
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "165",
+    "Language Query": "A woman walking to the pedestrian safety islands from the sidewalk slows down walking",
+    "Type": "M",
+    "Track ID": "157",
+    "Start Frame": "429",
+    "End Frame": "437",
+    "Revision": "Multiple bounding box ID changes in this case, settled with the last one that is most clear"
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "166",
+    "Language Query": "A woman walking to the pedestrian safety islands from the sidewalk slows down walking as she reaches the main street",
+    "Type": "M",
+    "Track ID": "133",
+    "Start Frame": "396",
+    "End Frame": "410",
+    "Revision": "Multiple bounding box ID changes in this case, settled with the last one that is most clear"
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "166",
+    "Language Query": "A woman walking to the pedestrian safety islands from the sidewalk slows down walking as she reaches the main street",
+    "Type": "M",
+    "Track ID": "135",
+    "Start Frame": "421",
+    "End Frame": "430",
+    "Revision": "Multiple bounding box ID changes in this case, settled with the last one that is most clear"
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "166",
+    "Language Query": "A woman walking to the pedestrian safety islands from the sidewalk slows down walking as she reaches the main street",
+    "Type": "M",
+    "Track ID": "157",
+    "Start Frame": "429",
+    "End Frame": "437",
+    "Revision": "Multiple bounding box ID changes in this case, settled with the last one that is most clear"
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "167",
+    "Language Query": "A man walking to the pedestrian safety islands from the sidewalk looks to his left",
+    "Type": "M",
+    "Track ID": "139",
+    "Start Frame": "328",
+    "End Frame": "342",
+    "Revision": "Multiple bounding box ID changes in this case, settled with the last one that is most clear."
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "167",
+    "Language Query": "A man walking to the pedestrian safety islands from the sidewalk looks to his left",
+    "Type": "M",
+    "Track ID": "147",
+    "Start Frame": "365",
+    "End Frame": "398",
+    "Revision": "Multiple bounding box ID changes in this case, settled with the last one that is most clear."
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "167",
+    "Language Query": "A man walking to the pedestrian safety islands from the sidewalk looks to his left",
+    "Type": "M",
+    "Track ID": "139",
+    "Start Frame": "386",
+    "End Frame": "410",
+    "Revision": "Multiple bounding box ID changes in this case, settled with the last one that is most clear."
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "168",
+    "Language Query": "A man walking to the pedestrian safety islands from the sidewalk turns his head left",
+    "Type": "M",
+    "Track ID": "139",
+    "Start Frame": "328",
+    "End Frame": "342",
+    "Revision": "Multiple bounding box ID changes in this case, settled with the last one that is most clear."
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "168",
+    "Language Query": "A man walking to the pedestrian safety islands from the sidewalk turns his head left",
+    "Type": "M",
+    "Track ID": "147",
+    "Start Frame": "365",
+    "End Frame": "398",
+    "Revision": "Multiple bounding box ID changes in this case, settled with the last one that is most clear."
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "168",
+    "Language Query": "A man walking to the pedestrian safety islands from the sidewalk turns his head left",
+    "Type": "M",
+    "Track ID": "139",
+    "Start Frame": "386",
+    "End Frame": "410",
+    "Revision": "Multiple bounding box ID changes in this case, settled with the last one that is most clear."
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "169",
+    "Language Query": "A man walking to the pedestrian safety islands from the sidewalk looks to his right",
+    "Type": "M",
+    "Track ID": "139",
+    "Start Frame": "345",
+    "End Frame": "365",
+    "Revision": "Multiple bounding box ID changes in this case, settled with the last one that is most clear."
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "169",
+    "Language Query": "A man walking to the pedestrian safety islands from the sidewalk looks to his right",
+    "Type": "M",
+    "Track ID": "139",
+    "Start Frame": "413",
+    "End Frame": "426",
+    "Revision": "Multiple bounding box ID changes in this case, settled with the last one that is most clear."
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "170",
+    "Language Query": "A man walking to the pedestrian safety islands from the sidewalk turns his head right",
+    "Type": "M",
+    "Track ID": "139",
+    "Start Frame": "345",
+    "End Frame": "365",
+    "Revision": "Multiple bounding box ID changes in this case, settled with the last one that is most clear."
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "170",
+    "Language Query": "A man walking to the pedestrian safety islands from the sidewalk turns his head right",
+    "Type": "M",
+    "Track ID": "139",
+    "Start Frame": "413",
+    "End Frame": "426",
+    "Revision": "Multiple bounding box ID changes in this case, settled with the last one that is most clear."
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "171",
+    "Language Query": "A car drives to the right and then goes off straight",
+    "Type": "M",
+    "Track ID": "81",
+    "Start Frame": "20",
+    "End Frame": "360",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "172",
+    "Language Query": "A car drives forward after coming from the right",
+    "Type": "M",
+    "Track ID": "81",
+    "Start Frame": "20",
+    "End Frame": "360",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "173",
+    "Language Query": "A car changes its direction after coming from the right",
+    "Type": "M",
+    "Track ID": "81",
+    "Start Frame": "20",
+    "End Frame": "360",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "174",
+    "Language Query": "A car driving towards the camera comes to a halt ",
+    "Type": "M",
+    "Track ID": "89",
+    "Start Frame": "171",
+    "End Frame": "332",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "175",
+    "Language Query": "A car stops at the signal",
+    "Type": "M",
+    "Track ID": "89",
+    "Start Frame": "171",
+    "End Frame": "332",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "176",
+    "Language Query": "A car initially in motion comes to a halt",
+    "Type": "M",
+    "Track ID": "89",
+    "Start Frame": "171",
+    "End Frame": "332",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "177",
+    "Language Query": "A car comes to a halt at the signal",
+    "Type": "M",
+    "Track ID": "89",
+    "Start Frame": "171",
+    "End Frame": "332",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "178",
+    "Language Query": "A car slows down as it approaches another car in the front",
+    "Type": "M",
+    "Track ID": "82",
+    "Start Frame": "440",
+    "End Frame": "456",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "179",
+    "Language Query": "A car slows down behind another car",
+    "Type": "M",
+    "Track ID": "82",
+    "Start Frame": "440",
+    "End Frame": "456",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "180",
+    "Language Query": "A car decelerates as it gets close to another car",
+    "Type": "M",
+    "Track ID": "82",
+    "Start Frame": "440",
+    "End Frame": "456",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "181",
+    "Language Query": "A car slows down as it gets close to another car",
+    "Type": "M",
+    "Track ID": "82",
+    "Start Frame": "440",
+    "End Frame": "456",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "182",
+    "Language Query": "A car making a turn in the middle of the road",
+    "Type": "M",
+    "Track ID": "79",
+    "Start Frame": "525",
+    "End Frame": "564",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "183",
+    "Language Query": "A car changing its direction in the middle of the road",
+    "Type": "M",
+    "Track ID": "79",
+    "Start Frame": "525",
+    "End Frame": "564",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "184",
+    "Language Query": "A car driving off straight",
+    "Type": "M",
+    "Track ID": "79",
+    "Start Frame": "566",
+    "End Frame": "618",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "185",
+    "Language Query": "A car parking behind a black car",
+    "Type": "M ",
+    "Track ID": "86",
+    "Start Frame": "528",
+    "End Frame": "680",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "186",
+    "Language Query": "A car slowing down behind a black car",
+    "Type": "M ",
+    "Track ID": "86",
+    "Start Frame": "528",
+    "End Frame": "680",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "187",
+    "Language Query": "A small car slowing down to park behind a silver car",
+    "Type": "M",
+    "Track ID": "83",
+    "Start Frame": "523",
+    "End Frame": "666",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "188",
+    "Language Query": "A small car decelerates behind a silver car",
+    "Type": "M",
+    "Track ID": "83",
+    "Start Frame": "523",
+    "End Frame": "666",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "189",
+    "Language Query": "A person taking his hand out of the pocket of his jacket as he walks",
+    "Type": "M",
+    "Track ID": "5",
+    "Start Frame": "1",
+    "End Frame": "33",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "190",
+    "Language Query": "A person stops walking as the cars drive off in green signal",
+    "Type": "M",
+    "Track ID": "17",
+    "Start Frame": "82",
+    "End Frame": "155",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "191",
+    "Language Query": "A person in black suit stops walking as the cars drive off in green signal",
+    "Type": "M",
+    "Track ID": "17",
+    "Start Frame": "82",
+    "End Frame": "155",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "192",
+    "Language Query": "A man walks up from behind two kids",
+    "Type": "M",
+    "Track ID": "19",
+    "Start Frame": "42",
+    "End Frame": "136",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "193",
+    "Language Query": "A man comes from behind two kids and walks beside them",
+    "Type": "M",
+    "Track ID": "19",
+    "Start Frame": "42",
+    "End Frame": "136",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "194",
+    "Language Query": "A man in black jacket raises both of his hands as he is talking with another person",
+    "Type": "M",
+    "Track ID": "22",
+    "Start Frame": "482",
+    "End Frame": "518",
+    "Revision": "Movement is very fast might not be noticeable"
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "195",
+    "Language Query": "A person talking on his phone initially facing towards the camera turns back and starts walking",
+    "Type": "M",
+    "Track ID": "39",
+    "Start Frame": "217",
+    "End Frame": "352",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "196",
+    "Language Query": "A man standing against a signal pole looking at his phone looks up and starts walking",
+    "Type": "M",
+    "Track ID": "144",
+    "Start Frame": "427",
+    "End Frame": "475",
+    "Revision": "Multiple Bounding box ID changes in this case, settled with the last one that is most clear."
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "197",
+    "Language Query": "A man walks away from the pole ",
+    "Type": "M",
+    "Track ID": "144",
+    "Start Frame": "427",
+    "End Frame": "475",
+    "Revision": "Multiple Bounding box ID changes in this case, settled with the last one that is most clear."
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "198",
+    "Language Query": "A man looks up from his phone and starts walking",
+    "Type": "M",
+    "Track ID": "144",
+    "Start Frame": "427",
+    "End Frame": "475",
+    "Revision": "Multiple Bounding box ID changes in this case, settled with the last one that is most clear."
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "199",
+    "Language Query": "A man standing against a signal pole looking at his phone looks up and starts walking",
+    "Type": "M",
+    "Track ID": "144",
+    "Start Frame": "427",
+    "End Frame": "475",
+    "Revision": "Multiple Bounding box ID changes in this case, settled with the last one that is most clear."
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "200",
+    "Language Query": "A person walks past some people and turns to the right and stops, as he waits to cross the street",
+    "Type": "M",
+    "Track ID": "47",
+    "Start Frame": "1",
+    "End Frame": "168",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "201",
+    "Language Query": "A man walks away after talking with other people",
+    "Type": "M",
+    "Track ID": "65",
+    "Start Frame": "430",
+    "End Frame": "471",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "201",
+    "Language Query": "A man walks away after talking with other people",
+    "Type": "M",
+    "Track ID": "142",
+    "Start Frame": "442",
+    "End Frame": "468",
+    "Revision": "Multiple bounding box ID changes in this case, settled with the last one that is most clear"
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "201",
+    "Language Query": "A man walks away after talking with other people",
+    "Type": "M",
+    "Track ID": "69",
+    "Start Frame": "374",
+    "End Frame": "466",
+    "Revision": "The bounding box disappears after frame 450, the activity continues"
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "201",
+    "Language Query": "A man walks away after talking with other people",
+    "Type": "M",
+    "Track ID": "70",
+    "Start Frame": "374",
+    "End Frame": "466",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "201",
+    "Language Query": "A man walks away after talking with other people",
+    "Type": "M",
+    "Track ID": "164",
+    "Start Frame": "452",
+    "End Frame": "467",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "201",
+    "Language Query": "A man walks away after talking with other people",
+    "Type": "M",
+    "Track ID": "165",
+    "Start Frame": "452",
+    "End Frame": "466",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "202",
+    "Language Query": "A man talking with a group of people turns back and gets inside the building",
+    "Type": "M",
+    "Track ID": "65",
+    "Start Frame": "430",
+    "End Frame": "471",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "203",
+    "Language Query": "A man talking with a group of people turns back and walks towards the building",
+    "Type": "M",
+    "Track ID": "142",
+    "Start Frame": "442",
+    "End Frame": "468",
+    "Revision": "Multiple bounding box ID changes in this case, settled with the last one that is most clear"
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "204",
+    "Language Query": "A man walks away from a gathering",
+    "Type": "M",
+    "Track ID": "65",
+    "Start Frame": "430",
+    "End Frame": "471",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "204",
+    "Language Query": "A man walks away from a gathering",
+    "Type": "M",
+    "Track ID": "142",
+    "Start Frame": "442",
+    "End Frame": "468",
+    "Revision": "Multiple bounding box ID changes in this case, settled with the last one that is most clear"
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "204",
+    "Language Query": "A man walks away from a gathering",
+    "Type": "M",
+    "Track ID": "69",
+    "Start Frame": "374",
+    "End Frame": "466",
+    "Revision": "The bounding box disappears after frame 450, the activity continues"
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "204",
+    "Language Query": "A man walks away from a gathering",
+    "Type": "M",
+    "Track ID": "70",
+    "Start Frame": "374",
+    "End Frame": "466",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "204",
+    "Language Query": "A man walks away from a gathering",
+    "Type": "M",
+    "Track ID": "164",
+    "Start Frame": "452",
+    "End Frame": "467",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "204",
+    "Language Query": "A man walks away from a gathering",
+    "Type": "M",
+    "Track ID": "165",
+    "Start Frame": "452",
+    "End Frame": "466",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "205",
+    "Language Query": "A man leaving a group of people doesn't go towards the building",
+    "Type": "M",
+    "Track ID": "69",
+    "Start Frame": "374",
+    "End Frame": "466",
+    "Revision": "The bounding box disappears after frame 450, the activity continues"
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "205",
+    "Language Query": "A man leaving a group of people doesn't go towards the building",
+    "Type": "M",
+    "Track ID": "70",
+    "Start Frame": "374",
+    "End Frame": "466",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "205",
+    "Language Query": "A man leaving a group of people doesn't go towards the building",
+    "Type": "M",
+    "Track ID": "164",
+    "Start Frame": "452",
+    "End Frame": "467",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "205",
+    "Language Query": "A man leaving a group of people doesn't go towards the building",
+    "Type": "M",
+    "Track ID": "165",
+    "Start Frame": "452",
+    "End Frame": "466",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "206",
+    "Language Query": "A man starts walking after talking with a group of men",
+    "Type": "M",
+    "Track ID": "65",
+    "Start Frame": "430",
+    "End Frame": "471",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "206",
+    "Language Query": "A man starts walking after talking with a group of men",
+    "Type": "M",
+    "Track ID": "142",
+    "Start Frame": "442",
+    "End Frame": "468",
+    "Revision": "Multiple bounding box ID changes in this case, settled with the last one that is most clear"
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "206",
+    "Language Query": "A man starts walking after talking with a group of men",
+    "Type": "M",
+    "Track ID": "69",
+    "Start Frame": "374",
+    "End Frame": "466",
+    "Revision": "The bounding box disappears after frame 450, the activity continues"
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "206",
+    "Language Query": "A man starts walking after talking with a group of men",
+    "Type": "M",
+    "Track ID": "70",
+    "Start Frame": "374",
+    "End Frame": "466",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "206",
+    "Language Query": "A man starts walking after talking with a group of men",
+    "Type": "M",
+    "Track ID": "164",
+    "Start Frame": "452",
+    "End Frame": "467",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "206",
+    "Language Query": "A man starts walking after talking with a group of men",
+    "Type": "M",
+    "Track ID": "165",
+    "Start Frame": "452",
+    "End Frame": "466",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "207",
+    "Language Query": "A man doesn't go towards the building after talking with other people",
+    "Type": "M",
+    "Track ID": "69",
+    "Start Frame": "374",
+    "End Frame": "466",
+    "Revision": "The bounding box disappears after frame 450, the activity continues"
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "207",
+    "Language Query": "A man doesn't go towards the building after talking with other people",
+    "Type": "M",
+    "Track ID": "70",
+    "Start Frame": "374",
+    "End Frame": "466",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "207",
+    "Language Query": "A man doesn't go towards the building after talking with other people",
+    "Type": "M",
+    "Track ID": "164",
+    "Start Frame": "452",
+    "End Frame": "467",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "207",
+    "Language Query": "A man doesn't go towards the building after talking with other people",
+    "Type": "M",
+    "Track ID": "165",
+    "Start Frame": "452",
+    "End Frame": "466",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "208",
+    "Language Query": "A car driving towards the camera slows down behind a black car",
+    "Type": "M",
+    "Track ID": "130",
+    "Start Frame": "37",
+    "End Frame": "450",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "209",
+    "Language Query": "A man starts walking after talking with a group of men",
+    "Type": "M",
+    "Track ID": "164",
+    "Start Frame": "452",
+    "End Frame": "467",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "209",
+    "Language Query": "A man starts walking after talking with a group of men",
+    "Type": "M",
+    "Track ID": "165",
+    "Start Frame": "452",
+    "End Frame": "466",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "210",
+    "Language Query": "A man doesn't go towards the building after talking with others",
+    "Type": "M",
+    "Track ID": "164",
+    "Start Frame": "452",
+    "End Frame": "467",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "210",
+    "Language Query": "A man doesn't go towards the building after talking with others",
+    "Type": "M",
+    "Track ID": "165",
+    "Start Frame": "452",
+    "End Frame": "466",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "211",
+    "Language Query": "A man initially walking in the sidewalk runs in front of car to cross the street",
+    "Type": "M",
+    "Track ID": "155",
+    "Start Frame": "432",
+    "End Frame": "470",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "212",
+    "Language Query": "A man runs in front of a car to cross the street",
+    "Type": "M",
+    "Track ID": "155",
+    "Start Frame": "432",
+    "End Frame": "470",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "213",
+    "Language Query": "A man crosses the street in front of a car",
+    "Type": "M",
+    "Track ID": "155",
+    "Start Frame": "432",
+    "End Frame": "470",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "214",
+    "Language Query": "A man runs to cross the street ",
+    "Type": "M",
+    "Track ID": "155",
+    "Start Frame": "432",
+    "End Frame": "470",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "215",
+    "Language Query": "A man runs in front of a car to cross the street",
+    "Type": "M",
+    "Track ID": "155",
+    "Start Frame": "432",
+    "End Frame": "470",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "216",
+    "Language Query": "A man with a backpack starts walking on the main road from the sidewalk",
+    "Type": "M",
+    "Track ID": "4",
+    "Start Frame": "159",
+    "End Frame": "242",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "217",
+    "Language Query": "A man with a backpack isn't walking in the sidewalk anymore",
+    "Type": "M",
+    "Track ID": "4",
+    "Start Frame": "159",
+    "End Frame": "242",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "218",
+    "Language Query": "A man doesn't walk along the sidewalk anymore",
+    "Type": "M",
+    "Track ID": "155",
+    "Start Frame": "432",
+    "End Frame": "470",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "218",
+    "Language Query": "A man doesn't walk along the sidewalk anymore",
+    "Type": "M",
+    "Track ID": "7",
+    "Start Frame": "125",
+    "End Frame": "293",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "219",
+    "Language Query": "A man wearing black jacket is crossing the road",
+    "Type": "M",
+    "Track ID": "7",
+    "Start Frame": "125",
+    "End Frame": "293",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "220",
+    "Language Query": "A car is going right side after green signal",
+    "Type": "M",
+    "Track ID": "30",
+    "Start Frame": "93",
+    "End Frame": "331",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "221",
+    "Language Query": "A car not going straight after green signal",
+    "Type": "M",
+    "Track ID": "30",
+    "Start Frame": "93",
+    "End Frame": "331",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "222",
+    "Language Query": "A car is waiting for green signal to drive",
+    "Type": "O",
+    "Track ID": "30",
+    "Start Frame": "1",
+    "End Frame": "93",
+    "Revision": ""
+  },
+  {
+    "Video": "MOT17-13",
+    "Query ID": "223",
+    "Language Query": "A black car goes from the left to the right at high speed",
+    "Type": "O",
+    "Track ID": "80",
+    "Start Frame": "1",
+    "End Frame": "40",
+    "Revision": ""
+  }
+]
