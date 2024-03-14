@@ -11,6 +11,7 @@ The number of entries in the train JSON file is: 3471
 
 unique_expression_set = set()
 
+
 def process_json_file(file_path, video_expression_dict):
     with open(file_path, 'r') as file:
         data_dict = json.load(file)
@@ -70,7 +71,7 @@ def get_verb_and_frequency_from_sentences(sentences):
         print(f'{item}: {frequency}')
         data_dict[item] = frequency
 
-    output_file_path = 'data/verbs_json/verbs_refer-yt.json'
+    output_file_path = 'data/generated_by_code/verbs_json/verbs_refer-yt.json'
 
     with open(output_file_path, 'w') as f:
         json.dump(data_dict, f, indent=4)

@@ -68,7 +68,7 @@ def get_verb_and_frequency_from_sentences(sentences):
         print(f'{item}: {frequency}')
         data_dict[item] = frequency
 
-    output_file_path = 'data/verbs_json/verbs_type2track.json'
+    output_file_path = 'data/generated_by_code/verbs_json/verbs_type2track.json'
 
     with open(output_file_path, 'w') as f:
         json.dump(data_dict, f, indent=4)
