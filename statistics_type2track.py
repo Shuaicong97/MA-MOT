@@ -62,9 +62,18 @@ def get_verb_and_frequency_from_sentences(sentences):
     print(f'The number of different verbs (include tense): {len(item_frequency)}')  # 199
 
     sorted_items = sorted(item_frequency.items(), key=lambda x: x[1], reverse=True)
+    data_dict = {}
 
     for item, frequency in sorted_items:
         print(f'{item}: {frequency}')
+        data_dict[item] = frequency
+
+    output_file_path = 'data/verbs_json/verbs_type2track.json'
+
+    with open(output_file_path, 'w') as f:
+        json.dump(data_dict, f, indent=4)
+
+    print("Data saved to:", output_file_path)
 
 
 get_verb_and_frequency_from_sentences(unique_captions)
