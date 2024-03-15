@@ -45,8 +45,9 @@ meta_expressions.json
     }
 '''
 
+# isTrain = false if it's for valid json.
+def generate_yvos_meta_expressions(input_path, output_path, isTrain):
 
-def generate_yvos_meta_expressions(input_path, output_path):
     with open(input_path, 'r') as f:
         data = json.load(f)
 
@@ -69,16 +70,22 @@ def generate_yvos_meta_expressions(input_path, output_path):
             result['videos'][video_name] = {'expressions': {}, 'frames': []}
 
         if qid not in result['videos'][video_name]['expressions']:
-            result['videos'][video_name]['expressions'][qid] = []
+            result['videos'][video_name]['expressions'][qid] = {}
 
         # Split oid into individual object IDs
         object_ids = oid.split(',')
 
-        for obj_id in object_ids:
-            result['videos'][video_name]['expressions'][qid].append({
-                'exp': expression,
-                'obj_id': obj_id.strip()
-            })
+        if isTrain:
+            for obj_id in object_ids:
+                result['videos'][video_name]['expressions'][qid].append({
+                    'exp': expression,
+                    'obj_id': obj_id.strip()
+                })
+        else:
+            result['videos'][video_name]['expressions'][qid] = {
+                'exp': expression
+            }
+            print(type(result['videos'][video_name]['expressions'][qid]))
 
     # add frames information
     for entry in result['videos']:
@@ -93,11 +100,12 @@ def generate_yvos_meta_expressions(input_path, output_path):
 
     print('result: ', result)
     with open(output_path, 'w') as json_file:
-        json.dump(result, json_file, indent=2)
+        json.dump(result, json_file, indent=4)
 
 
-# generate_yvos_meta_expressions('gta_train_all.json', 'data/meta_expressions/train/meta_expressions.json')
-# generate_yvos_meta_expressions('gta_valid_all.json', 'data/meta_expressions/valid/meta_expressions.json')
+# generate_yvos_meta_expressions('gta_train_all.json', 'data/meta_expressions/train/meta_expressions.json', True)
+# generate_yvos_meta_expressions('gta_valid_all.json',
+#                                'data/meta_expressions/valid/without_obj_id/meta_expressions.json', False)
 
 
 def generate_train_meta_json(input_path, output_path):
@@ -142,6 +150,30 @@ def generate_train_meta_json(input_path, output_path):
         json.dump(result, json_file, indent=2)
 
 
-generate_train_meta_json('gta_train_all.json', 'data/train/mock_category/meta.json')
+# generate_train_meta_json('gta_train_all.json', 'data/train/mock_category/meta.json')
+
+def calculate_expression_sum(video_data):
+    expression_sum = 0
+    for video_id, video_info in video_data.items():
+        for expression_id, expression_info in video_info.get('expressions', {}).items():
+            expression_sum += 1
+    #         print(video_id, expression_info)
+    # print(expression_sum)
+    return expression_sum
+
+
+with open('data/Ref-YT/meta_expressions/valid/meta_expressions.json', 'r') as f:
+    data = json.load(f)
+
+videos = data.get('videos', {})
+count = 0
+expression_sum = 0
+for video_id, video_info in videos.items():
+    count += 1
+    expression_sum += calculate_expression_sum({video_id: video_info})
+    if count % 25 == 0 or count == len(videos):
+        print(f"For videos {count-24} to {count}, expression sum is: {expression_sum}")
+        expression_sum = 0
+
 
 print('process completed')
