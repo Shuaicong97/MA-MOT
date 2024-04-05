@@ -77,4 +77,30 @@ def process_json_file(json_file):
 
 
 json_file = 'data/DVIS/output_DVIS_Plus_Offline_VitAdapterL_OVIS/inference/results.json'
-process_json_file(json_file)
+# process_json_file(json_file)
+
+
+def rename_gt_file_using_video_name():
+    folder_path = 'data/generated_by_code/dvis_ovis_video_gt'
+    file_names = os.listdir(folder_path)
+
+    with open('data/OVIS/annotations_valid.json', 'r') as f:
+        data = json.load(f)
+
+    videos = data['videos']
+    for video in videos:
+        video_id = video['id']
+        file_names_array = video['file_names']
+        video_file_name = str(video_id) + '.txt'
+        if video_file_name in file_names:
+            folder_name = file_names_array[0].split('/')[0]
+            old_file_path = os.path.join(folder_path, str(video_id) + '.txt')
+            new_file_name = folder_name + '.txt'
+            new_file_path = os.path.join(folder_path, new_file_name)
+
+            os.rename(old_file_path, new_file_path)
+
+
+rename_gt_file_using_video_name()
+
+
