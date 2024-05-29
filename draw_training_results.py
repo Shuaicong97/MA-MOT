@@ -1,8 +1,13 @@
 import matplotlib.pyplot as plt
 import os
 
-with open("data/ReferFormer/train_results_on_Ref-YT-VOS/log.txt", "r") as file:
-    lines = file.readlines()
+file_dir_ytvos = "data/ReferFormer/train_results_on_Ref-YT-VOS/log.txt"
+with open(file_dir_ytvos, "r") as file_ytvos:
+    lines_ytvos = file_ytvos.readlines()
+
+file_dir_mot17 = "data/ReferFormer/train_results_on_MOT17/log.txt"
+with open(file_dir_mot17, "r") as file_mot17:
+    lines_mot17 = file_mot17.readlines()
 
 # initial the parameters dict
 params = {
@@ -53,24 +58,54 @@ params = {
     "n_parameters": []
 }
 
-for line in lines:
+params_ytvos = {}
+params_mot17 = {}
+
+for line in lines_ytvos:
     data = eval(line)  # transfer string to dict
     for param, value in data.items():
-        params[param].append(value)
+        if param not in params_ytvos:
+            params_ytvos[param] = []
+        params_ytvos[param].append(value)
+
+for line in lines_mot17:
+    data = eval(line)
+    for param, value in data.items():
+        if param not in params_mot17:
+            params_mot17[param] = []
+        params_mot17[param].append(value)
 
 output_dir = "data/generated_by_code/plot_referformer_training/"
 
-for param, values in params.items():
-    fig, ax = plt.subplots(figsize=(12, 10))
-    ax.plot(range(0, len(values)), values, label=param)
-    ax.set_title(param)
-    ax.set_xlabel("Epoch")
-    ax.set_ylabel("Parameter Value")
-    ax.legend()
+# For creating plots for one txt file
+# for param, values in params.items():
+#     fig, ax = plt.subplots(figsize=(12, 10))
+#     ax.plot(range(0, len(values)), values, label=param)
+#     ax.set_title(param)
+#     ax.set_xlabel("Epoch")
+#     ax.set_ylabel("Parameter Value")
+#     ax.legend()
+#
+#     for i in range(len(values)):
+#         ax.annotate(f'{values[i]:.6f}'.rstrip('0').rstrip('.'), (i, values[i]), textcoords="offset points", xytext=(0,10), ha='center')
+#
+#     plt.savefig(os.path.join(output_dir, f"{param}_plot.png"))
+#     plt.close()
 
-    for i in range(len(values)):
-        ax.annotate(f'{values[i]:.6f}'.rstrip('0').rstrip('.'), (i, values[i]), textcoords="offset points", xytext=(0,10), ha='center')
+for param in set(params_ytvos.keys()) | set(params_mot17.keys()):
+    if param in params_ytvos and param in params_mot17:
+        fig, ax = plt.subplots(figsize=(12, 10))
+        ax.plot(range(0, len(params_ytvos[param])), params_ytvos[param], label=file_dir_ytvos.split('.')[0])
+        ax.plot(range(0, len(params_mot17[param])), params_mot17[param], label=file_dir_mot17.split('.')[0])
+        ax.set_title(param)
+        ax.set_xlabel("Epoch")
+        ax.set_ylabel("Parameter Value")
+        ax.legend()
 
-    plt.savefig(os.path.join(output_dir, f"{param}_plot.png"))
-    plt.close()
+        for i, value in enumerate(params_ytvos[param]):
+            ax.annotate(f'{value:.6f}'.rstrip('0').rstrip('.'), (i, value), textcoords="offset points", xytext=(0, -10), ha='center')
+        for i, value in enumerate(params_mot17[param]):
+            ax.annotate(f'{value:.6f}'.rstrip('0').rstrip('.'), (i, value), textcoords="offset points", xytext=(0, 10), ha='center')
 
+        plt.savefig(os.path.join(output_dir, f"{param}_plot.png"))
+        plt.close()
