@@ -35,21 +35,6 @@ def generate_mot_file():
     print("conversion to gt.txt complete.")
 
 
-def calculate_move():
-    numbers1 = [-1377, -1489, -1201, -928, -1297, -925, -1360, -1116, -1220, -1113, -1284,
-               -1438, -1533, -1585, -1414, -1412, -1603]
-
-    numbers2 = [-1428, -957, -1134, -993, -1079, -1239, -1078, -1220, -1171, -1363, -1438]
-    numbers3 = [-1533, -1585, -1414, -1412, -1603, -1428, -1377, -994, -1347, -1172, -1241]
-    numbers = [-1073, -1253, -1006, -1367, -1363, -1438, -1533, -1585, -1414, -1412, -1603]
-    numbers = [-1377, -994, -1347, -1172, -1241, -1073, -1253, -1006, -1489]
-    # result = [numbers[0] + 1550] + [num + 1560 for num in numbers[1:]]
-    result = [num + 1560 for num in numbers]
-
-    for num in result:
-        print(num)
-
-
 def read_pth_file():
     ctvis_vitl_ovis = torch.load('data/DVIS/weights/ctvis_vitl_ovis.pth', map_location=torch.device('cpu'))
     print(f'ctvis_vitl_ovis.pth: {ctvis_vitl_ovis.keys()}')
@@ -88,11 +73,35 @@ file_path = 'data/DVIS/output_DVIS_Plus_Offline_VitAdapterL_OVIS/inference/resul
 json_data = read_json_file(file_path)
 
 
+def rename_files_in_folder(folder_path):
+    for filename in os.listdir(folder_path):
+        if filename.endswith('.jpg'):
+            # get the file name without suffix
+            file_name = int(filename.split('.')[0])
+            new_filename = f"{file_name:05d}.jpg"
+
+            old_file_path = os.path.join(folder_path, filename)
+            new_file_path = os.path.join(folder_path, new_filename)
+
+            os.rename(old_file_path, new_file_path)
+            print(f"Renamed {filename} to {new_filename}")
+
+
+def rename_files_in_subfolders(parent_folder_path):
+    for subfolder_name in os.listdir(parent_folder_path):
+        subfolder_path = os.path.join(parent_folder_path, subfolder_name)
+        if os.path.isdir(subfolder_path):
+            rename_files_in_folder(subfolder_path)
+
+
 if __name__ == '__main__':
     # generate_mot_file()
     # calculate_move()
     # read_pth_file()
-    print(instances_predictions)
+    # print(instances_predictions)
     # print_json_keys(json_data)
+    parent_folder_path = 'data/mot17/valid/JPEGImages/'
+    rename_files_in_subfolders(parent_folder_path)
+
 
 

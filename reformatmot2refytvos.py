@@ -20,9 +20,9 @@ def csv_to_json(csv_file_path, json_file_path):
 # csv_to_json('Grounded Tracking Annotations - MOT17 - 2 Valid.csv', 'gta_valid_all.json')
 
 
-length_dict = {'MOT17-02': '000600', 'MOT17-04': '001050', 'MOT17-05': '000837',
-               'MOT17-09': '000525', 'MOT17-10': '000654', 'MOT17-11': '000900',
-               'MOT17-13': '000750'}
+length_dict = {'MOT17-02': '00600', 'MOT17-04': '01050', 'MOT17-05': '00837',
+               'MOT17-09': '00525', 'MOT17-10': '00654', 'MOT17-11': '00900',
+               'MOT17-13': '00750'}
 
 '''
 meta_expressions.json
@@ -44,6 +44,7 @@ meta_expressions.json
         }
     }
 '''
+
 
 # isTrain = false if it's for valid json.
 def generate_yvos_meta_expressions(input_path, output_path, isTrain):
@@ -70,7 +71,7 @@ def generate_yvos_meta_expressions(input_path, output_path, isTrain):
             result['videos'][video_name] = {'expressions': {}, 'frames': []}
 
         if qid not in result['videos'][video_name]['expressions']:
-            result['videos'][video_name]['expressions'][qid] = {}
+            result['videos'][video_name]['expressions'][qid] = []
 
         # Split oid into individual object IDs
         object_ids = oid.split(',')
@@ -85,7 +86,6 @@ def generate_yvos_meta_expressions(input_path, output_path, isTrain):
             result['videos'][video_name]['expressions'][qid] = {
                 'exp': expression
             }
-            print(type(result['videos'][video_name]['expressions'][qid]))
 
     # add frames information
     for entry in result['videos']:
@@ -95,7 +95,7 @@ def generate_yvos_meta_expressions(input_path, output_path, isTrain):
             if key == video_name:
                 print(value)
                 for i in range(1, int(value)+1):
-                    formatted_number = f"{i:06d}"
+                    formatted_number = f"{i:05d}"
                     frames.append(formatted_number)
 
     print('result: ', result)
@@ -103,9 +103,9 @@ def generate_yvos_meta_expressions(input_path, output_path, isTrain):
         json.dump(result, json_file, indent=4)
 
 
-# generate_yvos_meta_expressions('gta_train_all.json', 'data/meta_expressions/train/meta_expressions.json', True)
-# generate_yvos_meta_expressions('gta_valid_all.json',
-#                                'data/meta_expressions/valid/without_obj_id/meta_expressions.json', False)
+generate_yvos_meta_expressions('gta_train_all.json', 'data/mot17/meta_expressions/train/meta_expressions.json', True)
+generate_yvos_meta_expressions('gta_valid_all.json',
+                               'data/mot17/meta_expressions/valid/meta_expressions.json', False)
 
 
 def generate_train_meta_json(input_path, output_path):
@@ -142,7 +142,7 @@ def generate_train_meta_json(input_path, output_path):
                     if key == video_name:
                         print(value)
                         for i in range(1, int(value) + 1):
-                            formatted_number = f"{i:06d}"
+                            formatted_number = f"{i:05d}"
                             frames.append(formatted_number)
 
     print('result: ', result)
@@ -150,7 +150,8 @@ def generate_train_meta_json(input_path, output_path):
         json.dump(result, json_file, indent=2)
 
 
-# generate_train_meta_json('gta_train_all.json', 'data/train/mock_category/meta.json')
+generate_train_meta_json('gta_train_all.json', 'data/mot17/train/meta.json')
+
 
 def calculate_expression_sum(video_data):
     expression_sum = 0
