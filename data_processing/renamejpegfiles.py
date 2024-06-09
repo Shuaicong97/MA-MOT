@@ -3,8 +3,8 @@ import re
 import shutil
 
 
-def rename_jpeg_files():
-    main_dir = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/OVIS/ovis/valid/JPEGImages'
+def rename_jpeg_files(main_dir):
+    # main_dir = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/OVIS/ovis/valid/JPEGImages'
 
     for subdir in os.listdir(main_dir):
         subdir_path = os.path.join(main_dir, subdir)
@@ -51,6 +51,11 @@ def compress_folders(main_folder, output_folder, batch_size=20):
         print(f"Created {batch_path}")
 
 
-main_folder = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/OVIS/ovis/train/JPEGImages'
-output_folder = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/OVIS/ovis/train'
-compress_folders(main_folder, output_folder)
+# main_folder = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/OVIS/ovis/train/JPEGImages'
+# output_folder = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/OVIS/ovis/train'
+# compress_folders(main_folder, output_folder)
+train_dir = '/nfs/data3/shuaicong/ovis_in_ytvos/train/JPEGImages'
+valid_dir = '/nfs/data3/shuaicong/ovis_in_ytvos/valid/JPEGImages'
+rename_jpeg_files(train_dir)
+rename_jpeg_files(valid_dir)
+

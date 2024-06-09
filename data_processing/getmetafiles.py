@@ -113,8 +113,8 @@ ovis_valid_json = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/gene
 meta_train_file = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/OVIS/ovis/meta_expressions/train/meta_expressions.json'
 meta_valid_file = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/OVIS/ovis/meta_expressions/valid/meta_expressions.json'
 
-generate_yvos_meta_expressions(ovis_train_json, meta_train_file, True)
-generate_yvos_meta_expressions(ovis_valid_json, meta_valid_file, False)
+# generate_yvos_meta_expressions(ovis_train_json, meta_train_file, True)
+# generate_yvos_meta_expressions(ovis_valid_json, meta_valid_file, False)
 
 
 def sort_json_by_obj_id(file_path, output_file):
