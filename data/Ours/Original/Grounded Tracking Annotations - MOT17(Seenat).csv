@@ -1,0 +1,301 @@
+Video,Query ID,Language Query,Type,Track ID,Start Frame,End Frame,Revision
+MOT17-10,1,A man walking past wooden yellow boxes,M,7,349,410,
+MOT17-10,2,A man walks past wooden yellow boxes,M,7,349,410,
+MOT17-10,3, A man trying to push wooden yellow box,M,12,211,254,
+MOT17-10,3, A man trying to push wooden yellow box,M,12,476,528,
+MOT17-10,4, A man trying to move wooden yellow box,M,12,211,254,
+MOT17-10,4, A man trying to move wooden yellow box,M,12,476,528,
+MOT17-10,5,A man walks around the yellow box as he inspects it,M,12,265,341,
+MOT17-10,6,A man looks at the yellow box closely as he walks around it,M,12,265,341,
+MOT17-10,7,A man walking away from one yellow box to another stops and looks back,M,12,379,394,
+MOT17-10,8,A man stops walking and looks back at the yellow box behind,M,12,379,394,
+MOT17-10,9,A man looks behind at the yellow box,M,12,379,394,
+MOT17-10,10,A man in yellow shirt slows down in his tracks to talk with another person,M,4,164,250,
+MOT17-10,11,A man in black shirt slows down in his tracks to talk with another person,M,13,169,250,
+MOT17-10,12,A man in jeans stopping in his tracks to talk with other people,M,7,150,279,
+MOT17-10,13,A man in blue jeans stops in front of a bench to talk with another person,M,7,150,279,
+MOT17-10,14,A man stops walking to talk with another person,M,4,164,250,
+MOT17-10,14,A man stops walking to talk with another person,M,13,169,250,
+MOT17-10,14,A man stops walking to talk with another person,M,7,150,279,
+MOT17-10,15,A man stopping to converse with other men while walking,M,4,164,250,
+MOT17-10,15,A man stopping to converse with other men while walking,M,13,169,250,
+MOT17-10,15,A man stopping to converse with other men while walking,M,7,150,279,
+MOT17-10,16,A woman is taking out a key from her back pocket,M,9,116,345,
+MOT17-10,17,A woman searching her back pocket for a key,M,9,116,345,
+MOT17-10,18,A woman in shorts looking left and then right through a shop window,M,14,547,613,
+MOT17-10,19,A woman turning her head left and then right as she walks,M,14,547,613,
+MOT17-10,20,A woman in shorts looking right through a shop window,M,14,583,613,
+MOT17-10,21,A woman looks right as she is walking,M,14,583,613,
+MOT17-10,22,A woman turns her head to the right as she is walking,M,14,583,613,
+MOT17-10,23,A woman glancing right as she is walking,M,14,583,613,
+MOT17-10,24,A man stopping two other men in the middle of their tracks asking for directions,M,7,190,258,
+MOT17-10,25,A woman getting inside the mall to the right,M,26,380,396,
+MOT17-10,26,A woman not walking past the mall in the right side,M,26,380,396,
+MOT17-10,27,Person walking past the mall in the right side,M,2,338,466,
+MOT17-10,27,Person walking past the mall in the right side,M,4,315,486,
+MOT17-10,27,Person walking past the mall in the right side,M,13,315,486,
+MOT17-10,28,Person walking past not entering the mall in the right side,M,2,338,466,
+MOT17-10,28,Person walking past not entering the mall in the right side,M,4,315,486,
+MOT17-10,28,Person walking past not entering the mall in the right side,M,13,315,486,
+MOT17-10,29,A man in black clothing glancing left as he walks with another person,M,10,212,250,
+MOT17-10,30,A man in black clothing looks left as he talks to another person,M,10,212,250,
+MOT17-10,31,A man in black looks at the person in the left as he talks to her,M,10,212,250,
+MOT17-10,32,A man in black shirt glancing right at the store,M,24,166,220,
+MOT17-10,33,A man in black shirt looks right at the store,M,24,166,220,
+MOT17-10,34,A man looks in the direction of the camera from the right,M,24,221,231,
+MOT17-10,35,A man turns his head in the direction he is walking,M,24,221,231,
+MOT17-10,36,A man with a black backpack looking back takes a step back and looks left,M,18,390,433,
+MOT17-10,37,A man with a backpack facing backwards turns his body and faces left,M,18,390,433,
+MOT17-10,38,A man in black shirt puts his hand in his pocket,M,25,540,593,
+MOT17-10,39,A man puts his hand down into his pocket,M,25,540,593,
+MOT17-10,40,A woman initially facing right looks back,M,34,318,360,
+MOT17-10,41,A woman with a cloth in her hand turns her head and looks back,M,34,318,360,
+MOT17-10,42,A woman turns her face forward,M,34,410,445,
+MOT17-10,43,A woman with a cloth in her hand turns her head and looks forward,M,34,410,445,
+MOT17-10,44,The cover from the face of the woman falls off,M,34,547,562,
+MOT17-10,45,A woman with a cloth in her hand covers her face,M,34,480,533,
+MOT17-10,46,A woman looks back as covers her face,M,34,480,533,
+MOT17-10,47,A woman covering her face and removing the cover,M,34,480,553,
+MOT17-10,48,A woman in white shirt stops walking and looks back and then starts walking again,M,44,218,260,
+MOT17-10,49,A woman stops in her tracks and looks back,M,44,218,260,
+MOT17-10,50,A man in black clothing leaned against a wooden structure looking back,M,45,119,198,
+MOT17-10,51,A woman flipping her hair as she looks left while walking,M,17,233,250,The bounding box ID changes from 16 to 17. 
+MOT17-10,52,A woman's hair flips as she turns her head left,M,17,233,250,The bounding box ID changes from 16 to 17. 
+MOT17-10,53,A person walking left and going behind a wall structure,M ,56,374,529,
+MOT17-10,53,A person walking left and going behind a wall structure,M ,57,374,479,
+MOT17-10,54,A person walks behind a wall structure,M ,56,374,529,
+MOT17-10,54,A person walks behind a wall structure,M ,57,374,479,
+MOT17-10,55,A man is coming out of the right side mall,M,31,175,187,
+MOT17-10,55,A man is coming out of the right side mall,M,32,181,187,
+MOT17-10,56,A man walks out of the right side mall,M,31,175,187,
+MOT17-10,56,A man walks out of the right side mall,M,32,181,187,
+MOT17-10,57,A man conversing in the middle of the street but not walking,M,18,390,433,
+MOT17-10,57,A man conversing in the middle of the street but not walking,M,25,540,593,
+MOT17-10,58,A man in black clothing looks back while walking,M,13,489,512,
+MOT17-10,58,A man in black clothing looks back while walking,M,13,359,380,
+MOT17-10,59,A man in black shirt turns back while walking,M,13,489,512,
+MOT17-10,59,A man in black shirt turns back while walking,M,13,359,380,
+MOT17-10,60,A man standing on the path looking at his phone,O,11,68,171,
+MOT17-10,61,A man walking with a phone in his hand,O,1,1,99,
+MOT17-10,62,A woman walking with a shopping bag,O,3,1,60,
+MOT17-10,63,A woman walking with a pink bag,O,6,1,80,
+MOT17-10,64,A man having conversation in the middle of the path,O,25,165,610,
+MOT17-10,64,A man having conversation in the middle of the path,O,18,165,610,
+MOT17-10,65,A man and a woman walking together,O,"9,10",180,380,
+MOT17-10,65,A man and a woman walking together,O,"29,30",90,351,
+MOT17-10,66,A man wearing a cross-body bag,O,29,90,351,
+MOT17-10,67,A man with a backpack walking out of the mall from the right and crossing the street,O,32,184,475,
+MOT17-10,68,A man in black clothing walking out of the mall from the right and crossing the street,O,31,184,475,
+MOT17-10,69,People sitting on the bench,O,51,98,654,
+MOT17-10,69,People sitting on the bench,O,52,98,654,
+MOT17-10,70,Person working inside the store,O,61,1,250,
+MOT17-10,71,Mannequin in display on the shop,O,62,483,615,
+MOT17-10,71,Mannequin in display on the shop,O,63,483,615,
+MOT17-10,71,Mannequin in display on the shop,O,64,483,615,
+MOT17-11,72,A woman in black dress walking while using her phone looks up,M,24,97,122,
+MOT17-11,73,A woman in black dress looks up from her phone while walking,M,24,97,122,
+MOT17-11,74,A man in full sleeve shirt looks back as he walks,M,27,324,340,
+MOT17-11,75,A man in black shirt looks back as he walks,M,27,324,340,
+MOT17-11,76,A boy in black shirt is looking right side while walking with another boy,M,3,8,39,
+MOT17-11,77,A boy in black shirt looks right at the boy beside him,M,3,8,39,
+MOT17-11,78,A boy in black shirt turns his head in the direction of the camera,M,3,42,60,
+MOT17-11,79,A boy in black shirt looks away from the boy beside him,M,3,42,60,
+MOT17-11,80,A boy in black shirt looks down as he is walking with another boy,M,4,39,60,
+MOT17-11,81,A boy in black shirt looks at the floor as he talks,M,4,39,60,
+MOT17-11,82,A boy in black shirt looks up as he walks,M,4,61,100,
+MOT17-11,82,A boy in black shirt looks up as he walks,M,4,61,100,
+MOT17-11,83,A lady looks down while walking with her partner,M,5,187,230,
+MOT17-11,84,A lady looks at the floor as she walks,M,5,187,230,
+MOT17-11,85,A woman in black clothing turns her head forward,M,7,413,422,
+MOT17-11,86,A woman in black clothing glances left,M,7,358,409,
+MOT17-11,87,A woman in black clothing looks left,M,7,358,409,
+MOT17-11,88,A man looking left initially looks forward and slightly glances to the right,M,20,193,303,
+MOT17-11,89,A man looking turns his head in the direction of the camera and slightly glances right,M,20,193,303,
+MOT17-11,90,"A man walking looks left and then forward and again left, and right near the end",M,25,62,860,
+MOT17-11,91,A man looks left as he is walking,M,25,62,168,
+MOT17-11,91,A man looks left as he is walking,M,25,462,507,
+MOT17-11,91,A man looks left as he is walking,M,25,316,393,
+MOT17-11,91,A man looks left as he is walking,M,25,666,727,
+MOT17-11,92,A man turns his head left as he is walking,M,25,62,168,
+MOT17-11,92,A man turns his head left as he is walking,M,25,462,507,
+MOT17-11,92,A man turns his head left as he is walking,M,25,316,393,
+MOT17-11,92,A man turns his head left as he is walking,M,25,666,727,
+MOT17-11,93,A man looks right as he is walking,M,25,771,801,
+MOT17-11,94,A man turns his head right as he is walking,M,25,771,801,
+MOT17-11,95,A man looks forward as he is walking,M,25,168,316,
+MOT17-11,96,A woman in black clothing walking right stops walking and looks back and goes back,M,30,372,572,"The bounding box disappears after frame number 150, the ID becomes 31, the activities continue till frame 572"
+MOT17-11,97,A man in white shirt stops walking,M,29,372,512,"The bounding box disappears after frame number 148, the ID becomes 39"
+MOT17-11,98,A man wearing white shirt comes to a halt ,M,29,372,512,"The bounding box disappears after frame number 148, the ID becomes 39"
+MOT17-11,99,A man in white shirt takes a step to the right and then turns to left and goes back a step,M,29,517,660,"The bounding box disappears after frame number 148, the ID becomes 39, the activities continue till frame 790."
+MOT17-11,100,A man in white shirt turns forward and starts walking left,M,29,661,790,"The bounding box disappears after frame number 148, the ID becomes 39, the activities continue till frame 790."
+MOT17-11,101,A man in black shirt glances to the right twice as he walks,M,40,431,489,"Person with ID 26 becomes ID 40, the bounding box disappears after frame 600. "
+MOT17-11,102,A man in black shirt looks right twice while walking,M,40,431,489,"Person with ID 26 becomes ID 40, the bounding box disappears after frame 600. "
+MOT17-11,103,"A man in front of a shop takes a step back, looks right",M ,32,260,332,
+MOT17-11,104,A man in front of a shop takes a step forward and stands still,M ,32,460,532,
+MOT17-11,105,A man looks left as he walks towards the camera,M,38,812,837,
+MOT17-11,106,A man turns left as he walks in the direction of the camera,M,38,812,837,
+MOT17-11,107,A man turns his head left as he walks towards the camera,M,38,812,837,
+MOT17-11,108,A woman with a bag in her hand looking left as she walks towards the camera,M,35,810,869,The bounding box ID changes to 60. 
+MOT17-11,109,A young girl looks right as she walks,M,36,833,869,
+MOT17-11,110,A young girl turns her head right while walking,M,36,833,869,
+MOT17-11,111,A woman walks left and gets inside the shop,M,46,431,540,Bounding frame ends at 505. 
+MOT17-11,112,A man brings his backpack from his shoulders to his front,M,49,843,900,
+MOT17-11,113,A man gets his backpack from his shoulders ,M,49,843,900,
+MOT17-11,114,"A woman stops walking, looks right and then looks back",M,51,842,900,The bounding frame doesn't appear until frame 783. She could be seen walking slowly before the bounding frame detected her. 
+MOT17-11,115,A woman who is facing right looks back,M,51,876,900,The bounding frame doesn't appear until frame 783. She could be seen walking slowly before the bounding frame detected her. 
+MOT17-11,116,"A woman walking looks left initially, then looks forward and then to the right",M,12,406,542,
+MOT17-11,117,A woman looks forward while she is walking,M,12,418,519,
+MOT17-11,118,A woman turns her face in the direction of the camera from the left,M,12,418,519,
+MOT17-11,119,A woman looks right while she is walking,M,12,521,542,
+MOT17-11,120,A woman turns her head right while she is walking,M,12,521,542,
+MOT17-11,121,A man in white shirt walking forward looks left,M,14,180,252,
+MOT17-11,121,A man in white shirt walking forward looks left,M,14,372,410,
+MOT17-11,122,A man in white shirt turns his head to the left,M,14,180,252,
+MOT17-11,122,A man in white shirt turns his head to the left,M,14,372,410,
+MOT17-11,123,A man in white moves his shoulder a bit to avoid colliding with another person,M,14,294,315,
+MOT17-11,124,A man in white shirt turns his body to avoid collision with another person,M,14,294,315,
+MOT17-11,125,A boy in black shirt is looks right side while walking with another boy,M,4,94,101,
+MOT17-11,126,A man with mobile is recording the right side of the mall,M,1,661,876,
+MOT17-11,127,A man pointing the right side of the mall with his mobile as he walks,M,1,661,876,
+MOT17-11,128,A man videotaping the right side of the mall with his mobile,M,1,661,876,
+MOT17-11,129,A man with mobile is recording the left side of the mall,M,1,1,623,
+MOT17-11,130,A man pointing the left side of the mall with his mobile as he walks,M,1,1,623,
+MOT17-11,131,A man videotaping the left side of the mall with his mobile,M,1,1,623,
+MOT17-11,132,A man is looking left side while walking with his partner,M,6,1,39,
+MOT17-11,133,A man turns his head to the left while walking with his partner,M,6,1,39,
+MOT17-11,134,A man turns his head to the right while walking with his partner,M,6,80,145,
+MOT17-11,135,A man is looking right side while walking with his partner,M,6,80,145,
+MOT17-11,136,A lady looking left side while holding her partner's hand,M,12,406,417,
+MOT17-11,137,A lady turns her head to the left while walking with her partner,M,12,406,417,
+MOT17-11,138,A man wearing black cap is looking left side while holding his partner's hand,M,10,388,420,
+MOT17-11,139,A man wearing black cap turns his head left side while walking his partner,M,10,388,420,
+MOT17-11,140,A man walking towards the camera looks left ,M,48,690,724,
+MOT17-11,141,Man in blue shirt standing and on his phone,O,13,1,294,
+MOT17-11,142,A man videotaping as he walks forward,O,1,1,900,
+MOT17-11,143,A man in shorts checking his phone as he walks right,O,41,499,601,
+MOT17-13,144,A man in black jacket looks left as a car drives in front of him,M,7,237,293,The bounding box ID changes to 20
+MOT17-13,145,A man in black jacket checks left as he is looking to cross the road,M,7,237,293,The bounding box ID changes to 20
+MOT17-13,146,A car intially stopped at a red signal drives to the right,M,30,245,333,
+MOT17-13,146,A car intially stopped at a red signal drives to the right,M,76,113,288,
+MOT17-13,147,A car takes a right turn,M,30,245,333,
+MOT17-13,147,A car takes a right turn,M,76,113,288,
+MOT17-13,148,A car not driving straight,M,30,245,333,
+MOT17-13,148,A car not driving straight,M,76,113,288,
+MOT17-13,149,A car is going right side after green signal,M,30,93,331,
+MOT17-13,150,A car is going straight after green signal,M,29,93,451,
+MOT17-13,151,A car intially stopped at a red signal drives off straight,M,29,101,450,
+MOT17-13,152,A car drives forward after the green signal,M,29,101,450,
+MOT17-13,153,A car doesn't drive right after the green signal,M,29,101,450,
+MOT17-13,154,A man in black shirt walking along the sidewalk looks back and runs across the street,M,28,636,742,
+MOT17-13,155,A man in black shirt doesn't walk along the sidewalk anymore,M,28,636,742,
+MOT17-13,156,A man in blue shirt walks across the street from one sidewalk to another,M,4,155,563,The bounding box ID changes to 25.
+MOT17-13,157,A person crosses the street and reaches the sidewalk,M,35,1,203,
+MOT17-13,158,A man walking to the pedestrian safety islands from the sidewalk slows down walking as he reaches the main street,M,139,392,412,"Multiple bounding box ID changes in this case, settled with the last one that is most clear"
+MOT17-13,158,A man walking to the pedestrian safety islands from the sidewalk slows down walking as he reaches the main street,M,147,281,437,"Multiple bounding box ID changes in this case, settled with the last one that is most clear."
+MOT17-13,159,A man slows down walking as he reaches the main street,M,139,392,412,"Multiple bounding box ID changes in this case, settled with the last one that is most clear"
+MOT17-13,159,A man slows down walking as he reaches the main street,M,147,281,437,"Multiple bounding box ID changes in this case, settled with the last one that is most clear."
+MOT17-13,160,A man slows down walking before he starts to cross the main street,M,139,392,412,"Multiple bounding box ID changes in this case, settled with the last one that is most clear"
+MOT17-13,160,A man slows down walking before he starts to cross the main street,M,147,281,437,"Multiple bounding box ID changes in this case, settled with the last one that is most clear."
+MOT17-13,161,A man walking from the sidewalk to the pedestrian safety islands to cross the main street,M,139,141,306,"Multiple bounding box ID changes in this case, settled with the last one that is most clear."
+MOT17-13,161,A man walking from the sidewalk to the pedestrian safety islands to cross the main street,M,147,141,307,"Multiple bounding box ID changes in this case, settled with the last one that is most clear."
+MOT17-13,162,A man not walking along the sidewalk anymore ,M,139,141,306,"Multiple bounding box ID changes in this case, settled with the last one that is most clear."
+MOT17-13,162,A man not walking along the sidewalk anymore ,M,147,141,307,"Multiple bounding box ID changes in this case, settled with the last one that is most clear."
+MOT17-13,163,A woman walking from the sidewalk to the pedestrian safety islands to cross the main street,M,133,132,298,"Multiple bounding box ID changes in this case, settled with the last one that is most clear."
+MOT17-13,163,A woman walking from the sidewalk to the pedestrian safety islands to cross the main street,M,135,117,358,"Multiple bounding box ID changes in this case, settled with the last one that is most clear."
+MOT17-13,163,A woman walking from the sidewalk to the pedestrian safety islands to cross the main street,M,157,161,369,"Multiple bounding box ID changes in this case, settled with the last one that is most clear."
+MOT17-13,164,A woman not walking along the sidewalk anymore ,M,133,132,298,"Multiple bounding box ID changes in this case, settled with the last one that is most clear."
+MOT17-13,164,A woman not walking along the sidewalk anymore ,M,135,117,358,"Multiple bounding box ID changes in this case, settled with the last one that is most clear."
+MOT17-13,164,A woman not walking along the sidewalk anymore ,M,157,161,369,"Multiple bounding box ID changes in this case, settled with the last one that is most clear."
+MOT17-13,165,A woman walking to the pedestrian safety islands from the sidewalk slows down walking,M,133,396,410,"Multiple bounding box ID changes in this case, settled with the last one that is most clear"
+MOT17-13,165,A woman walking to the pedestrian safety islands from the sidewalk slows down walking,M,135,421,430,"Multiple bounding box ID changes in this case, settled with the last one that is most clear"
+MOT17-13,165,A woman walking to the pedestrian safety islands from the sidewalk slows down walking,M,157,429,437,"Multiple bounding box ID changes in this case, settled with the last one that is most clear"
+MOT17-13,166,A woman walking to the pedestrian safety islands from the sidewalk slows down walking as she reaches the main street,M,133,396,410,"Multiple bounding box ID changes in this case, settled with the last one that is most clear"
+MOT17-13,166,A woman walking to the pedestrian safety islands from the sidewalk slows down walking as she reaches the main street,M,135,421,430,"Multiple bounding box ID changes in this case, settled with the last one that is most clear"
+MOT17-13,166,A woman walking to the pedestrian safety islands from the sidewalk slows down walking as she reaches the main street,M,157,429,437,"Multiple bounding box ID changes in this case, settled with the last one that is most clear"
+MOT17-13,167,A man walking to the pedestrian safety islands from the sidewalk looks to his left,M,139,328,342,"Multiple bounding box ID changes in this case, settled with the last one that is most clear."
+MOT17-13,167,A man walking to the pedestrian safety islands from the sidewalk looks to his left,M,147,365,398,"Multiple bounding box ID changes in this case, settled with the last one that is most clear."
+MOT17-13,167,A man walking to the pedestrian safety islands from the sidewalk looks to his left,M,139,386,410,"Multiple bounding box ID changes in this case, settled with the last one that is most clear."
+MOT17-13,168,A man walking to the pedestrian safety islands from the sidewalk turns his head left,M,139,328,342,"Multiple bounding box ID changes in this case, settled with the last one that is most clear."
+MOT17-13,168,A man walking to the pedestrian safety islands from the sidewalk turns his head left,M,147,365,398,"Multiple bounding box ID changes in this case, settled with the last one that is most clear."
+MOT17-13,168,A man walking to the pedestrian safety islands from the sidewalk turns his head left,M,139,386,410,"Multiple bounding box ID changes in this case, settled with the last one that is most clear."
+MOT17-13,169,A man walking to the pedestrian safety islands from the sidewalk looks to his right,M,139,345,365,"Multiple bounding box ID changes in this case, settled with the last one that is most clear."
+MOT17-13,169,A man walking to the pedestrian safety islands from the sidewalk looks to his right,M,139,413,426,"Multiple bounding box ID changes in this case, settled with the last one that is most clear."
+MOT17-13,170,A man walking to the pedestrian safety islands from the sidewalk turns his head right,M,139,345,365,"Multiple bounding box ID changes in this case, settled with the last one that is most clear."
+MOT17-13,170,A man walking to the pedestrian safety islands from the sidewalk turns his head right,M,139,413,426,"Multiple bounding box ID changes in this case, settled with the last one that is most clear."
+MOT17-13,171,A car drives to the right and then goes off straight,M,81,20,360,
+MOT17-13,172,A car drives forward after coming from the right,M,81,20,360,
+MOT17-13,173,A car changes its direction after coming from the right,M,81,20,360,
+MOT17-13,174,A car driving towards the camera comes to a halt ,M,89,171,332,
+MOT17-13,175,A car stops at the signal,M,89,171,332,
+MOT17-13,176,A car initially in motion comes to a halt,M,89,171,332,
+MOT17-13,177,A car comes to a halt at the signal,M,89,171,332,
+MOT17-13,178,A car slows down as it approaches another car in the front,M,82,440,456,
+MOT17-13,179,A car slows down behind another car,M,82,440,456,
+MOT17-13,180,A car decelerates as it gets close to another car,M,82,440,456,
+MOT17-13,181,A car slows down as it gets close to another car,M,82,440,456,
+MOT17-13,182,A car making a turn in the middle of the road,M,79,525,564,
+MOT17-13,183,A car changing its direction in the middle of the road,M,79,525,564,
+MOT17-13,184,A car driving off straight,M,79,566,618,
+MOT17-13,185,A car parking behind a black car,M ,86,528,680,
+MOT17-13,186,A car slowing down behind a black car,M ,86,528,680,
+MOT17-13,187,A small car slowing down to park behind a silver car,M,83,523,666,
+MOT17-13,188,A small car decelerates behind a silver car,M,83,523,666,
+MOT17-13,189,A person taking his hand out of the pocket of his jacket as he walks,M,5,1,33,
+MOT17-13,190,A person stops walking as the cars drive off in green signal,M,17,82,155,
+MOT17-13,191,A person in black suit stops walking as the cars drive off in green signal,M,17,82,155,
+MOT17-13,192,A man walks up from behind two kids,M,19,42,136,
+MOT17-13,193,A man comes from behind two kids and walks beside them,M,19,42,136,
+MOT17-13,194,A man in black jacket raises both of his hands as he is talking with another person,M,22,482,518,Movement is very fast might not be noticeable
+MOT17-13,195,A person talking on his phone initially facing towards the camera turns back and starts walking,M,39,217,352,
+MOT17-13,196,A man standing against a signal pole looking at his phone looks up and starts walking,M,144,427,475,"Multiple Bounding box ID changes in this case, settled with the last one that is most clear."
+MOT17-13,197,A man walks away from the pole ,M,144,427,475,"Multiple Bounding box ID changes in this case, settled with the last one that is most clear."
+MOT17-13,198,A man looks up from his phone and starts walking,M,144,427,475,"Multiple Bounding box ID changes in this case, settled with the last one that is most clear."
+MOT17-13,199,A man standing against a signal pole looking at his phone looks up and starts walking,M,144,427,475,"Multiple Bounding box ID changes in this case, settled with the last one that is most clear."
+MOT17-13,200,"A person walks past some people and turns to the right and stops, as he waits to cross the street",M,47,1,168,
+MOT17-13,201,A man walks away after talking with other people,M,65,430,471,
+MOT17-13,201,A man walks away after talking with other people,M,142,442,468,"Multiple bounding box ID changes in this case, settled with the last one that is most clear"
+MOT17-13,201,A man walks away after talking with other people,M,69,374,466,"The bounding box disappears after frame 450, the activity continues"
+MOT17-13,201,A man walks away after talking with other people,M,70,374,466,
+MOT17-13,201,A man walks away after talking with other people,M,164,452,467,
+MOT17-13,201,A man walks away after talking with other people,M,165,452,466,
+MOT17-13,202,A man talking with a group of people turns back and gets inside the building,M,65,430,471,
+MOT17-13,203,A man talking with a group of people turns back and walks towards the building,M,142,442,468,"Multiple bounding box ID changes in this case, settled with the last one that is most clear"
+MOT17-13,204,A man walks away from a gathering,M,65,430,471,
+MOT17-13,204,A man walks away from a gathering,M,142,442,468,"Multiple bounding box ID changes in this case, settled with the last one that is most clear"
+MOT17-13,204,A man walks away from a gathering,M,69,374,466,"The bounding box disappears after frame 450, the activity continues"
+MOT17-13,204,A man walks away from a gathering,M,70,374,466,
+MOT17-13,204,A man walks away from a gathering,M,164,452,467,
+MOT17-13,204,A man walks away from a gathering,M,165,452,466,
+MOT17-13,205,A man leaving a group of people doesn't go towards the building,M,69,374,466,"The bounding box disappears after frame 450, the activity continues"
+MOT17-13,205,A man leaving a group of people doesn't go towards the building,M,70,374,466,
+MOT17-13,205,A man leaving a group of people doesn't go towards the building,M,164,452,467,
+MOT17-13,205,A man leaving a group of people doesn't go towards the building,M,165,452,466,
+MOT17-13,206,A man starts walking after talking with a group of men,M,65,430,471,
+MOT17-13,206,A man starts walking after talking with a group of men,M,142,442,468,"Multiple bounding box ID changes in this case, settled with the last one that is most clear"
+MOT17-13,206,A man starts walking after talking with a group of men,M,69,374,466,"The bounding box disappears after frame 450, the activity continues"
+MOT17-13,206,A man starts walking after talking with a group of men,M,70,374,466,
+MOT17-13,206,A man starts walking after talking with a group of men,M,164,452,467,
+MOT17-13,206,A man starts walking after talking with a group of men,M,165,452,466,
+MOT17-13,207,A man doesn't go towards the building after talking with other people,M,69,374,466,"The bounding box disappears after frame 450, the activity continues"
+MOT17-13,207,A man doesn't go towards the building after talking with other people,M,70,374,466,
+MOT17-13,207,A man doesn't go towards the building after talking with other people,M,164,452,467,
+MOT17-13,207,A man doesn't go towards the building after talking with other people,M,165,452,466,
+MOT17-13,208,A car driving towards the camera slows down behind a black car,M,130,37,450,
+MOT17-13,209,A man starts walking after talking with a group of men,M,164,452,467,
+MOT17-13,209,A man starts walking after talking with a group of men,M,165,452,466,
+MOT17-13,210,A man doesn't go towards the building after talking with others,M,164,452,467,
+MOT17-13,210,A man doesn't go towards the building after talking with others,M,165,452,466,
+MOT17-13,211,A man initially walking in the sidewalk runs in front of car to cross the street,M,155,432,470,
+MOT17-13,212,A man runs in front of a car to cross the street,M,155,432,470,
+MOT17-13,213,A man crosses the street in front of a car,M,155,432,470,
+MOT17-13,214,A man runs to cross the street ,M,155,432,470,
+MOT17-13,215,A man runs in front of a car to cross the street,M,155,432,470,
+MOT17-13,216,A man with a backpack starts walking on the main road from the sidewalk,M,4,159,242,
+MOT17-13,217,A man with a backpack isn't walking in the sidewalk anymore,M,4,159,242,
+MOT17-13,218,A man doesn't walk along the sidewalk anymore,M,155,432,470,
+MOT17-13,218,A man doesn't walk along the sidewalk anymore,M,7,125,293,
+MOT17-13,219,A man wearing black jacket is crossing the road,M,7,125,293,
+MOT17-13,220,A car is going right side after green signal,M,30,93,331,
+MOT17-13,221,A car not going straight after green signal,M,30,93,331,
+MOT17-13,222,A car is waiting for green signal to drive,O,30,1,93,
+MOT17-13,223,A black car goes from the left to the right at high speed,O,80,1,40,
