@@ -17,9 +17,13 @@ def get_videos(file_path):
     return list(videos)
 
 
-def get_frames_from_annotations(video_name):
-    with open('/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/OVIS/annotations_train.json', 'r') as f:
-        data = json.load(f)
+def get_frames_from_annotations(video_name, video_type):
+    if video_type == 'train':
+        with open('/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/OVIS/annotations_train.json', 'r') as f:
+            data = json.load(f)
+    if video_type == 'valid':
+        with open('/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/OVIS/annotations_valid.json', 'r') as f:
+            data = json.load(f)
 
     for entry in data['videos']:
         file_names = entry['file_names']
@@ -34,10 +38,13 @@ def get_frames_from_annotations(video_name):
     return None
 
 
-train_json_path = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/generated_by_code/ovis_json/ovis_train.json'
-valid_json_path = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/generated_by_code/ovis_json/ovis_valid.json'
-train_list = get_videos(train_json_path)
-valid_list = get_videos(valid_json_path)
+ovis_training_json = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/OVIS-training.json'
+ovis_valid_json = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/OVIS-valid.json'
+mot17_training_json = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT17-training.json'
+mot17_valid_json = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT17-valid.json'
+
+train_list = get_videos(ovis_training_json)
+valid_list = get_videos(ovis_valid_json)
 
 print(f"Train videos: {len(train_list)}. Valid videos: {len(valid_list)}")
 
@@ -45,15 +52,19 @@ train_frames_dict = {}
 valid_frames_dict = {}
 not_found_in_train_dict = {}
 
+
 def generate_video_frames_dict(video_list, video_type):
+    print('start')
     for video_name in video_list:
-        if get_frames_from_annotations(video_name) is not None:
+        if get_frames_from_annotations(video_name, video_type) is not None:
             if video_type == 'train':
-                train_frames_dict[video_name] = f"{get_frames_from_annotations(video_name):06d}"
+                train_frames_dict[video_name] = f"{get_frames_from_annotations(video_name, video_type):06d}"
             if video_type == 'valid':
-                valid_frames_dict[video_name] = f"{get_frames_from_annotations(video_name):06d}"
+                valid_frames_dict[video_name] = f"{get_frames_from_annotations(video_name, video_type):06d}"
+            print(video_name, get_frames_from_annotations(video_name, video_type))
         else:
             not_found_in_train_dict[video_type] = video_name
+    print('end')
 
 
 generate_video_frames_dict(train_list, 'train')
@@ -62,8 +73,8 @@ generate_video_frames_dict(valid_list, 'valid')
 print(f'valid_frames_dict ({len(valid_frames_dict)}): {valid_frames_dict}')
 print(f'not_found_in_train_dict ({len(not_found_in_train_dict)}): {not_found_in_train_dict}')
 
-train_frames_json_path = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/generated_by_code/ovis_json/train_frames_length.json'
-valid_frames_json_path = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/generated_by_code/ovis_json/valid_frames_length.json'
+train_frames_json_path = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/Information/train_frames_length.json'
+valid_frames_json_path = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/Information/valid_frames_length.json'
 
 
 with open(train_frames_json_path, 'w') as json_file:

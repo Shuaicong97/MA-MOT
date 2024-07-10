@@ -13,7 +13,17 @@ meta_expressions.json
                 "expressions": {
                     "<expression_id>": {
                         "exp": "<expression>",
-                        "obj_id": "<object_id>"
+                        "obj": [
+                            {
+                                "obj_id": "<object_id>",
+                                 "start_end_boundary": [
+                                    {
+                                        "start": "<start_frame>",
+                                        "end": "<end_frame>"
+                                    }
+                                ]
+                            }
+                        ]
                     }
                 },
                 "frames": [
@@ -26,6 +36,9 @@ meta_expressions.json
     }
 '''
 
+def clean_expressions(expressions):
+    return {k: v for k, v in expressions.items() if v not in [[], {}]}
+
 
 # isTrain = false if it's for valid json.
 def generate_yvos_meta_expressions(input_path, output_path, isTrain):
@@ -36,6 +49,7 @@ def generate_yvos_meta_expressions(input_path, output_path, isTrain):
     class 'dict': key must be unique 
     '''
     result = {'videos': {}}
+    temp_dict = {}
 
     for entry in data:
         video_name = entry['Video']
@@ -44,47 +58,91 @@ def generate_yvos_meta_expressions(input_path, output_path, isTrain):
         start = entry['Start']
         end = entry['End']
 
+        key = (video_name, expression, oid)
+
+        if key not in temp_dict:
+            temp_dict[key] = []
+
+        temp_dict[key].append({
+            'start_frame': start,
+            'end_frame': end
+        })
+
+    for (video_name, expression, oid), appearances in temp_dict.items():
         if video_name not in result['videos']:
             result['videos'][video_name] = {'expressions': {}, 'frames': []}
-            expression_index = 1
 
-        existing_index = None
-        for index, expr in result['videos'][video_name]['expressions'].items():
-            if isTrain and expr[0]['exp'] == expression:
-                existing_index = index
-                break
-            if not isTrain and expr['exp'] == expression:
-                existing_index = index
-                break
+        result['videos'][video_name]['expressions'] = clean_expressions(result['videos'][video_name]['expressions'])
 
-        if existing_index is None:
-            existing_index = str(expression_index)
-            result['videos'][video_name]['expressions'][existing_index] = []
-            expression_index += 1
+        # Find the query ID for this expression
+        # qid = len(result['videos'][video_name]['expressions']) + 1
 
         # Split oid into individual object IDs
         object_ids = oid.split(',')
 
-        if isTrain:
-            for obj_id in object_ids:
-                result['videos'][video_name]['expressions'][existing_index].append({
-                    'exp': expression,
-                    'obj_id': obj_id.strip()
-                })
-            if video_name not in video_ids_map:
-                video_ids_map[video_name] = set()
-            video_ids_map[video_name].add(oid)
-        else:
-            result['videos'][video_name]['expressions'][existing_index] = {
+        qid_found = None
+        for qid, exp_data in result['videos'][video_name]['expressions'].items():
+            if exp_data['exp'] == expression:
+                qid_found = qid
+                break
+
+        if qid_found is None:
+            qid_found = len(result['videos'][video_name]['expressions']) + 1
+            result['videos'][video_name]['expressions'][qid_found] = {
                 'exp': expression
             }
+            if isTrain:
+                result['videos'][video_name]['expressions'][qid_found]['obj'] = []
+
+
+        if isTrain:
+            # for obj_id in object_ids:
+            #     result['videos'][video_name]['expressions'][existing_index].append({
+            #         'exp': expression,
+            #         'obj_id': obj_id.strip()
+            #     })
+            # if video_name not in video_ids_map:
+            #     video_ids_map[video_name] = set()
+            # video_ids_map[video_name].add(oid)
+            for obj_id in object_ids:
+                obj_id = obj_id.strip()
+
+                obj_found = False
+                for obj_entry in result['videos'][video_name]['expressions'][qid_found]['obj']:
+                    if obj_entry['obj_id'] == obj_id:
+                        obj_entry['start_end_boundary'].extend(appearances)
+                        obj_found = True
+                        break
+                if not obj_found:
+                    new_obj = {
+                        'obj_id': obj_id,
+                        'start_end_boundary': appearances
+                    }
+                    result['videos'][video_name]['expressions'][qid_found]['obj'].append(new_obj)
+        else:
+            # result['videos'][video_name]['expressions'][existing_index] = {
+            #     'exp': expression
+            # }
+            found = False
+            for existing_expression in result['videos'][video_name]['expressions'].values():
+                if isinstance(existing_expression, dict) and existing_expression['exp'] == expression:
+                    found = True
+                    break
+
+            if not found:
+                result['videos'][video_name]['expressions'][qid_found] = {
+                    'exp': expression
+                }
+
+    for video_name, video_data in result['videos'].items():
+        result['videos'][video_name]['expressions'] = clean_expressions(result['videos'][video_name]['expressions'])
 
     # add frames information
     frame_length_path = ''
     if isTrain:
-        frame_length_path = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/generated_by_code/ovis_json/train_frames_length.json'
+        frame_length_path = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/Information/train_frames_length.json'
     else:
-        frame_length_path = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/generated_by_code/ovis_json/valid_frames_length.json'
+        frame_length_path = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/Information/valid_frames_length.json'
 
     if not os.path.exists(frame_length_path):
         raise FileNotFoundError(f"The path {frame_length_path} does not exist.")
@@ -107,14 +165,27 @@ def generate_yvos_meta_expressions(input_path, output_path, isTrain):
     with open(output_path, 'w') as json_file:
         json.dump(result, json_file, indent=4)
 
+ovis_train_json = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/OVIS-training.json'
+ovis_valid_json = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/OVIS-valid.json'
+meta_train_file = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/ovis/meta_expressions/train/meta_expressions.json'
+meta_valid_file = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/ovis/meta_expressions/valid/meta_expressions.json'
 
-ovis_train_json = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/generated_by_code/ovis_json/ovis_train.json'
-ovis_valid_json = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/generated_by_code/ovis_json/ovis_valid.json'
-meta_train_file = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/OVIS/ovis/meta_expressions/train/meta_expressions.json'
-meta_valid_file = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/OVIS/ovis/meta_expressions/valid/meta_expressions.json'
 
-# generate_yvos_meta_expressions(ovis_train_json, meta_train_file, True)
-# generate_yvos_meta_expressions(ovis_valid_json, meta_valid_file, False)
+def make_dir(path):
+    directory = os.path.dirname(path)
+    print(directory)
+    if not os.path.exists(directory):
+        os.makedirs(directory)
+        print(f"Directory {directory} created.")
+    else:
+        print(f"Directory {directory} already exists.")
+
+
+make_dir(meta_train_file)
+make_dir(meta_valid_file)
+
+generate_yvos_meta_expressions(ovis_train_json, meta_train_file, True)
+generate_yvos_meta_expressions(ovis_valid_json, meta_valid_file, False)
 
 
 def sort_json_by_obj_id(file_path, output_file):
@@ -135,18 +206,20 @@ def sort_json_by_obj_id(file_path, output_file):
 # sort_json_by_obj_id(meta_train_file, meta_train_file)
 
 ovis_train_videos = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/OVIS/train'
-train_jpeg = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/OVIS/ovis/train/JPEGImages'
-valid_jpeg = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/OVIS/ovis/valid/JPEGImages'
+ovis_valid_videos = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/OVIS/valid'
+
+train_jpeg = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/ovis/train/JPEGImages'
+valid_jpeg = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/ovis/valid/JPEGImages'
 
 with open(meta_train_file, 'r', encoding='utf-8') as file:
     meta_data = json.load(file)
-train_video_ids = meta_data['videos'].keys()  # 373 videos
-# print(len(train_video_ids))
+train_video_ids = meta_data['videos'].keys()  # 533 videos
+print('length of ovis train videos:', len(train_video_ids))
 
 with open(meta_valid_file, 'r', encoding='utf-8') as file:
     meta_data = json.load(file)
-valid_video_ids = meta_data['videos'].keys()  # 160 videos
-# print(len(valid_video_ids))
+valid_video_ids = meta_data['videos'].keys()  # 137 videos
+print('length of ovis valid videos:', len(valid_video_ids))
 
 for video_name in video_ids_map:
     video_ids_map[video_name] = sorted(video_ids_map[video_name], key=int)
@@ -164,14 +237,24 @@ def copy_videos_to_target(target_folder, video_type):
     if video_type == 'valid':
         video_ids = valid_video_ids
     i = 0
-    for subdir in os.listdir(ovis_train_videos):
-        subdir_path = os.path.join(ovis_train_videos, subdir)
-        if os.path.isdir(subdir_path) and subdir in video_ids:
-            target_path = os.path.join(target_folder, subdir)
-            if os.path.exists(target_path):
-                shutil.rmtree(target_path)
-            shutil.copytree(subdir_path, target_path)
-            i = i + 1
+    if video_type == 'train':
+        for subdir in os.listdir(ovis_train_videos):
+            subdir_path = os.path.join(ovis_train_videos, subdir)
+            if os.path.isdir(subdir_path) and subdir in video_ids:
+                target_path = os.path.join(target_folder, subdir)
+                if os.path.exists(target_path):
+                    shutil.rmtree(target_path)
+                shutil.copytree(subdir_path, target_path)
+                i = i + 1
+    if video_type == 'valid':
+        for subdir in os.listdir(ovis_valid_videos):
+            subdir_path = os.path.join(ovis_valid_videos, subdir)
+            if os.path.isdir(subdir_path) and subdir in video_ids:
+                target_path = os.path.join(target_folder, subdir)
+                if os.path.exists(target_path):
+                    shutil.rmtree(target_path)
+                shutil.copytree(subdir_path, target_path)
+                i = i + 1
     print(f'number of videos: {i}')
 
 
@@ -220,7 +303,7 @@ def generate_train_meta_json(input_path, output_path):
 
                 # add frames information
                 frames = result['videos'][video_name]['objects'][obj_id]['frames']
-                frame_length_path = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/generated_by_code/ovis_json/train_frames_length.json'
+                frame_length_path = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/Information/train_frames_length.json'
                 with open(frame_length_path, 'r') as file:
                     length_dict = json.load(file)
 
@@ -230,17 +313,19 @@ def generate_train_meta_json(input_path, output_path):
                         formatted_number = f"{i:05d}"
                         frames.append(formatted_number)
 
-    print('result: ', result)
+    # print('result: ', result)
     with open(output_path, 'w') as json_file:
         json.dump(result, json_file, indent=4)
 
 
-train_meta_file = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/OVIS/ovis/train/meta.json'
-# generate_train_meta_json(ovis_train_json, train_meta_file)
+train_meta_file = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/ovis/train/meta.json'
+generate_train_meta_json(ovis_train_json, train_meta_file)
 
+frame_length_path = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/Information/train_frames_length.json'
+output_directory = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/ovis/train/GTs'
 
-frame_length_path = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/generated_by_code/ovis_json/train_frames_length.json'
-output_directory = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/OVIS/ovis/train/GTs'
+if not os.path.exists(output_directory):
+    os.makedirs(output_directory)
 
 
 def generate_gt_file():
@@ -253,7 +338,7 @@ def generate_gt_file():
     for key in length_dict:
         folder_path = os.path.join(output_directory, key)
         os.makedirs(folder_path, exist_ok=True)
-        print(f'Created folder: {folder_path}')
+        # print(f'Created folder: {folder_path}')
 
         for video in data['videos']:
             video_id = video['id']
@@ -272,7 +357,7 @@ def generate_gt_file():
                                     x, y, w, h = bbox
                                     # last three parameters (1, 1, 1) are fake default
                                     gt_line = f'{frame_id_counter}, {object_id_counter}, {x}, {y}, {w}, {h}, 1, 1, 1\n'
-                                    print(f'{frame_id_counter}, {object_id_counter}, {x}, {y}, {w}, {h}, 1, 1, 1')
+                                    # print(f'{frame_id_counter}, {object_id_counter}, {x}, {y}, {w}, {h}, 1, 1, 1')
                                     f.write(gt_line)
 
                                 frame_id_counter += 1
@@ -280,6 +365,6 @@ def generate_gt_file():
     print("conversion to gt.txt complete.")
 
 
-# generate_gt_file()
+generate_gt_file()
 
 print('Process completed')

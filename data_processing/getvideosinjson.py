@@ -43,7 +43,7 @@ def reformat_csv_file(file_path, output_file_path):
     for column in int_columns:
         if column in df.columns:
             df[column] = df[column].astype(pd.Int64Dtype())
-    df['Language Query'] = df['Language Query'].str.rstrip()
+    df['Language Query'] = df['Language Query'].str.strip()
 
     df.to_csv(output_file_path, index=False)
 

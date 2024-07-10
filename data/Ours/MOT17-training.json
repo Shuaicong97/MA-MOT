@@ -22,7 +22,7 @@
     {
         "Video": "MOT17-10",
         "Query ID": "3",
-        "Language Query": " A man trying to push wooden yellow box",
+        "Language Query": "A man trying to push wooden yellow box",
         "Type": "M",
         "Track ID": "12",
         "Start Frame": "211",
@@ -32,7 +32,7 @@
     {
         "Video": "MOT17-10",
         "Query ID": "3",
-        "Language Query": " A man trying to push wooden yellow box",
+        "Language Query": "A man trying to push wooden yellow box",
         "Type": "M",
         "Track ID": "12",
         "Start Frame": "476",
@@ -42,7 +42,7 @@
     {
         "Video": "MOT17-10",
         "Query ID": "4",
-        "Language Query": " A man trying to move wooden yellow box",
+        "Language Query": "A man trying to move wooden yellow box",
         "Type": "M",
         "Track ID": "12",
         "Start Frame": "211",
@@ -52,7 +52,7 @@
     {
         "Video": "MOT17-10",
         "Query ID": "4",
-        "Language Query": " A man trying to move wooden yellow box",
+        "Language Query": "A man trying to move wooden yellow box",
         "Type": "M",
         "Track ID": "12",
         "Start Frame": "476",
@@ -3122,7 +3122,7 @@
     {
         "Video": "MOT17-02",
         "Query ID": "10",
-        "Language Query": "A man wearing orange Long Sleeve T-Shirt and carring crossbody bag",
+        "Language Query": "A man wearing orange Long Sleeve T-Shirt and carrying crossbody bag",
         "Type": "O",
         "Track ID": "2",
         "Start Frame": "1",
@@ -3262,7 +3262,7 @@
     {
         "Video": "MOT17-02",
         "Query ID": "21",
-        "Language Query": "A person who peaks at the exhabition products of a shopping mall",
+        "Language Query": "A person who peaks at the exhibition products of a shopping mall",
         "Type": "M",
         "Track ID": "40",
         "Start Frame": "365",
@@ -3272,7 +3272,7 @@
     {
         "Video": "MOT17-02",
         "Query ID": "22",
-        "Language Query": "A woman carring a large green bag in left hand is pulling a luggage with right hand",
+        "Language Query": "A woman carrying a large green bag in left hand is pulling a luggage with right hand",
         "Type": "O",
         "Track ID": "16",
         "Start Frame": "425",
@@ -4092,7 +4092,7 @@
     {
         "Video": "MOT17-05",
         "Query ID": "85",
-        "Language Query": " A Bi-cycle is going opposite direction of the moving vehicle",
+        "Language Query": "A Bi-cycle is going opposite direction of the moving vehicle",
         "Type": "O",
         "Track ID": "115",
         "Start Frame": "6",
@@ -4262,7 +4262,7 @@
     {
         "Video": "MOT17-05",
         "Query ID": "102",
-        "Language Query": "A lady wearing black T-shirt under zip hoodie is carring crossbody bag",
+        "Language Query": "A lady wearing black T-shirt under zip hoodie is carrying crossbody bag",
         "Type": "O",
         "Track ID": "50",
         "Start Frame": "380",
@@ -4772,7 +4772,7 @@
     {
         "Video": "MOT17-05",
         "Query ID": "122",
-        "Language Query": "A white colored hair lady carring a bag on her left shoulde",
+        "Language Query": "A white colored hair lady carrying a bag on her left shoulde",
         "Type": "O",
         "Track ID": "6",
         "Start Frame": "10",

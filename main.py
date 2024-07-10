@@ -100,7 +100,7 @@ if __name__ == '__main__':
     # read_pth_file()
     # print(instances_predictions)
     # print_json_keys(json_data)
-    parent_folder_path = 'data/mot17/valid/JPEGImages/'
+    parent_folder_path = 'data/Ours/mot17/valid/JPEGImages/'
     rename_files_in_subfolders(parent_folder_path)
 
 
