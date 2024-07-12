@@ -25,7 +25,7 @@ MOT20-03,13,A child walks behind the white structure,M,316,1325,2405,The boundin
 MOT20-03,13,A child walks behind the white structure,M,317,1424,2405,The bounding box disappears
 MOT20-03,14,A man adjusts his backpack,M,22,586,606,
 MOT20-03,15,A man adjusts his bag behind,M,22,586,606,
-MOT20-03,16,A man puts his backpack properly ,M,22,586,606,
+MOT20-03,16,A man puts his backpack properly,M,22,586,606,
 MOT20-03,17,A pedestrian walks on the zebra crossing,M,2,1001,1150,
 MOT20-03,17,A pedestrian walks on the zebra crossing,M,4,1017,1094,
 MOT20-03,17,A pedestrian walks on the zebra crossing,M,7,970,1143,
@@ -600,16 +600,11 @@ MOT20-03,66,A person looks to his right,M,616,1849,1858,
 MOT20-03,66,A person looks to his right,M,635,1762,1778,
 MOT20-03,66,A person looks to his right,M,65,303,316,
 MOT20-03,66,A person looks to his right,M,64,292,310,
-MOT20-03,67,A person lowers his hand from his mouth,M,69X,697,709,The bounding box ID couldn't be seen
-MOT20-03,67,A person lowers his hand from his mouth,M,69X,975,988,The bounding box ID couldn't be seen
-MOT20-03,67,A person lowers his hand from his mouth,M,69X,1318,1334,The bounding box ID couldn't be seen
-MOT20-03,67,A person lowers his hand from his mouth,M,69X,1624,1637,The bounding box ID couldn't be seen
 MOT20-03,68,A person makes a U-turn and proceeds in the opposite direction,M,627,1718,1745,
 MOT20-05,69,A person moves from behind another person and goes beside that person,M,173,243,277,
 MOT20-03,70,A person moves her jacket from one hand to another,M,186,281,300,
 MOT20-05,71,A person moves her shoulder to avoid colliding with another person,M,68,352,367,
 MOT20-03,72,A person observes around him,M,256,2285,2325,
-MOT20-03,73,A person picks something up from a bag,M,69X,412,440,The bounding box ID couldn't be seen
 MOT20-03,74,A person places her hands behind her back to carry the bag.,M,179,1945,2005,
 MOT20-03,75,A person positions hers hands behind her back to hold the bag.,M,179,1945,2005,
 MOT20-03,76,A person proceeds to the right direction,M,32,969,1087,
@@ -619,24 +614,8 @@ MOT20-03,76,A person proceeds to the right direction,M,474,363,460,
 MOT20-05,77,A person put both hands on his head,M,145,561,789,
 MOT20-05,78,A person puts away his phone and looks up,M,393,2243,2275,
 MOT20-03,79,A person puts her hands behind her back to hold the bag,M,179,1945,2005,
-MOT20-03,80,A person puts his hand down from his mouth,M,69X,697,709,The bounding box ID couldn't be seen
-MOT20-03,80,A person puts his hand down from his mouth,M,69X,975,988,The bounding box ID couldn't be seen
-MOT20-03,80,A person puts his hand down from his mouth,M,69X,1318,1334,The bounding box ID couldn't be seen
-MOT20-03,80,A person puts his hand down from his mouth,M,69X,1624,1637,The bounding box ID couldn't be seen
-MOT20-05,81,A person puts his hand on his head,M,,14,33,
-MOT20-05,81,A person puts his hand on his head,M,,53,76,
 MOT20-05,82,A person puts his hand on the shoulder of another person,M,134,115,139,
 MOT20-05,82,A person puts his hand on the shoulder of another person,M,134,216,295,
-MOT20-03,83,A person puts some food in his mouth to eat,M,69X,640,696,The bounding box ID couldn't be seen
-MOT20-03,83,A person puts some food in his mouth to eat,M,69X,842,974,The bounding box ID couldn't be seen
-MOT20-03,83,A person puts some food in his mouth to eat,M,69X,1237,1317,The bounding box ID couldn't be seen
-MOT20-03,83,A person puts some food in his mouth to eat,M,69X,1537,1621,The bounding box ID couldn't be seen
-MOT20-03,83,A person puts some food in his mouth to eat,M,69X,1729,1827,The bounding box ID couldn't be seen
-MOT20-03,84,A person puts something in his mouth,M,69X,640,696,The bounding box ID couldn't be seen
-MOT20-03,84,A person puts something in his mouth,M,69X,842,974,The bounding box ID couldn't be seen
-MOT20-03,84,A person puts something in his mouth,M,69X,1237,1317,The bounding box ID couldn't be seen
-MOT20-03,84,A person puts something in his mouth,M,69X,1537,1621,The bounding box ID couldn't be seen
-MOT20-03,84,A person puts something in his mouth,M,69X,1729,1827,The bounding box ID couldn't be seen
 MOT20-05,85,A person puts the phone away,M,784,1935,1977,
 MOT20-03,86,A person raises hand to show direction,M,485,1220,1270,
 MOT20-03,86,A person raises hand to show direction,M,485,1310,1340,
@@ -1015,7 +994,6 @@ MOT20-05,150,A person takes a step right and starts talking with another person,
 MOT20-05,151,A person takes a step to the left,M,922,2176,2201,
 MOT20-05,152,A person takes a turn to the left,M,225,255,275,
 MOT20-05,153,A person takes one step back and turns forward,M,512,1104,1126,
-MOT20-03,154,A person takes something out of a bag,M,69X,412,440,The bounding box ID couldn't be seen
 MOT20-05,155,A person talks on his phone,M,901,1512,2208,
 MOT20-05,155,A person talks on his phone,M,1124,152,368,
 MOT20-05,156,A person talks with another person and shows directions,M,818,2065,2254,
@@ -1026,7 +1004,6 @@ MOT20-03,160,A person throws trash in the bin,M,1,876,886,
 MOT20-03,161,A person transfers their jacket from right hand to the left.,M,186,281,300,
 MOT20-05,162,A person turns and looks back,M,804,2489,2700,
 MOT20-03,163,A person turns around and faces right,M,241,2372,2404,
-MOT20-03,164,A person turns around and leans against a wall,M,69X,456,523,The bounding box ID couldn't be seen
 MOT20-05,165,A person turns around and looks back,M,44,235,273,
 MOT20-05,165,A person turns around and looks back,M,572,108,243,
 MOT20-05,165,A person turns around and looks back,M,573,62,215,
@@ -1215,7 +1192,6 @@ MOT20-03,187,A person vanishes from view behind the white structure,M,246,546,56
 MOT20-03,188,A person walking with a child turns back,M,260,1180,1196,
 MOT20-03,188,A person walking with a child turns back,M,260,1267,1290,
 MOT20-05,189,A person walks a few steps back,M,674,2700,2770,
-MOT20-03,190,A person walks and rests against a wall,M,69X,456,523,The bounding box ID couldn't be seen
 MOT20-05,191,A person walks backwards,M,574,2078,2120,
 MOT20-03,192,A person walks behind the white structure,M,246,546,565,
 MOT20-03,192,A person walks behind the white structure,M,246,705,725,
@@ -1664,25 +1640,13 @@ MOT20-03,206,An individual lifts her hand to indicate a direction,M,485,1310,134
 MOT20-03,206,An individual lifts her hand to indicate a direction,M,485,1449,1530,
 MOT20-03,206,An individual lifts her hand to indicate a direction,M,485,2099,2165,
 MOT20-03,207,An individual on the wheelchair goes right,M,366,1989,2048,
-MOT20-03,208,An individual places something into their mouth.,M,69X,640,696,The bounding box ID couldn't be seen
-MOT20-03,208,An individual places something into their mouth.,M,69X,842,974,The bounding box ID couldn't be seen
-MOT20-03,208,An individual places something into their mouth.,M,69X,1237,1317,The bounding box ID couldn't be seen
-MOT20-03,208,An individual places something into their mouth.,M,69X,1537,1621,The bounding box ID couldn't be seen
-MOT20-03,208,An individual places something into their mouth.,M,69X,1729,1827,The bounding box ID couldn't be seen
 MOT20-03,209,An individual proceeds into the building located to the right,M,1,1130,1138,
 MOT20-03,209,An individual proceeds into the building located to the right,M,561,2134,2139,
-MOT20-03,210,An individual removes his hand from his mouth,M,69X,697,709,The bounding box ID couldn't be seen
-MOT20-03,210,An individual removes his hand from his mouth,M,69X,975,988,The bounding box ID couldn't be seen
-MOT20-03,210,An individual removes his hand from his mouth,M,69X,1318,1334,The bounding box ID couldn't be seen
-MOT20-03,210,An individual removes his hand from his mouth,M,69X,1624,1637,The bounding box ID couldn't be seen
-MOT20-03,211,An individual retrieves an item from a bag,M,69X,412,440,The bounding box ID couldn't be seen
 MOT20-03,212,An individual sits down,M,548,1877,1960,
 MOT20-03,213,An individual takes a seat,M,548,1877,1960,
-MOT20-03,214,An individual turns around and rests against a wall,M,69X,456,523,The bounding box ID couldn't be seen
 MOT20-03,215,An individual turns back and starts walking,M,627,1718,1745,
 MOT20-03,216,An individual walking alongside a child faces the opposite direction,M,260,1180,1196,
 MOT20-03,216,An individual walking alongside a child faces the opposite direction,M,260,1267,1290,
-MOT20-03,217,An individual walks and inclines against a wall,M,69X,456,523,The bounding box ID couldn't be seen
 MOT20-03,218,"As the person walks, he looks behind him",M,139,2202,2216,
 MOT20-03,218,"As the person walks, he looks behind him",M,141,2112,2198,
 MOT20-03,218,"As the person walks, he looks behind him",M,193,96,137,

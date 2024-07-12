@@ -1762,7 +1762,7 @@
     {
         "Video": "MOT17-13",
         "Query ID": "146",
-        "Language Query": "A car intially stopped at a red signal drives to the right",
+        "Language Query": "A car initially stopped at a red signal drives to the right",
         "Type": "M",
         "Track ID": "30",
         "Start Frame": "245",
@@ -1772,7 +1772,7 @@
     {
         "Video": "MOT17-13",
         "Query ID": "146",
-        "Language Query": "A car intially stopped at a red signal drives to the right",
+        "Language Query": "A car initially stopped at a red signal drives to the right",
         "Type": "M",
         "Track ID": "76",
         "Start Frame": "113",
@@ -1842,7 +1842,7 @@
     {
         "Video": "MOT17-13",
         "Query ID": "151",
-        "Language Query": "A car intially stopped at a red signal drives off straight",
+        "Language Query": "A car initially stopped at a red signal drives off straight",
         "Type": "M",
         "Track ID": "29",
         "Start Frame": "101",
@@ -3612,7 +3612,7 @@
     {
         "Video": "MOT17-04",
         "Query ID": "44",
-        "Language Query": "A lady is looking at the Signbord of the shop",
+        "Language Query": "A lady is looking at the Signboard of the shop",
         "Type": "M",
         "Track ID": "68",
         "Start Frame": "920",
@@ -3672,7 +3672,7 @@
     {
         "Video": "MOT17-04",
         "Query ID": "50",
-        "Language Query": "A lady is standing in front of a shop with another boy before moving to another shop",
+        "Language Query": "A lady is standing in front a shop with another boy before moving to another shop",
         "Type": "M",
         "Track ID": "68",
         "Start Frame": "106",
@@ -3682,7 +3682,7 @@
     {
         "Video": "MOT17-04",
         "Query ID": "51",
-        "Language Query": "A lady came in front of a shop with another boy after visiting another shop",
+        "Language Query": "A lady came in front a shop with another boy after visiting another shop",
         "Type": "M",
         "Track ID": "68",
         "Start Frame": "738",
@@ -3862,7 +3862,7 @@
     {
         "Video": "MOT17-04",
         "Query ID": "66",
-        "Language Query": "A man wearing white T-shirt is looking at the Signbord of the shop",
+        "Language Query": "A man wearing white T-shirt is looking at the Signboard of the shop",
         "Type": "M",
         "Track ID": "69",
         "Start Frame": "897",
@@ -3872,7 +3872,7 @@
     {
         "Video": "MOT17-04",
         "Query ID": "67",
-        "Language Query": "A man is standing in front of a shop with another lady before moving to another shop",
+        "Language Query": "A man is standing in front a shop with another lady before moving to another shop",
         "Type": "M",
         "Track ID": "69",
         "Start Frame": "85",
@@ -3882,7 +3882,7 @@
     {
         "Video": "MOT17-04",
         "Query ID": "68",
-        "Language Query": "A man came in front of a shop with another lady after visiting another shop",
+        "Language Query": "A man came in front a shop with another lady after visiting another shop",
         "Type": "M",
         "Track ID": "69",
         "Start Frame": "823",
@@ -4272,7 +4272,7 @@
     {
         "Video": "MOT17-05",
         "Query ID": "103",
-        "Language Query": "A lady wearing jeans pant is going from the foothpath to main road",
+        "Language Query": "A lady wearing jeans pant is going from the footpath to main road",
         "Type": "M",
         "Track ID": "90",
         "Start Frame": "770",
@@ -4772,7 +4772,7 @@
     {
         "Video": "MOT17-05",
         "Query ID": "122",
-        "Language Query": "A white colored hair lady carrying a bag on her left shoulde",
+        "Language Query": "A white colored hair lady carrying a bag on her left shoulder",
         "Type": "O",
         "Track ID": "6",
         "Start Frame": "10",
@@ -4802,7 +4802,7 @@
     {
         "Video": "MOT17-05",
         "Query ID": "125",
-        "Language Query": "A yound girl with white T-shirt is carrying jacket on her right forearm",
+        "Language Query": "A young girl with white T-shirt is carrying jacket on her right forearm",
         "Type": "O ",
         "Track ID": "36",
         "Start Frame": "302",
@@ -5182,7 +5182,7 @@
     {
         "Video": "MOT17-09",
         "Query ID": "147",
-        "Language Query": "A manl with no intention of departing the store.",
+        "Language Query": "A man with no intention of departing the store.",
         "Type": "M",
         "Track ID": "62",
         "Start Frame": "12",
@@ -5192,7 +5192,7 @@
     {
         "Video": "MOT17-09",
         "Query ID": "147",
-        "Language Query": "A manl with no intention of departing the store.",
+        "Language Query": "A man with no intention of departing the store.",
         "Type": "M",
         "Track ID": "26",
         "Start Frame": "1",
@@ -5202,7 +5202,7 @@
     {
         "Video": "MOT17-09",
         "Query ID": "147",
-        "Language Query": "A manl with no intention of departing the store.",
+        "Language Query": "A man with no intention of departing the store.",
         "Type": "M",
         "Track ID": "30",
         "Start Frame": "1",
@@ -5212,7 +5212,7 @@
     {
         "Video": "MOT17-09",
         "Query ID": "147",
-        "Language Query": "A manl with no intention of departing the store.",
+        "Language Query": "A man with no intention of departing the store.",
         "Type": "M",
         "Track ID": "28",
         "Start Frame": "1",
@@ -5222,7 +5222,7 @@
     {
         "Video": "MOT17-09",
         "Query ID": "148",
-        "Language Query": "A old man is going left side after coming cout from Supermarket",
+        "Language Query": "A old man is going left side after coming out from Supermarket",
         "Type": "M",
         "Track ID": "3",
         "Start Frame": "470",

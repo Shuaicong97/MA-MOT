@@ -2402,7 +2402,7 @@
     {
         "Video": "MOT17-14",
         "Query ID": "",
-        "Language Query": "A bus disappers from the frame at the right side of the camera",
+        "Language Query": "A bus disappears from the frame at the right side of the camera",
         "Type": "M",
         "Track ID": "50",
         "Start Frame": "256",
@@ -4772,7 +4772,7 @@
     {
         "Video": "MOT17-03",
         "Query ID": "23.0",
-        "Language Query": "Person who is gossiping in the left side infront a shop",
+        "Language Query": "Person who is gossiping in the left side in front of a shop",
         "Type": "M",
         "Track ID": "2",
         "Start Frame": "1",
@@ -4782,7 +4782,7 @@
     {
         "Video": "MOT17-03",
         "Query ID": "23.0",
-        "Language Query": "Person who is gossiping in the left side infront a shop",
+        "Language Query": "Person who is gossiping in the left side in front of a shop",
         "Type": "M",
         "Track ID": "4",
         "Start Frame": "1",
@@ -4792,7 +4792,7 @@
     {
         "Video": "MOT17-03",
         "Query ID": "23.0",
-        "Language Query": "Person who is gossiping in the left side infront a shop",
+        "Language Query": "Person who is gossiping in the left side in front of a shop",
         "Type": "M",
         "Track ID": "5",
         "Start Frame": "1",
@@ -4802,7 +4802,7 @@
     {
         "Video": "MOT17-03",
         "Query ID": "23.0",
-        "Language Query": "Person who is gossiping in the left side infront a shop",
+        "Language Query": "Person who is gossiping in the left side in front of a shop",
         "Type": "M",
         "Track ID": "52",
         "Start Frame": "1",
@@ -4812,7 +4812,7 @@
     {
         "Video": "MOT17-03",
         "Query ID": "23.0",
-        "Language Query": "Person who is gossiping in the left side infront a shop",
+        "Language Query": "Person who is gossiping in the left side in front of a shop",
         "Type": "M",
         "Track ID": "64",
         "Start Frame": "1",
@@ -4822,7 +4822,7 @@
     {
         "Video": "MOT17-03",
         "Query ID": "23.0",
-        "Language Query": "Person who is gossiping in the left side infront a shop",
+        "Language Query": "Person who is gossiping in the left side in front of a shop",
         "Type": "M",
         "Track ID": "66",
         "Start Frame": "1",
@@ -4832,7 +4832,7 @@
     {
         "Video": "MOT17-03",
         "Query ID": "24.0",
-        "Language Query": "Person coming from a shop in the left side is gossiping infront of it",
+        "Language Query": "Person coming from a shop in the left side is gossiping in front of it",
         "Type": "M",
         "Track ID": "85",
         "Start Frame": "203",
@@ -4842,7 +4842,7 @@
     {
         "Video": "MOT17-03",
         "Query ID": "24.0",
-        "Language Query": "Person coming from a shop in the left side is gossiping infront of it",
+        "Language Query": "Person coming from a shop in the left side is gossiping in front of it",
         "Type": "M",
         "Track ID": "89",
         "Start Frame": "104",
@@ -6502,7 +6502,7 @@
     {
         "Video": "MOT17-06",
         "Query ID": "45.0",
-        "Language Query": "Person who is gossiping in the right side infront a building",
+        "Language Query": "Person who is gossiping in the right side in front of a building",
         "Type": "M",
         "Track ID": "22",
         "Start Frame": "1",
@@ -6512,7 +6512,7 @@
     {
         "Video": "MOT17-06",
         "Query ID": "45.0",
-        "Language Query": "Person who is gossiping in the right side infront a building",
+        "Language Query": "Person who is gossiping in the right side in front of a building",
         "Type": "M",
         "Track ID": "23",
         "Start Frame": "1",

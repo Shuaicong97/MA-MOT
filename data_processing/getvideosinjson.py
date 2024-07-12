@@ -3,99 +3,69 @@ import pandas as pd
 import json
 import csv
 import os
+import shutil
 
 
 # OVIS -----
 a = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/Original/Grounded Tracking Annotations - OVIS(Seenat).csv'
-b = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/Cleaned/Clean OVIS(Seenat).csv'
 b2 = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/Cleaned/OVIS(Seenat).csv'
 c = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/Original/Grounded Tracking Annotations - OVIS(Ashiq).csv'
-d = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/Cleaned/Clean OVIS(Ashiq).csv'
 d2 = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/Cleaned/OVIS(Ashiq).csv'
 e = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/Original/Grounded Tracking Annotations - OVIS-Test(Seenat).csv'
-f = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/Cleaned/Clean OVIS-Test(Seenat).csv'
 f2 = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/Cleaned/OVIS-Test(Seenat).csv'
 g = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/Original/Grounded Tracking Annotations - OVIS-Test(Ashiq).csv'
-h = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/Cleaned/Clean OVIS-Test(Ashiq).csv'
 h2 = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/Cleaned/OVIS-Test(Ashiq).csv'
 
 # MOT17 -----
 a1 = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/Original/Grounded Tracking Annotations - MOT17(Ashiq).csv'
-b1 = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/Cleaned/Clean MOT17(Ashiq).csv'
 b3 = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/Cleaned/MOT17(Ashiq).csv'
 c1 = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/Original/Grounded Tracking Annotations - MOT17(Seenat).csv'
-d1 = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/Cleaned/Clean MOT17(Seenat).csv'
 d3 = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/Cleaned/MOT17(Seenat).csv'
 e1 = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/Original/Grounded Tracking Annotations - MOT17-Test(Ashiq).csv'
-f1 = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/Cleaned/Clean MOT17-Test(Ashiq).csv'
 f3 = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/Cleaned/MOT17-Test(Ashiq).csv'
 g1 = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/Original/Grounded Tracking Annotations - MOT17-Test(Seenat).csv'
-h1 = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/Cleaned/Clean MOT17-Test(Seenat).csv'
 h3 = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/Cleaned/MOT17-Test(Seenat).csv'
 
 # MOT20 -----
 m1 = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/Original/Grounded Tracking Annotations - MOT20(Ashiq).csv'
-m2 = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/Cleaned/Clean MOT20(Ashiq).csv'
 m3 = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/Cleaned/MOT20(Ashiq).csv'
 n1 = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/Original/Grounded Tracking Annotations - MOT20(Seenat).csv'
-n2 = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/Cleaned/Clean MOT20(Seenat).csv'
 n3 = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/Cleaned/MOT20(Seenat).csv'
 
 
-def reformat_csv_file(file_path, output_file_path):
-    df = pd.read_csv(file_path)
+# Remove all invalid entries
+def clean_csv_file(data_type, input_file, output_file):
+    df = pd.read_csv(input_file)
     # remove all columns where the name is blank
     df = df.loc[:, ~df.columns.str.contains('^Unnamed')]
+    if 'Language Query' in df.columns:
+        df['Language Query'] = df['Language Query'].str.strip()
+    if 'IDs' in df.columns:
+        df = df[~df['IDs'].astype(str).str.contains('69X')]
     # reformat value type to int
     int_columns = ['ID mark frame', 'QID', 'IDs', 'Start', 'End', 'Query ID', 'Start Frame', 'End Frame']
     for column in int_columns:
         if column in df.columns:
             df[column] = df[column].astype(pd.Int64Dtype())
-    df['Language Query'] = df['Language Query'].str.strip()
+    if data_type == 'mot17':
+        df = df[df['Track ID'].notna() & df['Start Frame'].notna() & df['End Frame'].notna()]
+    elif data_type in ['ovis', 'mot20']:
+        df = df[df['IDs'].notna() & df['Start'].notna() & df['End'].notna()]
 
-    df.to_csv(output_file_path, index=False)
+    df.to_csv(output_file, index=False)
 
 
 # only need to be done once at the first
-# reformat_csv_file(a, b)
-# reformat_csv_file(c, d)
-# reformat_csv_file(e, f)
-# reformat_csv_file(g, h)
-# reformat_csv_file(a1, b1)
-# reformat_csv_file(c1, d1)
-# reformat_csv_file(e1, f1)
-# reformat_csv_file(g1, h1)
-reformat_csv_file(m1, m2)
-reformat_csv_file(n1, n2)
-
-
-def remove_invalid_rows(data_type, input_file, output_file):
-    with open(input_file, mode='r', newline='', encoding='utf-8') as infile, \
-            open(output_file, mode='w', newline='', encoding='utf-8') as outfile:
-        reader = csv.DictReader(infile)
-        fieldnames = reader.fieldnames
-        writer = csv.DictWriter(outfile, fieldnames=fieldnames)
-
-        writer.writeheader()
-        for row in reader:
-            if data_type == 'mot17' and row['Track ID'] and row['Start Frame'] and row['End Frame']:
-                writer.writerow(row)
-            if data_type == 'ovis' or data_type == 'mot20' and row['IDs'] and row['Start'] and row['End']:
-                writer.writerow(row)
-
-    # print(f"Filtered data has been saved to {output_file}")
-
-
-# remove_invalid_rows('ovis', b, b2)
-# remove_invalid_rows('ovis', d, d2)
-# remove_invalid_rows('ovis', f, f2)
-# remove_invalid_rows('ovis', h, h2)
-# remove_invalid_rows('mot17', b1, b3)
-# remove_invalid_rows('mot17', d1, d3)
-# remove_invalid_rows('mot17', f1, f3)
-# remove_invalid_rows('mot17', h1, h3)
-remove_invalid_rows('mot20', m2, m3)
-remove_invalid_rows('mot20', n2, n3)
+clean_csv_file('ovis', a, b2)
+clean_csv_file('ovis', c, d2)
+clean_csv_file('ovis', e, f2)
+clean_csv_file('ovis', g, h2)
+clean_csv_file('mot17', a1, b3)
+clean_csv_file('mot17', c1, d3)
+clean_csv_file('mot17', e1, f3)
+clean_csv_file('mot17', g1, h3)
+clean_csv_file('mot20', m1, m3)
+clean_csv_file('mot20', n1, n3)
 
 
 def merge_csv_files(a_file, b_file, output_file):
@@ -110,9 +80,9 @@ ovis_valid_csv = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/
 mot17_training_csv = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT17-training.csv'
 mot17_valid_csv = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT17-valid.csv'
 
-# merge_csv_files(b2, d2, ovis_training_csv)
-# merge_csv_files(d3, b3, mot17_training_csv)
-# merge_csv_files(h3, f3, mot17_valid_csv)
+merge_csv_files(b2, d2, ovis_training_csv)
+merge_csv_files(d3, b3, mot17_training_csv)
+merge_csv_files(h3, f3, mot17_valid_csv)
 
 
 def merge_ovis_valid_csv_files():
@@ -129,8 +99,20 @@ def merge_ovis_valid_csv_files():
     merged_df.to_csv(ovis_valid_csv, index=False)
 
 
-# merge_ovis_valid_csv_files()
+merge_ovis_valid_csv_files()
 
+
+def copy_and_rename_file(source_file, destination_file):
+    try:
+        shutil.copy2(source_file, destination_file)
+        print(f"File has been copied from {source_file} to {destination_file}")
+    except Exception as e:
+        print(f"An error occurred: {e}")
+
+mot20_training_csv = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT20-training.csv'
+mot20_valid_csv = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT20-valid.csv'
+copy_and_rename_file(m3, mot20_training_csv)
+copy_and_rename_file(n3, mot20_valid_csv)
 
 def csv_to_json(csv_file_path, json_file_path):
     csv_data = []
@@ -147,16 +129,14 @@ ovis_training_json = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/O
 ovis_valid_json = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/OVIS-valid.json'
 mot17_training_json = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT17-training.json'
 mot17_valid_json = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT17-valid.json'
-
-# csv_to_json(ovis_training_csv, ovis_training_json)
-# csv_to_json(ovis_valid_csv, ovis_valid_json)
-# csv_to_json(mot17_training_csv, mot17_training_json)
-# csv_to_json(mot17_valid_csv, mot17_valid_json)
-
 mot20_training_json = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT20-training.json'
 mot20_valid_json = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT20-valid.json'
-csv_to_json(m3, mot20_training_json)
-csv_to_json(n3, mot20_valid_json)
+csv_to_json(ovis_training_csv, ovis_training_json)
+csv_to_json(ovis_valid_csv, ovis_valid_json)
+csv_to_json(mot17_training_csv, mot17_training_json)
+csv_to_json(mot17_valid_csv, mot17_valid_json)
+csv_to_json(mot20_training_csv, mot20_training_json)
+csv_to_json(mot20_valid_csv, mot20_valid_json)
 
 
 def get_videos(file_path):
