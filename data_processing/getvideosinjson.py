@@ -33,6 +33,14 @@ g1 = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/Original/Gro
 h1 = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/Cleaned/Clean MOT17-Test(Seenat).csv'
 h3 = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/Cleaned/MOT17-Test(Seenat).csv'
 
+# MOT20 -----
+m1 = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/Original/Grounded Tracking Annotations - MOT20(Ashiq).csv'
+m2 = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/Cleaned/Clean MOT20(Ashiq).csv'
+m3 = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/Cleaned/MOT20(Ashiq).csv'
+n1 = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/Original/Grounded Tracking Annotations - MOT20(Seenat).csv'
+n2 = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/Cleaned/Clean MOT20(Seenat).csv'
+n3 = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/Cleaned/MOT20(Seenat).csv'
+
 
 def reformat_csv_file(file_path, output_file_path):
     df = pd.read_csv(file_path)
@@ -49,14 +57,16 @@ def reformat_csv_file(file_path, output_file_path):
 
 
 # only need to be done once at the first
-reformat_csv_file(a, b)
-reformat_csv_file(c, d)
-reformat_csv_file(e, f)
-reformat_csv_file(g, h)
-reformat_csv_file(a1, b1)
-reformat_csv_file(c1, d1)
-reformat_csv_file(e1, f1)
-reformat_csv_file(g1, h1)
+# reformat_csv_file(a, b)
+# reformat_csv_file(c, d)
+# reformat_csv_file(e, f)
+# reformat_csv_file(g, h)
+# reformat_csv_file(a1, b1)
+# reformat_csv_file(c1, d1)
+# reformat_csv_file(e1, f1)
+# reformat_csv_file(g1, h1)
+reformat_csv_file(m1, m2)
+reformat_csv_file(n1, n2)
 
 
 def remove_invalid_rows(data_type, input_file, output_file):
@@ -70,20 +80,22 @@ def remove_invalid_rows(data_type, input_file, output_file):
         for row in reader:
             if data_type == 'mot17' and row['Track ID'] and row['Start Frame'] and row['End Frame']:
                 writer.writerow(row)
-            if data_type == 'ovis' and row['IDs'] and row['Start'] and row['End']:
+            if data_type == 'ovis' or data_type == 'mot20' and row['IDs'] and row['Start'] and row['End']:
                 writer.writerow(row)
 
     # print(f"Filtered data has been saved to {output_file}")
 
 
-remove_invalid_rows('ovis', b, b2)
-remove_invalid_rows('ovis', d, d2)
-remove_invalid_rows('ovis', f, f2)
-remove_invalid_rows('ovis', h, h2)
-remove_invalid_rows('mot17', b1, b3)
-remove_invalid_rows('mot17', d1, d3)
-remove_invalid_rows('mot17', f1, f3)
-remove_invalid_rows('mot17', h1, h3)
+# remove_invalid_rows('ovis', b, b2)
+# remove_invalid_rows('ovis', d, d2)
+# remove_invalid_rows('ovis', f, f2)
+# remove_invalid_rows('ovis', h, h2)
+# remove_invalid_rows('mot17', b1, b3)
+# remove_invalid_rows('mot17', d1, d3)
+# remove_invalid_rows('mot17', f1, f3)
+# remove_invalid_rows('mot17', h1, h3)
+remove_invalid_rows('mot20', m2, m3)
+remove_invalid_rows('mot20', n2, n3)
 
 
 def merge_csv_files(a_file, b_file, output_file):
@@ -98,9 +110,9 @@ ovis_valid_csv = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/
 mot17_training_csv = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT17-training.csv'
 mot17_valid_csv = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT17-valid.csv'
 
-merge_csv_files(b2, d2, ovis_training_csv)
-merge_csv_files(d3, b3, mot17_training_csv)
-merge_csv_files(h3, f3, mot17_valid_csv)
+# merge_csv_files(b2, d2, ovis_training_csv)
+# merge_csv_files(d3, b3, mot17_training_csv)
+# merge_csv_files(h3, f3, mot17_valid_csv)
 
 
 def merge_ovis_valid_csv_files():
@@ -117,7 +129,7 @@ def merge_ovis_valid_csv_files():
     merged_df.to_csv(ovis_valid_csv, index=False)
 
 
-merge_ovis_valid_csv_files()
+# merge_ovis_valid_csv_files()
 
 
 def csv_to_json(csv_file_path, json_file_path):
@@ -136,10 +148,15 @@ ovis_valid_json = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours
 mot17_training_json = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT17-training.json'
 mot17_valid_json = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT17-valid.json'
 
-csv_to_json(ovis_training_csv, ovis_training_json)
-csv_to_json(ovis_valid_csv, ovis_valid_json)
-csv_to_json(mot17_training_csv, mot17_training_json)
-csv_to_json(mot17_valid_csv, mot17_valid_json)
+# csv_to_json(ovis_training_csv, ovis_training_json)
+# csv_to_json(ovis_valid_csv, ovis_valid_json)
+# csv_to_json(mot17_training_csv, mot17_training_json)
+# csv_to_json(mot17_valid_csv, mot17_valid_json)
+
+mot20_training_json = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT20-training.json'
+mot20_valid_json = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT20-valid.json'
+csv_to_json(m3, mot20_training_json)
+csv_to_json(n3, mot20_valid_json)
 
 
 def get_videos(file_path):
@@ -164,4 +181,5 @@ print(f"All ovis train videos ({len(get_videos(ovis_training_json))}): {get_vide
 print(f"All ovis valid videos ({len(get_videos(ovis_valid_json))}): {get_videos(ovis_valid_json)}")
 print(f"All mot17 train videos ({len(get_videos(mot17_training_json))}): {get_videos(mot17_training_json)}")
 print(f"All mot17 valid videos ({len(get_videos(mot17_valid_json))}): {get_videos(mot17_valid_json)}")
-
+print(f"All mot20 train videos ({len(get_videos(mot20_training_json))}): {get_videos(mot20_training_json)}")
+print(f"All mot20 valid videos ({len(get_videos(mot20_valid_json))}): {get_videos(mot20_valid_json)}")

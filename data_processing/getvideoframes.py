@@ -67,9 +67,9 @@ def generate_video_frames_dict(video_list, video_type):
     print('end')
 
 
-generate_video_frames_dict(train_list, 'train')
+# generate_video_frames_dict(train_list, 'train')
 print(f'train_frames_dict ({len(train_frames_dict)}): {train_frames_dict}')
-generate_video_frames_dict(valid_list, 'valid')
+# generate_video_frames_dict(valid_list, 'valid')
 print(f'valid_frames_dict ({len(valid_frames_dict)}): {valid_frames_dict}')
 print(f'not_found_in_train_dict ({len(not_found_in_train_dict)}): {not_found_in_train_dict}')
 
@@ -77,21 +77,21 @@ train_frames_json_path = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/da
 valid_frames_json_path = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/Information/valid_frames_length.json'
 
 
-with open(train_frames_json_path, 'w') as json_file:
-    json.dump(train_frames_dict, json_file, indent=4)
-print(f"Data has been written to {train_frames_json_path}")
-
-with open(valid_frames_json_path, 'w') as json_file:
-    json.dump(valid_frames_dict, json_file, indent=4)
-print(f"Data has been written to {valid_frames_json_path}")
-
-with open(train_frames_json_path, 'r', encoding='utf-8') as file:
-    meta_data = json.load(file)
-    keys_count = len(meta_data.keys())
-print(f"The number of keys in {train_frames_json_path}: {keys_count}")
-
-with open(valid_frames_json_path, 'r', encoding='utf-8') as file:
-    meta_data = json.load(file)
-    keys_count = len(meta_data.keys())
-print(f"The number of keys in {valid_frames_json_path}: {keys_count}")
+# with open(train_frames_json_path, 'w') as json_file:
+#     json.dump(train_frames_dict, json_file, indent=4)
+# print(f"Data has been written to {train_frames_json_path}")
+#
+# with open(valid_frames_json_path, 'w') as json_file:
+#     json.dump(valid_frames_dict, json_file, indent=4)
+# print(f"Data has been written to {valid_frames_json_path}")
+#
+# with open(train_frames_json_path, 'r', encoding='utf-8') as file:
+#     meta_data = json.load(file)
+#     keys_count = len(meta_data.keys())
+# print(f"The number of keys in {train_frames_json_path}: {keys_count}")
+#
+# with open(valid_frames_json_path, 'r', encoding='utf-8') as file:
+#     meta_data = json.load(file)
+#     keys_count = len(meta_data.keys())
+# print(f"The number of keys in {valid_frames_json_path}: {keys_count}")
 

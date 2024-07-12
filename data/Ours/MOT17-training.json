@@ -3672,7 +3672,7 @@
     {
         "Video": "MOT17-04",
         "Query ID": "50",
-        "Language Query": "A lady is standing in fornt a shop with another boy before moving to another shop",
+        "Language Query": "A lady is standing in front of a shop with another boy before moving to another shop",
         "Type": "M",
         "Track ID": "68",
         "Start Frame": "106",
@@ -3682,7 +3682,7 @@
     {
         "Video": "MOT17-04",
         "Query ID": "51",
-        "Language Query": "A lady came in fornt a shop with another boy after visiting another shop",
+        "Language Query": "A lady came in front of a shop with another boy after visiting another shop",
         "Type": "M",
         "Track ID": "68",
         "Start Frame": "738",
@@ -3872,7 +3872,7 @@
     {
         "Video": "MOT17-04",
         "Query ID": "67",
-        "Language Query": "A man is standing in fornt a shop with another lady before moving to another shop",
+        "Language Query": "A man is standing in front of a shop with another lady before moving to another shop",
         "Type": "M",
         "Track ID": "69",
         "Start Frame": "85",
@@ -3882,7 +3882,7 @@
     {
         "Video": "MOT17-04",
         "Query ID": "68",
-        "Language Query": "A man came in fornt a shop with another lady after visiting another shop",
+        "Language Query": "A man came in front of a shop with another lady after visiting another shop",
         "Type": "M",
         "Track ID": "69",
         "Start Frame": "823",
@@ -3912,7 +3912,7 @@
     {
         "Video": "MOT17-04",
         "Query ID": "71",
-        "Language Query": "A person coming from the roadside is stading briefly in the main road",
+        "Language Query": "A person coming from the roadside is standing briefly in the main road",
         "Type": "M",
         "Track ID": "3",
         "Start Frame": "442",

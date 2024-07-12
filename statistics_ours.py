@@ -29,10 +29,18 @@ def generate_all_jsons():
 
 
 # generate_all_jsons()
-paths = ['data/generated_by_code/ours_json/gta_mot17_ashiq.json',
-         'data/generated_by_code/ours_json/gta_mot17_seenat.json',
-         'data/generated_by_code/ours_json/gta_mot17_test_ashiq.json',
-         'data/generated_by_code/ours_json/gta_mot17_test_seenat.json']
+# paths = ['data/generated_by_code/ours_json/gta_mot17_ashiq.json',
+#          'data/generated_by_code/ours_json/gta_mot17_seenat.json',
+#          'data/generated_by_code/ours_json/gta_mot17_test_ashiq.json',
+#          'data/generated_by_code/ours_json/gta_mot17_test_seenat.json']
+
+paths = ['data/Ours/MOT17-training.json',
+         'data/Ours/MOT17-valid.json',
+         'data/Ours/OVIS-training.json',
+         'data/Ours/OVIS-valid.json']
+
+paths_mot17 = ['data/Ours/MOT17-training.json', 'data/Ours/MOT17-valid.json']
+paths_ovis = ['data/Ours/OVIS-training.json', 'data/Ours/OVIS-valid.json']
 
 
 def get_all_queries(file_paths):
@@ -46,10 +54,14 @@ def get_all_queries(file_paths):
 
 
 unique_queries = get_all_queries(paths)
-print(f'There are in total {len(unique_queries)} different kinds of queries.')  # 634
+unique_queries_mot17 = get_all_queries(paths_mot17)
+unique_queries_ovis = get_all_queries(paths_ovis)
+print(f'There are in total {len(unique_queries)} different kinds of queries.')  # 3397
+print(f'There are in total {len(unique_queries_mot17)} different kinds of queries in mot17.')  # 634
+print(f'There are in total {len(unique_queries_ovis)} different kinds of queries in ovis.')  # 2768
 
 
-def get_verb_and_frequency_from_sentences(sentences):
+def get_verb_and_frequency_from_sentences(sentences, output_file_path):
     # take a long time to finish computing
     verbs_list = []
 
@@ -73,14 +85,14 @@ def get_verb_and_frequency_from_sentences(sentences):
         print(f'{item}: {frequency}')
         data_dict[item] = frequency
 
-    output_file_path = 'data/generated_by_code/verbs_json/verbs_ours.json'
-
     with open(output_file_path, 'w') as f:
         json.dump(data_dict, f, indent=4)
 
     print("Data saved to:", output_file_path)
 
 
-get_verb_and_frequency_from_sentences(unique_queries)
+get_verb_and_frequency_from_sentences(unique_queries, 'data/generated_by_code/verbs_json/verbs_mot17_ovis.json')
+get_verb_and_frequency_from_sentences(unique_queries_mot17, 'data/generated_by_code/verbs_json/verbs_mot17.json')
+get_verb_and_frequency_from_sentences(unique_queries_ovis, 'data/generated_by_code/verbs_json/verbs_ovis.json')
 
 
