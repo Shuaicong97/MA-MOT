@@ -2,10 +2,10 @@ import json
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 
-# TODO: need to add MOT20 later
-verbs_mot17_ovis = '../data/generated_by_code/verbs_json/verbs_mot17_ovis.json'
+verbs_ours_all = '../data/generated_by_code/verbs_json/verbs_ours_all.json'
 verbs_mot17 = '../data/generated_by_code/verbs_json/verbs_mot17.json'
 verbs_ovis = '../data/generated_by_code/verbs_json/verbs_ovis.json'
+verbs_mot20 = '../data/generated_by_code/verbs_json/verbs_mot20.json'
 
 
 def draw_wordcloud(input_path, output_path):
@@ -20,11 +20,11 @@ def draw_wordcloud(input_path, output_path):
     plt.imshow(wordcloud, interpolation='bilinear')
     plt.axis('off')
 
-    # output_path = '../data/Ours/Visualization/wordcloud-mot17-ovis.png'
     plt.savefig(output_path, format='png', dpi=300)
     # plt.show()
 
 
-draw_wordcloud(verbs_mot17_ovis, '../data/Ours/Visualization/wordcloud-mot17-ovis.png')
+draw_wordcloud(verbs_ours_all, '../data/Ours/Visualization/wordcloud-ours-all.png')
 draw_wordcloud(verbs_mot17, '../data/Ours/Visualization/wordcloud-mot17.png')
 draw_wordcloud(verbs_ovis, '../data/Ours/Visualization/wordcloud-ovis.png')
+draw_wordcloud(verbs_mot20, '../data/Ours/Visualization/wordcloud-mot20.png')

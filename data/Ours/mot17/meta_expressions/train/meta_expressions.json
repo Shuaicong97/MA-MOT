@@ -1373,7 +1373,7 @@
                     ]
                 },
                 "4": {
-                    "exp": "A lady is looking at the Signbord of the shop",
+                    "exp": "A lady is looking at the Signboard of the shop",
                     "obj": [
                         {
                             "obj_id": "68",
@@ -1457,7 +1457,7 @@
                     ]
                 },
                 "10": {
-                    "exp": "A lady is standing in fornt a shop with another boy before moving to another shop",
+                    "exp": "A lady is standing in front a shop with another boy before moving to another shop",
                     "obj": [
                         {
                             "obj_id": "68",
@@ -1471,7 +1471,7 @@
                     ]
                 },
                 "11": {
-                    "exp": "A lady came in fornt a shop with another boy after visiting another shop",
+                    "exp": "A lady came in front a shop with another boy after visiting another shop",
                     "obj": [
                         {
                             "obj_id": "68",
@@ -1708,7 +1708,7 @@
                     ]
                 },
                 "26": {
-                    "exp": "A man wearing white T-shirt is looking at the Signbord of the shop",
+                    "exp": "A man wearing white T-shirt is looking at the Signboard of the shop",
                     "obj": [
                         {
                             "obj_id": "69",
@@ -1722,7 +1722,7 @@
                     ]
                 },
                 "27": {
-                    "exp": "A man is standing in fornt a shop with another lady before moving to another shop",
+                    "exp": "A man is standing in front a shop with another lady before moving to another shop",
                     "obj": [
                         {
                             "obj_id": "69",
@@ -1736,7 +1736,7 @@
                     ]
                 },
                 "28": {
-                    "exp": "A man came in fornt a shop with another lady after visiting another shop",
+                    "exp": "A man came in front a shop with another lady after visiting another shop",
                     "obj": [
                         {
                             "obj_id": "69",
@@ -1778,7 +1778,7 @@
                     ]
                 },
                 "31": {
-                    "exp": "A person coming from the roadside is stading briefly in the main road",
+                    "exp": "A person coming from the roadside is standing briefly in the main road",
                     "obj": [
                         {
                             "obj_id": "3",
@@ -4947,7 +4947,7 @@
                     ]
                 },
                 "19": {
-                    "exp": "A lady wearing jeans pant is going from the foothpath to main road",
+                    "exp": "A lady wearing jeans pant is going from the footpath to main road",
                     "obj": [
                         {
                             "obj_id": "90",
@@ -5492,7 +5492,7 @@
                     ]
                 },
                 "38": {
-                    "exp": "A white colored hair lady carrying a bag on her left shoulde",
+                    "exp": "A white colored hair lady carrying a bag on her left shoulder",
                     "obj": [
                         {
                             "obj_id": "6",
@@ -5534,7 +5534,7 @@
                     ]
                 },
                 "41": {
-                    "exp": "A yound girl with white T-shirt is carrying jacket on her right forearm",
+                    "exp": "A young girl with white T-shirt is carrying jacket on her right forearm",
                     "obj": [
                         {
                             "obj_id": "36",
@@ -6794,7 +6794,7 @@
                     ]
                 },
                 "18": {
-                    "exp": "A manl with no intention of departing the store.",
+                    "exp": "A man with no intention of departing the store.",
                     "obj": [
                         {
                             "obj_id": "62",
@@ -6835,7 +6835,7 @@
                     ]
                 },
                 "19": {
-                    "exp": "A old man is going left side after coming cout from Supermarket",
+                    "exp": "A old man is going left side after coming out from Supermarket",
                     "obj": [
                         {
                             "obj_id": "3",
@@ -11954,7 +11954,7 @@
                     ]
                 },
                 "3": {
-                    "exp": "A car intially stopped at a red signal drives to the right",
+                    "exp": "A car initially stopped at a red signal drives to the right",
                     "obj": [
                         {
                             "obj_id": "30",
@@ -12055,7 +12055,7 @@
                     ]
                 },
                 "8": {
-                    "exp": "A car intially stopped at a red signal drives off straight",
+                    "exp": "A car initially stopped at a red signal drives off straight",
                     "obj": [
                         {
                             "obj_id": "29",

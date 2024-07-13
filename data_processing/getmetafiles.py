@@ -3,8 +3,6 @@ import json
 import os
 import shutil
 
-video_ids_map = {}
-
 '''
 meta_expressions.json
     {
@@ -94,16 +92,7 @@ def generate_yvos_meta_expressions(input_path, output_path, isTrain):
             if isTrain:
                 result['videos'][video_name]['expressions'][qid_found]['obj'] = []
 
-
         if isTrain:
-            # for obj_id in object_ids:
-            #     result['videos'][video_name]['expressions'][existing_index].append({
-            #         'exp': expression,
-            #         'obj_id': obj_id.strip()
-            #     })
-            # if video_name not in video_ids_map:
-            #     video_ids_map[video_name] = set()
-            # video_ids_map[video_name].add(oid)
             for obj_id in object_ids:
                 obj_id = obj_id.strip()
 
@@ -120,9 +109,6 @@ def generate_yvos_meta_expressions(input_path, output_path, isTrain):
                     }
                     result['videos'][video_name]['expressions'][qid_found]['obj'].append(new_obj)
         else:
-            # result['videos'][video_name]['expressions'][existing_index] = {
-            #     'exp': expression
-            # }
             found = False
             for existing_expression in result['videos'][video_name]['expressions'].values():
                 if isinstance(existing_expression, dict) and existing_expression['exp'] == expression:
@@ -220,10 +206,6 @@ with open(meta_valid_file, 'r', encoding='utf-8') as file:
     meta_data = json.load(file)
 valid_video_ids = meta_data['videos'].keys()  # 137 videos
 print('length of ovis valid videos:', len(valid_video_ids))
-
-for video_name in video_ids_map:
-    video_ids_map[video_name] = sorted(video_ids_map[video_name], key=int)
-print(f'video_ids_map: {video_ids_map}')
 
 if not os.path.exists(train_jpeg):
     os.makedirs(train_jpeg)

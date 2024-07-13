@@ -4,8 +4,6 @@ import shutil
 
 
 def rename_jpeg_files(main_dir):
-    # main_dir = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/OVIS/ovis/valid/JPEGImages'
-
     for subdir in os.listdir(main_dir):
         subdir_path = os.path.join(main_dir, subdir)
         if os.path.isdir(subdir_path):
@@ -54,8 +52,10 @@ def compress_folders(main_folder, output_folder, batch_size=20):
 # main_folder = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/OVIS/ovis/train/JPEGImages'
 # output_folder = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/OVIS/ovis/train'
 # compress_folders(main_folder, output_folder)
-train_dir = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/ovis/train/JPEGImages'
-valid_dir = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/ovis/valid/JPEGImages'
-rename_jpeg_files(train_dir)
-rename_jpeg_files(valid_dir)
 
+images_folder = [
+    '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/ovis/train/JPEGImages',
+    '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/ovis/valid/JPEGImages'
+]
+for folder in images_folder:
+    rename_jpeg_files(folder)

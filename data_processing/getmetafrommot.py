@@ -3,21 +3,12 @@ import json
 import os
 import re
 
-def csv_to_json(csv_file_path, json_file_path):
-    csv_data = []
-    with open(csv_file_path, 'r') as csv_file:
-        csv_reader = csv.DictReader(csv_file)
-        for row in csv_reader:
-            csv_data.append(row)
+length_dict_mot17 = {'MOT17-01': '00450', 'MOT17-02': '00600', 'MOT17-03': '01500', 'MOT17-04': '01050',
+                     'MOT17-05': '00837', 'MOT17-06': '01194', 'MOT17-07': '00500', 'MOT17-08': '00625',
+                     'MOT17-09': '00525', 'MOT17-10': '00654', 'MOT17-11': '00900', 'MOT17-12': '00900',
+                     'MOT17-13': '00750', 'MOT17-14': '00750'}
 
-    with open(json_file_path, 'w') as json_file:
-        json.dump(csv_data, json_file, indent=2)
-
-
-length_dict = {'MOT17-01': '00450', 'MOT17-02': '00600', 'MOT17-03': '01500', 'MOT17-04': '01050',
-               'MOT17-05': '00837', 'MOT17-06': '01194', 'MOT17-07': '00500', 'MOT17-08': '00625',
-               'MOT17-09': '00525', 'MOT17-10': '00654', 'MOT17-11': '00900', 'MOT17-12': '00900',
-               'MOT17-13': '00750', 'MOT17-14': '00750'}
+length_dict_mot20 = {'MOT20-01': '00429', 'MOT20-02': '02782', 'MOT20-03': '02405', 'MOT20-05': '03315'}
 
 '''
 meta_expressions.json
@@ -55,9 +46,16 @@ def clean_expressions(expressions):
     return {k: v for k, v in expressions.items() if v not in [[], {}]}
 
 
-# isTrain = false if it's for valid json.
-def generate_yvos_meta_expressions(input_path, output_path, isTrain):
+def add_frame_info(length_dict, video_name, frames):
+    for key, value in length_dict.items():
+        if key == video_name:
+            for i in range(1, int(value) + 1):
+                formatted_number = f"{i:05d}"
+                frames.append(formatted_number)
 
+
+# isTrain = false if it's for valid json.
+def generate_yvos_meta_expressions(dataset, input_path, output_path, is_train):
     with open(input_path, 'r') as f:
         data = json.load(f)
 
@@ -71,9 +69,14 @@ def generate_yvos_meta_expressions(input_path, output_path, isTrain):
     for entry in data:
         video_name = entry['Video']
         expression = entry['Language Query']
-        oid = entry['Track ID']
-        start = entry['Start Frame']
-        end = entry['End Frame']
+        if dataset == 'mot17':
+            oid = entry['Track ID']
+            start = entry['Start Frame']
+            end = entry['End Frame']
+        if dataset == 'mot20':
+            oid = entry['IDs']
+            start = entry['Start']
+            end = entry['End']
 
         key = (video_name, expression, oid)
 
@@ -108,17 +111,10 @@ def generate_yvos_meta_expressions(input_path, output_path, isTrain):
             result['videos'][video_name]['expressions'][qid_found] = {
                 'exp': expression
             }
-            if isTrain:
+            if is_train:
                 result['videos'][video_name]['expressions'][qid_found]['obj'] = []
 
-        if isTrain:
-            # if qid_found is None:
-            #     qid_found = len(result['videos'][video_name]['expressions']) + 1
-            #     result['videos'][video_name]['expressions'][qid_found] = {
-            #         'exp': expression,
-            #         'obj': []
-            #     }
-
+        if is_train:
             for obj_id in object_ids:
                 obj_id = obj_id.strip()
 
@@ -137,17 +133,6 @@ def generate_yvos_meta_expressions(input_path, output_path, isTrain):
         else:
             found = False
             for existing_expression in result['videos'][video_name]['expressions'].values():
-                # if isinstance(existing_expression, list):
-                #     for exp in existing_expression:
-                #         if exp['exp'] == expression:
-                #             found = True
-                #             break
-                # elif isinstance(existing_expression, dict):
-                #     if existing_expression['exp'] == expression:
-                #         found = True
-                #         break
-                # if found:
-                #     break
                 if isinstance(existing_expression, dict) and existing_expression['exp'] == expression:
                     found = True
                     break
@@ -156,6 +141,7 @@ def generate_yvos_meta_expressions(input_path, output_path, isTrain):
                 result['videos'][video_name]['expressions'][qid_found] = {
                     'exp': expression
                 }
+
     for video_name, video_data in result['videos'].items():
         video_data['expressions'] = clean_expressions(video_data['expressions'])
 
@@ -163,12 +149,21 @@ def generate_yvos_meta_expressions(input_path, output_path, isTrain):
     for entry in result['videos']:
         video_name = entry
         frames = result['videos'][video_name]['frames']
-        for key, value in length_dict.items():
-            if key == video_name:
-                print(value)
-                for i in range(1, int(value)+1):
-                    formatted_number = f"{i:05d}"
-                    frames.append(formatted_number)
+        if dataset == 'mot17':
+            add_frame_info(length_dict_mot17, video_name, frames)
+            # for key, value in length_dict_mot17.items():
+            #     if key == video_name:
+            #         for i in range(1, int(value)+1):
+            #             formatted_number = f"{i:05d}"
+            #             frames.append(formatted_number)
+        if dataset == 'mot20':
+            add_frame_info(length_dict_mot20, video_name, frames)
+
+            # for key, value in length_dict_mot20.items():
+            #     if key == video_name:
+            #         for i in range(1, int(value)+1):
+            #             formatted_number = f"{i:05d}"
+            #             frames.append(formatted_number)
 
     print('result: ', result)
     with open(output_path, 'w') as json_file:
@@ -194,11 +189,18 @@ if not os.path.exists(directory):
 else:
     print(f"Directory {directory} already exists.")
 
-generate_yvos_meta_expressions(mot17_training_json, meta_expressions_train, True)
-generate_yvos_meta_expressions(mot17_valid_json, meta_expressions_valid, False)
+mot20_training_json = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT20-training.json'
+meta_expressions_train_mot20 = 'data/Ours/mot20/meta_expressions/train/meta_expressions.json'
+mot20_valid_json = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT20-valid.json'
+meta_expressions_valid_mot20 = 'data/Ours/mot20/meta_expressions/valid/meta_expressions.json'
+
+generate_yvos_meta_expressions('mot17', mot17_training_json, meta_expressions_train, True)
+generate_yvos_meta_expressions('mot17', mot17_valid_json, meta_expressions_valid, False)
+generate_yvos_meta_expressions('mot20', mot20_training_json, meta_expressions_train_mot20, True)
+generate_yvos_meta_expressions('mot20', mot20_valid_json, meta_expressions_valid_mot20, False)
 
 
-def generate_train_meta_json(input_path, output_path):
+def generate_train_meta_json(dataset, input_path, output_path):
     with open(input_path, 'r') as f:
         data = json.load(f)
 
@@ -211,11 +213,10 @@ def generate_train_meta_json(input_path, output_path):
 
     for entry in data:
         video_name = entry['Video']
-        qid = entry['Query ID']
-        expression = entry['Language Query']
-        oid = entry['Track ID']  # = object_id. May occur "9,10" two IDs' situation.
-        start = entry['Start Frame']
-        end = entry['End Frame']
+        if dataset == 'mot17':
+            oid = entry['Track ID']  # = object_id. May occur "9,10" two IDs' situation.
+        if dataset == 'mot20':
+            oid = entry['IDs']
 
         if video_name not in result['videos']:
             result['videos'][video_name] = {'objects': {}}
@@ -228,12 +229,11 @@ def generate_train_meta_json(input_path, output_path):
                 result['videos'][video_name]['objects'][obj_id] = {'category': 'person', 'frames': []}
                 # add frames information
                 frames = result['videos'][video_name]['objects'][obj_id]['frames']
-                for key, value in length_dict.items():
-                    if key == video_name:
-                        print(value)
-                        for i in range(1, int(value) + 1):
-                            formatted_number = f"{i:05d}"
-                            frames.append(formatted_number)
+                if dataset == 'mot17':
+                    add_frame_info(length_dict_mot17, video_name, frames)
+
+                if dataset == 'mot20':
+                    add_frame_info(length_dict_mot20, video_name, frames)
 
     print('meta result: ', type(result))
     with open(output_path, 'w') as json_file:
@@ -241,6 +241,7 @@ def generate_train_meta_json(input_path, output_path):
 
 
 meta_path = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/mot17/train/meta.json'
+meta_path_mot20 = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/mot20/train/meta.json'
 directory = os.path.dirname(meta_path)
 if not os.path.exists(directory):
     os.makedirs(directory)
@@ -248,17 +249,8 @@ if not os.path.exists(directory):
 else:
     print(f"Directory {directory} already exists.")
 
-generate_train_meta_json(mot17_training_json, meta_path)
-
-
-def calculate_expression_sum(video_data):
-    expression_sum = 0
-    for video_id, video_info in video_data.items():
-        for expression_id, expression_info in video_info.get('expressions', {}).items():
-            expression_sum += 1
-    #         print(video_id, expression_info)
-    # print(expression_sum)
-    return expression_sum
+generate_train_meta_json('mot17', mot17_training_json, meta_path)
+generate_train_meta_json('mot20', mot20_training_json, meta_path_mot20)
 
 
 def sort_meta(file_path, output_path):
@@ -279,6 +271,8 @@ def sort_meta(file_path, output_path):
 sort_meta(meta_expressions_train, meta_expressions_train)
 sort_meta(meta_expressions_valid, meta_expressions_valid)
 sort_meta(meta_path, meta_path)
-
+sort_meta(meta_expressions_train_mot20, meta_expressions_train_mot20)
+sort_meta(meta_expressions_valid_mot20, meta_expressions_valid_mot20)
+sort_meta(meta_path_mot20, meta_path_mot20)
 
 print('process completed')

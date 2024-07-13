@@ -1,4 +1,4 @@
-# Second step: get number of frames of train and valid videos
+# Second step: get number of frames of train and valid videos of OVIS
 import csv
 import json
 import pandas as pd
@@ -6,15 +6,9 @@ import os
 
 
 def get_videos(file_path):
-    videos = set()
     with open(file_path, 'r') as file:
-        data = json.load(file)
-
-    for entry in data:
-        video_name = entry['Video']
-        videos.add(video_name)
-
-    return list(videos)
+        data_list = json.load(file)
+    return data_list
 
 
 def get_frames_from_annotations(video_name, video_type):
@@ -31,20 +25,17 @@ def get_frames_from_annotations(video_name, video_type):
             prefix = file_names[0].split('/')[0]
             if prefix == video_name:
                 length = entry['length']
-                # print(f"Video Name: {video_name}, Length: {length}")
                 return length
 
     print(f"Video Name: {video_name} not found in annotations.")
     return None
 
 
-ovis_training_json = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/OVIS-training.json'
-ovis_valid_json = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/OVIS-valid.json'
-mot17_training_json = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT17-training.json'
-mot17_valid_json = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT17-valid.json'
+ovis_training_name_json = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/OVIS-training-videos-name.json'
+ovis_valid_name_json = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/OVIS-valid-videos-name.json'
 
-train_list = get_videos(ovis_training_json)
-valid_list = get_videos(ovis_valid_json)
+train_list = get_videos(ovis_training_name_json)
+valid_list = get_videos(ovis_valid_name_json)
 
 print(f"Train videos: {len(train_list)}. Valid videos: {len(valid_list)}")
 
@@ -84,14 +75,14 @@ valid_frames_json_path = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/da
 # with open(valid_frames_json_path, 'w') as json_file:
 #     json.dump(valid_frames_dict, json_file, indent=4)
 # print(f"Data has been written to {valid_frames_json_path}")
-#
-# with open(train_frames_json_path, 'r', encoding='utf-8') as file:
-#     meta_data = json.load(file)
-#     keys_count = len(meta_data.keys())
-# print(f"The number of keys in {train_frames_json_path}: {keys_count}")
-#
-# with open(valid_frames_json_path, 'r', encoding='utf-8') as file:
-#     meta_data = json.load(file)
-#     keys_count = len(meta_data.keys())
-# print(f"The number of keys in {valid_frames_json_path}: {keys_count}")
+
+with open(train_frames_json_path, 'r', encoding='utf-8') as file:
+    meta_data = json.load(file)
+    keys_count = len(meta_data.keys())
+print(f"The number of keys in {train_frames_json_path}: {keys_count}")
+
+with open(valid_frames_json_path, 'r', encoding='utf-8') as file:
+    meta_data = json.load(file)
+    keys_count = len(meta_data.keys())
+print(f"The number of keys in {valid_frames_json_path}: {keys_count}")
 

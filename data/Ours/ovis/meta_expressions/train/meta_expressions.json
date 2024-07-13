@@ -3240,7 +3240,7 @@
                     ]
                 },
                 "3": {
-                    "exp": "The bird walks slowsly towards the camera",
+                    "exp": "The bird walks slowly towards the camera",
                     "obj": [
                         {
                             "obj_id": "2",
@@ -3515,7 +3515,7 @@
         "80b73f1a": {
             "expressions": {
                 "1": {
-                    "exp": "The rabbit jumps ober another rabbit",
+                    "exp": "The rabbit jumps over another rabbit",
                     "obj": [
                         {
                             "obj_id": "2",
@@ -13297,7 +13297,7 @@
                     ]
                 },
                 "2": {
-                    "exp": "The ship moves frim the right ot the left",
+                    "exp": "The ship moves from the right ot the left",
                     "obj": [
                         {
                             "obj_id": "3",
@@ -13958,7 +13958,7 @@
         "a99df45f": {
             "expressions": {
                 "1": {
-                    "exp": "The giraffe makes its nech upright",
+                    "exp": "The giraffe makes its neck upright",
                     "obj": [
                         {
                             "obj_id": "1",
@@ -15168,7 +15168,7 @@
                     ]
                 },
                 "3": {
-                    "exp": "The lizard fall on the ground from a standing postion",
+                    "exp": "The lizard fall on the ground from a standing position",
                     "obj": [
                         {
                             "obj_id": "1",
@@ -18849,7 +18849,7 @@
                     ]
                 },
                 "3": {
-                    "exp": "The panda turns around and psuhes another panda",
+                    "exp": "The panda turns around and pushes another panda",
                     "obj": [
                         {
                             "obj_id": "2",
@@ -21372,7 +21372,7 @@
                     ]
                 },
                 "3": {
-                    "exp": "The cub jumos away from the other cub and runs away",
+                    "exp": "The cub jumps away from the other cub and runs away",
                     "obj": [
                         {
                             "obj_id": "1",
@@ -22071,7 +22071,7 @@
                     ]
                 },
                 "2": {
-                    "exp": "The moneky drops the fruit and walks away",
+                    "exp": "The monkey drops the fruit and walks away",
                     "obj": [
                         {
                             "obj_id": "2",
@@ -25526,7 +25526,7 @@
         "f4c4a2ca": {
             "expressions": {
                 "1": {
-                    "exp": "The cat walks up to the bench from under another becnch",
+                    "exp": "The cat walks up to the bench from under another bench",
                     "obj": [
                         {
                             "obj_id": "1",
@@ -26889,7 +26889,7 @@
                     ]
                 },
                 "4": {
-                    "exp": "The car accelarates and catches up with another car",
+                    "exp": "The car accelerates and catches up with another car",
                     "obj": [
                         {
                             "obj_id": "3",
@@ -30892,7 +30892,7 @@
                     ]
                 },
                 "2": {
-                    "exp": "The dog stands up from a seated postion and walks to the right",
+                    "exp": "The dog stands up from a seated position and walks to the right",
                     "obj": [
                         {
                             "obj_id": "2",
@@ -34847,7 +34847,7 @@
         "e495537a": {
             "expressions": {
                 "1": {
-                    "exp": "The barge boat passses beside another barge boat and covers it",
+                    "exp": "The barge boat passes beside another barge boat and covers it",
                     "obj": [
                         {
                             "obj_id": "1",
@@ -39169,7 +39169,7 @@
                     ]
                 },
                 "5": {
-                    "exp": "The chicken doesn\u2019t peck at the ground",
+                    "exp": "The chicken doesn't peck at the ground",
                     "obj": [
                         {
                             "obj_id": "5",
@@ -40860,7 +40860,7 @@
                     ]
                 },
                 "2": {
-                    "exp": "The fish swims away from the directoin of the camera",
+                    "exp": "The fish swims away from the direction of the camera",
                     "obj": [
                         {
                             "obj_id": "2",
@@ -43657,7 +43657,7 @@
                     ]
                 },
                 "2": {
-                    "exp": "Tigher is walking towards the opposite of the camera",
+                    "exp": "Tiger is walking towards the opposite of the camera",
                     "obj": [
                         {
                             "obj_id": "2",
@@ -43680,7 +43680,7 @@
                     ]
                 },
                 "3": {
-                    "exp": "Tigher is walking towards the camera",
+                    "exp": "Tiger is walking towards the camera",
                     "obj": [
                         {
                             "obj_id": "2",
@@ -44113,7 +44113,7 @@
                     ]
                 },
                 "2": {
-                    "exp": "cat is being attacked by another cat",
+                    "exp": "Cat is being attacked by another cat",
                     "obj": [
                         {
                             "obj_id": "2",
@@ -44900,7 +44900,7 @@
                     ]
                 },
                 "6": {
-                    "exp": "Horse pproaching from the right side, is heading toward the opposite side of the camera.",
+                    "exp": "Horse approaching from the right side, is heading toward the opposite side of the camera.",
                     "obj": [
                         {
                             "obj_id": "1",
@@ -45469,7 +45469,7 @@
         "1a6a731f": {
             "expressions": {
                 "1": {
-                    "exp": "Chameleon is walking over another cameleon",
+                    "exp": "Chameleon is walking over another chameleon",
                     "obj": [
                         {
                             "obj_id": "3",
@@ -45687,7 +45687,7 @@
         "1b8bb699": {
             "expressions": {
                 "1": {
-                    "exp": "Scooter is coming inside of the frame from left side is going outisde of the frame in right side",
+                    "exp": "Scooter is coming inside of the frame from left side is going outside of the frame in right side",
                     "obj": [
                         {
                             "obj_id": "5",
@@ -45701,7 +45701,7 @@
                     ]
                 },
                 "2": {
-                    "exp": "Person is coming inside of the frame from left side is going outisde of the frame in right side",
+                    "exp": "Person is coming inside of the frame from left side is going outside of the frame in right side",
                     "obj": [
                         {
                             "obj_id": "6",
@@ -49295,7 +49295,7 @@
         "2da12766": {
             "expressions": {
                 "1": {
-                    "exp": "Rabbit coming into the frame from bottom-right corner is joing with other rabbits",
+                    "exp": "Rabbit coming into the frame from bottom-right corner is joining with other rabbits",
                     "obj": [
                         {
                             "obj_id": "5",
@@ -49309,7 +49309,7 @@
                     ]
                 },
                 "2": {
-                    "exp": "Rabbit coming into the frame from left side is joing with other rabbits",
+                    "exp": "Rabbit coming into the frame from left side is joining with other rabbits",
                     "obj": [
                         {
                             "obj_id": "7",
@@ -49323,7 +49323,7 @@
                     ]
                 },
                 "3": {
-                    "exp": "Rabbit coming out from left side is joing with other rabbits",
+                    "exp": "Rabbit coming out from left side is joining with other rabbits",
                     "obj": [
                         {
                             "obj_id": "4",
@@ -52077,7 +52077,7 @@
                     ]
                 },
                 "2": {
-                    "exp": "Parrot is searching for something onperson's hand",
+                    "exp": "Parrot is searching for something on person's hand",
                     "obj": [
                         {
                             "obj_id": "2",
@@ -52511,7 +52511,7 @@
         "3f003746": {
             "expressions": {
                 "1": {
-                    "exp": "Person on motocycle in the racing track is going out side of the frame in left side",
+                    "exp": "Person on motorcycle in the racing track is going out side of the frame in left side",
                     "obj": [
                         {
                             "obj_id": "1",
@@ -52552,7 +52552,7 @@
                     ]
                 },
                 "2": {
-                    "exp": "Motocycle in the racing track is going out side of the frame in left side",
+                    "exp": "Motorcycle in the racing track is going out side of the frame in left side",
                     "obj": [
                         {
                             "obj_id": "2",
@@ -52593,7 +52593,7 @@
                     ]
                 },
                 "3": {
-                    "exp": "Person on motocycle coming into frame from left side racing on the track",
+                    "exp": "Person on motorcycle coming into frame from left side racing on the track",
                     "obj": [
                         {
                             "obj_id": "10",
@@ -52625,7 +52625,7 @@
                     ]
                 },
                 "4": {
-                    "exp": "Motocycle coming into frame from left side racing on the track",
+                    "exp": "Motorcycle coming into frame from left side racing on the track",
                     "obj": [
                         {
                             "obj_id": "9",
@@ -54026,7 +54026,7 @@
                     ]
                 },
                 "3": {
-                    "exp": "Bird is outisde the cage",
+                    "exp": "Bird is outside the cage",
                     "obj": [
                         {
                             "obj_id": "1",
@@ -54542,7 +54542,7 @@
                     ]
                 },
                 "5": {
-                    "exp": "Tiger is walking towaeds the right side",
+                    "exp": "Tiger is walking towards the right side",
                     "obj": [
                         {
                             "obj_id": "3",
@@ -57947,7 +57947,7 @@
         "6f5144b6": {
             "expressions": {
                 "1": {
-                    "exp": "Elephant walking on the field is going outisde of the frame in right side",
+                    "exp": "Elephant walking on the field is going outside of the frame in right side",
                     "obj": [
                         {
                             "obj_id": "4",
@@ -57988,7 +57988,7 @@
                     ]
                 },
                 "2": {
-                    "exp": "Baby elephant entering into frame from left side is going outisde of the frame in right side",
+                    "exp": "Baby elephant entering into frame from left side is going outside of the frame in right side",
                     "obj": [
                         {
                             "obj_id": "10",
@@ -58270,7 +58270,7 @@
         "6fcd426d": {
             "expressions": {
                 "1": {
-                    "exp": "Person on horse entering into frame from right side is going outisde of the frame in left side",
+                    "exp": "Person on horse entering into frame from right side is going outside of the frame in left side",
                     "obj": [
                         {
                             "obj_id": "11",
@@ -58284,7 +58284,7 @@
                     ]
                 },
                 "2": {
-                    "exp": "Horse entering into framefrom right side is going outisde of the frame in left side",
+                    "exp": "Horse entering into frame from right side is going outside of the frame in left side",
                     "obj": [
                         {
                             "obj_id": "10",
@@ -58426,7 +58426,7 @@
                     ]
                 },
                 "7": {
-                    "exp": "Person on horse entering into frame from right side is going outisde of the frame in right side",
+                    "exp": "Person on horse entering into frame from right side is going outside of the frame in right side",
                     "obj": [
                         {
                             "obj_id": "13",
@@ -58449,7 +58449,7 @@
                     ]
                 },
                 "8": {
-                    "exp": "Horse entering into framefrom right side is going outisde of the frame in right side",
+                    "exp": "Horse entering into frame from right side is going outside of the frame in right side",
                     "obj": [
                         {
                             "obj_id": "12",
@@ -58463,7 +58463,7 @@
                     ]
                 },
                 "9": {
-                    "exp": "Person on horse racing on the field is going outisde of the frame in right side",
+                    "exp": "Person on horse racing on the field is going outside of the frame in right side",
                     "obj": [
                         {
                             "obj_id": "3",
@@ -58477,7 +58477,7 @@
                     ]
                 },
                 "10": {
-                    "exp": "Horse racing on the field is going outisde of the frame in right side",
+                    "exp": "Horse racing on the field is going outside of the frame in right side",
                     "obj": [
                         {
                             "obj_id": "8",
@@ -59811,7 +59811,7 @@
                     ]
                 },
                 "4": {
-                    "exp": "Bunny entering into frame from left side is going outisde of the frame in left side",
+                    "exp": "Bunny entering into frame from left side is going outside of the frame in left side",
                     "obj": [
                         {
                             "obj_id": "12",
@@ -60366,7 +60366,7 @@
                     ]
                 },
                 "3": {
-                    "exp": "Baby goat is being distured by another baby goat",
+                    "exp": "Baby goat is being disturbed by another baby goat",
                     "obj": [
                         {
                             "obj_id": "2",
@@ -61634,7 +61634,7 @@
                     ]
                 },
                 "5": {
-                    "exp": "Tiger is standing infront of the camera",
+                    "exp": "Tiger is standing in front of the camera",
                     "obj": [
                         {
                             "obj_id": "4",
@@ -62030,7 +62030,7 @@
                     ]
                 },
                 "4": {
-                    "exp": "Tiger standing infront of the gate is going outside of the frame in right side",
+                    "exp": "Tiger standing in front of the gate is going outside of the frame in right side",
                     "obj": [
                         {
                             "obj_id": "5",
@@ -62081,7 +62081,7 @@
                     ]
                 },
                 "7": {
-                    "exp": "Tigher is walking backward",
+                    "exp": "Tiger is walking backward",
                     "obj": [
                         {
                             "obj_id": "2",
@@ -63390,7 +63390,7 @@
                     ]
                 },
                 "6": {
-                    "exp": "Tiger is being distured by another tiger",
+                    "exp": "Tiger is being disturbed by another tiger",
                     "obj": [
                         {
                             "obj_id": "2",
@@ -63480,7 +63480,7 @@
         "33f9ab47": {
             "expressions": {
                 "1": {
-                    "exp": "Person on motocycle is going out side of the frame in right side",
+                    "exp": "Person on motorcycle is going out side of the frame in right side",
                     "obj": [
                         {
                             "obj_id": "1",
@@ -63530,7 +63530,7 @@
                     ]
                 },
                 "2": {
-                    "exp": "Motocycle is going out side of the frame in right side",
+                    "exp": "Motorcycle is going out side of the frame in right side",
                     "obj": [
                         {
                             "obj_id": "2",
@@ -63580,7 +63580,7 @@
                     ]
                 },
                 "3": {
-                    "exp": "Person erntering into frame from right side is standing on the road",
+                    "exp": "Person entering into frame from right side is standing on the road",
                     "obj": [
                         {
                             "obj_id": "11",
@@ -63594,7 +63594,7 @@
                     ]
                 },
                 "4": {
-                    "exp": "Motocycle is going through the staggered water",
+                    "exp": "Motorcycle is going through the staggered water",
                     "obj": [
                         {
                             "obj_id": "9",
@@ -63659,7 +63659,7 @@
         "34a5f964": {
             "expressions": {
                 "1": {
-                    "exp": "Person on motocycle is going backwards",
+                    "exp": "Person on motorcycle is going backwards",
                     "obj": [
                         {
                             "obj_id": "5",
@@ -63673,7 +63673,7 @@
                     ]
                 },
                 "2": {
-                    "exp": "Motocycle is going backwards",
+                    "exp": "Motorcycle is going backwards",
                     "obj": [
                         {
                             "obj_id": "8",
@@ -63687,7 +63687,7 @@
                     ]
                 },
                 "3": {
-                    "exp": "Person on motocycle is going towards the right side",
+                    "exp": "Person on motorcycle is going towards the right side",
                     "obj": [
                         {
                             "obj_id": "5",
@@ -63701,7 +63701,7 @@
                     ]
                 },
                 "4": {
-                    "exp": "Motocycle is going towards the right side",
+                    "exp": "Motorcycle is going towards the right side",
                     "obj": [
                         {
                             "obj_id": "6",
@@ -63715,7 +63715,7 @@
                     ]
                 },
                 "5": {
-                    "exp": "Person on bicycle enterning into frame from right side is going outside of the frame in left side",
+                    "exp": "Person on bicycle entering into frame from right side is going outside of the frame in left side",
                     "obj": [
                         {
                             "obj_id": "14",
@@ -63729,7 +63729,7 @@
                     ]
                 },
                 "6": {
-                    "exp": "Bicycle enterning into frame from right side is going outside of the frame in left side",
+                    "exp": "Bicycle entering into frame from right side is going outside of the frame in left side",
                     "obj": [
                         {
                             "obj_id": "15",
@@ -63743,7 +63743,7 @@
                     ]
                 },
                 "7": {
-                    "exp": "Person on motocycle is going towards the left side",
+                    "exp": "Person on motorcycle is going towards the left side",
                     "obj": [
                         {
                             "obj_id": "6",
@@ -63757,7 +63757,7 @@
                     ]
                 },
                 "8": {
-                    "exp": "Motocycle is going towards the left side",
+                    "exp": "Motorcycle is going towards the left side",
                     "obj": [
                         {
                             "obj_id": "9",
@@ -63785,7 +63785,7 @@
                     ]
                 },
                 "10": {
-                    "exp": "Person is being offered fruit by aniother person",
+                    "exp": "Person is being offered fruit by another person",
                     "obj": [
                         {
                             "obj_id": "2",
@@ -63908,7 +63908,7 @@
         "34ccea00": {
             "expressions": {
                 "1": {
-                    "exp": "Baby bear coming towards the camera is going outisde of the frame in right side",
+                    "exp": "Baby bear coming towards the camera is going outside of the frame in right side",
                     "obj": [
                         {
                             "obj_id": "1",
@@ -64256,7 +64256,7 @@
         "36dcb93f": {
             "expressions": {
                 "1": {
-                    "exp": "Fish moving at bottom of the aquarium ig goin to the top of aquarium",
+                    "exp": "Fish moving at bottom of the aquarium is going to the top of aquarium",
                     "obj": [
                         {
                             "obj_id": "1",
@@ -64270,7 +64270,7 @@
                     ]
                 },
                 "2": {
-                    "exp": "Fish swimming at bottom of the aquarium ig goin to the top of aquarium",
+                    "exp": "Fish swimming at bottom of the aquarium is going to the top of aquarium",
                     "obj": [
                         {
                             "obj_id": "1",
@@ -64446,7 +64446,7 @@
                     ]
                 },
                 "12": {
-                    "exp": "Fish is being attacked by nother fish",
+                    "exp": "Fish is being attacked by another fish",
                     "obj": [
                         {
                             "obj_id": "2",
@@ -64871,7 +64871,7 @@
         "48e2afc5": {
             "expressions": {
                 "1": {
-                    "exp": "Zear goes on top of the another zebra while fighting",
+                    "exp": "Zebra goes on top of the another zebra while fighting",
                     "obj": [
                         {
                             "obj_id": "2",
@@ -65037,7 +65037,7 @@
         "49e5ff4e": {
             "expressions": {
                 "1": {
-                    "exp": "Giraffe walking on the corridor is going outiside of the frame in right side",
+                    "exp": "Giraffe walking on the corridor is going outside of the frame in right side",
                     "obj": [
                         {
                             "obj_id": "1",
@@ -65241,7 +65241,7 @@
                     ]
                 },
                 "6": {
-                    "exp": "Poultry is keeping its rigth leg on the food container",
+                    "exp": "Poultry is keeping its right leg on the food container",
                     "obj": [
                         {
                             "obj_id": "6",
@@ -65588,7 +65588,7 @@
                     ]
                 },
                 "6": {
-                    "exp": "Ponltry entering into frame from bottom side is moving on the area",
+                    "exp": "Poultry entering into frame from bottom side is moving on the area",
                     "obj": [
                         {
                             "obj_id": "9",
@@ -65602,7 +65602,7 @@
                     ]
                 },
                 "7": {
-                    "exp": "Ponltry entering into frame from right side is moving on the area",
+                    "exp": "Poultry entering into frame from right side is moving on the area",
                     "obj": [
                         {
                             "obj_id": "11",
@@ -65634,7 +65634,7 @@
                     ]
                 },
                 "8": {
-                    "exp": "Ponltry entering into frame from right side is eating food from the food container",
+                    "exp": "Poultry entering into frame from right side is eating food from the food container",
                     "obj": [
                         {
                             "obj_id": "12",
@@ -65657,7 +65657,7 @@
                     ]
                 },
                 "9": {
-                    "exp": "Ponltry entering into frame from right side is going outside of the frame in right side",
+                    "exp": "Poultry entering into frame from right side is going outside of the frame in right side",
                     "obj": [
                         {
                             "obj_id": "13",
@@ -65680,7 +65680,7 @@
                     ]
                 },
                 "10": {
-                    "exp": "Ponltry entering into frame from left side is going outside of the frame from right side",
+                    "exp": "Poultry entering into frame from left side is going outside of the frame from right side",
                     "obj": [
                         {
                             "obj_id": "16",
@@ -65694,7 +65694,7 @@
                     ]
                 },
                 "11": {
-                    "exp": "Ponltry entering into frame from left side is moving on the area",
+                    "exp": "Poultry entering into frame from left side is moving on the area",
                     "obj": [
                         {
                             "obj_id": "18",
@@ -66425,7 +66425,7 @@
                     ]
                 },
                 "4": {
-                    "exp": "Bird is steated on bird perch stand",
+                    "exp": "Bird is seated on bird perch stand",
                     "obj": [
                         {
                             "obj_id": "1",
@@ -66744,7 +66744,7 @@
                     ]
                 },
                 "6": {
-                    "exp": "Vehicle is going downards",
+                    "exp": "Vehicle is going downwards",
                     "obj": [
                         {
                             "obj_id": "1",
@@ -67687,7 +67687,7 @@
                     ]
                 },
                 "4": {
-                    "exp": "Cat coming inside of the frame from left side is going outisde of the frame in left side",
+                    "exp": "Cat coming inside of the frame from left side is going outside of the frame in left side",
                     "obj": [
                         {
                             "obj_id": "1",
@@ -67959,7 +67959,7 @@
         "035359e5": {
             "expressions": {
                 "1": {
-                    "exp": "Cow coming towards the camera is going outisde of the frame in right side",
+                    "exp": "Cow coming towards the camera is going outside of the frame in right side",
                     "obj": [
                         {
                             "obj_id": "1",
@@ -68026,7 +68026,7 @@
         "230c2edf": {
             "expressions": {
                 "1": {
-                    "exp": "Person on motocycle coming into frame from left side is racing on the track",
+                    "exp": "Person on motorcycle coming into frame from left side is racing on the track",
                     "obj": [
                         {
                             "obj_id": "6",
@@ -68049,7 +68049,7 @@
                     ]
                 },
                 "2": {
-                    "exp": "Motocycle coming into frame from left side is racing on the track",
+                    "exp": "Motorcycle coming into frame from left side is racing on the track",
                     "obj": [
                         {
                             "obj_id": "5",
@@ -68072,7 +68072,7 @@
                     ]
                 },
                 "3": {
-                    "exp": "Person on motocycle coming into frame from left side is going towards the oppsoite of the camera",
+                    "exp": "Person on motorcycle coming into frame from left side is going towards the opposite of the camera",
                     "obj": [
                         {
                             "obj_id": "6",
@@ -68095,7 +68095,7 @@
                     ]
                 },
                 "4": {
-                    "exp": "Motocycle coming into frame from left side is going towards the oppsoite of the camera",
+                    "exp": "Motorcycle coming into frame from left side is going towards the opposite of the camera",
                     "obj": [
                         {
                             "obj_id": "5",
@@ -68118,7 +68118,7 @@
                     ]
                 },
                 "5": {
-                    "exp": "Person on motocycle coming into frame from right side is racing on the track",
+                    "exp": "Person on motorcycle coming into frame from right side is racing on the track",
                     "obj": [
                         {
                             "obj_id": "8",
@@ -68141,7 +68141,7 @@
                     ]
                 },
                 "6": {
-                    "exp": "Motocycle coming into frame from right side is racing on the track",
+                    "exp": "Motorcycle coming into frame from right side is racing on the track",
                     "obj": [
                         {
                             "obj_id": "7",
@@ -68164,7 +68164,7 @@
                     ]
                 },
                 "7": {
-                    "exp": "Person on motocycle coming into frame from right side is going towards the oppsoite of the camera",
+                    "exp": "Person on motorcycle coming into frame from right side is going towards the opposite of the camera",
                     "obj": [
                         {
                             "obj_id": "8",
@@ -68187,7 +68187,7 @@
                     ]
                 },
                 "8": {
-                    "exp": "Motocycle coming into frame from right side is going towards the oppsoite of the camera",
+                    "exp": "Motorcycle coming into frame from right side is going towards the opposite of the camera",
                     "obj": [
                         {
                             "obj_id": "7",
@@ -68210,7 +68210,7 @@
                     ]
                 },
                 "9": {
-                    "exp": "Person on motocycle coming into frame from left side is going faster than others",
+                    "exp": "Person on motorcycle coming into frame from left side is going faster than others",
                     "obj": [
                         {
                             "obj_id": "6",
@@ -68224,7 +68224,7 @@
                     ]
                 },
                 "10": {
-                    "exp": "Motocycle coming into frame from left side is going going faster than others",
+                    "exp": "Motorcycle coming into frame from left side is going going faster than others",
                     "obj": [
                         {
                             "obj_id": "5",
@@ -68324,7 +68324,7 @@
                     ]
                 },
                 "3": {
-                    "exp": "Zebra entering into frame from left side is going thrugh the water",
+                    "exp": "Zebra entering into frame from left side is going through the water",
                     "obj": [
                         {
                             "obj_id": "6",
@@ -68347,7 +68347,7 @@
                     ]
                 },
                 "4": {
-                    "exp": "Zebra is falling into warer while going through the water",
+                    "exp": "Zebra is falling into water while going through the water",
                     "obj": [
                         {
                             "obj_id": "6",
@@ -68682,7 +68682,7 @@
                     ]
                 },
                 "2": {
-                    "exp": "Speedboat is juping over the water",
+                    "exp": "Speedboat is jumping over the water",
                     "obj": [
                         {
                             "obj_id": "2",
@@ -68696,7 +68696,7 @@
                     ]
                 },
                 "3": {
-                    "exp": "Sppeedboat jumping over the water is crossing over another speedboat",
+                    "exp": "Speedboat jumping over the water is crossing over another speedboat",
                     "obj": [
                         {
                             "obj_id": "2",
@@ -69114,7 +69114,7 @@
         "495be321": {
             "expressions": {
                 "1": {
-                    "exp": "Person on horse is going outisde of the frame in left side",
+                    "exp": "Person on horse is going outside of the frame in left side",
                     "obj": [
                         {
                             "obj_id": "1",
@@ -69128,7 +69128,7 @@
                     ]
                 },
                 "2": {
-                    "exp": "Horse on the field is going outisde of the frame in left side",
+                    "exp": "Horse on the field is going outside of the frame in left side",
                     "obj": [
                         {
                             "obj_id": "4",
@@ -69142,7 +69142,7 @@
                     ]
                 },
                 "3": {
-                    "exp": "Horse moving on the field is going outisde of the frame in right side",
+                    "exp": "Horse moving on the field is going outside of the frame in right side",
                     "obj": [
                         {
                             "obj_id": "3",
@@ -69165,7 +69165,7 @@
                     ]
                 },
                 "4": {
-                    "exp": "Horse entering into frame from left side is going outisde of the frame in right side",
+                    "exp": "Horse entering into frame from left side is going outside of the frame in right side",
                     "obj": [
                         {
                             "obj_id": "5",
@@ -69395,7 +69395,7 @@
                     ]
                 },
                 "4": {
-                    "exp": "Dog entering into frame from right side is looking somehing on the ground",
+                    "exp": "Dog entering into frame from right side is looking something on the ground",
                     "obj": [
                         {
                             "obj_id": "5",
@@ -69994,7 +69994,7 @@
                     ]
                 },
                 "6": {
-                    "exp": "Tiger is touching another tiger backside with its fron right leg",
+                    "exp": "Tiger is touching another tiger backside with its front right leg",
                     "obj": [
                         {
                             "obj_id": "1",
@@ -70008,7 +70008,7 @@
                     ]
                 },
                 "7": {
-                    "exp": "Tiger is being touched another tiger backside with its fron right leg",
+                    "exp": "Tiger is being touched another tiger backside with its front right leg",
                     "obj": [
                         {
                             "obj_id": "2",
@@ -70366,7 +70366,7 @@
                     ]
                 },
                 "3": {
-                    "exp": "Hose running on the road is going towardds the left side",
+                    "exp": "Hose running on the road is going towards the left side",
                     "obj": [
                         {
                             "obj_id": "10",
@@ -70746,7 +70746,7 @@
                     ]
                 },
                 "2": {
-                    "exp": "Monkey is being attaked by another monkey",
+                    "exp": "Monkey is being attacked by another monkey",
                     "obj": [
                         {
                             "obj_id": "3",
@@ -70874,7 +70874,7 @@
                     ]
                 },
                 "8": {
-                    "exp": "Monkey is being attaked by two monkey",
+                    "exp": "Monkey is being attacked by two monkey",
                     "obj": [
                         {
                             "obj_id": "3",
@@ -70902,7 +70902,7 @@
                     ]
                 },
                 "10": {
-                    "exp": "Monkey is being attaked by three monkey",
+                    "exp": "Monkey is being attacked by three monkey",
                     "obj": [
                         {
                             "obj_id": "3",
@@ -71816,7 +71816,7 @@
                     ]
                 },
                 "4": {
-                    "exp": "Fish entering into frame from uper side is swimming towards the lower side",
+                    "exp": "Fish entering into frame from upper side is swimming towards the lower side",
                     "obj": [
                         {
                             "obj_id": "3",
@@ -71830,7 +71830,7 @@
                     ]
                 },
                 "5": {
-                    "exp": "Fish entering into frame from uper side is moving towards the lower side",
+                    "exp": "Fish entering into frame from upper side is moving towards the lower side",
                     "obj": [
                         {
                             "obj_id": "3",
@@ -71956,7 +71956,7 @@
                     ]
                 },
                 "5": {
-                    "exp": "Pand is touching the ground with its left hand while being pushed by another panda",
+                    "exp": "Panda is touching the ground with its left hand while being pushed by another panda",
                     "obj": [
                         {
                             "obj_id": "2",
@@ -71970,7 +71970,7 @@
                     ]
                 },
                 "6": {
-                    "exp": "Pand is touching the ground with its both hands while being pushed by another panda",
+                    "exp": "Panda is touching the ground with its both hands while being pushed by another panda",
                     "obj": [
                         {
                             "obj_id": "2",
@@ -71984,7 +71984,7 @@
                     ]
                 },
                 "7": {
-                    "exp": "Pand is trying to balane itself with its both hands while being pushed by another panda",
+                    "exp": "Panda is trying to balance itself with its both hands while being pushed by another panda",
                     "obj": [
                         {
                             "obj_id": "2",
@@ -71998,7 +71998,7 @@
                     ]
                 },
                 "8": {
-                    "exp": "Pand is trying to balane itself with its left hand while being pushed by another panda",
+                    "exp": "Panda is trying to balance itself with its left hand while being pushed by another panda",
                     "obj": [
                         {
                             "obj_id": "2",
@@ -73092,7 +73092,7 @@
         "103166c7": {
             "expressions": {
                 "1": {
-                    "exp": "Airplane is moving faster than another airplane while goine from right side towards left side",
+                    "exp": "Airplane is moving faster than another airplane while going from right side towards left side",
                     "obj": [
                         {
                             "obj_id": "2",
@@ -73106,7 +73106,7 @@
                     ]
                 },
                 "2": {
-                    "exp": "Airplane is moving slower than another airplane while goine from right side towards left side",
+                    "exp": "Airplane is moving slower than another airplane while going from right side towards left side",
                     "obj": [
                         {
                             "obj_id": "1",
@@ -73449,7 +73449,7 @@
                     ]
                 },
                 "6": {
-                    "exp": "Cow standing on the ground is running towadrs the right side",
+                    "exp": "Cow standing on the ground is running towards the right side",
                     "obj": [
                         {
                             "obj_id": "3",
@@ -73463,7 +73463,7 @@
                     ]
                 },
                 "7": {
-                    "exp": "Cow running on the ground is going outisde of the frame in right side",
+                    "exp": "Cow running on the ground is going outside of the frame in right side",
                     "obj": [
                         {
                             "obj_id": "6",
@@ -73477,7 +73477,7 @@
                     ]
                 },
                 "8": {
-                    "exp": "Cow landing on the ground is going outisde of the frame in right side by running",
+                    "exp": "Cow landing on the ground is going outside of the frame in right side by running",
                     "obj": [
                         {
                             "obj_id": "2",
@@ -73537,7 +73537,7 @@
                     ]
                 },
                 "11": {
-                    "exp": "Cow standing on the ground is running towadrs the opposite of the camera",
+                    "exp": "Cow standing on the ground is running towards the opposite of the camera",
                     "obj": [
                         {
                             "obj_id": "4",
@@ -73636,7 +73636,7 @@
         "4190c83a": {
             "expressions": {
                 "1": {
-                    "exp": "Person on motocycle is making U turn",
+                    "exp": "Person on motorcycle is making U turn",
                     "obj": [
                         {
                             "obj_id": "2",
@@ -73650,7 +73650,7 @@
                     ]
                 },
                 "2": {
-                    "exp": "Motocycle is making U turn",
+                    "exp": "Motorcycle is making U turn",
                     "obj": [
                         {
                             "obj_id": "3",
@@ -73664,7 +73664,7 @@
                     ]
                 },
                 "3": {
-                    "exp": "Motocycle is stationary and remains in the same place.",
+                    "exp": "Motorcycle is stationary and remains in the same place.",
                     "obj": [
                         {
                             "obj_id": "1",
@@ -73678,7 +73678,7 @@
                     ]
                 },
                 "4": {
-                    "exp": "Person on motocycle coming towards the left side is going towards right side after making U-trn",
+                    "exp": "Person on motorcycle coming towards the left side is going towards right side after making U-turn",
                     "obj": [
                         {
                             "obj_id": "2",
@@ -73692,7 +73692,7 @@
                     ]
                 },
                 "5": {
-                    "exp": "Motocycle coming towards the left side is going towards right side after making U-trn",
+                    "exp": "Motorcycle coming towards the left side is going towards right side after making U-turn",
                     "obj": [
                         {
                             "obj_id": "3",
@@ -74152,7 +74152,7 @@
                     ]
                 },
                 "3": {
-                    "exp": "Cow is coming from backside to the frontside",
+                    "exp": "Cow is coming from backside to the front side",
                     "obj": [
                         {
                             "obj_id": "2",
@@ -74166,7 +74166,7 @@
                     ]
                 },
                 "4": {
-                    "exp": "Cow is going from frontside to the backside",
+                    "exp": "Cow is going from front side to the backside",
                     "obj": [
                         {
                             "obj_id": "1",
@@ -75086,7 +75086,7 @@
                     ]
                 },
                 "3": {
-                    "exp": "Goat is running in circularway",
+                    "exp": "Goat is running in circular way",
                     "obj": [
                         {
                             "obj_id": "1",
@@ -75624,7 +75624,7 @@
                     ]
                 },
                 "7": {
-                    "exp": "Monely is going towards the oppsoite of the camera and coming back again to attack the dog",
+                    "exp": "Monkey is going towards the opposite of the camera and coming back again to attack the dog",
                     "obj": [
                         {
                             "obj_id": "4",
@@ -77583,7 +77583,7 @@
                     ]
                 },
                 "5": {
-                    "exp": "Zebra is going outside of the frame in right side from the field by runnung",
+                    "exp": "Zebra is going outside of the frame in right side from the field by running",
                     "obj": [
                         {
                             "obj_id": "3",
@@ -77597,7 +77597,7 @@
                     ]
                 },
                 "6": {
-                    "exp": "Zebra coming inside of the frame from right side is makin U-turn",
+                    "exp": "Zebra coming inside of the frame from right side is making U-turn",
                     "obj": [
                         {
                             "obj_id": "10",
@@ -78115,7 +78115,7 @@
                     ]
                 },
                 "2": {
-                    "exp": "Person with motorcycle entering into frame from right side by jumping is going outisde of the frame in bottom side",
+                    "exp": "Person with motorcycle entering into frame from right side by jumping is going outside of the frame in bottom side",
                     "obj": [
                         {
                             "obj_id": "8",
@@ -78129,7 +78129,7 @@
                     ]
                 },
                 "3": {
-                    "exp": "Motorcycle entering into frame by jumping is going outisde of the frame in bottom side",
+                    "exp": "Motorcycle entering into frame by jumping is going outside of the frame in bottom side",
                     "obj": [
                         {
                             "obj_id": "9",
@@ -78179,7 +78179,7 @@
                     ]
                 },
                 "5": {
-                    "exp": "Person with motorcycle entering into frame from right side is going outisde of the frame in bottom side",
+                    "exp": "Person with motorcycle entering into frame from right side is going outside of the frame in bottom side",
                     "obj": [
                         {
                             "obj_id": "12",
@@ -78193,7 +78193,7 @@
                     ]
                 },
                 "6": {
-                    "exp": "Motorcycle entering into frame from right side is going outisde of the frame in bottom side",
+                    "exp": "Motorcycle entering into frame from right side is going outside of the frame in bottom side",
                     "obj": [
                         {
                             "obj_id": "11",
@@ -78296,7 +78296,7 @@
                     ]
                 },
                 "3": {
-                    "exp": "Zebra entering into frame from left side is going outisde of the frame in right side",
+                    "exp": "Zebra entering into frame from left side is going outside of the frame in right side",
                     "obj": [
                         {
                             "obj_id": "10",
@@ -78566,7 +78566,7 @@
         "64044df1": {
             "expressions": {
                 "1": {
-                    "exp": "Vehicle on the road is going otside of the frame in right side",
+                    "exp": "Vehicle on the road is going outside of the frame in right side",
                     "obj": [
                         {
                             "obj_id": "1",
@@ -78580,7 +78580,7 @@
                     ]
                 },
                 "2": {
-                    "exp": "Vehicle entering into road from left side is going otside of the frame in right side",
+                    "exp": "Vehicle entering into road from left side is going outside of the frame in right side",
                     "obj": [
                         {
                             "obj_id": "12",
@@ -78603,7 +78603,7 @@
                     ]
                 },
                 "3": {
-                    "exp": "Vehicle entering into road from right side is going otside of the frame in left side",
+                    "exp": "Vehicle entering into road from right side is going outside of the frame in left side",
                     "obj": [
                         {
                             "obj_id": "8",
@@ -78895,7 +78895,7 @@
         "6149becc": {
             "expressions": {
                 "1": {
-                    "exp": "Duck is truning its whole body from left side to right side",
+                    "exp": "Duck is turning its whole body from left side to right side",
                     "obj": [
                         {
                             "obj_id": "2",
@@ -78967,7 +78967,7 @@
                     ]
                 },
                 "3": {
-                    "exp": "Duck is truning its whole body from right side to left side",
+                    "exp": "Duck is turning its whole body from right side to left side",
                     "obj": [
                         {
                             "obj_id": "2",
@@ -79311,7 +79311,7 @@
                     ]
                 },
                 "4": {
-                    "exp": "Goat is truning its whole body from left side to right side",
+                    "exp": "Goat is turning its whole body from left side to right side",
                     "obj": [
                         {
                             "obj_id": "3",
@@ -79764,7 +79764,7 @@
                     ]
                 },
                 "4": {
-                    "exp": "Person is looking towards the left side while standing in fron of the railing",
+                    "exp": "Person is looking towards the left side while standing in front of the railing",
                     "obj": [
                         {
                             "obj_id": "1",
@@ -80077,7 +80077,7 @@
                     ]
                 },
                 "4": {
-                    "exp": "Turtle swimming in the water is going outisde of the frame in right side",
+                    "exp": "Turtle swimming in the water is going outside of the frame in right side",
                     "obj": [
                         {
                             "obj_id": "2",
@@ -81179,7 +81179,7 @@
                     ]
                 },
                 "2": {
-                    "exp": "Vehicle entering into frame fromright side is going towards the left side",
+                    "exp": "Vehicle entering into frame from right side is going towards the left side",
                     "obj": [
                         {
                             "obj_id": "5",
@@ -81193,7 +81193,7 @@
                     ]
                 },
                 "3": {
-                    "exp": "Vehicle on the road is going ouside of the frame in left side",
+                    "exp": "Vehicle on the road is going outside of the frame in left side",
                     "obj": [
                         {
                             "obj_id": "1",
@@ -81207,7 +81207,7 @@
                     ]
                 },
                 "4": {
-                    "exp": "Person on the road is going ouside of the frame in left side",
+                    "exp": "Person on the road is going outside of the frame in left side",
                     "obj": [
                         {
                             "obj_id": "2",
@@ -81644,7 +81644,7 @@
                     ]
                 },
                 "8": {
-                    "exp": "Cat walking towards the right side is going outisde of the frame in right side",
+                    "exp": "Cat walking towards the right side is going outside of the frame in right side",
                     "obj": [
                         {
                             "obj_id": "5",
@@ -81658,7 +81658,7 @@
                     ]
                 },
                 "9": {
-                    "exp": "Cat walking beneath the wooden stair is going outisde of the frame in right side",
+                    "exp": "Cat walking beneath the wooden stair is going outside of the frame in right side",
                     "obj": [
                         {
                             "obj_id": "2",
@@ -82547,7 +82547,7 @@
                     ]
                 },
                 "7": {
-                    "exp": "Monkey is going over anpther monkey by jumping while going from boat to shore",
+                    "exp": "Monkey is going over another monkey by jumping while going from boat to shore",
                     "obj": [
                         {
                             "obj_id": "3",
@@ -82612,7 +82612,7 @@
                     ]
                 },
                 "11": {
-                    "exp": "Monkey is being attaked by another monkey",
+                    "exp": "Monkey is being attacked by another monkey",
                     "obj": [
                         {
                             "obj_id": "6",
@@ -82786,7 +82786,7 @@
                     ]
                 },
                 "2": {
-                    "exp": "Pigeon is distrubing another pigeon",
+                    "exp": "Pigeon is disturbing another pigeon",
                     "obj": [
                         {
                             "obj_id": "3",
@@ -82800,7 +82800,7 @@
                     ]
                 },
                 "3": {
-                    "exp": "Pigeon is being distrubed by another pigeon",
+                    "exp": "Pigeon is being disturbing by another pigeon",
                     "obj": [
                         {
                             "obj_id": "2",
@@ -84787,7 +84787,7 @@
         "4539b907": {
             "expressions": {
                 "1": {
-                    "exp": "Dog entering into frame from bottom side is walking towads the opposite of the camera",
+                    "exp": "Dog entering into frame from bottom side is walking towards the opposite of the camera",
                     "obj": [
                         {
                             "obj_id": "4",
@@ -84801,7 +84801,7 @@
                     ]
                 },
                 "2": {
-                    "exp": "Dog entering into frame from bottom side is walking towads the group of other dogs",
+                    "exp": "Dog entering into frame from bottom side is walking towards the group of other dogs",
                     "obj": [
                         {
                             "obj_id": "4",
@@ -84815,7 +84815,7 @@
                     ]
                 },
                 "3": {
-                    "exp": "Dog walking towards left side is going outisde of the frame in left side",
+                    "exp": "Dog walking towards left side is going outside of the frame in left side",
                     "obj": [
                         {
                             "obj_id": "4",
@@ -85223,7 +85223,7 @@
         "19310598": {
             "expressions": {
                 "1": {
-                    "exp": "Vehicle enterimg into frame from right side is going outside of the frame in left side",
+                    "exp": "Vehicle entering into frame from right side is going outside of the frame in left side",
                     "obj": [
                         {
                             "obj_id": "5",
@@ -85237,7 +85237,7 @@
                     ]
                 },
                 "2": {
-                    "exp": "Vehicle enterimg into frame from right side is going towards the left side",
+                    "exp": "Vehicle entering into frame from right side is going towards the left side",
                     "obj": [
                         {
                             "obj_id": "6",
@@ -85251,7 +85251,7 @@
                     ]
                 },
                 "3": {
-                    "exp": "Vehicle enterimg into frame from right side is going towards the opposite of the camera",
+                    "exp": "Vehicle entering into frame from right side is going towards the opposite of the camera",
                     "obj": [
                         {
                             "obj_id": "4",

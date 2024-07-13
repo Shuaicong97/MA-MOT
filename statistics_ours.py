@@ -34,13 +34,13 @@ def generate_all_jsons():
 #          'data/generated_by_code/ours_json/gta_mot17_test_ashiq.json',
 #          'data/generated_by_code/ours_json/gta_mot17_test_seenat.json']
 
-paths = ['data/Ours/MOT17-training.json',
-         'data/Ours/MOT17-valid.json',
-         'data/Ours/OVIS-training.json',
-         'data/Ours/OVIS-valid.json']
+paths_all = ['data/Ours/MOT17-training.json', 'data/Ours/MOT17-valid.json',
+             'data/Ours/OVIS-training.json', 'data/Ours/OVIS-valid.json',
+             'data/Ours/MOT20-training.json', 'data/Ours/MOT20-valid.json']
 
 paths_mot17 = ['data/Ours/MOT17-training.json', 'data/Ours/MOT17-valid.json']
 paths_ovis = ['data/Ours/OVIS-training.json', 'data/Ours/OVIS-valid.json']
+paths_mot20 = ['data/Ours/MOT20-training.json', 'data/Ours/MOT20-valid.json']
 
 
 def get_all_queries(file_paths):
@@ -53,15 +53,33 @@ def get_all_queries(file_paths):
     return unique_queries
 
 
-unique_queries = get_all_queries(paths)
+unique_queries_all = get_all_queries(paths_all)
 unique_queries_mot17 = get_all_queries(paths_mot17)
 unique_queries_ovis = get_all_queries(paths_ovis)
-print(f'There are in total {len(unique_queries)} different kinds of queries.')  # 3397
+unique_queries_mot20 = get_all_queries(paths_mot20)
+
+print(f'There are in total {len(unique_queries_all)} different kinds of queries.')  # 3963
 print(f'There are in total {len(unique_queries_mot17)} different kinds of queries in mot17.')  # 634
-print(f'There are in total {len(unique_queries_ovis)} different kinds of queries in ovis.')  # 2768
+print(f'There are in total {len(unique_queries_ovis)} different kinds of queries in ovis.')  # 2760
+print(f'There are in total {len(unique_queries_mot20)} different kinds of queries in mot20.')  # 581
 
 
-def get_verb_and_frequency_from_sentences(sentences, output_file_path):
+def get_number_of_entries(file_paths):
+    total_entries = 0
+    for file_path in file_paths:
+        with open(file_path, 'r', encoding='utf-8') as file:
+            json_data = json.load(file)
+
+        item_count = len(json_data)
+        total_entries += item_count
+
+    print(f"The number of items in all three datasets is: {total_entries}")  # 9779
+
+
+get_number_of_entries(paths_all)
+
+
+def get_verb_and_frequency_from_sentences(dataset, sentences, output_file_path):
     # take a long time to finish computing
     verbs_list = []
 
@@ -75,14 +93,14 @@ def get_verb_and_frequency_from_sentences(sentences, output_file_path):
 
     # count frequency of the words
     item_frequency = Counter(verbs_list)
-    print(f'The number of different verbs (include tense): {len(item_frequency)}')  #
+    # all: 486, mot17: 150, ovis: 388, mot20: 117
+    print(f'The number of different verbs (include tense) in {dataset}: {len(item_frequency)}')
 
     sorted_items = sorted(item_frequency.items(), key=lambda x: x[1], reverse=True)
 
     data_dict = {}
 
     for item, frequency in sorted_items:
-        print(f'{item}: {frequency}')
         data_dict[item] = frequency
 
     with open(output_file_path, 'w') as f:
@@ -91,8 +109,7 @@ def get_verb_and_frequency_from_sentences(sentences, output_file_path):
     print("Data saved to:", output_file_path)
 
 
-get_verb_and_frequency_from_sentences(unique_queries, 'data/generated_by_code/verbs_json/verbs_mot17_ovis.json')
-get_verb_and_frequency_from_sentences(unique_queries_mot17, 'data/generated_by_code/verbs_json/verbs_mot17.json')
-get_verb_and_frequency_from_sentences(unique_queries_ovis, 'data/generated_by_code/verbs_json/verbs_ovis.json')
-
-
+get_verb_and_frequency_from_sentences('all', unique_queries_all, 'data/generated_by_code/verbs_json/verbs_ours_all.json')
+get_verb_and_frequency_from_sentences('mot17', unique_queries_mot17, 'data/generated_by_code/verbs_json/verbs_mot17.json')
+get_verb_and_frequency_from_sentences('ovis', unique_queries_ovis, 'data/generated_by_code/verbs_json/verbs_ovis.json')
+get_verb_and_frequency_from_sentences('mot20', unique_queries_mot20, 'data/generated_by_code/verbs_json/verbs_mot20.json')

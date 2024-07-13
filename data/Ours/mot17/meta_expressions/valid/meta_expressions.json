@@ -531,10 +531,10 @@
                     "exp": "Person entering into frame from left side is going outside of the frame in opposite side of the camera"
                 },
                 "11": {
-                    "exp": "Person who is gossiping in the left side infront a shop"
+                    "exp": "Person who is gossiping in the left side in front of a shop"
                 },
                 "12": {
-                    "exp": "Person coming from a shop in the left side is gossiping infront of it"
+                    "exp": "Person coming from a shop in the left side is gossiping in front of it"
                 },
                 "13": {
                     "exp": "Person who is standing beside the traffic cones"
@@ -2109,7 +2109,7 @@
                     "exp": "Person entering into frame from left side is going outside of the frame in right side"
                 },
                 "6": {
-                    "exp": "Person who is gossiping in the right side infront a building"
+                    "exp": "Person who is gossiping in the right side in front of a building"
                 },
                 "7": {
                     "exp": "Person walking on the street is going inside a building"
@@ -3444,7 +3444,7 @@
                     "exp": "A woman takes a step to the right"
                 },
                 "24": {
-                    "exp": "A person with a bicycle dissapears out of frame in the right"
+                    "exp": "A person with a bicycle disappears out of frame in the right"
                 },
                 "25": {
                     "exp": "A bicycle goes out of frame in the right"
@@ -5862,7 +5862,7 @@
                     "exp": "A person stops walking and stands in the middle of street while crossing"
                 },
                 "22": {
-                    "exp": "A bus disappers from the frame at the right side of the camera"
+                    "exp": "A bus disappears from the frame at the right side of the camera"
                 },
                 "23": {
                     "exp": "A person stops walking in the sidewalk"

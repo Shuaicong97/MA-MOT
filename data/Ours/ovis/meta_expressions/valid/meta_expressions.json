@@ -1805,7 +1805,7 @@
                     "exp": "The bird looks to its right and left"
                 },
                 "6": {
-                    "exp": "The bird turns aroind and looks away from the camera"
+                    "exp": "The bird turns around and looks away from the camera"
                 },
                 "7": {
                     "exp": "The bird looks slightly to its left"
@@ -3346,7 +3346,7 @@
                     "exp": "The lizard turns to the left"
                 },
                 "2": {
-                    "exp": "The person's hand disappeards from the left"
+                    "exp": "The person's hand disappears from the left"
                 }
             },
             "frames": [
@@ -5556,7 +5556,7 @@
                     "exp": "Panda is going to climb a tree"
                 },
                 "2": {
-                    "exp": "Pand reamins in the same position and refrains for going towards the tree"
+                    "exp": "Panda remains in the same position and refrains for going towards the tree"
                 }
             },
             "frames": [
@@ -5598,7 +5598,7 @@
                     "exp": "Dog is walking towards the opposite of the camera"
                 },
                 "2": {
-                    "exp": "Dog reamins in the same position and refrains from walking"
+                    "exp": "Dog remains in the same position and refrains from walking"
                 }
             },
             "frames": [
@@ -7117,7 +7117,7 @@
                     "exp": "Monkey is eating something from the ground"
                 },
                 "2": {
-                    "exp": "Monkey is going infront of another monkey"
+                    "exp": "Monkey is going in front of another monkey"
                 }
             },
             "frames": [
@@ -7508,10 +7508,10 @@
         "15e09c8c": {
             "expressions": {
                 "1": {
-                    "exp": "Bunny is going from the middle of the bunnys to the left of the bunnys"
+                    "exp": "Bunny is going from the middle of the bunnies to the left of the bunnies"
                 },
                 "2": {
-                    "exp": "Bunny is going from the lef of the bunnys to the middle of the bunnys"
+                    "exp": "Bunny is going from the lef of the bunnies to the middle of the bunnies"
                 },
                 "3": {
                     "exp": "Bunny is looking towards the camera"
@@ -7933,7 +7933,7 @@
         "6c88a53b": {
             "expressions": {
                 "1": {
-                    "exp": "Ziraffe is attacking another ziraffe"
+                    "exp": "Giraffe is attacking another giraffe"
                 }
             },
             "frames": [
@@ -8079,7 +8079,7 @@
                     "exp": "Goat is keeping its front legs on the back of another goat"
                 },
                 "2": {
-                    "exp": "Goat is looking for somethiong on the ground"
+                    "exp": "Goat is looking for something on the ground"
                 },
                 "3": {
                     "exp": "Person is going towards the goats"
@@ -9996,7 +9996,7 @@
                     "exp": "Bird is touching another bird's mouth with its beak"
                 },
                 "2": {
-                    "exp": "Bird is broung into frame by a person's hand"
+                    "exp": "Bird is brought into frame by a person's hand"
                 }
             },
             "frames": [
