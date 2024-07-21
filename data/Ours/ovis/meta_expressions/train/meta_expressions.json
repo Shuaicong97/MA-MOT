@@ -7954,7 +7954,7 @@
         "843d3bf7": {
             "expressions": {
                 "1": {
-                    "exp": "The turns around and looks back",
+                    "exp": "The bird turns around and looks back",
                     "obj": [
                         {
                             "obj_id": "5",
@@ -70275,7 +70275,7 @@
         "323c4236": {
             "expressions": {
                 "1": {
-                    "exp": "Hose running on the road is going outside of the frame in left side",
+                    "exp": "Horse running on the road is going outside of the frame in left side",
                     "obj": [
                         {
                             "obj_id": "1",
@@ -70352,7 +70352,7 @@
                     ]
                 },
                 "2": {
-                    "exp": "Hose running on the road is going outside of the frame in right side",
+                    "exp": "Horse running on the road is going outside of the frame in right side",
                     "obj": [
                         {
                             "obj_id": "6",
@@ -70366,7 +70366,7 @@
                     ]
                 },
                 "3": {
-                    "exp": "Hose running on the road is going towards the left side",
+                    "exp": "Horse running on the road is going towards the left side",
                     "obj": [
                         {
                             "obj_id": "10",

@@ -170,8 +170,8 @@ def make_dir(path):
 make_dir(meta_train_file)
 make_dir(meta_valid_file)
 
-generate_yvos_meta_expressions(ovis_train_json, meta_train_file, True)
-generate_yvos_meta_expressions(ovis_valid_json, meta_valid_file, False)
+# generate_yvos_meta_expressions(ovis_train_json, meta_train_file, True)
+# generate_yvos_meta_expressions(ovis_valid_json, meta_valid_file, False)
 
 
 def sort_json_by_obj_id(file_path, output_file):
@@ -240,8 +240,8 @@ def copy_videos_to_target(target_folder, video_type):
     print(f'number of videos: {i}')
 
 
-copy_videos_to_target(train_jpeg, 'train')
-copy_videos_to_target(valid_jpeg, 'valid')
+# copy_videos_to_target(train_jpeg, 'train')
+# copy_videos_to_target(valid_jpeg, 'valid')
 
 annotations_train = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/OVIS/annotations_train.json'
 
@@ -281,7 +281,8 @@ def generate_train_meta_json(input_path, output_path):
                     if str(key) == obj_id:
                         category = value
                         break
-                result['videos'][video_name]['objects'][obj_id] = {'category': category, 'frames': []}
+                # categories need to be entered manually
+                result['videos'][video_name]['objects'][obj_id] = {'category': 'default', 'frames': []}
 
                 # add frames information
                 frames = result['videos'][video_name]['objects'][obj_id]['frames']
@@ -347,6 +348,6 @@ def generate_gt_file():
     print("conversion to gt.txt complete.")
 
 
-generate_gt_file()
+# generate_gt_file()
 
 print('Process completed')
