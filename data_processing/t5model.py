@@ -34,9 +34,9 @@ def rephrase_text(text_list, num_return_sequences=5):
 # Example usage
 if __name__ == "__main__":
     original_expressions = [
-        "The cat sat on the mat.",
-        "Yacht is going towards the right side",
-        "The dog barked loudly at the stranger."
+        "rephrase: The cat sat on the mat",
+        "rephrase: Yacht is going towards the right side",
+        "rephrase: The dog barked loudly at the stranger"
     ]
 
     rephrased_expressions_dict = rephrase_text(original_expressions)
