@@ -1,9 +1,9 @@
-from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
+from transformers import AutoModelForCausalLM, AutoTokenizer
 import torch
 
 # Load the llama3:text model and tokenizer
 tokenizer = AutoTokenizer.from_pretrained("meta-llama/Meta-Llama-3-8B")
-model = AutoModelForSeq2SeqLM.from_pretrained("meta-llama/Meta-Llama-3-8B")
+model = AutoModelForCausalLM.from_pretrained("meta-llama/Meta-Llama-3-8B")
 
 
 # Function to generate rephrased queries
