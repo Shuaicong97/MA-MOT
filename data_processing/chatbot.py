@@ -1,92 +1,48 @@
 import gradio as gr
 import transformers
 import torch
+from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 
-model_id = "unsloth/llama-3-8b-Instruct-bnb-4bit"
+model_name = "meta-llama/Meta-Llama-3-8B"
+tokenizer = AutoTokenizer.from_pretrained(model_name)
+model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
 
-pipeline = transformers.pipeline(
-    "text-generation",
-    model=model_id,
-    model_kwargs={
-        "torch_dtype": torch.float16,
-        "quantization_config": {"load_in_4bit": True},
-        "low_cpu_mem_usage": True,
-    },
-)
 
-messages = [
-    {"role": "system", "content": "You are a helpful assistant!"},
-    {"role": "user", "content": """Hey how are you doing today?"""},
-]
+def rephrase_text(text_list, num_return_sequences=5):
+    rephrased_texts_dict = {}
 
-prompt = pipeline.tokenizer.apply_chat_template(
-        messages,
-        tokenize=False,
-        add_generation_prompt=True
-)
+    for text in text_list:
+        # Tokenize input
+        inputs = tokenizer(text, return_tensors="pt")
 
-terminators = [
-    pipeline.tokenizer.eos_token_id,
-    pipeline.tokenizer.convert_tokens_to_ids("<|eot_id|>")
-]
-
-outputs = pipeline(
-    prompt,
-    max_new_tokens=256,
-    eos_token_id=terminators,
-    do_sample=True,
-    temperature=0.6,
-    top_p=0.9,
-)
-
-print(outputs[0]["generated_text"][len(prompt):])
-
-messages = []
-
-def add_text(history, text):
-    global messages
-    history = history + [(text,'')]
-    messages = messages + [{"role":'user', 'content': text}]
-    return history, text
-
-def generate(history):
-  global messages
-  prompt = pipeline.tokenizer.apply_chat_template(
-        messages,
-        tokenize=False,
-        add_generation_prompt=True
-)
-
-  terminators = [
-    pipeline.tokenizer.eos_token_id,
-    pipeline.tokenizer.convert_tokens_to_ids("<|eot_id|>")
-]
-
-  outputs = pipeline(
-    prompt,
-    max_new_tokens=256,
-    eos_token_id=terminators,
-    do_sample=True,
-    temperature=0.6,
-    top_p=0.9,
-)
-  response_msg = outputs[0]["generated_text"][len(prompt):]
-  for char in response_msg:
-      history[-1][1] += char
-      yield history
-  pass
-
-with gr.Blocks() as demo:
-
-    chatbot = gr.Chatbot(value=[], elem_id="chatbot")
-    with gr.Row():
-            txt = gr.Textbox(
-                show_label=False,
-                placeholder="Enter text and press enter",
+        # Generate rephrased text
+        with torch.no_grad():
+            outputs = model.generate(
+                inputs["input_ids"],
+                num_return_sequences=num_return_sequences,
+                num_beams=num_return_sequences,
+                max_length=len(text.split()) + 10,  # Adjust max length as needed
+                early_stopping=True
             )
 
-    txt.submit(add_text, [chatbot, txt], [chatbot, txt], queue=False).then(
-            generate, inputs=[chatbot,], outputs=chatbot,)
+        # Decode generated texts
+        rephrased_texts = [tokenizer.decode(output, skip_special_tokens=True) for output in outputs]
+        rephrased_texts_dict[text] = rephrased_texts
 
-demo.queue()
-demo.launch(debug=True)
+    return rephrased_texts_dict
+
+
+if __name__ == "__main__":
+    original_expressions = [
+        "Elephant is walking towards the right side",
+        "Cat is going from right to left side",
+        "Yacht is going towards the right side"
+    ]
+
+    rephrased_expressions_dict = rephrase_text(original_expressions)
+    for original, rephrased in rephrased_expressions_dict.items():
+        print(f"Original Expression: {original}")
+        print("\nRephrased Expressions: ")
+        for idx, expr in enumerate(rephrased, 1):
+            print(f"{idx}. {expr} ")
+        print()
