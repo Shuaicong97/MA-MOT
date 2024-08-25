@@ -25,11 +25,11 @@ file_path3 = 'data/Type-to-Track/annotations/v1.0/tao_train_coco.json'
 
 
 calculate_caption(unique_captions, file_path1)
-# print(f'There are {len(unique_captions)} different kinds of captions')
+print(f'There are {len(unique_captions)} different kinds of captions')
 calculate_caption(unique_captions, file_path2)
-# print(f'There are {len(unique_captions)} different kinds of captions')
+print(f'There are {len(unique_captions)} different kinds of captions')
 calculate_caption(unique_captions, file_path3)
-# print(f'There are {len(unique_captions)} different kinds of captions')
+print(f'There are {len(unique_captions)} different kinds of captions')
 
 # individual calculation, maybe there are some duplicates between mot17_train_coco and mot17_train_coco
 # 2582 tao_train_coco.json

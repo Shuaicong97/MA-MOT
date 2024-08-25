@@ -1,0 +1,215 @@
+The individual has a backpack strapped to his back.
+A child is not visible as he moves behind the white structure.
+A child vanishes behind the white structure.
+A child walks behind the white column.
+A child is walking rather than running.
+A child passes behind the white structure.
+A child reduces his speed from running to walking.
+A child begins to walk.
+A child starts walking at a slower pace.
+A child halts running and begins to walk slowly.
+A child comes to a stop while walking.
+A child walks behind the white column.
+A child moves behind the white structure.
+A man adjusts the straps of his backpack.
+A man rearranges his bag on his back.
+A man properly positions his backpack.
+A pedestrian crosses the street on the zebra crossing.
+A person with a child looks back.
+A person emerges from behind the white structure.
+A person starts to sprint.
+A person calls out to another by touching her.
+A person checks her mobile device.
+A person climbs onto and sits on the white box structure.
+A person returns from behind the white column.
+A person reappears from behind the white structure.
+A person chats with a group of people.
+A person talks with another individual.
+A person slows down while running.
+A person disappears behind the white structure.
+A person takes a drink from a bottle.
+A person gives another individual a hug.
+A person has a conversation with someone else.
+A person talks with a group of individuals.
+A person chats with another person.
+A person converses with other people.
+A person enters the building on the right side.
+A person looks straight ahead.
+A person turns to the right and starts speaking with someone.
+A person looks over their shoulder.
+A person glances to the left side.
+A person glances to the right side.
+A person moves in the correct direction.
+A person moves to the left.
+A person shifts to the right.
+A person takes a few steps to the right.
+A person stops briefly and changes direction while walking.
+A person pauses their walk and stays still for a moment.
+A person takes another person's hand.
+A person embraces someone else.
+A person who was initially standing walks to the right.
+A person bends down to speak with a child.
+A person raises her hands as she walks.
+A person raises her hands while taking a stroll.
+A person raises his hands while conversing with another person.
+A person looks and points to the left.
+A person surveys their surroundings.
+A person turns to look back.
+A person looks back and ceases walking.
+A person looks behind him.
+A person looks behind him to the right.
+A person gazes ahead.
+A person scans his surroundings.
+A person glances to the left.
+A person glances to the right.
+A person turns to his left.
+A person turns to his right.
+A person makes a U-turn and heads in the opposite direction.
+A person steps out from behind another individual and walks beside them.
+A person shifts her jacket from one hand to the other.
+A person moves her shoulder to avoid bumping into someone else.
+A person looks around him.
+A person clasps her hands behind her back to carry her bag.
+A person positions her hands behind her back to support the bag.
+A person moves in the right direction.
+A person places both hands on his head.
+A person puts away his phone and looks up.
+A person places her hands behind her back to manage the bag.
+A person rests his hand on another person's shoulder.
+A person puts away the phone.
+A person raises a hand to indicate a direction.
+A person lifts her hand.
+A person raises her hands and moves them.
+A person raises her hand to signal others to walk.
+A person lifts her hands while walking.
+A person lifts his hand.
+A person lifts his hand and converses with another person.
+A person raises his hand while speaking.
+A person lifts his hands.
+A person lifts his hands while talking to someone else.
+A person raises his hands as he walks.
+A person decreases his running speed.
+A person changes direction and begins walking back.
+A person turns and faces right.
+A person shakes hands with another person.
+A person shifts their jacket from one hand to the other.
+A person takes a seat.
+A person slows his running pace.
+A person reduces his walking speed and glances back.
+A person slows down as they walk.
+A person stands up from their seat.
+A person initiates a conversation with others.
+A person begins checking his phone.
+A person commences running.
+A person takes a few steps and begins talking with someone else.
+A person chats with another individual while walking.
+A person begins conversing with a group.
+A person starts drinking from a bottle.
+A person begins to run.
+A person starts moving to the right.
+A person begins walking.
+A person accelerates their pace.
+A person walks in the correct direction.
+A person walks toward the right.
+A person halts briefly.
+A person ceases walking.
+A person stops walking and chats with another individual.
+A person halts walking and engages in a conversation with someone else.
+A person pauses walking and talks with a group of people.
+A person halts walking and looks back.
+A person stops walking and turns to the left.
+A person halts walking and turns to the right.
+A person pauses walking to hug someone.
+A person stops walking and leans against a white box.
+A person halts walking and observes the surroundings.
+A person stops walking and glances behind him.
+A person stops walking and remains still for a moment.
+A person halts walking and begins talking with another individual.
+A person stops walking and takes a few steps to the left.
+A person stops walking to converse with someone.
+A person halts walking and turns back.
+A person halts and faces forward.
+A person quickly alters her course.
+A person makes a few steps to the side.
+A person retreats a few steps.
+A person advances a few steps.
+A person moves a few steps to the left.
+A person shifts a few steps to the right.
+A person steps sideways a few times.
+A person moves a few steps to the left.
+A person moves a few steps to the right.
+A person turns to the left.
+A person turns to the right.
+A person takes a seat.
+A person shifts to the right and starts conversing with another individual.
+A person steps to the left.
+A person turns left.
+A person steps back and then faces forward.
+A person converses on his phone.
+A person chats with someone and indicates directions.
+A person gives a light tap on the back of another person.
+A person discards something in the bin.
+A person tosses an item into the trash.
+A person places litter in the bin.
+A person shifts their jacket from their right hand to their left.
+A person rotates and glances back.
+A person pivots and faces to the right.
+A person turns around and checks behind.
+A person turns around and looks ahead.
+A person rotates and begins to walk.
+A person turns around and steps back.
+A person turns around and takes a few steps backward.
+A person turns around and retraces their steps.
+A person looks back.
+A person turns around and glances behind.
+A person turns around and looks ahead.
+A person turns around and walks back.
+A person turns around and moves a few steps forward.
+A person turns while walking and looks behind.
+A person turns to check behind.
+A person faces forward.
+A person faces forward and begins speaking with another individual.
+A person faces forward and starts walking.
+A person faces forward and takes a few steps.
+A person tilts his head to the left.
+A person tilts his head to the right.
+A person turns left as they walk.
+A person turns to the right.
+A person turns right and begins walking in the correct direction.
+A person disappears from sight behind the white structure.
+A person walking with a child turns around.
+A person takes a few steps backward.
+A person moves in reverse.
+A person walks behind the white structure.
+A person heads to the left.
+A person heads to the right.
+A person enters the building on the right.
+A person walks across the zebra crossing.
+A person emerges from behind the white structure.
+A person moves to the left.
+A person moves to the right.
+A person walks in the correct direction to the right.
+A person waves her hand.
+A person carries the backpack on his back.
+An individual vanishes behind the white column.
+An individual turns to the right.
+An individual stops walking.
+An individual raises her hand to signal a direction.
+A person in a wheelchair moves to the right.
+An individual enters the building situated to the right.
+An individual sits down.
+An individual takes a seat.
+An individual turns around and begins walking.
+An individual walking with a child turns to face the opposite direction.
+As he walks, the person looks behind him.
+During a discussion with another individual, a person raises his hands.
+The baby carriage moves to the right.
+The baby carriage shifts right.
+The baby carriage comes to a stop.
+The baby halts.
+The individual secures the backpack onto their back.
+The person has the backpack positioned on his back.
+The individual in the wheelchair turns right.
+The wheelchair moves to the right.
+The wheelchair advances to the right.
+While walking, an individual glances over his shoulder.

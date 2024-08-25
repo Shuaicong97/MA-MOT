@@ -1,0 +1,430 @@
+The airplane is landing.
+The airplane is moving faster than another airplane.
+The airplane is moving slower than another airplane.
+The airplane is stationary and remains in its current position.
+The airplane on the runway is turning to the left.
+The airplane on the runway is stationary and remains in place.
+A bear is entering the frame from the right and moving to the left.
+A bear is fighting with another bear.
+A bicycle is moving away from the camera.
+The bicycle is making a slight right turn.
+The bicycle is heading to the left.
+A bike coming from the right is exiting the frame to the left.
+A bike entering the frame from the left is exiting the frame to the right.
+A bike coming in from the left is moving to the right.
+A person is pushing the bike to the left.
+A bike is being taken to the right side for parking.
+A bike is circling around another bike.
+The bike is moving from right to left.
+The bike is going from right to left.
+The bike is exiting the frame to the right.
+The bike is jumping.
+The bike is parked and stationary.
+The bike is stationary and stays in the same place.
+A bird is fighting with another bird.
+A bird has been pecked by another bird.
+A bird in line briefly approaches the camera.
+A person's hand brings a bird into the frame.
+A bird is circling around the food container.
+A bird is disturbing other birds.
+A bird is falling from a plastic bottle.
+A bird is flying in the sky.
+A bird is flying to the right and then landing on another bird.
+A bird is flying towards the right.
+A bird is moving from the bottom of the cage to the perch.
+A bird is entering the food container from the floor.
+A bird is flying out of the frame from the bottom.
+A bird is moving to the left.
+A bird is making a right turn.
+A bird is touching another bird's beak with its own.
+A bird at the bottom of the cage is stationary and remains in place at all times.
+One bird pecks another bird.
+A bird is refraining from flying.
+A bird perched on the stand is stationary and remains in place at all times.
+A bird on the perch briefly moves to the right.
+A bunny is eating leaves.
+A bunny is fighting with another bunny.
+A bunny is moving from the left side of the group to the center.
+A bunny is moving from the center of the group to the left side.
+A bunny is looking at the camera.
+A bunny is sniffing the bed sheet.
+A cat is fighting with another cat.
+A cat is moving from right to left.
+A cat is stationary and stays in the same position.
+A cat is stationary and remains in place at all times.
+A cat is watching something.
+A chicken is eating food off the floor.
+A chicken is climbing from the floor to the top of the wall.
+A chicken on the wall is moving to the left.
+A cow is eating from the food container.
+A cow is fighting with a sheep.
+A cow is sniffing the food container.
+A cow is walking backward.
+A dog is refraining from participating in the fight.
+A dog is asserting its dominance in a fight with another dog.
+A dog is being dominated in a fight with another dog.
+A dog is fighting with another dog.
+A dog is walking away from the camera.
+A dog is staying in the same position and not moving.
+A duck is refusing to eat food from the ground.
+A duck is eating something from the ground.
+A duck is moving to the left.
+An elephant is picking up a basket with its trunk and handing it to a person.
+An elephant is standing with its handler and watching the race.
+An elephant is walking toward the camera.
+An elephant is walking to the left.
+An elephant is walking to the right.
+A fish entering the frame from the right is moving to the left.
+A fish in the water is exiting the frame from the bottom.
+A fish in the water is exiting the frame to the left.
+A fish is swimming to the right.
+A fish is swimming in the aquarium.
+A giraffe is attacking another giraffe.
+A giraffe is lifting another giraffe's back leg with its head.
+A giraffe near the fence is eating leaves.
+A giraffe near the fence is moving to the right.
+Another giraffe is lifting the back leg of a giraffe.
+A goat is not peeking over the wall.
+A goat from the right is moving behind other goats.
+A goat is approaching the railing.
+A goat is resting its front legs on the back of another goat.
+A goat is searching for something on the ground.
+A goat is looking to the right while facing away from the camera.
+A goat is looking to the left.
+A goat is facing the camera.
+A goat is peeking over the wall.
+A goat is sniffing the wall.
+A goat is walking toward the camera.
+A horse is circling around a person.
+A horse is moving to the left.
+A horse begins to walk to the left.
+A lizard is fighting with another lizard.
+A monkey is entering the frame from the left.
+A monkey coming into the frame from the left is sitting on a stone.
+One monkey is being pulled by another monkey.
+One monkey is being pushed by another monkey.
+A monkey is eating something from the ground.
+A monkey is climbing down from the back of another monkey.
+A monkey is moving in front of another monkey.
+A monkey is exiting the frame to the right.
+A monkey is examining the front of another monkey's body with its hand.
+A monkey has its right hand resting on the left shoulder of another monkey.
+A monkey is pushing another monkey.
+A monkey is sniffing another monkey.
+A monkey is stationary and remains in the same position.
+A monkey is stationary and stays in place at all times.
+A panda is eating food from a container.
+A panda is preparing to climb a tree.
+A panda is remaining still and not moving towards the tree.
+A person is entering the frame from the right and exiting on the left.
+A person entering from the right is moving to the left.
+A person is getting off the bike.
+A person is getting onto a bicycle.
+A person is giving commands to a horse.
+A person is signaling with their right hand to start the race.
+A person is moving to the right to park their bike.
+A person is riding their bicycle towards the left.
+A person is heading towards the goats.
+A person is looking at the giraffe.
+A person is shifting the bike to the left.
+A person is receiving a basket from the trunk of an elephant.
+A person is seated.
+A person is standing next to their elephant and watching the race.
+A person is stationary and remains in the same position.
+A person on a bicycle is moving away from the camera.
+A person on a bicycle is making a slight right turn.
+A person on a bike coming from the right is exiting the frame to the left.
+A person on a bike entering from the left is exiting the frame to the right.
+A person on a bike entering the frame from the left is moving to the right.
+A person on a bike is circling around another bike.
+A person on a bike is moving from right to left.
+A person on a bike is going from right to left.
+A person on a bike is exiting the frame to the right.
+A person on a bike is jumping.
+A person is watching the race from the sidelines.
+A rabbit is playing with another rabbit.
+A sheep is fighting with a cow.
+A sheep is moving away from the camera.
+A ship is approaching the camera.
+A ship is heading to the right.
+The bear is circling around the tree.
+The bike disappears from the left side of the frame.
+The bike disappears from the right side of the frame.
+The bike is obscured by other bikers in front of the camera.
+The bike jumps into the air.
+The bike tilts from the left to the right.
+The bike passes another bike.
+The bike balances on its back tire in a standing position.
+The bike speeds away from the other bikes.
+The biker disappears from the right side of the frame.
+The biker falls to the ground from a lifted position.
+The biker jumps into the air with his bike.
+The biker leans from left to right.
+The biker passes another biker.
+A bird flies toward the camera.
+A bird hops onto another bird.
+A bird jumps up to a higher perch.
+A bird leans down to a food bowl.
+A bird looks down at the food bowl.
+A bird glances slightly to its left.
+A bird looks both right and left.
+A bird gazes to the right.
+A bird shifts slightly to the left.
+A bird turns around and looks away from the camera.
+A bird turns to the left.
+A bird walks around another bird.
+A boat moves behind other boats.
+A boat navigates between other boats.
+A boat circles around a yellow object in the sea.
+A boat moves in front of other boats.
+A boat shifts sideways to the left and straightens itself.
+A boat shifts sideways to the right and straightens itself.
+A boat slightly alters its direction to the right.
+A boat turns from the right to the left.
+A boy makes a U-turn with his bicycle.
+A boy turns around from left to right.
+A bull moves to the left.
+A bull moves to the right.
+A bus appears from the left side of the frame.
+A bus disappears off the frame to the right.
+A car appears from the left side of the frame.
+A car disappears behind another car.
+A car exits the frame to the right.
+A car vanishes from the right side of the frame.
+A car disappears off the right side of the frame.
+A car remains parked at the side of the road.
+A car makes a right turn.
+A cat attacks another cat.
+A cat is biting at a hand.
+A cat grabs a toy with its paw.
+A cat is being flipped over by another cat.
+The cat lays down from a seated position.
+The cat licks its leg.
+The cat gazes toward the camera.
+The cat is sitting on the floor.
+The cat turns around and looks back.
+The cat turns around and walks away from the camera.
+The cat turns around and returns.
+A chicken comes into view from the right side of the camera.
+A cow enters the frame from the right side.
+The cow shifts to the left.
+The cow shifts to the right.
+The cow begins to eat the leaves.
+The cow halts its movement.
+The cow turns to the right and looks away from the camera.
+The cow resumes walking.
+The cow slips and sits down on the ground.
+A bicycle enters the frame from the left side.
+The bicycle is obstructed from view by another cyclist.
+The bicycle passes by other bicycles.
+The bicycle makes a U-turn.
+The bicycle moves in a circular path.
+The bicycle overtakes other bicycles.
+The bicycle turns from left to right.
+The cyclist goes past other bicycles.
+A dog appears from the right and walks between other dogs.
+The dog leaps at another dog.
+The dog jumps onto another dog.
+The dog nudges another dog with its head.
+The dog rises from a lying position.
+The dog starts walking to the left.
+The dog pauses and looks around.
+The dog turns around and looks down at an object on the ground.
+The dog walks backward.
+The duck begins to walk.
+The duck turns around and faces to the right.
+The duck turns around and walks toward the right.
+The duck moves away from the camera and turns to the left.
+The elephant raises its front legs onto another elephant's body.
+The elephant halts its movement.
+The elephant extends its trunk across the face of another elephant.
+The elephant walks backward.
+The elephant walks beneath the trunk of another elephant.
+The fish rises upward.
+The fish swiftly moves its tail and goes to the right.
+The fish slowly heads toward the right.
+The fish adjusts its position from diagonal to straight.
+The fish aligns itself vertically while looking down at the lower surface.
+The fish rotates and faces the opposite direction.
+The fish gradually descends.
+The fish swims away from the camera.
+The fish swims downward.
+The fish emerges from behind the rock.
+The fish swims slightly to the right.
+The fish swims to the surface of the water.
+The fish rises between a rock and a platform.
+The fish turns from left to right.
+The fish turns from right to left.
+The fish turns to the right.
+The giraffe bends its neck around another giraffe.
+The giraffe chews its food.
+The giraffe straightens its neck.
+The goat sticks its head through the steel bars.
+The goat turns its head to the left.
+The goat moves its mouth to the right and nibbles at some food.
+The goat turns around and walks back.
+The goat approaches the food near the steel bars.
+The hand rises to the cat's face.
+The horse collides with another horse.
+The horse vanishes from the right side of the frame.
+The horse is obscured by another horseman.
+The horse overtakes other horses.
+The horse slightly rotates its body to the left.
+The horse stands on its hind legs.
+The horse begins walking to the right.
+The horse turns from left to right.
+The horse turns from right to left.
+The horse walks behind another horse.
+The horse slightly moves to the right and faces away from the camera.
+The horseman disappears from the right side of the frame.
+The horseman is blocked from view by another horseman.
+The horseman overtakes other horsemen.
+The lion rises from a seated position.
+The lizard leans forward toward the food bowl.
+The lizard looks down at the food bowl.
+The lizard turns to the left.
+The lizard walks toward the camera and eats.
+The monkey comes into view from behind another monkey.
+The monkey exits the frame to the right.
+The monkey grabs a yellow object.
+The monkey takes a yellow object and puts it in its mouth.
+The monkey places a yellow object in its mouth.
+The monkey stands at the edge of the box and examines its contents.
+The monkey retrieves an object from the box.
+The monkey walks away from the box.
+The panda enters the frame from the left side.
+The panda enters the frame from the right side.
+The panda engages in a scuffle with another panda.
+The panda falls onto its back.
+The panda follows a person carrying cloth.
+The panda leaps onto another panda.
+The panda lays down on the ground after sitting.
+The panda knocks another panda to the ground.
+The panda uses its paws to scratch its face.
+The panda stands up on all fours.
+The panda throws another panda off its body.
+A person enters the frame from the left side.
+A person enters the frame from the right side.
+The person walks and disappears behind a box.
+The person vanishes behind a car.
+The person is no longer visible in the frame.
+The person exits the frame to the left.
+The person exits the frame to the right.
+The person is obstructed from view by another cyclist.
+The person is briefly covered behind a boy.
+The person grabs the panda's arm with her hand.
+The person hands something to another individual.
+The person looks over their shoulder.
+The person looks down from the edge of the ship.
+The person slightly lowers their body from a standing position.
+The person moves behind other boats.
+The person navigates between other boats.
+The person circles around.
+The person moves in a circle around a yellow object on the sea.
+The person moves in front of other boats.
+The person lowers the camera from their face.
+The cyclist looks from their right to the front.
+The person overtakes other cyclists.
+The person places a cloth near the panda's face.
+The person lifts their leg off the road while on the bike.
+The person rotates in a circle.
+The person runs and grabs the horse's body.
+The person sits down on the ground.
+The person speeds away from the other cyclists.
+The person turns around and approaches the camera.
+The person turns around and walks toward the camera.
+The person steers the boat from the right to the left.
+The person moves away from the edge of the boat.
+The person leads the horse to the right.
+The person observes the horses.
+The person's hand vanishes from the left.
+The plane alters its direction to the left.
+The rabbit nibbles on the carrot.
+The rabbit lowers its head from the top of the cage.
+The rabbit exits the frame to the left.
+The rabbit goes behind another rabbit.
+The rabbit hops to the left.
+The rabbit hops to the right.
+The rabbit jumps to the right and disappears from view.
+The rabbit looks up from its food.
+The rabbit moves its head from right to left.
+The rabbit lowers its paws to the ground and hops to the right.
+The rabbit starts to eat.
+The rabbit moves to the left.
+The rabbit stands in front of another rabbit.
+The rabbit begins to walk from a seated position.
+The rabbit rises from a still position.
+The rabbit turns around and looks back.
+The rabbit turns around and walks toward the red bowl.
+The rabbit turns to the right.
+The rabbit moves away from the food and exits to the left.
+The rabbit hops beneath other rabbits.
+A sheep enters the frame from the right.
+The sheep stands motionless.
+The sheep begins to walk.
+The sheep turns to the left.
+The ship remains stationary on the water.
+The ship falls onto the water from a height.
+The tiger enters from the top of the frame.
+The tiger lowers its head to the ground.
+The tiger pushes another tiger down.
+The tiger walks behind another tiger.
+The tiger approaches another tiger.
+A turtle enters the frame from the left.
+The turtle exits the frame to the right.
+The turtle is covered by the shadow of another turtle above it.
+The turtle moves away from the camera.
+The turtle sits on the floor below another turtle.
+The turtle takes a left turn.
+The turtle turns around and faces the camera.
+The turtle turns around and moves away from the camera.
+The turtle walks across the food.
+The zebra exits the frame to the left.
+The zebra exits the frame to the right.
+The zebra escapes from the lion's jaws.
+The zebra rises from the water container to the ground.
+The zebra is pushed into the water surface.
+The zebra kicks the gate and turns to the right.
+The zebra leaps swiftly.
+The zebra tilts its head to the left while on the grass.
+The zebra raises its head and spins in a circle.
+The zebra nudges the lion with its head.
+The zebra rotates its body and faces left.
+The zebra runs to the center of the water pool.
+The zebra takes a small step to the left.
+The zebra makes a slight turn to the right.
+The zebra turns around and faces away from the gate.
+The zebra turns around and walks away from the water container.
+The zebra turns around and walks toward the water pool.
+The zebra turns from left to right.
+The zebra crosses in front of the gate.
+The zebra moves away from the camera.
+The zebra heads to the left.
+The tiger is engaging in a fight with another tiger.
+The tiger has its front legs resting on another tiger.
+The tiger is lying down on the ground.
+The tiger is sniffing a bus.
+The tiger walks to the left.
+The tiger walks to the right.
+The tiger is not moving.
+The turtle is carrying another turtle on its shell.
+The turtle is eating something in the water.
+The turtle climbs onto the back of another turtle.
+The turtle swims to the left.
+The turtle swims to the right.
+The vehicle is entering the frame from the left and exiting on the right.
+The vehicle is coming into view from the left and moving to the right.
+The vehicle is entering the frame from the right and going off-screen to the left.
+The vehicle is coming into view from the right and moving to the left.
+The vehicle is entering the frame from the right and heading towards the left.
+The vehicle is exiting the frame on the right side.
+The vehicle is parked and stationary along the road.
+The vehicle remains in the same spot at all times.
+The yacht is moving to the left.
+The yacht is moving to the right.
+The zebra facing the camera is turning to the left.
+The zebra looking to the left is turning away from the camera.
+The zebra is grazing on grass in the field.
+The zebra is heading to the right.
+The zebra has its front legs resting on the back of another zebra.
+The zebra is gazing at the camera.
