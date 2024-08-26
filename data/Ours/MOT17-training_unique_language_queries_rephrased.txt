@@ -389,7 +389,7 @@ The person starts walking after leaving the bench.
 The person walking on the street moves towards the shop from the street.
 The person inside the electronics showroom.
 People standing against the walls.
-A lady waiting with her bicycle at the roadside begins to cross the road.
-A person waiting at the roadside begins to cross the road.
-A person waiting at the roadside starts crossing the road.
-The children with bicycles.
+A woman standing with her bicycle at the roadside starts crossing the street.
+A person standing by the roadside starts to cross the road.
+A person at the roadside begins to walk across the street.
+The children with their bicycles.

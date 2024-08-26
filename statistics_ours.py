@@ -34,13 +34,13 @@ def generate_all_jsons():
 #          'data/generated_by_code/ours_json/gta_mot17_test_ashiq.json',
 #          'data/generated_by_code/ours_json/gta_mot17_test_seenat.json']
 
-paths_all = ['data/Ours/MOT17-training.json', 'data/Ours/MOT17-valid.json',
-             'data/Ours/OVIS-training.json', 'data/Ours/OVIS-valid.json',
-             'data/Ours/MOT20-training.json', 'data/Ours/MOT20-valid.json']
+paths_all = ['data/Ours/MOT17-training-doubled.json', 'data/Ours/MOT17-valid-doubled.json',
+             'data/Ours/OVIS-training-doubled.json', 'data/Ours/OVIS-valid-doubled.json',
+             'data/Ours/MOT20-training-doubled.json', 'data/Ours/MOT20-valid-doubled.json']
 
-paths_mot17 = ['data/Ours/MOT17-training.json', 'data/Ours/MOT17-valid.json']
-paths_ovis = ['data/Ours/OVIS-training.json', 'data/Ours/OVIS-valid.json']
-paths_mot20 = ['data/Ours/MOT20-training.json', 'data/Ours/MOT20-valid.json']
+paths_mot17 = ['data/Ours/MOT17-training-doubled.json', 'data/Ours/MOT17-valid-doubled.json']
+paths_ovis = ['data/Ours/OVIS-training-doubled.json', 'data/Ours/OVIS-valid-doubled.json']
+paths_mot20 = ['data/Ours/MOT20-training-doubled.json', 'data/Ours/MOT20-valid-doubled.json']
 
 
 def get_all_queries(file_paths):
@@ -109,10 +109,10 @@ def get_verb_and_frequency_from_sentences(dataset, sentences, output_file_path):
     print("Data saved to:", output_file_path)
 
 
-# get_verb_and_frequency_from_sentences('all', unique_queries_all, 'data/generated_by_code/verbs_json/verbs_ours_all.json')
-# get_verb_and_frequency_from_sentences('mot17', unique_queries_mot17, 'data/generated_by_code/verbs_json/verbs_mot17.json')
-# get_verb_and_frequency_from_sentences('ovis', unique_queries_ovis, 'data/generated_by_code/verbs_json/verbs_ovis.json')
-# get_verb_and_frequency_from_sentences('mot20', unique_queries_mot20, 'data/generated_by_code/verbs_json/verbs_mot20.json')
+get_verb_and_frequency_from_sentences('all', unique_queries_all, 'data/generated_by_code/verbs_json/verbs_ours_all.json')
+get_verb_and_frequency_from_sentences('mot17', unique_queries_mot17, 'data/generated_by_code/verbs_json/verbs_mot17.json')
+get_verb_and_frequency_from_sentences('ovis', unique_queries_ovis, 'data/generated_by_code/verbs_json/verbs_ovis.json')
+get_verb_and_frequency_from_sentences('mot20', unique_queries_mot20, 'data/generated_by_code/verbs_json/verbs_mot20.json')
 
 
 def get_subject_frequency_from_sentences(sentences, output_file_path):
@@ -128,5 +128,5 @@ def get_subject_frequency_from_sentences(sentences, output_file_path):
     print(subject_freq)
 
 
-get_subject_frequency_from_sentences(unique_queries_ovis, 'data/generated_by_code/subs_json/subs_ovis.json')
+# get_subject_frequency_from_sentences(unique_queries_ovis, 'data/generated_by_code/subs_json/subs_ovis.json')
 

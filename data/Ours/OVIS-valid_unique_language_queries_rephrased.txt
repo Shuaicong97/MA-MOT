@@ -1,6 +1,6 @@
-The airplane is landing.
-The airplane is moving faster than another airplane.
-The airplane is moving slower than another airplane.
+The airplane is touching down.
+The airplane is flying faster than another one.
+The airplane is flying slower than another one.
 The airplane is stationary and remains in its current position.
 The airplane on the runway is turning to the left.
 The airplane on the runway is stationary and remains in place.

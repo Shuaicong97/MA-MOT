@@ -5,36 +5,68 @@ import json
 import os
 
 sum_length = 0
-mot17_training = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT17-training.csv'  # 773
-mot17_valid = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT17-valid.csv'  # 698
-mot20_training = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT20-training.csv'  # 2275
-mot20_valid = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT20-valid.csv'  # 1670
-ovis_training = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/OVIS-training.csv'  # 3685
-ovis_valid = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/OVIS-valid.csv'  # 678
+# mot17_training = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT17-training.csv'  # 773
+# mot17_valid = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT17-valid.csv'  # 698
+# mot20_training = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT20-training.csv'  # 2275
+# mot20_valid = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT20-valid.csv'  # 1670
+# ovis_training = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/OVIS-training.csv'  # 3685
+# ovis_valid = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/OVIS-valid.csv'  # 678
+
+mot17_training = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT17-training-doubled.json'  # 773 -> 1539
+mot17_valid = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT17-valid-doubled.json'  # 698 -> 1396
+mot20_training = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT20-training-doubled.json'  # 2275 -> 4545
+mot20_valid = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT20-valid-doubled.json'  # 1670 -> 3340
+ovis_training = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/OVIS-training-doubled.json'  # 3685 -> 7370
+ovis_valid = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/OVIS-valid-doubled.json'  # 678 -> 1356
+
+# 19546
 
 datasets = [mot17_training, mot17_valid, mot20_training, mot20_valid, ovis_training, ovis_valid]
 
 
-def count_rows_in_csv(file_path):
-    try:
-        df = pd.read_csv(file_path)
-        return len(df)
-    except Exception as e:
-        print(e)
-        return None
+# def count_rows_in_csv(file_path):
+#     try:
+#         df = pd.read_csv(file_path)
+#         return len(df)
+#     except Exception as e:
+#         print(e)
+#         return None
+#
+#
+# row_counts = {}
+# for file_path in datasets:
+#     row_count = count_rows_in_csv(file_path)
+#     sum_length += row_count
+#     if row_count is not None:
+#         row_counts[file_path] = row_count
+#
+# for file_path, row_count in row_counts.items():
+#     print(f"{file_path}: {row_count} rows")
+#
+# print(sum_length)  # 9779
 
 
-row_counts = {}
+def count_objects_in_json(json_file):
+    # 读取JSON文件
+    with open(json_file, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+
+    # 检查JSON文件是否是数组类型
+    if isinstance(data, list):
+        # 返回数组中对象的数量
+        return len(data)
+    else:
+        # 如果JSON不是数组，返回0或抛出错误
+        return 0
+
+
+# 使用示例
 for file_path in datasets:
-    row_count = count_rows_in_csv(file_path)
-    sum_length += row_count
-    if row_count is not None:
-        row_counts[file_path] = row_count
+    object_count = count_objects_in_json(file_path)
+    sum_length += object_count
+    print(f'The number of objects in the JSON file is: {object_count}')
 
-for file_path, row_count in row_counts.items():
-    print(f"{file_path}: {row_count} rows")
-
-print(sum_length)  # 9779
+print(f'The number of total length is: {sum_length}')  # 19546
 
 
 def print_json_hierarchy(data, indent=0, file=None):
