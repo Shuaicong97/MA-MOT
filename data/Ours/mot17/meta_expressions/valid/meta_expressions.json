@@ -6,43 +6,85 @@
                     "exp": "Person walking in the open area is going outside of the frame in right side"
                 },
                 "2": {
-                    "exp": "Person is walking towards the right side"
+                    "exp": "A person walking in the open area exits the frame on the right side."
                 },
                 "3": {
-                    "exp": "Person entering into frame from right side is walking in the open area"
+                    "exp": "Person is walking towards the right side"
                 },
                 "4": {
-                    "exp": "Person entering into frame from right side is cycling in the open area"
+                    "exp": "A person walks toward the right side."
                 },
                 "5": {
-                    "exp": "Cycle entering into frame from right side is moving in the open area"
+                    "exp": "Person entering into frame from right side is walking in the open area"
                 },
                 "6": {
-                    "exp": "Person walking in the open area is going outside of the frame in left side"
+                    "exp": "A person entering the frame from the right side is walking in the open area."
                 },
                 "7": {
-                    "exp": "Person entering into frame from left side is walking in the open area"
+                    "exp": "Person entering into frame from right side is cycling in the open area"
                 },
                 "8": {
-                    "exp": "Person is getting up from the bench"
+                    "exp": "A person cycling into the frame from the right side is moving through the open area."
                 },
                 "9": {
-                    "exp": "Person is having interaction with a child"
+                    "exp": "Cycle entering into frame from right side is moving in the open area"
                 },
                 "10": {
-                    "exp": "A child is having interaction with a person"
+                    "exp": "A bicycle enters the frame from the right side, moving through the open area."
                 },
                 "11": {
-                    "exp": "A person standing beside a child begins to walk"
+                    "exp": "Person walking in the open area is going outside of the frame in left side"
                 },
                 "12": {
-                    "exp": "Person remains seated continuously."
+                    "exp": "A person walking in the open area exits the frame on the left side."
                 },
                 "13": {
-                    "exp": "The person is standing still in the open area"
+                    "exp": "Person entering into frame from left side is walking in the open area"
                 },
                 "14": {
+                    "exp": "A person entering the frame from the left side is walking in the open area."
+                },
+                "15": {
+                    "exp": "Person is getting up from the bench"
+                },
+                "16": {
+                    "exp": "A person stands up from the bench."
+                },
+                "17": {
+                    "exp": "Person is having interaction with a child"
+                },
+                "18": {
+                    "exp": "A person is interacting with a child."
+                },
+                "19": {
+                    "exp": "A child is having interaction with a person"
+                },
+                "20": {
+                    "exp": "A child interacts with a person."
+                },
+                "21": {
+                    "exp": "A person standing beside a child begins to walk"
+                },
+                "22": {
+                    "exp": "A person standing beside a child starts walking."
+                },
+                "23": {
+                    "exp": "Person remains seated continuously."
+                },
+                "24": {
+                    "exp": "A person remains seated without moving."
+                },
+                "25": {
+                    "exp": "The person is standing still in the open area"
+                },
+                "26": {
+                    "exp": "The person stands still in the open area."
+                },
+                "27": {
                     "exp": "Person walking in the right side stops walking in front of a building"
+                },
+                "28": {
+                    "exp": "A person walking on the right side stops in front of a building."
                 }
             },
             "frames": [
@@ -504,88 +546,175 @@
                     "exp": "Person walking in open area is going outside of the frame in camera side"
                 },
                 "2": {
-                    "exp": "Person walking in open area is going towards the camera side"
+                    "exp": "A person walking in the open area exits the frame on the camera side."
                 },
                 "3": {
-                    "exp": "Person entering into frame from opposite side of the camera is going towards the camera side"
+                    "exp": "Person walking in open area is going towards the camera side"
                 },
                 "4": {
-                    "exp": "Person entering into frame from opposite side of the camera is going outside of the frame in left side"
+                    "exp": "A person walking in the open area approaches the camera side."
                 },
                 "5": {
-                    "exp": "Person entering into frame from opposite side of the camera is going outside of the frame in camera side"
+                    "exp": "Person entering into frame from opposite side of the camera is going towards the camera side"
                 },
                 "6": {
-                    "exp": "Person walking in the open area is going outside of the frame in left side"
+                    "exp": "A person entering the frame from the opposite side of the camera is approaching the camera side."
                 },
                 "7": {
-                    "exp": "Person entering into frame from opposite side of the camera is walking in the open area"
+                    "exp": "Person entering into frame from opposite side of the camera is going outside of the frame in left side"
                 },
                 "8": {
-                    "exp": "Person walking in open area is going outside of the frame in opposite side of the camera"
+                    "exp": "A person entering the frame from the opposite side of the camera is moving out of the frame on the left side."
                 },
                 "9": {
-                    "exp": "Person entering into frame from camera side is going towards the opposite side of the camera"
+                    "exp": "Person entering into frame from opposite side of the camera is going outside of the frame in camera side"
                 },
                 "10": {
-                    "exp": "Person entering into frame from left side is going outside of the frame in opposite side of the camera"
+                    "exp": "A person entering the frame from the opposite side of the camera is exiting the frame on the camera side."
                 },
                 "11": {
-                    "exp": "Person who is gossiping in the left side in front of a shop"
+                    "exp": "Person walking in the open area is going outside of the frame in left side"
                 },
                 "12": {
-                    "exp": "Person coming from a shop in the left side is gossiping in front of it"
+                    "exp": "A person walking in the open area exits the frame on the left side."
                 },
                 "13": {
-                    "exp": "Person who is standing beside the traffic cones"
+                    "exp": "Person entering into frame from opposite side of the camera is walking in the open area"
                 },
                 "14": {
-                    "exp": "Person who is seated on a roadside barrier, is observing the surroundings."
+                    "exp": "A person entering the frame from the opposite side of the camera is walking in the open area."
                 },
                 "15": {
-                    "exp": "Person cycling in the open area is going out outside of the frame in camera side"
+                    "exp": "Person walking in open area is going outside of the frame in opposite side of the camera"
                 },
                 "16": {
-                    "exp": "A cycle moving in the open area is going out outside of the frame in camera side"
+                    "exp": "A person walking in the open area exits the frame on the opposite side of the camera."
                 },
                 "17": {
-                    "exp": "Person entering into frame from camera side is walking in the open area"
+                    "exp": "Person entering into frame from camera side is going towards the opposite side of the camera"
                 },
                 "18": {
-                    "exp": "Vehicle is being parked on the left side of the road"
+                    "exp": "A person entering the frame from the camera side is walking toward the opposite side."
                 },
                 "19": {
-                    "exp": "Person next to the lamppost is consistently using the mobile phone."
+                    "exp": "Person entering into frame from left side is going outside of the frame in opposite side of the camera"
                 },
                 "20": {
-                    "exp": "Person is using the flash of his mobile while taking picture with his mobile"
+                    "exp": "A person entering the frame from the left side is going out of the frame toward the opposite side of the camera."
                 },
                 "21": {
-                    "exp": "Person on the left side of the road is smoking a cigarette."
+                    "exp": "Person who is gossiping in the left side in front of a shop"
                 },
                 "22": {
-                    "exp": "Person by the roadside barrier is waiting for his friend to arrive."
+                    "exp": "A person chatting on the left side in front of a shop."
                 },
                 "23": {
-                    "exp": "Person entering into frame from left side is going outside of the frame in left side"
+                    "exp": "Person coming from a shop in the left side is gossiping in front of it"
                 },
                 "24": {
-                    "exp": "Person entering into frame from right side is going outside of the frame in camera side"
+                    "exp": "A person coming from the shop on the left is chatting in front of it."
                 },
                 "25": {
-                    "exp": "Person walking in the open area is going outside of the frame in right side"
+                    "exp": "Person who is standing beside the traffic cones"
                 },
                 "26": {
-                    "exp": "Person entering into frame from right side is walking in the open area"
+                    "exp": "A person standing beside the traffic cones."
                 },
                 "27": {
-                    "exp": "Person entering into frame from opposite side of the camera is going outside of the frame in right side"
+                    "exp": "Person who is seated on a roadside barrier, is observing the surroundings."
                 },
                 "28": {
-                    "exp": "Person entering into frame from right side is going outside of the frame in opposite side of the camera"
+                    "exp": "A person seated on a roadside barrier is observing the surroundings."
                 },
                 "29": {
+                    "exp": "Person cycling in the open area is going out outside of the frame in camera side"
+                },
+                "30": {
+                    "exp": "A person riding a bicycle in the open area is moving out of the frame on the camera side."
+                },
+                "31": {
+                    "exp": "A cycle moving in the open area is going out outside of the frame in camera side"
+                },
+                "32": {
+                    "exp": "A bicycle in the open area moves out of the frame toward the camera."
+                },
+                "33": {
+                    "exp": "Person entering into frame from camera side is walking in the open area"
+                },
+                "34": {
+                    "exp": "A person entering the frame from the camera side is walking through the open area."
+                },
+                "35": {
+                    "exp": "Vehicle is being parked on the left side of the road"
+                },
+                "36": {
+                    "exp": "A vehicle is being parked on the left side of the road."
+                },
+                "37": {
+                    "exp": "Person next to the lamppost is consistently using the mobile phone."
+                },
+                "38": {
+                    "exp": "A person next to the lamppost is continuously using their mobile phone."
+                },
+                "39": {
+                    "exp": "Person is using the flash of his mobile while taking picture with his mobile"
+                },
+                "40": {
+                    "exp": "A person uses the flash on their phone while taking a picture."
+                },
+                "41": {
+                    "exp": "Person on the left side of the road is smoking a cigarette."
+                },
+                "42": {
+                    "exp": "A person on the left side of the road is smoking a cigarette."
+                },
+                "43": {
+                    "exp": "Person by the roadside barrier is waiting for his friend to arrive."
+                },
+                "44": {
+                    "exp": "A person by the roadside barrier is waiting for his friend to arrive."
+                },
+                "45": {
+                    "exp": "Person entering into frame from left side is going outside of the frame in left side"
+                },
+                "46": {
+                    "exp": "A person entering the frame from the left side is exiting the frame on the left side."
+                },
+                "47": {
+                    "exp": "Person entering into frame from right side is going outside of the frame in camera side"
+                },
+                "48": {
+                    "exp": "A person entering the frame from the right side exits on the camera side."
+                },
+                "49": {
+                    "exp": "Person walking in the open area is going outside of the frame in right side"
+                },
+                "50": {
+                    "exp": "A person walking in the open area exits the frame on the right side."
+                },
+                "51": {
+                    "exp": "Person entering into frame from right side is walking in the open area"
+                },
+                "52": {
+                    "exp": "A person entering the frame from the right side is walking in the open area."
+                },
+                "53": {
+                    "exp": "Person entering into frame from opposite side of the camera is going outside of the frame in right side"
+                },
+                "54": {
+                    "exp": "A person entering the frame from the opposite side of the camera is exiting the frame on the right side."
+                },
+                "55": {
+                    "exp": "Person entering into frame from right side is going outside of the frame in opposite side of the camera"
+                },
+                "56": {
+                    "exp": "A person entering the frame from the right side exits on the opposite side of the camera."
+                },
+                "57": {
                     "exp": "Person entering into frame from right side is going outside of the frame in left side"
+                },
+                "58": {
+                    "exp": "A person entering the frame from the right side exits on the left side."
                 }
             },
             "frames": [
@@ -2097,82 +2226,163 @@
                     "exp": "Person who is buying from a shop"
                 },
                 "2": {
-                    "exp": "Person walking on the street is going outside of the frame in right side"
+                    "exp": "A person buying something from a shop."
                 },
                 "3": {
-                    "exp": "Person walking on the street is going outside of the frame in left side"
+                    "exp": "Person walking on the street is going outside of the frame in right side"
                 },
                 "4": {
-                    "exp": "Person seated on the bench is eating street food"
+                    "exp": "A person walking on the street exits the frame on the right side."
                 },
                 "5": {
-                    "exp": "Person entering into frame from left side is going outside of the frame in right side"
+                    "exp": "Person walking on the street is going outside of the frame in left side"
                 },
                 "6": {
-                    "exp": "Person who is gossiping in the right side in front of a building"
+                    "exp": "A person walking on the street exits the frame on the left side."
                 },
                 "7": {
-                    "exp": "Person walking on the street is going inside a building"
+                    "exp": "Person seated on the bench is eating street food"
                 },
                 "8": {
-                    "exp": "Person coming out from a building is going outside of the frame in right side"
+                    "exp": "A person sitting on a bench is eating street food."
                 },
                 "9": {
-                    "exp": "Person entering into frame from left side is going outside of the frame in left side"
+                    "exp": "Person entering into frame from left side is going outside of the frame in right side"
                 },
                 "10": {
-                    "exp": "Person entering into frame from left side is going towards the opposite side of the camera"
+                    "exp": "A person entering the frame from the left side is leaving the frame on the right side."
                 },
                 "11": {
-                    "exp": "Person entering into frame from right side is going outside of the frame in right side"
+                    "exp": "Person who is gossiping in the right side in front of a building"
                 },
                 "12": {
-                    "exp": "Vehicle is being parked on the left side of the road"
+                    "exp": "A person chatting on the right side in front of a building."
                 },
                 "13": {
-                    "exp": "Child moving on Baby Stroller is going outside of the frame in left side"
+                    "exp": "Person walking on the street is going inside a building"
                 },
                 "14": {
-                    "exp": "Person walking on the street is going towards the opposite side of the camera"
+                    "exp": "A person walking on the street enters a building."
                 },
                 "15": {
-                    "exp": "Person entering into frame from right side is going towards the opposite side of the camera"
+                    "exp": "Person coming out from a building is going outside of the frame in right side"
                 },
                 "16": {
-                    "exp": "A child is standing behind a by-cycle with another person"
+                    "exp": "A person exiting a building is moving out of the frame on the right side."
                 },
                 "17": {
-                    "exp": "Person is standing behind a by-cycle with a child"
+                    "exp": "Person entering into frame from left side is going outside of the frame in left side"
                 },
                 "18": {
-                    "exp": "Person sitting on a bicycle is searching for something."
+                    "exp": "A person entering the frame from the left side is exiting the frame on the left side."
                 },
                 "19": {
-                    "exp": "Person walking on the street is going towards the right side"
+                    "exp": "Person entering into frame from left side is going towards the opposite side of the camera"
                 },
                 "20": {
-                    "exp": "Person walking on the street is going towards the left side"
+                    "exp": "A person entering the frame from the left side is moving toward the opposite side of the camera."
                 },
                 "21": {
-                    "exp": "Person coming from the left side is going outside of the frame in right side"
+                    "exp": "Person entering into frame from right side is going outside of the frame in right side"
                 },
                 "22": {
-                    "exp": "Person coming out from a building is going outside of the frame in left side"
+                    "exp": "A person entering the frame from the right side exits on the right side."
                 },
                 "23": {
-                    "exp": "Person coming from the right side is going towards the opposite side of the camera"
+                    "exp": "Vehicle is being parked on the left side of the road"
                 },
                 "24": {
-                    "exp": "Person seated on a wheel chair is waiting in front of a building"
+                    "exp": "A vehicle is being parked on the left side of the road."
                 },
                 "25": {
-                    "exp": "Person with other two people is waiting in front of a building"
+                    "exp": "Child moving on Baby Stroller is going outside of the frame in left side"
                 },
                 "26": {
-                    "exp": "Person entering into frame from left side is going towards the right side"
+                    "exp": "A child in a stroller is moving out of the frame on the left side."
                 },
                 "27": {
+                    "exp": "Person walking on the street is going towards the opposite side of the camera"
+                },
+                "28": {
+                    "exp": "A person walking on the street heads toward the opposite side of the camera."
+                },
+                "29": {
+                    "exp": "Person entering into frame from right side is going towards the opposite side of the camera"
+                },
+                "30": {
+                    "exp": "A person entering the frame from the right side heads toward the opposite side of the camera."
+                },
+                "31": {
+                    "exp": "A child is standing behind a by-cycle with another person"
+                },
+                "32": {
+                    "exp": "A child stands behind a bicycle with another person."
+                },
+                "33": {
+                    "exp": "Person is standing behind a by-cycle with a child"
+                },
+                "34": {
+                    "exp": "A person is standing behind a bicycle with a child."
+                },
+                "35": {
+                    "exp": "Person sitting on a bicycle is searching for something."
+                },
+                "36": {
+                    "exp": "A person sitting on a bicycle is searching for something."
+                },
+                "37": {
+                    "exp": "Person walking on the street is going towards the right side"
+                },
+                "38": {
+                    "exp": "A person walking on the street heads to the right side."
+                },
+                "39": {
+                    "exp": "Person walking on the street is going towards the left side"
+                },
+                "40": {
+                    "exp": "A person walking on the street heads to the left side."
+                },
+                "41": {
+                    "exp": "Person coming from the left side is going outside of the frame in right side"
+                },
+                "42": {
+                    "exp": "A person arriving from the left is moving out of the frame on the right side."
+                },
+                "43": {
+                    "exp": "Person coming out from a building is going outside of the frame in left side"
+                },
+                "44": {
+                    "exp": "A person coming out of a building is leaving the frame on the left side."
+                },
+                "45": {
+                    "exp": "Person coming from the right side is going towards the opposite side of the camera"
+                },
+                "46": {
+                    "exp": "A person approaching from the right is heading toward the opposite side of the camera."
+                },
+                "47": {
+                    "exp": "Person seated on a wheel chair is waiting in front of a building"
+                },
+                "48": {
+                    "exp": "A person seated in a wheelchair is waiting in front of a building."
+                },
+                "49": {
+                    "exp": "Person with other two people is waiting in front of a building"
+                },
+                "50": {
+                    "exp": "A person with two others is waiting in front of a building."
+                },
+                "51": {
+                    "exp": "Person entering into frame from left side is going towards the right side"
+                },
+                "52": {
+                    "exp": "A person entering the frame from the left side is heading to the right side."
+                },
+                "53": {
                     "exp": "Person coming out from a building is going back to the building"
+                },
+                "54": {
+                    "exp": "A person exiting a building is returning inside."
                 }
             },
             "frames": [
@@ -3378,124 +3588,247 @@
                     "exp": "A person looks underneath the baby stroller"
                 },
                 "2": {
-                    "exp": "A person raises his hand against his face"
+                    "exp": "A person looks under the baby stroller."
                 },
                 "3": {
-                    "exp": "A person walking in the main street out of frame in the right"
+                    "exp": "A person raises his hand against his face"
                 },
                 "4": {
-                    "exp": "A person lowers her hand and starts walking"
+                    "exp": "A person raises his hand to his face."
                 },
                 "5": {
-                    "exp": "A baby stroller goes out of the frame in the right"
+                    "exp": "A person walking in the main street out of frame in the right"
                 },
                 "6": {
-                    "exp": "A person sits down on a bench"
+                    "exp": "A person walking on the main street moves out of the frame to the right."
                 },
                 "7": {
-                    "exp": "A person walks from the main street to the sidewalk in the right as she walks forward"
+                    "exp": "A person lowers her hand and starts walking"
                 },
                 "8": {
-                    "exp": "A person walking in the main street goes out of frame in the right"
+                    "exp": "A person drops her hand and begins to walk."
                 },
                 "9": {
-                    "exp": "A person walks from behind the black wall structure to the main street"
+                    "exp": "A baby stroller goes out of the frame in the right"
                 },
                 "10": {
-                    "exp": "A person makes a glance to the right and makes a slight right turn"
+                    "exp": "A baby stroller exits the frame on the right."
                 },
                 "11": {
-                    "exp": "A person disappears from the frame from the left side of the camera"
+                    "exp": "A person sits down on a bench"
                 },
                 "12": {
-                    "exp": "A person walks behind the black wall structure"
+                    "exp": "A person sits down on a bench."
                 },
                 "13": {
-                    "exp": "A person takes a left turn and goes out of the frame in the left"
+                    "exp": "A person walks from the main street to the sidewalk in the right as she walks forward"
                 },
                 "14": {
-                    "exp": "A person walks forward"
+                    "exp": "A person walks from the main street to the right sidewalk while moving forward."
                 },
                 "15": {
-                    "exp": "A person scratches his head"
+                    "exp": "A person walking in the main street goes out of frame in the right"
                 },
                 "16": {
-                    "exp": "A person moves a bit and adjusts himself while remaining in a seated position"
+                    "exp": "A person walking on the main street exits the frame to the right."
                 },
                 "17": {
-                    "exp": "A person walking right turns forward and starts to walk forward"
+                    "exp": "A person walks from behind the black wall structure to the main street"
                 },
                 "18": {
-                    "exp": "A person crossing the street from the right to the left walks behind a black wall structure"
+                    "exp": "A person paces from behind the black wall structure to the main street."
                 },
                 "19": {
-                    "exp": "A person glances right as he walks and holds both of his hands together"
+                    "exp": "A person makes a glance to the right and makes a slight right turn"
                 },
                 "20": {
-                    "exp": "A child initially glancing to the right looks forwards"
+                    "exp": "A person glances right and makes a slight right turn."
                 },
                 "21": {
-                    "exp": "A person raises both of his hands with which he was holding his phone"
+                    "exp": "A person disappears from the frame from the left side of the camera"
                 },
                 "22": {
-                    "exp": "A person comes out of a shop in the right and walks in the sidewalk"
+                    "exp": "A person exits the frame on the left side."
                 },
                 "23": {
-                    "exp": "A woman takes a step to the right"
+                    "exp": "A person walks behind the black wall structure"
                 },
                 "24": {
-                    "exp": "A person with a bicycle disappears out of frame in the right"
+                    "exp": "A person walks behind a black wall structure."
                 },
                 "25": {
-                    "exp": "A bicycle goes out of frame in the right"
+                    "exp": "A person takes a left turn and goes out of the frame in the left"
                 },
                 "26": {
-                    "exp": "A person conversing with other people disappears out of the frame in the right"
+                    "exp": "A person turns left and exits the frame on the left."
                 },
                 "27": {
-                    "exp": "A person takes a slight right turn as she walks forward"
+                    "exp": "A person walks forward"
                 },
                 "28": {
-                    "exp": "A person removes his hand from his mouth and turns forward"
+                    "exp": "A person moves forward."
                 },
                 "29": {
-                    "exp": "A person glancing to the left disappears out of the frame in the right"
+                    "exp": "A person scratches his head"
                 },
                 "30": {
-                    "exp": "A person remains seated"
+                    "exp": "A person scratches his head."
                 },
                 "31": {
-                    "exp": "A person standing in the main street starts walking forwards"
+                    "exp": "A person moves a bit and adjusts himself while remaining in a seated position"
                 },
                 "32": {
-                    "exp": "A person standing in the main street conversing with other people"
+                    "exp": "A person shifts slightly while seated."
                 },
                 "33": {
-                    "exp": "A person with a baby walks in the main street from behind the black wall structure"
+                    "exp": "A person walking right turns forward and starts to walk forward"
                 },
                 "34": {
-                    "exp": "A person walking forward as she carries a baby"
+                    "exp": "A person walking to the right turns and begins walking forward."
                 },
                 "35": {
-                    "exp": "A person sitting on a bench looks to the right"
+                    "exp": "A person crossing the street from the right to the left walks behind a black wall structure"
                 },
                 "36": {
-                    "exp": "A baby gets carried to the main street from behind the black wall structure"
+                    "exp": "A person crossing the street from right to left walks behind a black wall structure."
                 },
                 "37": {
-                    "exp": "A person walks to the main street from behind the black wall structure"
+                    "exp": "A person glances right as he walks and holds both of his hands together"
                 },
                 "38": {
-                    "exp": "A person raises her hand as she sings"
+                    "exp": "A person glances right while walking and clasps their hands."
                 },
                 "39": {
-                    "exp": "A person walking back to the direction of the camera"
+                    "exp": "A child initially glancing to the right looks forwards"
                 },
                 "40": {
-                    "exp": "A person walking forward with a back"
+                    "exp": "A child who was looking to the right, turns to look forward."
                 },
                 "41": {
+                    "exp": "A person raises both of his hands with which he was holding his phone"
+                },
+                "42": {
+                    "exp": "A person raises both hands while holding a phone."
+                },
+                "43": {
+                    "exp": "A person comes out of a shop in the right and walks in the sidewalk"
+                },
+                "44": {
+                    "exp": "A person exits a shop on the right and walks on the sidewalk."
+                },
+                "45": {
+                    "exp": "A woman takes a step to the right"
+                },
+                "46": {
+                    "exp": "A woman takes a step toward the right."
+                },
+                "47": {
+                    "exp": "A person with a bicycle disappears out of frame in the right"
+                },
+                "48": {
+                    "exp": "A person riding a bicycle vanishes from view on the right side."
+                },
+                "49": {
+                    "exp": "A bicycle goes out of frame in the right"
+                },
+                "50": {
+                    "exp": "A bicycle exits the frame on the right."
+                },
+                "51": {
+                    "exp": "A person conversing with other people disappears out of the frame in the right"
+                },
+                "52": {
+                    "exp": "A person talking with others exits the frame on the right."
+                },
+                "53": {
+                    "exp": "A person takes a slight right turn as she walks forward"
+                },
+                "54": {
+                    "exp": "A person makes a slight right turn while walking forward."
+                },
+                "55": {
+                    "exp": "A person removes his hand from his mouth and turns forward"
+                },
+                "56": {
+                    "exp": "A person removes his hand from his mouth and faces forward."
+                },
+                "57": {
+                    "exp": "A person glancing to the left disappears out of the frame in the right"
+                },
+                "58": {
+                    "exp": "A person glancing left exits the frame on the right."
+                },
+                "59": {
+                    "exp": "A person remains seated"
+                },
+                "60": {
+                    "exp": "A person remains seated."
+                },
+                "61": {
+                    "exp": "A person standing in the main street starts walking forwards"
+                },
+                "62": {
+                    "exp": "A person standing in the main street starts walking forward."
+                },
+                "63": {
+                    "exp": "A person standing in the main street conversing with other people"
+                },
+                "64": {
+                    "exp": "A person standing in the main street talks to others."
+                },
+                "65": {
+                    "exp": "A person with a baby walks in the main street from behind the black wall structure"
+                },
+                "66": {
+                    "exp": "A person carrying a baby walks along the main street, coming from behind the black wall structure."
+                },
+                "67": {
+                    "exp": "A person walking forward as she carries a baby"
+                },
+                "68": {
+                    "exp": "A person walks forward while carrying a baby."
+                },
+                "69": {
+                    "exp": "A person sitting on a bench looks to the right"
+                },
+                "70": {
+                    "exp": "A person sitting on a bench looks to the right."
+                },
+                "71": {
+                    "exp": "A baby gets carried to the main street from behind the black wall structure"
+                },
+                "72": {
+                    "exp": "A baby is carried from behind the black wall structure to the main street."
+                },
+                "73": {
+                    "exp": "A person walks to the main street from behind the black wall structure"
+                },
+                "74": {
+                    "exp": "A person moves to the main street from behind the black wall structure."
+                },
+                "75": {
+                    "exp": "A person raises her hand as she sings"
+                },
+                "76": {
+                    "exp": "A person raises her hand as she sings."
+                },
+                "77": {
+                    "exp": "A person walking back to the direction of the camera"
+                },
+                "78": {
+                    "exp": "A person walks backward toward the camera."
+                },
+                "79": {
+                    "exp": "A person walking forward with a back"
+                },
+                "80": {
+                    "exp": "A person walks forward with a backpack."
+                },
+                "81": {
                     "exp": "A person appears from behind a black wall structure"
+                },
+                "82": {
+                    "exp": "A person emerges from behind a black wall structure."
                 }
             },
             "frames": [
@@ -4007,150 +4340,297 @@
                     "exp": "A person drinks from a bottle while conversing with another person"
                 },
                 "2": {
-                    "exp": "A child starts walking and disappears to the left side of the frame"
+                    "exp": "A person drinks from a bottle while talking to another person."
                 },
                 "3": {
-                    "exp": "A person starts walking forward and disappears to the left side of the frame"
+                    "exp": "A child starts walking and disappears to the left side of the frame"
                 },
                 "4": {
-                    "exp": "A child turns around and starts walking"
+                    "exp": "A child starts walking and exits the frame on the left."
                 },
                 "5": {
-                    "exp": "A person looks away from the camera and disappears to the left side of the frame"
+                    "exp": "A person starts walking forward and disappears to the left side of the frame"
                 },
                 "6": {
-                    "exp": "A person walks to the right side and disappears to the right side of the frame while looking at the camera"
+                    "exp": "A person starts walking forward and exits the frame on the left."
                 },
                 "7": {
-                    "exp": "A person walks and moves out of the frame in the right side of the camera"
+                    "exp": "A child turns around and starts walking"
                 },
                 "8": {
-                    "exp": "A person starts walking across the street and disappears to the left side of the frame"
+                    "exp": "A child turns and begins walking."
                 },
                 "9": {
-                    "exp": "A woman stops drinking from a bottle and switches the bottle from one hand to another"
+                    "exp": "A person looks away from the camera and disappears to the left side of the frame"
                 },
                 "10": {
-                    "exp": "A person walks from one side of the street to another between some wooden structure containing plants"
+                    "exp": "A person looks away from the camera and exits the frame on the left."
                 },
                 "11": {
-                    "exp": "A woman disappears from the frame from the right side of the camera"
+                    "exp": "A person walks to the right side and disappears to the right side of the frame while looking at the camera"
                 },
                 "12": {
-                    "exp": "A man disappears from the frame from the right side of the camera"
+                    "exp": "A person walks to the right and disappears from the frame while looking at the camera."
                 },
                 "13": {
-                    "exp": "A person stops taking a sip from his coffee cup"
+                    "exp": "A person walks and moves out of the frame in the right side of the camera"
                 },
                 "14": {
-                    "exp": "A woman getting inside the entrance of a building to the right"
+                    "exp": "A person walks and exits the frame on the right side of the camera."
                 },
                 "15": {
-                    "exp": "A person walking inside a store to the right"
+                    "exp": "A person starts walking across the street and disappears to the left side of the frame"
                 },
                 "16": {
-                    "exp": "A woman gets inside a building to the right"
+                    "exp": "A person begins crossing the street and exits the frame on the left."
                 },
                 "17": {
-                    "exp": "A woman walks out of the store with a bag"
+                    "exp": "A woman stops drinking from a bottle and switches the bottle from one hand to another"
                 },
                 "18": {
-                    "exp": "A woman nods her head as she walks and converses with another person"
+                    "exp": "A woman stops drinking from a bottle and shifts it from one hand to the other."
                 },
                 "19": {
-                    "exp": "A woman walks out of the frame in the right side of the camera"
+                    "exp": "A person walks from one side of the street to another between some wooden structure containing plants"
                 },
                 "20": {
-                    "exp": "A woman points to her front with her finger"
+                    "exp": "A person crosses the street between wooden structures holding plants."
                 },
                 "21": {
-                    "exp": "A woman looks to the left at the person beside her briefly as she walks"
+                    "exp": "A woman disappears from the frame from the right side of the camera"
                 },
                 "22": {
-                    "exp": "A person remains seated on the bench"
+                    "exp": "A woman leaves the frame from the right side of the camera."
                 },
                 "23": {
-                    "exp": "A person walking in the sidewalk walks out of the frame to the left"
+                    "exp": "A man disappears from the frame from the right side of the camera"
                 },
                 "24": {
-                    "exp": "A person looks at the camera as he walks"
+                    "exp": "A man exits the frame on the right side."
                 },
                 "25": {
-                    "exp": "A person walks behind a group of people and disappears"
+                    "exp": "A person stops taking a sip from his coffee cup"
                 },
                 "26": {
-                    "exp": "A person gets inside the building to the right"
+                    "exp": "A person stops sipping from a coffee cup."
                 },
                 "27": {
-                    "exp": "A woman walks inside a store to the right"
+                    "exp": "A woman getting inside the entrance of a building to the right"
                 },
                 "28": {
-                    "exp": "A person disappears from the frame to the left side of the camera"
+                    "exp": "A woman is entering the entrance of a building to the right."
                 },
                 "29": {
-                    "exp": "A person standing against a wooden structure"
+                    "exp": "A person walking inside a store to the right"
                 },
                 "30": {
-                    "exp": "A person remains seated"
+                    "exp": "A person walks inside a store heading to the right."
                 },
                 "31": {
-                    "exp": "A woman walks inside a building to the right"
+                    "exp": "A woman gets inside a building to the right"
                 },
                 "32": {
-                    "exp": "A person walks out of the building"
+                    "exp": "A woman steps inside a building on the right."
                 },
                 "33": {
-                    "exp": "A person walks into the store to the right"
+                    "exp": "A woman walks out of the store with a bag"
                 },
                 "34": {
-                    "exp": "A person fixes his cap as he walks"
+                    "exp": "A woman leaves the store carrying a bag."
                 },
                 "35": {
-                    "exp": "A person appears from the right side of the camera"
+                    "exp": "A woman nods her head as she walks and converses with another person"
                 },
                 "36": {
-                    "exp": "A person walks into the building to the right"
+                    "exp": "A woman nods her head as she walks and chats with another person."
                 },
                 "37": {
-                    "exp": "A person scratches the back of his head"
+                    "exp": "A woman walks out of the frame in the right side of the camera"
                 },
                 "38": {
-                    "exp": "A person comes out of a building in the right"
+                    "exp": "A woman exits the frame on the right side of the camera."
                 },
                 "39": {
-                    "exp": "A person appears in the frame from the left side of the camera"
+                    "exp": "A woman points to her front with her finger"
                 },
                 "40": {
-                    "exp": "A person remains standing in the street"
+                    "exp": "A woman gestures forward with her finger."
                 },
                 "41": {
-                    "exp": "A person glances slightly to the right as he walks"
+                    "exp": "A woman looks to the left at the person beside her briefly as she walks"
                 },
                 "42": {
-                    "exp": "A person turns around and walks back"
+                    "exp": "A woman briefly glances to the left at the person next to her while walking."
                 },
                 "43": {
-                    "exp": "A woman appears in the frame from the right side of the camera"
+                    "exp": "A person remains seated on the bench"
                 },
                 "44": {
-                    "exp": "A person getting out the building in the right"
+                    "exp": "A person stays seated on the bench."
                 },
                 "45": {
-                    "exp": "A person coming out behind the walls and going through the entrance"
+                    "exp": "A person walking in the sidewalk walks out of the frame to the left"
                 },
                 "46": {
-                    "exp": "A person disappears behind the wooden boxes containing flowers on the top"
+                    "exp": "A person walking on the sidewalk exits the frame to the left."
                 },
                 "47": {
-                    "exp": "A person looks right as he walks"
+                    "exp": "A person looks at the camera as he walks"
                 },
                 "48": {
-                    "exp": "A person walks behind the wooden boxes containing flowers"
+                    "exp": "A person looks at the camera while walking."
                 },
                 "49": {
-                    "exp": "A person comes out of the store through the open doors in the right"
+                    "exp": "A person walks behind a group of people and disappears"
                 },
                 "50": {
+                    "exp": "A person follows behind a group of people and vanishes."
+                },
+                "51": {
+                    "exp": "A person gets inside the building to the right"
+                },
+                "52": {
+                    "exp": "A person enters the building on the right."
+                },
+                "53": {
+                    "exp": "A woman walks inside a store to the right"
+                },
+                "54": {
+                    "exp": "A woman walks into a store on the right."
+                },
+                "55": {
+                    "exp": "A person disappears from the frame to the left side of the camera"
+                },
+                "56": {
+                    "exp": "A person exits the frame to the left."
+                },
+                "57": {
+                    "exp": "A person standing against a wooden structure"
+                },
+                "58": {
+                    "exp": "A person stands against a wooden structure."
+                },
+                "59": {
+                    "exp": "A person remains seated"
+                },
+                "60": {
+                    "exp": "A person remains seated."
+                },
+                "61": {
+                    "exp": "A woman walks inside a building to the right"
+                },
+                "62": {
+                    "exp": "A woman enters a building on the right."
+                },
+                "63": {
+                    "exp": "A person walks out of the building"
+                },
+                "64": {
+                    "exp": "A person exits the building."
+                },
+                "65": {
+                    "exp": "A person walks into the store to the right"
+                },
+                "66": {
+                    "exp": "A person enters a store to the right."
+                },
+                "67": {
+                    "exp": "A person fixes his cap as he walks"
+                },
+                "68": {
+                    "exp": "A person adjusts his cap while walking."
+                },
+                "69": {
+                    "exp": "A person appears from the right side of the camera"
+                },
+                "70": {
+                    "exp": "A person enters the frame from the right side."
+                },
+                "71": {
+                    "exp": "A person walks into the building to the right"
+                },
+                "72": {
+                    "exp": "A person enters a building on the right."
+                },
+                "73": {
+                    "exp": "A person scratches the back of his head"
+                },
+                "74": {
+                    "exp": "A person scratches the back of his head."
+                },
+                "75": {
+                    "exp": "A person comes out of a building in the right"
+                },
+                "76": {
+                    "exp": "A person exits a building on the right."
+                },
+                "77": {
+                    "exp": "A person appears in the frame from the left side of the camera"
+                },
+                "78": {
+                    "exp": "A person appears in the frame from the left side."
+                },
+                "79": {
+                    "exp": "A person remains standing in the street"
+                },
+                "80": {
+                    "exp": "A person remains standing on the street."
+                },
+                "81": {
+                    "exp": "A person glances slightly to the right as he walks"
+                },
+                "82": {
+                    "exp": "A person glances slightly to the right while walking."
+                },
+                "83": {
+                    "exp": "A person turns around and walks back"
+                },
+                "84": {
+                    "exp": "A person turns around and walks back."
+                },
+                "85": {
+                    "exp": "A woman appears in the frame from the right side of the camera"
+                },
+                "86": {
+                    "exp": "A woman enters the frame from the right side of the camera."
+                },
+                "87": {
+                    "exp": "A person getting out the building in the right"
+                },
+                "88": {
+                    "exp": "A person exits the building on the right."
+                },
+                "89": {
+                    "exp": "A person coming out behind the walls and going through the entrance"
+                },
+                "90": {
+                    "exp": "A person comes out from behind the walls and enters the building."
+                },
+                "91": {
+                    "exp": "A person disappears behind the wooden boxes containing flowers on the top"
+                },
+                "92": {
+                    "exp": "A person vanishes behind the wooden boxes with flowers on top."
+                },
+                "93": {
+                    "exp": "A person looks right as he walks"
+                },
+                "94": {
+                    "exp": "A person looks right while walking."
+                },
+                "95": {
+                    "exp": "A person walks behind the wooden boxes containing flowers"
+                },
+                "96": {
+                    "exp": "A person walks behind the wooden boxes filled with flowers."
+                },
+                "97": {
+                    "exp": "A person comes out of the store through the open doors in the right"
+                },
+                "98": {
+                    "exp": "A person exits the store through the open doors on the right."
+                },
+                "99": {
                     "exp": "A person appears in the frame from the right side of the camera"
                 }
             },
@@ -4788,109 +5268,217 @@
                     "exp": "A person disappears from the frame to the left side of the camera"
                 },
                 "2": {
-                    "exp": "A person looks down while walking"
+                    "exp": "A person exits the frame to the left."
                 },
                 "3": {
-                    "exp": "A person disappears into the crowd"
+                    "exp": "A person looks down while walking"
                 },
                 "4": {
-                    "exp": "A person looks to the right while walking and conversing with another person"
+                    "exp": "A person looks down while walking."
                 },
                 "5": {
-                    "exp": "A person walks out of the store in the right"
+                    "exp": "A person disappears into the crowd"
                 },
                 "6": {
-                    "exp": "A person slows down walking and talks with other people"
+                    "exp": "A person disappears into the crowd."
                 },
                 "7": {
-                    "exp": "A person starts walking"
+                    "exp": "A person looks to the right while walking and conversing with another person"
                 },
                 "8": {
-                    "exp": "A person disappears from the frame to the right side of the camera"
+                    "exp": "A person glances to the right while walking and talking with someone."
                 },
                 "9": {
-                    "exp": "A person turns around and starts walking"
+                    "exp": "A person walks out of the store in the right"
                 },
                 "10": {
-                    "exp": "A person disappears behind a white column"
+                    "exp": "A person exits the store on the right."
                 },
                 "11": {
-                    "exp": "A person enters inside a store and stands for a while"
+                    "exp": "A person slows down walking and talks with other people"
                 },
                 "12": {
-                    "exp": "A person looks up from his phone"
+                    "exp": "A person slows down and talks with others."
                 },
                 "13": {
-                    "exp": "A person disappears behind the white column"
+                    "exp": "A person starts walking"
                 },
                 "14": {
-                    "exp": "A person enters a shopping store"
+                    "exp": "A person starts walking."
                 },
                 "15": {
-                    "exp": "A baby is being carried into the store"
+                    "exp": "A person disappears from the frame to the right side of the camera"
                 },
                 "16": {
-                    "exp": "A person walks out of the shopping store"
+                    "exp": "A person exits the frame to the right."
                 },
                 "17": {
-                    "exp": "The baby stroller disappears from the frame to the right side of the camera"
+                    "exp": "A person turns around and starts walking"
                 },
                 "18": {
-                    "exp": "A boy disappears from the frame to the right side of the camera"
+                    "exp": "A person turns around and starts walking."
                 },
                 "19": {
-                    "exp": "A little girl turns around and starts walking"
+                    "exp": "A person disappears behind a white column"
                 },
                 "20": {
-                    "exp": "A woman removes her hand from above her head"
+                    "exp": "A person vanishes behind a white column."
                 },
                 "21": {
-                    "exp": "A person looks to the left"
+                    "exp": "A person enters inside a store and stands for a while"
                 },
                 "22": {
-                    "exp": "A person glances to the left as he walks"
+                    "exp": "A person enters a store and pauses briefly."
                 },
                 "23": {
-                    "exp": "A person stops walking as she reaches the counter inside a shop"
+                    "exp": "A person looks up from his phone"
                 },
                 "24": {
-                    "exp": "A person fixes her dress as she walks"
+                    "exp": "A person glances up from their phone."
                 },
                 "25": {
-                    "exp": "A person turns around and stops walking"
+                    "exp": "A person disappears behind the white column"
                 },
                 "26": {
-                    "exp": "A person seated on a chair disappears from the frame to the right side of the camera"
+                    "exp": "A person vanishes behind the white column."
                 },
                 "27": {
-                    "exp": "A person seated remains seated on a chair"
+                    "exp": "A person enters a shopping store"
                 },
                 "28": {
-                    "exp": "A person switches the bag from both hands to his hand on the left of the camera"
+                    "exp": "A person enters a shop."
                 },
                 "29": {
-                    "exp": "A person looks at the camera as she walks"
+                    "exp": "A baby is being carried into the store"
                 },
                 "30": {
-                    "exp": "A person appears in the frame from behind the white column at the left side of the camera"
+                    "exp": "A baby is being carried into the shop."
                 },
                 "31": {
-                    "exp": "A person appears in the frame as he walks from behind a standing rectangular structure"
+                    "exp": "A person walks out of the shopping store"
                 },
                 "32": {
-                    "exp": "A person appears into the frame from behind a man"
+                    "exp": "A person exits the shopping store."
                 },
                 "33": {
-                    "exp": "A person appears in the frame from the right side of the camera"
+                    "exp": "The baby stroller disappears from the frame to the right side of the camera"
                 },
                 "34": {
-                    "exp": "A baby stroller appears into the frame from behind a man"
+                    "exp": "The baby stroller exits the frame to the right side of the camera."
                 },
                 "35": {
-                    "exp": "A person walks behind a group of people"
+                    "exp": "A boy disappears from the frame to the right side of the camera"
                 },
                 "36": {
+                    "exp": "A boy leaves the frame on the right side."
+                },
+                "37": {
+                    "exp": "A little girl turns around and starts walking"
+                },
+                "38": {
+                    "exp": "A little girl turns and begins walking."
+                },
+                "39": {
+                    "exp": "A woman removes her hand from above her head"
+                },
+                "40": {
+                    "exp": "A woman lowers her hand from above her head."
+                },
+                "41": {
+                    "exp": "A person looks to the left"
+                },
+                "42": {
+                    "exp": "A person turns their head to the left."
+                },
+                "43": {
+                    "exp": "A person glances to the left as he walks"
+                },
+                "44": {
+                    "exp": "A person glances to the left while walking."
+                },
+                "45": {
+                    "exp": "A person stops walking as she reaches the counter inside a shop"
+                },
+                "46": {
+                    "exp": "A person stops walking as she reaches the counter inside a shop."
+                },
+                "47": {
+                    "exp": "A person fixes her dress as she walks"
+                },
+                "48": {
+                    "exp": "A person adjusts her dress while walking."
+                },
+                "49": {
+                    "exp": "A person turns around and stops walking"
+                },
+                "50": {
+                    "exp": "A person turns around and stops walking."
+                },
+                "51": {
+                    "exp": "A person seated on a chair disappears from the frame to the right side of the camera"
+                },
+                "52": {
+                    "exp": "A person seated on a chair exits the frame to the right."
+                },
+                "53": {
+                    "exp": "A person seated remains seated on a chair"
+                },
+                "54": {
+                    "exp": "A person remains seated on a chair."
+                },
+                "55": {
+                    "exp": "A person switches the bag from both hands to his hand on the left of the camera"
+                },
+                "56": {
+                    "exp": "A person switches the bag from one hand to the other on the left side."
+                },
+                "57": {
+                    "exp": "A person looks at the camera as she walks"
+                },
+                "58": {
+                    "exp": "A person looks at the camera while walking."
+                },
+                "59": {
+                    "exp": "A person appears in the frame from behind the white column at the left side of the camera"
+                },
+                "60": {
+                    "exp": "A person appears in the frame from behind the white column on the left side."
+                },
+                "61": {
+                    "exp": "A person appears in the frame as he walks from behind a standing rectangular structure"
+                },
+                "62": {
+                    "exp": "A person enters the frame, walking from behind a rectangular structure."
+                },
+                "63": {
+                    "exp": "A person appears into the frame from behind a man"
+                },
+                "64": {
+                    "exp": "A person enters the frame from behind a man."
+                },
+                "65": {
+                    "exp": "A person appears in the frame from the right side of the camera"
+                },
+                "66": {
+                    "exp": "A person enters the frame from the right side."
+                },
+                "67": {
+                    "exp": "A baby stroller appears into the frame from behind a man"
+                },
+                "68": {
+                    "exp": "A baby stroller comes into view from behind a man."
+                },
+                "69": {
+                    "exp": "A person walks behind a group of people"
+                },
+                "70": {
+                    "exp": "A person follows behind a group of people."
+                },
+                "71": {
                     "exp": "A person appears in the frame as he walks from behind a standing structure"
+                },
+                "72": {
+                    "exp": "A person enters the frame, walking from behind a structure."
                 }
             },
             "frames": [
@@ -5802,157 +6390,313 @@
                     "exp": "A car disappears from the frame at the left side of the camera"
                 },
                 "2": {
-                    "exp": "A man disappears behind a booth at the left side of the camera"
+                    "exp": "A car exits the frame on the left side."
                 },
                 "3": {
-                    "exp": "A man turns around and looks towards the camera"
+                    "exp": "A man disappears behind a booth at the left side of the camera"
                 },
                 "4": {
-                    "exp": "A person disappears behind the traffic signal"
+                    "exp": "A man vanishes behind a booth on the left side."
                 },
                 "5": {
-                    "exp": "A person runs in front of a bus"
+                    "exp": "A man turns around and looks towards the camera"
                 },
                 "6": {
-                    "exp": "A bus takes a left turn"
+                    "exp": "A man turns around and faces the camera."
                 },
                 "7": {
-                    "exp": "A car comes to a halt"
+                    "exp": "A person disappears behind the traffic signal"
                 },
                 "8": {
-                    "exp": "A person disappears from the frame at the right side of the camera"
+                    "exp": "A person vanishes behind the traffic signal."
                 },
                 "9": {
-                    "exp": "A car disappears from the frame at the right side of the camera"
+                    "exp": "A person runs in front of a bus"
                 },
                 "10": {
-                    "exp": "A person disappears from the frame at the left side of the camera"
+                    "exp": "A person runs in front of a bus."
                 },
                 "11": {
-                    "exp": "A person walks from the sidewalk to the main street to cross the road"
+                    "exp": "A bus takes a left turn"
                 },
                 "12": {
-                    "exp": "A person disappears from the frame behind the traffic signal"
+                    "exp": "A bus makes a left turn."
                 },
                 "13": {
-                    "exp": "A cycle disappears from the frame at the left side of the camera"
+                    "exp": "A car comes to a halt"
                 },
                 "14": {
-                    "exp": "A person takes a left turn while walking towards the camera"
+                    "exp": "A car comes to a stop."
                 },
                 "15": {
-                    "exp": "A cycle disappears from the frame at the right side of the camera"
+                    "exp": "A person disappears from the frame at the right side of the camera"
                 },
                 "16": {
-                    "exp": "A person disappears behind a bus"
+                    "exp": "A person exits the frame on the right side."
                 },
                 "17": {
-                    "exp": "A person removes his hand from his face"
+                    "exp": "A car disappears from the frame at the right side of the camera"
                 },
                 "18": {
-                    "exp": "A bus starts driving forward"
+                    "exp": "A car exits the frame on the right side."
                 },
                 "19": {
-                    "exp": "A person appears from behind another person and walks to the right"
+                    "exp": "A person disappears from the frame at the left side of the camera"
                 },
                 "20": {
-                    "exp": "A bus disappears behind the traffic signal"
+                    "exp": "A person exits the frame on the left side."
                 },
                 "21": {
-                    "exp": "A person stops walking and stands in the middle of street while crossing"
+                    "exp": "A person walks from the sidewalk to the main street to cross the road"
                 },
                 "22": {
-                    "exp": "A bus disappears from the frame at the right side of the camera"
+                    "exp": "A person steps from the sidewalk onto the main street to cross."
                 },
                 "23": {
-                    "exp": "A person stops walking in the sidewalk"
+                    "exp": "A person disappears from the frame behind the traffic signal"
                 },
                 "24": {
-                    "exp": "A person stops walking"
+                    "exp": "A person exits the frame behind the traffic signal."
                 },
                 "25": {
-                    "exp": "A person appears in the frame from the left side of the camera"
+                    "exp": "A cycle disappears from the frame at the left side of the camera"
                 },
                 "26": {
-                    "exp": "A person raises his hand and hold them together"
+                    "exp": "A bicycle exits the frame on the left side."
                 },
                 "27": {
-                    "exp": "A person turns around and takes a step to the left"
+                    "exp": "A person takes a left turn while walking towards the camera"
                 },
                 "28": {
-                    "exp": "A cart disappears from the frame at the right side of the camera"
+                    "exp": "A person turns left while walking toward the camera."
                 },
                 "29": {
-                    "exp": "A bus appears in the frame from the left side of the camera"
+                    "exp": "A cycle disappears from the frame at the right side of the camera"
                 },
                 "30": {
-                    "exp": "A person appears from behind the bus"
+                    "exp": "A bicycle exits the frame on the right side."
                 },
                 "31": {
-                    "exp": "A person slightly to the right"
+                    "exp": "A person disappears behind a bus"
                 },
                 "32": {
-                    "exp": "A person looks to the right while walking"
+                    "exp": "A person vanishes behind a bus."
                 },
                 "33": {
-                    "exp": "A person takes a step forward and turns forward"
+                    "exp": "A person removes his hand from his face"
                 },
                 "34": {
-                    "exp": "A person turns her face to the left"
+                    "exp": "A person removes his hand from his face."
                 },
                 "35": {
-                    "exp": "A person puts down his hand from above his head"
+                    "exp": "A bus starts driving forward"
                 },
                 "36": {
-                    "exp": "A person puts his hand to the mouth"
+                    "exp": "A bus begins to move forward."
                 },
                 "37": {
-                    "exp": "A person takes a left turn and crosses the street"
+                    "exp": "A person appears from behind another person and walks to the right"
                 },
                 "38": {
-                    "exp": "A person walks from the main street to the sidewalk"
+                    "exp": "A person comes from behind another person and walks to the right."
                 },
                 "39": {
-                    "exp": "A bus disappears from the frame at the left side of the camera"
+                    "exp": "A bus disappears behind the traffic signal"
                 },
                 "40": {
-                    "exp": "A person looks down while walking"
+                    "exp": "A bus vanishes behind the traffic signal."
                 },
                 "41": {
-                    "exp": "A stroller disappears from the frame at the left side of the camera"
+                    "exp": "A person stops walking and stands in the middle of street while crossing"
                 },
                 "42": {
-                    "exp": "A person stops walking for a brief moment"
+                    "exp": "A person stops walking and stands in the middle of the street while crossing."
                 },
                 "43": {
-                    "exp": "A person disappears behind a sign board"
+                    "exp": "A bus disappears from the frame at the right side of the camera"
                 },
                 "44": {
-                    "exp": "A person appears from behind a sign board"
+                    "exp": "A bus exits the frame on the right side."
                 },
                 "45": {
-                    "exp": "A bus appears in the frame from behind another bus"
+                    "exp": "A person stops walking in the sidewalk"
                 },
                 "46": {
-                    "exp": "A person appears from behind a bus"
+                    "exp": "A person stops walking on the sidewalk."
                 },
                 "47": {
-                    "exp": "A person appears into the frame as he walks to the right"
+                    "exp": "A person stops walking"
                 },
                 "48": {
-                    "exp": "A person walks to the left"
+                    "exp": "A person stops walking."
                 },
                 "49": {
-                    "exp": "A person walks between two black poles"
+                    "exp": "A person appears in the frame from the left side of the camera"
                 },
                 "50": {
-                    "exp": "A person takes a right turn"
+                    "exp": "A person appears in the frame from the left side."
                 },
                 "51": {
-                    "exp": "A person walks towards the camera"
+                    "exp": "A person raises his hand and hold them together"
                 },
                 "52": {
+                    "exp": "A person raises his hands and clasps them together."
+                },
+                "53": {
+                    "exp": "A person turns around and takes a step to the left"
+                },
+                "54": {
+                    "exp": "A person turns around and steps to the left."
+                },
+                "55": {
+                    "exp": "A cart disappears from the frame at the right side of the camera"
+                },
+                "56": {
+                    "exp": "A cart exits the frame on the right side."
+                },
+                "57": {
+                    "exp": "A bus appears in the frame from the left side of the camera"
+                },
+                "58": {
+                    "exp": "A bus enters the frame from the left side."
+                },
+                "59": {
+                    "exp": "A person appears from behind the bus"
+                },
+                "60": {
+                    "exp": "A person emerges from behind the bus."
+                },
+                "61": {
+                    "exp": "A person slightly to the right"
+                },
+                "62": {
+                    "exp": "A person moves slightly to the right."
+                },
+                "63": {
+                    "exp": "A person looks to the right while walking"
+                },
+                "64": {
+                    "exp": "A person turns their head to the right while walking."
+                },
+                "65": {
+                    "exp": "A person takes a step forward and turns forward"
+                },
+                "66": {
+                    "exp": "A person steps forward and turns forward."
+                },
+                "67": {
+                    "exp": "A person turns her face to the left"
+                },
+                "68": {
+                    "exp": "A person turns her head to the left."
+                },
+                "69": {
+                    "exp": "A person puts down his hand from above his head"
+                },
+                "70": {
+                    "exp": "A person lowers their hand from above their head."
+                },
+                "71": {
+                    "exp": "A person puts his hand to the mouth"
+                },
+                "72": {
+                    "exp": "A person puts their hand to their mouth."
+                },
+                "73": {
+                    "exp": "A person takes a left turn and crosses the street"
+                },
+                "74": {
+                    "exp": "A person turns left and crosses the street."
+                },
+                "75": {
+                    "exp": "A person walks from the main street to the sidewalk"
+                },
+                "76": {
+                    "exp": "A person paces from the main street to the sidewalk."
+                },
+                "77": {
+                    "exp": "A bus disappears from the frame at the left side of the camera"
+                },
+                "78": {
+                    "exp": "A bus exits the frame on the left side."
+                },
+                "79": {
+                    "exp": "A person looks down while walking"
+                },
+                "80": {
+                    "exp": "A person looks down while walking."
+                },
+                "81": {
+                    "exp": "A stroller disappears from the frame at the left side of the camera"
+                },
+                "82": {
+                    "exp": "A stroller exits the frame on the left side of the camera."
+                },
+                "83": {
+                    "exp": "A person stops walking for a brief moment"
+                },
+                "84": {
+                    "exp": "A person pauses briefly while walking."
+                },
+                "85": {
+                    "exp": "A person disappears behind a sign board"
+                },
+                "86": {
+                    "exp": "A person vanishes behind a signboard."
+                },
+                "87": {
+                    "exp": "A person appears from behind a sign board"
+                },
+                "88": {
+                    "exp": "A person emerges from behind a signboard."
+                },
+                "89": {
+                    "exp": "A bus appears in the frame from behind another bus"
+                },
+                "90": {
+                    "exp": "A bus enters the frame from behind another bus."
+                },
+                "91": {
+                    "exp": "A person appears from behind a bus"
+                },
+                "92": {
+                    "exp": "A person emerges from behind a bus."
+                },
+                "93": {
+                    "exp": "A person appears into the frame as he walks to the right"
+                },
+                "94": {
+                    "exp": "A person enters the frame, walking to the right."
+                },
+                "95": {
+                    "exp": "A person walks to the left"
+                },
+                "96": {
+                    "exp": "A person moves to the left."
+                },
+                "97": {
+                    "exp": "A person walks between two black poles"
+                },
+                "98": {
+                    "exp": "A person moves between two black poles."
+                },
+                "99": {
+                    "exp": "A person takes a right turn"
+                },
+                "100": {
+                    "exp": "A person turns right."
+                },
+                "101": {
+                    "exp": "A person walks towards the camera"
+                },
+                "102": {
+                    "exp": "A person approaches the camera."
+                },
+                "103": {
                     "exp": "A person turns forward a bit as he walks to the left"
+                },
+                "104": {
+                    "exp": "A person turns slightly forward while walking to the left."
                 }
             },
             "frames": [

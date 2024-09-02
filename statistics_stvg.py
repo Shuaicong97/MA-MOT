@@ -113,9 +113,18 @@ for path in file_paths:
 
 print(len(unique_captions_set))
 print(f'Total subject/objects count: {total_track_count}')  # 35044
-get_verb_and_frequency_from_sentences(unique_captions_set)
+# get_verb_and_frequency_from_sentences(unique_captions_set)
 
 # print(f'Total description count: {total_description_count}')
 
 # video 732+5436+602 = 6770 != 6924
 # test 3683 train 28275 val 3086  =  35044
+
+count_sum = 0
+for path in file_paths:
+    with open(path, 'r', encoding='utf-8') as file:
+        data = json.load(file)
+    count = len(data)
+    count_sum += count
+    print(f"{path}里JSON数组对象的数量: {count}")
+print(count_sum)

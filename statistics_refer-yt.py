@@ -73,6 +73,19 @@ unique_queries = get_all_expressions(paths)
 print(f'There are in total {len(unique_queries)} different kinds of queries.')  # 634
 
 
+def get_all_videos(file_paths):
+    sum_length = 0
+    for file_path in file_paths:
+        with open(file_path, 'r') as file:
+            data = json.load(file)
+            video_count = len(data["videos"])
+            sum_length += video_count
+    print(f'There are in total {sum_length} videos.')  # 4283
+
+
+get_all_videos(paths)
+
+
 def get_verb_and_frequency_from_sentences(sentences):
     # take a long time to finish computing
     verbs_list = []

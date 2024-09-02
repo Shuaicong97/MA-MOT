@@ -170,9 +170,9 @@ def generate_yvos_meta_expressions(dataset, input_path, output_path, is_train):
         json.dump(result, json_file, indent=4)
 
 
-mot17_training_json = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT17-training.json'
+mot17_training_json = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT17-training-doubled.json'
 meta_expressions_train = 'data/Ours/mot17/meta_expressions/train/meta_expressions.json'
-mot17_valid_json = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT17-valid.json'
+mot17_valid_json = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT17-valid-doubled.json'
 meta_expressions_valid = 'data/Ours/mot17/meta_expressions/valid/meta_expressions.json'
 
 directory = os.path.dirname(meta_expressions_train)
@@ -189,9 +189,9 @@ if not os.path.exists(directory):
 else:
     print(f"Directory {directory} already exists.")
 
-mot20_training_json = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT20-training.json'
+mot20_training_json = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT20-training-doubled.json'
 meta_expressions_train_mot20 = 'data/Ours/mot20/meta_expressions/train/meta_expressions.json'
-mot20_valid_json = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT20-valid.json'
+mot20_valid_json = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT20-valid-doubled.json'
 meta_expressions_valid_mot20 = 'data/Ours/mot20/meta_expressions/valid/meta_expressions.json'
 
 generate_yvos_meta_expressions('mot17', mot17_training_json, meta_expressions_train, True)

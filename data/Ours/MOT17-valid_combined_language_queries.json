@@ -1,0 +1,1197 @@
+[
+    {
+        "line_number": 1,
+        "rephrased_content": "A baby is carried from behind the black wall structure to the main street.",
+        "original_content": "A baby gets carried to the main street from behind the black wall structure"
+    },
+    {
+        "line_number": 2,
+        "rephrased_content": "A baby is being carried into the shop.",
+        "original_content": "A baby is being carried into the store"
+    },
+    {
+        "line_number": 3,
+        "rephrased_content": "A baby stroller comes into view from behind a man.",
+        "original_content": "A baby stroller appears into the frame from behind a man"
+    },
+    {
+        "line_number": 4,
+        "rephrased_content": "A baby stroller exits the frame on the right.",
+        "original_content": "A baby stroller goes out of the frame in the right"
+    },
+    {
+        "line_number": 5,
+        "rephrased_content": "A bicycle exits the frame on the right.",
+        "original_content": "A bicycle goes out of frame in the right"
+    },
+    {
+        "line_number": 6,
+        "rephrased_content": "A boy leaves the frame on the right side.",
+        "original_content": "A boy disappears from the frame to the right side of the camera"
+    },
+    {
+        "line_number": 7,
+        "rephrased_content": "A bus enters the frame from behind another bus.",
+        "original_content": "A bus appears in the frame from behind another bus"
+    },
+    {
+        "line_number": 8,
+        "rephrased_content": "A bus enters the frame from the left side.",
+        "original_content": "A bus appears in the frame from the left side of the camera"
+    },
+    {
+        "line_number": 9,
+        "rephrased_content": "A bus vanishes behind the traffic signal.",
+        "original_content": "A bus disappears behind the traffic signal"
+    },
+    {
+        "line_number": 10,
+        "rephrased_content": "A bus exits the frame on the left side.",
+        "original_content": "A bus disappears from the frame at the left side of the camera"
+    },
+    {
+        "line_number": 11,
+        "rephrased_content": "A bus exits the frame on the right side.",
+        "original_content": "A bus disappears from the frame at the right side of the camera"
+    },
+    {
+        "line_number": 12,
+        "rephrased_content": "A bus begins to move forward.",
+        "original_content": "A bus starts driving forward"
+    },
+    {
+        "line_number": 13,
+        "rephrased_content": "A bus makes a left turn.",
+        "original_content": "A bus takes a left turn"
+    },
+    {
+        "line_number": 14,
+        "rephrased_content": "A car comes to a stop.",
+        "original_content": "A car comes to a halt"
+    },
+    {
+        "line_number": 15,
+        "rephrased_content": "A car exits the frame on the left side.",
+        "original_content": "A car disappears from the frame at the left side of the camera"
+    },
+    {
+        "line_number": 16,
+        "rephrased_content": "A car exits the frame on the right side.",
+        "original_content": "A car disappears from the frame at the right side of the camera"
+    },
+    {
+        "line_number": 17,
+        "rephrased_content": "A cart exits the frame on the right side.",
+        "original_content": "A cart disappears from the frame at the right side of the camera"
+    },
+    {
+        "line_number": 18,
+        "rephrased_content": "A child who was looking to the right, turns to look forward.",
+        "original_content": "A child initially glancing to the right looks forwards"
+    },
+    {
+        "line_number": 19,
+        "rephrased_content": "A child interacts with a person.",
+        "original_content": "A child is having interaction with a person"
+    },
+    {
+        "line_number": 20,
+        "rephrased_content": "A child stands behind a bicycle with another person.",
+        "original_content": "A child is standing behind a by-cycle with another person"
+    },
+    {
+        "line_number": 21,
+        "rephrased_content": "A child starts walking and exits the frame on the left.",
+        "original_content": "A child starts walking and disappears to the left side of the frame"
+    },
+    {
+        "line_number": 22,
+        "rephrased_content": "A child turns and begins walking.",
+        "original_content": "A child turns around and starts walking"
+    },
+    {
+        "line_number": 23,
+        "rephrased_content": "A bicycle exits the frame on the left side.",
+        "original_content": "A cycle disappears from the frame at the left side of the camera"
+    },
+    {
+        "line_number": 24,
+        "rephrased_content": "A bicycle exits the frame on the right side.",
+        "original_content": "A cycle disappears from the frame at the right side of the camera"
+    },
+    {
+        "line_number": 25,
+        "rephrased_content": "A bicycle in the open area moves out of the frame toward the camera.",
+        "original_content": "A cycle moving in the open area is going out outside of the frame in camera side"
+    },
+    {
+        "line_number": 26,
+        "rephrased_content": "A little girl turns and begins walking.",
+        "original_content": "A little girl turns around and starts walking"
+    },
+    {
+        "line_number": 27,
+        "rephrased_content": "A man vanishes behind a booth on the left side.",
+        "original_content": "A man disappears behind a booth at the left side of the camera"
+    },
+    {
+        "line_number": 28,
+        "rephrased_content": "A man exits the frame on the right side.",
+        "original_content": "A man disappears from the frame from the right side of the camera"
+    },
+    {
+        "line_number": 29,
+        "rephrased_content": "A man turns around and faces the camera.",
+        "original_content": "A man turns around and looks towards the camera"
+    },
+    {
+        "line_number": 30,
+        "rephrased_content": "A person emerges from behind a black wall structure.",
+        "original_content": "A person appears from behind a black wall structure"
+    },
+    {
+        "line_number": 31,
+        "rephrased_content": "A person emerges from behind a bus.",
+        "original_content": "A person appears from behind a bus"
+    },
+    {
+        "line_number": 32,
+        "rephrased_content": "A person emerges from behind a signboard.",
+        "original_content": "A person appears from behind a sign board"
+    },
+    {
+        "line_number": 33,
+        "rephrased_content": "A person comes from behind another person and walks to the right.",
+        "original_content": "A person appears from behind another person and walks to the right"
+    },
+    {
+        "line_number": 34,
+        "rephrased_content": "A person emerges from behind the bus.",
+        "original_content": "A person appears from behind the bus"
+    },
+    {
+        "line_number": 35,
+        "rephrased_content": "A person enters the frame from the right side.",
+        "original_content": "A person appears from the right side of the camera"
+    },
+    {
+        "line_number": 36,
+        "rephrased_content": "A person enters the frame, walking from behind a rectangular structure.",
+        "original_content": "A person appears in the frame as he walks from behind a standing rectangular structure"
+    },
+    {
+        "line_number": 37,
+        "rephrased_content": "A person enters the frame, walking from behind a structure.",
+        "original_content": "A person appears in the frame as he walks from behind a standing structure"
+    },
+    {
+        "line_number": 38,
+        "rephrased_content": "A person appears in the frame from behind the white column on the left side.",
+        "original_content": "A person appears in the frame from behind the white column at the left side of the camera"
+    },
+    {
+        "line_number": 39,
+        "rephrased_content": "A person appears in the frame from the left side.",
+        "original_content": "A person appears in the frame from the left side of the camera"
+    },
+    {
+        "line_number": 40,
+        "rephrased_content": "A person enters the frame from the right side.",
+        "original_content": "A person appears in the frame from the right side of the camera"
+    },
+    {
+        "line_number": 41,
+        "rephrased_content": "A person enters the frame, walking to the right.",
+        "original_content": "A person appears into the frame as he walks to the right"
+    },
+    {
+        "line_number": 42,
+        "rephrased_content": "A person enters the frame from behind a man.",
+        "original_content": "A person appears into the frame from behind a man"
+    },
+    {
+        "line_number": 43,
+        "rephrased_content": "A person exits a building on the right.",
+        "original_content": "A person comes out of a building in the right"
+    },
+    {
+        "line_number": 44,
+        "rephrased_content": "A person exits a shop on the right and walks on the sidewalk.",
+        "original_content": "A person comes out of a shop in the right and walks in the sidewalk"
+    },
+    {
+        "line_number": 45,
+        "rephrased_content": "A person exits the store through the open doors on the right.",
+        "original_content": "A person comes out of the store through the open doors in the right"
+    },
+    {
+        "line_number": 46,
+        "rephrased_content": "A person comes out from behind the walls and enters the building.",
+        "original_content": "A person coming out behind the walls and going through the entrance"
+    },
+    {
+        "line_number": 47,
+        "rephrased_content": "A person talking with others exits the frame on the right.",
+        "original_content": "A person conversing with other people disappears out of the frame in the right"
+    },
+    {
+        "line_number": 48,
+        "rephrased_content": "A person crossing the street from right to left walks behind a black wall structure.",
+        "original_content": "A person crossing the street from the right to the left walks behind a black wall structure"
+    },
+    {
+        "line_number": 49,
+        "rephrased_content": "A person vanishes behind a bus.",
+        "original_content": "A person disappears behind a bus"
+    },
+    {
+        "line_number": 50,
+        "rephrased_content": "A person vanishes behind a signboard.",
+        "original_content": "A person disappears behind a sign board"
+    },
+    {
+        "line_number": 51,
+        "rephrased_content": "A person vanishes behind a white column.",
+        "original_content": "A person disappears behind a white column"
+    },
+    {
+        "line_number": 52,
+        "rephrased_content": "A person vanishes behind the traffic signal.",
+        "original_content": "A person disappears behind the traffic signal"
+    },
+    {
+        "line_number": 53,
+        "rephrased_content": "A person vanishes behind the white column.",
+        "original_content": "A person disappears behind the white column"
+    },
+    {
+        "line_number": 54,
+        "rephrased_content": "A person vanishes behind the wooden boxes with flowers on top.",
+        "original_content": "A person disappears behind the wooden boxes containing flowers on the top"
+    },
+    {
+        "line_number": 55,
+        "rephrased_content": "A person exits the frame on the left side.",
+        "original_content": "A person disappears from the frame at the left side of the camera"
+    },
+    {
+        "line_number": 56,
+        "rephrased_content": "A person exits the frame on the right side.",
+        "original_content": "A person disappears from the frame at the right side of the camera"
+    },
+    {
+        "line_number": 57,
+        "rephrased_content": "A person exits the frame behind the traffic signal.",
+        "original_content": "A person disappears from the frame behind the traffic signal"
+    },
+    {
+        "line_number": 58,
+        "rephrased_content": "A person exits the frame on the left side.",
+        "original_content": "A person disappears from the frame from the left side of the camera"
+    },
+    {
+        "line_number": 59,
+        "rephrased_content": "A person exits the frame to the left.",
+        "original_content": "A person disappears from the frame to the left side of the camera"
+    },
+    {
+        "line_number": 60,
+        "rephrased_content": "A person exits the frame to the right.",
+        "original_content": "A person disappears from the frame to the right side of the camera"
+    },
+    {
+        "line_number": 61,
+        "rephrased_content": "A person disappears into the crowd.",
+        "original_content": "A person disappears into the crowd"
+    },
+    {
+        "line_number": 62,
+        "rephrased_content": "A person drinks from a bottle while talking to another person.",
+        "original_content": "A person drinks from a bottle while conversing with another person"
+    },
+    {
+        "line_number": 63,
+        "rephrased_content": "A person enters a shop.",
+        "original_content": "A person enters a shopping store"
+    },
+    {
+        "line_number": 64,
+        "rephrased_content": "A person enters a store and pauses briefly.",
+        "original_content": "A person enters inside a store and stands for a while"
+    },
+    {
+        "line_number": 65,
+        "rephrased_content": "A person adjusts her dress while walking.",
+        "original_content": "A person fixes her dress as she walks"
+    },
+    {
+        "line_number": 66,
+        "rephrased_content": "A person adjusts his cap while walking.",
+        "original_content": "A person fixes his cap as he walks"
+    },
+    {
+        "line_number": 67,
+        "rephrased_content": "A person enters the building on the right.",
+        "original_content": "A person gets inside the building to the right"
+    },
+    {
+        "line_number": 68,
+        "rephrased_content": "A person exits the building on the right.",
+        "original_content": "A person getting out the building in the right"
+    },
+    {
+        "line_number": 69,
+        "rephrased_content": "A person glances right while walking and clasps their hands.",
+        "original_content": "A person glances right as he walks and holds both of his hands together"
+    },
+    {
+        "line_number": 70,
+        "rephrased_content": "A person glances slightly to the right while walking.",
+        "original_content": "A person glances slightly to the right as he walks"
+    },
+    {
+        "line_number": 71,
+        "rephrased_content": "A person glances to the left while walking.",
+        "original_content": "A person glances to the left as he walks"
+    },
+    {
+        "line_number": 72,
+        "rephrased_content": "A person glancing left exits the frame on the right.",
+        "original_content": "A person glancing to the left disappears out of the frame in the right"
+    },
+    {
+        "line_number": 73,
+        "rephrased_content": "A person looks at the camera while walking.",
+        "original_content": "A person looks at the camera as he walks"
+    },
+    {
+        "line_number": 74,
+        "rephrased_content": "A person looks at the camera while walking.",
+        "original_content": "A person looks at the camera as she walks"
+    },
+    {
+        "line_number": 75,
+        "rephrased_content": "A person looks away from the camera and exits the frame on the left.",
+        "original_content": "A person looks away from the camera and disappears to the left side of the frame"
+    },
+    {
+        "line_number": 76,
+        "rephrased_content": "A person looks down while walking.",
+        "original_content": "A person looks down while walking"
+    },
+    {
+        "line_number": 77,
+        "rephrased_content": "A person looks right while walking.",
+        "original_content": "A person looks right as he walks"
+    },
+    {
+        "line_number": 78,
+        "rephrased_content": "A person turns their head to the left.",
+        "original_content": "A person looks to the left"
+    },
+    {
+        "line_number": 79,
+        "rephrased_content": "A person turns their head to the right while walking.",
+        "original_content": "A person looks to the right while walking"
+    },
+    {
+        "line_number": 80,
+        "rephrased_content": "A person glances to the right while walking and talking with someone.",
+        "original_content": "A person looks to the right while walking and conversing with another person"
+    },
+    {
+        "line_number": 81,
+        "rephrased_content": "A person looks under the baby stroller.",
+        "original_content": "A person looks underneath the baby stroller"
+    },
+    {
+        "line_number": 82,
+        "rephrased_content": "A person glances up from their phone.",
+        "original_content": "A person looks up from his phone"
+    },
+    {
+        "line_number": 83,
+        "rephrased_content": "A person drops her hand and begins to walk.",
+        "original_content": "A person lowers her hand and starts walking"
+    },
+    {
+        "line_number": 84,
+        "rephrased_content": "A person glances right and makes a slight right turn.",
+        "original_content": "A person makes a glance to the right and makes a slight right turn"
+    },
+    {
+        "line_number": 85,
+        "rephrased_content": "A person shifts slightly while seated.",
+        "original_content": "A person moves a bit and adjusts himself while remaining in a seated position"
+    },
+    {
+        "line_number": 86,
+        "rephrased_content": "A person lowers their hand from above their head.",
+        "original_content": "A person puts down his hand from above his head"
+    },
+    {
+        "line_number": 87,
+        "rephrased_content": "A person puts their hand to their mouth.",
+        "original_content": "A person puts his hand to the mouth"
+    },
+    {
+        "line_number": 88,
+        "rephrased_content": "A person raises both hands while holding a phone.",
+        "original_content": "A person raises both of his hands with which he was holding his phone"
+    },
+    {
+        "line_number": 89,
+        "rephrased_content": "A person raises her hand as she sings.",
+        "original_content": "A person raises her hand as she sings"
+    },
+    {
+        "line_number": 90,
+        "rephrased_content": "A person raises his hand to his face.",
+        "original_content": "A person raises his hand against his face"
+    },
+    {
+        "line_number": 91,
+        "rephrased_content": "A person raises his hands and clasps them together.",
+        "original_content": "A person raises his hand and hold them together"
+    },
+    {
+        "line_number": 92,
+        "rephrased_content": "A person remains seated.",
+        "original_content": "A person remains seated"
+    },
+    {
+        "line_number": 93,
+        "rephrased_content": "A person stays seated on the bench.",
+        "original_content": "A person remains seated on the bench"
+    },
+    {
+        "line_number": 94,
+        "rephrased_content": "A person remains standing on the street.",
+        "original_content": "A person remains standing in the street"
+    },
+    {
+        "line_number": 95,
+        "rephrased_content": "A person removes his hand from his face.",
+        "original_content": "A person removes his hand from his face"
+    },
+    {
+        "line_number": 96,
+        "rephrased_content": "A person removes his hand from his mouth and faces forward.",
+        "original_content": "A person removes his hand from his mouth and turns forward"
+    },
+    {
+        "line_number": 97,
+        "rephrased_content": "A person runs in front of a bus.",
+        "original_content": "A person runs in front of a bus"
+    },
+    {
+        "line_number": 98,
+        "rephrased_content": "A person scratches his head.",
+        "original_content": "A person scratches his head"
+    },
+    {
+        "line_number": 99,
+        "rephrased_content": "A person scratches the back of his head.",
+        "original_content": "A person scratches the back of his head"
+    },
+    {
+        "line_number": 100,
+        "rephrased_content": "A person seated on a chair exits the frame to the right.",
+        "original_content": "A person seated on a chair disappears from the frame to the right side of the camera"
+    },
+    {
+        "line_number": 101,
+        "rephrased_content": "A person remains seated on a chair.",
+        "original_content": "A person seated remains seated on a chair"
+    },
+    {
+        "line_number": 102,
+        "rephrased_content": "A person sits down on a bench.",
+        "original_content": "A person sits down on a bench"
+    },
+    {
+        "line_number": 103,
+        "rephrased_content": "A person sitting on a bench looks to the right.",
+        "original_content": "A person sitting on a bench looks to the right"
+    },
+    {
+        "line_number": 104,
+        "rephrased_content": "A person moves slightly to the right.",
+        "original_content": "A person slightly to the right"
+    },
+    {
+        "line_number": 105,
+        "rephrased_content": "A person slows down and talks with others.",
+        "original_content": "A person slows down walking and talks with other people"
+    },
+    {
+        "line_number": 106,
+        "rephrased_content": "A person stands against a wooden structure.",
+        "original_content": "A person standing against a wooden structure"
+    },
+    {
+        "line_number": 107,
+        "rephrased_content": "A person standing beside a child starts walking.",
+        "original_content": "A person standing beside a child begins to walk"
+    },
+    {
+        "line_number": 108,
+        "rephrased_content": "A person standing in the main street talks to others.",
+        "original_content": "A person standing in the main street conversing with other people"
+    },
+    {
+        "line_number": 109,
+        "rephrased_content": "A person standing in the main street starts walking forward.",
+        "original_content": "A person standing in the main street starts walking forwards"
+    },
+    {
+        "line_number": 110,
+        "rephrased_content": "A person starts walking.",
+        "original_content": "A person starts walking"
+    },
+    {
+        "line_number": 111,
+        "rephrased_content": "A person begins crossing the street and exits the frame on the left.",
+        "original_content": "A person starts walking across the street and disappears to the left side of the frame"
+    },
+    {
+        "line_number": 112,
+        "rephrased_content": "A person starts walking forward and exits the frame on the left.",
+        "original_content": "A person starts walking forward and disappears to the left side of the frame"
+    },
+    {
+        "line_number": 113,
+        "rephrased_content": "A person stops sipping from a coffee cup.",
+        "original_content": "A person stops taking a sip from his coffee cup"
+    },
+    {
+        "line_number": 114,
+        "rephrased_content": "A person stops walking.",
+        "original_content": "A person stops walking"
+    },
+    {
+        "line_number": 115,
+        "rephrased_content": "A person stops walking and stands in the middle of the street while crossing.",
+        "original_content": "A person stops walking and stands in the middle of street while crossing"
+    },
+    {
+        "line_number": 116,
+        "rephrased_content": "A person stops walking as she reaches the counter inside a shop.",
+        "original_content": "A person stops walking as she reaches the counter inside a shop"
+    },
+    {
+        "line_number": 117,
+        "rephrased_content": "A person pauses briefly while walking.",
+        "original_content": "A person stops walking for a brief moment"
+    },
+    {
+        "line_number": 118,
+        "rephrased_content": "A person stops walking on the sidewalk.",
+        "original_content": "A person stops walking in the sidewalk"
+    },
+    {
+        "line_number": 119,
+        "rephrased_content": "A person switches the bag from one hand to the other on the left side.",
+        "original_content": "A person switches the bag from both hands to his hand on the left of the camera"
+    },
+    {
+        "line_number": 120,
+        "rephrased_content": "A person turns left and crosses the street.",
+        "original_content": "A person takes a left turn and crosses the street"
+    },
+    {
+        "line_number": 121,
+        "rephrased_content": "A person turns left and exits the frame on the left.",
+        "original_content": "A person takes a left turn and goes out of the frame in the left"
+    },
+    {
+        "line_number": 122,
+        "rephrased_content": "A person turns left while walking toward the camera.",
+        "original_content": "A person takes a left turn while walking towards the camera"
+    },
+    {
+        "line_number": 123,
+        "rephrased_content": "A person turns right.",
+        "original_content": "A person takes a right turn"
+    },
+    {
+        "line_number": 124,
+        "rephrased_content": "A person makes a slight right turn while walking forward.",
+        "original_content": "A person takes a slight right turn as she walks forward"
+    },
+    {
+        "line_number": 125,
+        "rephrased_content": "A person steps forward and turns forward.",
+        "original_content": "A person takes a step forward and turns forward"
+    },
+    {
+        "line_number": 126,
+        "rephrased_content": "A person turns around and starts walking.",
+        "original_content": "A person turns around and starts walking"
+    },
+    {
+        "line_number": 127,
+        "rephrased_content": "A person turns around and stops walking.",
+        "original_content": "A person turns around and stops walking"
+    },
+    {
+        "line_number": 128,
+        "rephrased_content": "A person turns around and steps to the left.",
+        "original_content": "A person turns around and takes a step to the left"
+    },
+    {
+        "line_number": 129,
+        "rephrased_content": "A person turns around and walks back.",
+        "original_content": "A person turns around and walks back"
+    },
+    {
+        "line_number": 130,
+        "rephrased_content": "A person turns slightly forward while walking to the left.",
+        "original_content": "A person turns forward a bit as he walks to the left"
+    },
+    {
+        "line_number": 131,
+        "rephrased_content": "A person turns her head to the left.",
+        "original_content": "A person turns her face to the left"
+    },
+    {
+        "line_number": 132,
+        "rephrased_content": "A person walks backward toward the camera.",
+        "original_content": "A person walking back to the direction of the camera"
+    },
+    {
+        "line_number": 133,
+        "rephrased_content": "A person walks forward while carrying a baby.",
+        "original_content": "A person walking forward as she carries a baby"
+    },
+    {
+        "line_number": 134,
+        "rephrased_content": "A person walks forward with a backpack.",
+        "original_content": "A person walking forward with a back"
+    },
+    {
+        "line_number": 135,
+        "rephrased_content": "A person walking on the main street exits the frame to the right.",
+        "original_content": "A person walking in the main street goes out of frame in the right"
+    },
+    {
+        "line_number": 136,
+        "rephrased_content": "A person walking on the main street moves out of the frame to the right.",
+        "original_content": "A person walking in the main street out of frame in the right"
+    },
+    {
+        "line_number": 137,
+        "rephrased_content": "A person walking on the sidewalk exits the frame to the left.",
+        "original_content": "A person walking in the sidewalk walks out of the frame to the left"
+    },
+    {
+        "line_number": 138,
+        "rephrased_content": "A person walks inside a store heading to the right.",
+        "original_content": "A person walking inside a store to the right"
+    },
+    {
+        "line_number": 139,
+        "rephrased_content": "A person walking to the right turns and begins walking forward.",
+        "original_content": "A person walking right turns forward and starts to walk forward"
+    },
+    {
+        "line_number": 140,
+        "rephrased_content": "A person walks and exits the frame on the right side of the camera.",
+        "original_content": "A person walks and moves out of the frame in the right side of the camera"
+    },
+    {
+        "line_number": 141,
+        "rephrased_content": "A person follows behind a group of people.",
+        "original_content": "A person walks behind a group of people"
+    },
+    {
+        "line_number": 142,
+        "rephrased_content": "A person follows behind a group of people and vanishes.",
+        "original_content": "A person walks behind a group of people and disappears"
+    },
+    {
+        "line_number": 143,
+        "rephrased_content": "A person walks behind a black wall structure.",
+        "original_content": "A person walks behind the black wall structure"
+    },
+    {
+        "line_number": 144,
+        "rephrased_content": "A person walks behind the wooden boxes filled with flowers.",
+        "original_content": "A person walks behind the wooden boxes containing flowers"
+    },
+    {
+        "line_number": 145,
+        "rephrased_content": "A person moves between two black poles.",
+        "original_content": "A person walks between two black poles"
+    },
+    {
+        "line_number": 146,
+        "rephrased_content": "A person moves forward.",
+        "original_content": "A person walks forward"
+    },
+    {
+        "line_number": 147,
+        "rephrased_content": "A person paces from behind the black wall structure to the main street.",
+        "original_content": "A person walks from behind the black wall structure to the main street"
+    },
+    {
+        "line_number": 148,
+        "rephrased_content": "A person crosses the street between wooden structures holding plants.",
+        "original_content": "A person walks from one side of the street to another between some wooden structure containing plants"
+    },
+    {
+        "line_number": 149,
+        "rephrased_content": "A person paces from the main street to the sidewalk.",
+        "original_content": "A person walks from the main street to the sidewalk"
+    },
+    {
+        "line_number": 150,
+        "rephrased_content": "A person walks from the main street to the right sidewalk while moving forward.",
+        "original_content": "A person walks from the main street to the sidewalk in the right as she walks forward"
+    },
+    {
+        "line_number": 151,
+        "rephrased_content": "A person steps from the sidewalk onto the main street to cross.",
+        "original_content": "A person walks from the sidewalk to the main street to cross the road"
+    },
+    {
+        "line_number": 152,
+        "rephrased_content": "A person enters a building on the right.",
+        "original_content": "A person walks into the building to the right"
+    },
+    {
+        "line_number": 153,
+        "rephrased_content": "A person enters a store to the right.",
+        "original_content": "A person walks into the store to the right"
+    },
+    {
+        "line_number": 154,
+        "rephrased_content": "A person exits the building.",
+        "original_content": "A person walks out of the building"
+    },
+    {
+        "line_number": 155,
+        "rephrased_content": "A person exits the shopping store.",
+        "original_content": "A person walks out of the shopping store"
+    },
+    {
+        "line_number": 156,
+        "rephrased_content": "A person exits the store on the right.",
+        "original_content": "A person walks out of the store in the right"
+    },
+    {
+        "line_number": 157,
+        "rephrased_content": "A person moves to the left.",
+        "original_content": "A person walks to the left"
+    },
+    {
+        "line_number": 158,
+        "rephrased_content": "A person moves to the main street from behind the black wall structure.",
+        "original_content": "A person walks to the main street from behind the black wall structure"
+    },
+    {
+        "line_number": 159,
+        "rephrased_content": "A person walks to the right and disappears from the frame while looking at the camera.",
+        "original_content": "A person walks to the right side and disappears to the right side of the frame while looking at the camera"
+    },
+    {
+        "line_number": 160,
+        "rephrased_content": "A person approaches the camera.",
+        "original_content": "A person walks towards the camera"
+    },
+    {
+        "line_number": 161,
+        "rephrased_content": "A person carrying a baby walks along the main street, coming from behind the black wall structure.",
+        "original_content": "A person with a baby walks in the main street from behind the black wall structure"
+    },
+    {
+        "line_number": 162,
+        "rephrased_content": "A person riding a bicycle vanishes from view on the right side.",
+        "original_content": "A person with a bicycle disappears out of frame in the right"
+    },
+    {
+        "line_number": 163,
+        "rephrased_content": "A stroller exits the frame on the left side of the camera.",
+        "original_content": "A stroller disappears from the frame at the left side of the camera"
+    },
+    {
+        "line_number": 164,
+        "rephrased_content": "A woman enters the frame from the right side of the camera.",
+        "original_content": "A woman appears in the frame from the right side of the camera"
+    },
+    {
+        "line_number": 165,
+        "rephrased_content": "A woman leaves the frame from the right side of the camera.",
+        "original_content": "A woman disappears from the frame from the right side of the camera"
+    },
+    {
+        "line_number": 166,
+        "rephrased_content": "A woman steps inside a building on the right.",
+        "original_content": "A woman gets inside a building to the right"
+    },
+    {
+        "line_number": 167,
+        "rephrased_content": "A woman is entering the entrance of a building to the right.",
+        "original_content": "A woman getting inside the entrance of a building to the right"
+    },
+    {
+        "line_number": 168,
+        "rephrased_content": "A woman briefly glances to the left at the person next to her while walking.",
+        "original_content": "A woman looks to the left at the person beside her briefly as she walks"
+    },
+    {
+        "line_number": 169,
+        "rephrased_content": "A woman nods her head as she walks and chats with another person.",
+        "original_content": "A woman nods her head as she walks and converses with another person"
+    },
+    {
+        "line_number": 170,
+        "rephrased_content": "A woman gestures forward with her finger.",
+        "original_content": "A woman points to her front with her finger"
+    },
+    {
+        "line_number": 171,
+        "rephrased_content": "A woman lowers her hand from above her head.",
+        "original_content": "A woman removes her hand from above her head"
+    },
+    {
+        "line_number": 172,
+        "rephrased_content": "A woman stops drinking from a bottle and shifts it from one hand to the other.",
+        "original_content": "A woman stops drinking from a bottle and switches the bottle from one hand to another"
+    },
+    {
+        "line_number": 173,
+        "rephrased_content": "A woman takes a step toward the right.",
+        "original_content": "A woman takes a step to the right"
+    },
+    {
+        "line_number": 174,
+        "rephrased_content": "A woman enters a building on the right.",
+        "original_content": "A woman walks inside a building to the right"
+    },
+    {
+        "line_number": 175,
+        "rephrased_content": "A woman walks into a store on the right.",
+        "original_content": "A woman walks inside a store to the right"
+    },
+    {
+        "line_number": 176,
+        "rephrased_content": "A woman exits the frame on the right side of the camera.",
+        "original_content": "A woman walks out of the frame in the right side of the camera"
+    },
+    {
+        "line_number": 177,
+        "rephrased_content": "A woman leaves the store carrying a bag.",
+        "original_content": "A woman walks out of the store with a bag"
+    },
+    {
+        "line_number": 178,
+        "rephrased_content": "A child in a stroller is moving out of the frame on the left side.",
+        "original_content": "Child moving on Baby Stroller is going outside of the frame in left side"
+    },
+    {
+        "line_number": 179,
+        "rephrased_content": "A bicycle enters the frame from the right side, moving through the open area.",
+        "original_content": "Cycle entering into frame from right side is moving in the open area"
+    },
+    {
+        "line_number": 180,
+        "rephrased_content": "A person by the roadside barrier is waiting for his friend to arrive.",
+        "original_content": "Person by the roadside barrier is waiting for his friend to arrive."
+    },
+    {
+        "line_number": 181,
+        "rephrased_content": "A person coming from the shop on the left is chatting in front of it.",
+        "original_content": "Person coming from a shop in the left side is gossiping in front of it"
+    },
+    {
+        "line_number": 182,
+        "rephrased_content": "A person arriving from the left is moving out of the frame on the right side.",
+        "original_content": "Person coming from the left side is going outside of the frame in right side"
+    },
+    {
+        "line_number": 183,
+        "rephrased_content": "A person approaching from the right is heading toward the opposite side of the camera.",
+        "original_content": "Person coming from the right side is going towards the opposite side of the camera"
+    },
+    {
+        "line_number": 184,
+        "rephrased_content": "A person exiting a building is returning inside.",
+        "original_content": "Person coming out from a building is going back to the building"
+    },
+    {
+        "line_number": 185,
+        "rephrased_content": "A person coming out of a building is leaving the frame on the left side.",
+        "original_content": "Person coming out from a building is going outside of the frame in left side"
+    },
+    {
+        "line_number": 186,
+        "rephrased_content": "A person exiting a building is moving out of the frame on the right side.",
+        "original_content": "Person coming out from a building is going outside of the frame in right side"
+    },
+    {
+        "line_number": 187,
+        "rephrased_content": "A person riding a bicycle in the open area is moving out of the frame on the camera side.",
+        "original_content": "Person cycling in the open area is going out outside of the frame in camera side"
+    },
+    {
+        "line_number": 188,
+        "rephrased_content": "A person entering the frame from the camera side is walking toward the opposite side.",
+        "original_content": "Person entering into frame from camera side is going towards the opposite side of the camera"
+    },
+    {
+        "line_number": 189,
+        "rephrased_content": "A person entering the frame from the camera side is walking through the open area.",
+        "original_content": "Person entering into frame from camera side is walking in the open area"
+    },
+    {
+        "line_number": 190,
+        "rephrased_content": "A person entering the frame from the left side is exiting the frame on the left side.",
+        "original_content": "Person entering into frame from left side is going outside of the frame in left side"
+    },
+    {
+        "line_number": 191,
+        "rephrased_content": "A person entering the frame from the left side is going out of the frame toward the opposite side of the camera.",
+        "original_content": "Person entering into frame from left side is going outside of the frame in opposite side of the camera"
+    },
+    {
+        "line_number": 192,
+        "rephrased_content": "A person entering the frame from the left side is leaving the frame on the right side.",
+        "original_content": "Person entering into frame from left side is going outside of the frame in right side"
+    },
+    {
+        "line_number": 193,
+        "rephrased_content": "A person entering the frame from the left side is moving toward the opposite side of the camera.",
+        "original_content": "Person entering into frame from left side is going towards the opposite side of the camera"
+    },
+    {
+        "line_number": 194,
+        "rephrased_content": "A person entering the frame from the left side is heading to the right side.",
+        "original_content": "Person entering into frame from left side is going towards the right side"
+    },
+    {
+        "line_number": 195,
+        "rephrased_content": "A person entering the frame from the left side is walking in the open area.",
+        "original_content": "Person entering into frame from left side is walking in the open area"
+    },
+    {
+        "line_number": 196,
+        "rephrased_content": "A person entering the frame from the opposite side of the camera is exiting the frame on the camera side.",
+        "original_content": "Person entering into frame from opposite side of the camera is going outside of the frame in camera side"
+    },
+    {
+        "line_number": 197,
+        "rephrased_content": "A person entering the frame from the opposite side of the camera is moving out of the frame on the left side.",
+        "original_content": "Person entering into frame from opposite side of the camera is going outside of the frame in left side"
+    },
+    {
+        "line_number": 198,
+        "rephrased_content": "A person entering the frame from the opposite side of the camera is exiting the frame on the right side.",
+        "original_content": "Person entering into frame from opposite side of the camera is going outside of the frame in right side"
+    },
+    {
+        "line_number": 199,
+        "rephrased_content": "A person entering the frame from the opposite side of the camera is approaching the camera side.",
+        "original_content": "Person entering into frame from opposite side of the camera is going towards the camera side"
+    },
+    {
+        "line_number": 200,
+        "rephrased_content": "A person entering the frame from the opposite side of the camera is walking in the open area.",
+        "original_content": "Person entering into frame from opposite side of the camera is walking in the open area"
+    },
+    {
+        "line_number": 201,
+        "rephrased_content": "A person cycling into the frame from the right side is moving through the open area.",
+        "original_content": "Person entering into frame from right side is cycling in the open area"
+    },
+    {
+        "line_number": 202,
+        "rephrased_content": "A person entering the frame from the right side exits on the camera side.",
+        "original_content": "Person entering into frame from right side is going outside of the frame in camera side"
+    },
+    {
+        "line_number": 203,
+        "rephrased_content": "A person entering the frame from the right side exits on the left side.",
+        "original_content": "Person entering into frame from right side is going outside of the frame in left side"
+    },
+    {
+        "line_number": 204,
+        "rephrased_content": "A person entering the frame from the right side exits on the opposite side of the camera.",
+        "original_content": "Person entering into frame from right side is going outside of the frame in opposite side of the camera"
+    },
+    {
+        "line_number": 205,
+        "rephrased_content": "A person entering the frame from the right side exits on the right side.",
+        "original_content": "Person entering into frame from right side is going outside of the frame in right side"
+    },
+    {
+        "line_number": 206,
+        "rephrased_content": "A person entering the frame from the right side heads toward the opposite side of the camera.",
+        "original_content": "Person entering into frame from right side is going towards the opposite side of the camera"
+    },
+    {
+        "line_number": 207,
+        "rephrased_content": "A person entering the frame from the right side is walking in the open area.",
+        "original_content": "Person entering into frame from right side is walking in the open area"
+    },
+    {
+        "line_number": 208,
+        "rephrased_content": "A person stands up from the bench.",
+        "original_content": "Person is getting up from the bench"
+    },
+    {
+        "line_number": 209,
+        "rephrased_content": "A person is interacting with a child.",
+        "original_content": "Person is having interaction with a child"
+    },
+    {
+        "line_number": 210,
+        "rephrased_content": "A person is standing behind a bicycle with a child.",
+        "original_content": "Person is standing behind a by-cycle with a child"
+    },
+    {
+        "line_number": 211,
+        "rephrased_content": "A person uses the flash on their phone while taking a picture.",
+        "original_content": "Person is using the flash of his mobile while taking picture with his mobile"
+    },
+    {
+        "line_number": 212,
+        "rephrased_content": "A person walks toward the right side.",
+        "original_content": "Person is walking towards the right side"
+    },
+    {
+        "line_number": 213,
+        "rephrased_content": "A person next to the lamppost is continuously using their mobile phone.",
+        "original_content": "Person next to the lamppost is consistently using the mobile phone."
+    },
+    {
+        "line_number": 214,
+        "rephrased_content": "A person on the left side of the road is smoking a cigarette.",
+        "original_content": "Person on the left side of the road is smoking a cigarette."
+    },
+    {
+        "line_number": 215,
+        "rephrased_content": "A person remains seated without moving.",
+        "original_content": "Person remains seated continuously."
+    },
+    {
+        "line_number": 216,
+        "rephrased_content": "A person seated in a wheelchair is waiting in front of a building.",
+        "original_content": "Person seated on a wheel chair is waiting in front of a building"
+    },
+    {
+        "line_number": 217,
+        "rephrased_content": "A person sitting on a bench is eating street food.",
+        "original_content": "Person seated on the bench is eating street food"
+    },
+    {
+        "line_number": 218,
+        "rephrased_content": "A person sitting on a bicycle is searching for something.",
+        "original_content": "Person sitting on a bicycle is searching for something."
+    },
+    {
+        "line_number": 219,
+        "rephrased_content": "A person walking in the open area exits the frame on the camera side.",
+        "original_content": "Person walking in open area is going outside of the frame in camera side"
+    },
+    {
+        "line_number": 220,
+        "rephrased_content": "A person walking in the open area exits the frame on the opposite side of the camera.",
+        "original_content": "Person walking in open area is going outside of the frame in opposite side of the camera"
+    },
+    {
+        "line_number": 221,
+        "rephrased_content": "A person walking in the open area approaches the camera side.",
+        "original_content": "Person walking in open area is going towards the camera side"
+    },
+    {
+        "line_number": 222,
+        "rephrased_content": "A person walking in the open area exits the frame on the left side.",
+        "original_content": "Person walking in the open area is going outside of the frame in left side"
+    },
+    {
+        "line_number": 223,
+        "rephrased_content": "A person walking in the open area exits the frame on the right side.",
+        "original_content": "Person walking in the open area is going outside of the frame in right side"
+    },
+    {
+        "line_number": 224,
+        "rephrased_content": "A person walking on the right side stops in front of a building.",
+        "original_content": "Person walking in the right side stops walking in front of a building"
+    },
+    {
+        "line_number": 225,
+        "rephrased_content": "A person walking on the street enters a building.",
+        "original_content": "Person walking on the street is going inside a building"
+    },
+    {
+        "line_number": 226,
+        "rephrased_content": "A person walking on the street exits the frame on the left side.",
+        "original_content": "Person walking on the street is going outside of the frame in left side"
+    },
+    {
+        "line_number": 227,
+        "rephrased_content": "A person walking on the street exits the frame on the right side.",
+        "original_content": "Person walking on the street is going outside of the frame in right side"
+    },
+    {
+        "line_number": 228,
+        "rephrased_content": "A person walking on the street heads to the left side.",
+        "original_content": "Person walking on the street is going towards the left side"
+    },
+    {
+        "line_number": 229,
+        "rephrased_content": "A person walking on the street heads toward the opposite side of the camera.",
+        "original_content": "Person walking on the street is going towards the opposite side of the camera"
+    },
+    {
+        "line_number": 230,
+        "rephrased_content": "A person walking on the street heads to the right side.",
+        "original_content": "Person walking on the street is going towards the right side"
+    },
+    {
+        "line_number": 231,
+        "rephrased_content": "A person buying something from a shop.",
+        "original_content": "Person who is buying from a shop"
+    },
+    {
+        "line_number": 232,
+        "rephrased_content": "A person chatting on the left side in front of a shop.",
+        "original_content": "Person who is gossiping in the left side in front of a shop"
+    },
+    {
+        "line_number": 233,
+        "rephrased_content": "A person chatting on the right side in front of a building.",
+        "original_content": "Person who is gossiping in the right side in front of a building"
+    },
+    {
+        "line_number": 234,
+        "rephrased_content": "A person seated on a roadside barrier is observing the surroundings.",
+        "original_content": "Person who is seated on a roadside barrier, is observing the surroundings."
+    },
+    {
+        "line_number": 235,
+        "rephrased_content": "A person standing beside the traffic cones.",
+        "original_content": "Person who is standing beside the traffic cones"
+    },
+    {
+        "line_number": 236,
+        "rephrased_content": "A person with two others is waiting in front of a building.",
+        "original_content": "Person with other two people is waiting in front of a building"
+    },
+    {
+        "line_number": 237,
+        "rephrased_content": "The baby stroller exits the frame to the right side of the camera.",
+        "original_content": "The baby stroller disappears from the frame to the right side of the camera"
+    },
+    {
+        "line_number": 238,
+        "rephrased_content": "The person stands still in the open area.",
+        "original_content": "The person is standing still in the open area"
+    },
+    {
+        "line_number": 239,
+        "rephrased_content": "A vehicle is being parked on the left side of the road.",
+        "original_content": "Vehicle is being parked on the left side of the road"
+    }
+]

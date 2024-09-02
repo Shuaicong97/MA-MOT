@@ -6,31 +6,61 @@
                     "exp": "The rabbit moves starts eating"
                 },
                 "2": {
-                    "exp": "The rabbit stands in front of another rabbit"
+                    "exp": "The rabbit starts to eat."
                 },
                 "3": {
-                    "exp": "The rabbit bites the carrot"
+                    "exp": "The rabbit stands in front of another rabbit"
                 },
                 "4": {
-                    "exp": "The rabbit looks up from the food"
+                    "exp": "The rabbit stands in front of another rabbit."
                 },
                 "5": {
-                    "exp": "The lizard walks towards the camera and eats"
+                    "exp": "The rabbit bites the carrot"
                 },
                 "6": {
-                    "exp": "The rabbit walks away from the food and disappears to the left side of the camera"
+                    "exp": "The rabbit nibbles on the carrot."
                 },
                 "7": {
-                    "exp": "The rabbit goes behind another rabbit"
+                    "exp": "The rabbit looks up from the food"
                 },
                 "8": {
-                    "exp": "The rabbit jumps to the right and disappears to the right side of the camera"
+                    "exp": "The rabbit looks up from its food."
                 },
                 "9": {
-                    "exp": "The turtle walks on the food"
+                    "exp": "The lizard walks towards the camera and eats"
                 },
                 "10": {
+                    "exp": "The lizard walks toward the camera and eats."
+                },
+                "11": {
+                    "exp": "The rabbit walks away from the food and disappears to the left side of the camera"
+                },
+                "12": {
+                    "exp": "The rabbit moves away from the food and exits to the left."
+                },
+                "13": {
+                    "exp": "The rabbit goes behind another rabbit"
+                },
+                "14": {
+                    "exp": "The rabbit goes behind another rabbit."
+                },
+                "15": {
+                    "exp": "The rabbit jumps to the right and disappears to the right side of the camera"
+                },
+                "16": {
+                    "exp": "The rabbit jumps to the right and disappears from view."
+                },
+                "17": {
+                    "exp": "The turtle walks on the food"
+                },
+                "18": {
+                    "exp": "The turtle walks across the food."
+                },
+                "19": {
                     "exp": "The chicken appears from the right side of the camera"
+                },
+                "20": {
+                    "exp": "A chicken comes into view from the right side of the camera."
                 }
             },
             "frames": [
@@ -127,22 +157,43 @@
                     "exp": "The rabbit moves its paws down to the ground and hops to the right"
                 },
                 "2": {
-                    "exp": "The rabbit hops to the right"
+                    "exp": "The rabbit lowers its paws to the ground and hops to the right."
                 },
                 "3": {
-                    "exp": "The rabbit hops to the left"
+                    "exp": "The rabbit hops to the right"
                 },
                 "4": {
-                    "exp": "The rabbit turns to the right"
+                    "exp": "The rabbit hops to the right."
                 },
                 "5": {
-                    "exp": "The rabbit moves to the left"
+                    "exp": "The rabbit hops to the left"
                 },
                 "6": {
-                    "exp": "The rabbit starts walking from a still position"
+                    "exp": "The rabbit hops to the left."
                 },
                 "7": {
+                    "exp": "The rabbit turns to the right"
+                },
+                "8": {
+                    "exp": "The rabbit turns to the right."
+                },
+                "9": {
+                    "exp": "The rabbit moves to the left"
+                },
+                "10": {
+                    "exp": "The rabbit moves to the left."
+                },
+                "11": {
+                    "exp": "The rabbit starts walking from a still position"
+                },
+                "12": {
+                    "exp": "The rabbit rises from a still position."
+                },
+                "13": {
                     "exp": "The rabbit turns around and looks behind"
+                },
+                "14": {
+                    "exp": "The rabbit turns around and looks back."
                 }
             },
             "frames": [
@@ -214,10 +265,19 @@
                     "exp": "The giraffe straightens its neck"
                 },
                 "2": {
-                    "exp": "The giraffe bends its neck around another giraffe"
+                    "exp": "The giraffe straightens its neck."
                 },
                 "3": {
+                    "exp": "The giraffe bends its neck around another giraffe"
+                },
+                "4": {
+                    "exp": "The giraffe bends its neck around another giraffe."
+                },
+                "5": {
                     "exp": "The giraffe chews food"
+                },
+                "6": {
+                    "exp": "The giraffe chews its food."
                 }
             },
             "frames": [
@@ -308,10 +368,19 @@
                     "exp": "The dog turns around and looks down at the object on the ground"
                 },
                 "2": {
-                    "exp": "The dog stops walking and looks around"
+                    "exp": "The dog turns around and looks down at an object on the ground."
                 },
                 "3": {
+                    "exp": "The dog stops walking and looks around"
+                },
+                "4": {
+                    "exp": "The dog pauses and looks around."
+                },
+                "5": {
                     "exp": "The dog appears from the right and walks between other dogs"
+                },
+                "6": {
+                    "exp": "A dog appears from the right and walks between other dogs."
                 }
             },
             "frames": [
@@ -383,31 +452,61 @@
                     "exp": "The car disappears from the right side of the frame"
                 },
                 "2": {
-                    "exp": "The bike disappears from the right side of the frame"
+                    "exp": "A car vanishes from the right side of the frame."
                 },
                 "3": {
-                    "exp": "The person disappears from the right side of the frame"
+                    "exp": "The bike disappears from the right side of the frame"
                 },
                 "4": {
-                    "exp": "The bike overtakes another bike"
+                    "exp": "The bike disappears from the right side of the frame."
                 },
                 "5": {
-                    "exp": "The bike speeds away from the other bikes"
+                    "exp": "The person disappears from the right side of the frame"
                 },
                 "6": {
-                    "exp": "The person speeds away from the other bikers"
+                    "exp": "The person exits the frame to the right."
                 },
                 "7": {
-                    "exp": "The bike disappears from the left side of the frame"
+                    "exp": "The bike overtakes another bike"
                 },
                 "8": {
-                    "exp": "The person disappears from the left side of the frame"
+                    "exp": "The bike passes another bike."
                 },
                 "9": {
-                    "exp": "The person puts up his leg from the road on the bike"
+                    "exp": "The bike speeds away from the other bikes"
                 },
                 "10": {
+                    "exp": "The bike speeds away from the other bikes."
+                },
+                "11": {
+                    "exp": "The person speeds away from the other bikers"
+                },
+                "12": {
+                    "exp": "The person speeds away from the other cyclists."
+                },
+                "13": {
+                    "exp": "The bike disappears from the left side of the frame"
+                },
+                "14": {
+                    "exp": "The bike disappears from the left side of the frame."
+                },
+                "15": {
+                    "exp": "The person disappears from the left side of the frame"
+                },
+                "16": {
+                    "exp": "The person exits the frame to the left."
+                },
+                "17": {
+                    "exp": "The person puts up his leg from the road on the bike"
+                },
+                "18": {
+                    "exp": "The person lifts their leg off the road while on the bike."
+                },
+                "19": {
                     "exp": "The bike gets covered by another bikers in front of the camera"
+                },
+                "20": {
+                    "exp": "The bike is obscured by other bikers in front of the camera."
                 }
             },
             "frames": [
@@ -491,16 +590,31 @@
                     "exp": "The fish ascends upwards"
                 },
                 "2": {
-                    "exp": "The fish positions itself vertically as it looks down on the lower surface"
+                    "exp": "The fish rises upward."
                 },
                 "3": {
-                    "exp": "The fish moves its tails swiftly and goes to the right"
+                    "exp": "The fish positions itself vertically as it looks down on the lower surface"
                 },
                 "4": {
-                    "exp": "The fish positions itself in a straight from a diagonal position"
+                    "exp": "The fish aligns itself vertically while looking down at the lower surface."
                 },
                 "5": {
+                    "exp": "The fish moves its tails swiftly and goes to the right"
+                },
+                "6": {
+                    "exp": "The fish swiftly moves its tail and goes to the right."
+                },
+                "7": {
+                    "exp": "The fish positions itself in a straight from a diagonal position"
+                },
+                "8": {
+                    "exp": "The fish adjusts its position from diagonal to straight."
+                },
+                "9": {
                     "exp": "The fish moves slowly towards the right"
+                },
+                "10": {
+                    "exp": "The fish slowly heads toward the right."
                 }
             },
             "frames": [
@@ -570,13 +684,25 @@
                     "exp": "The zebra disappears from the frame to the right side of the camera"
                 },
                 "2": {
-                    "exp": "The zebra runs to the middle of the pool of water"
+                    "exp": "The zebra exits the frame to the right."
                 },
                 "3": {
-                    "exp": "The zebra turns around and walks towards the pool of water"
+                    "exp": "The zebra runs to the middle of the pool of water"
                 },
                 "4": {
+                    "exp": "The zebra runs to the center of the water pool."
+                },
+                "5": {
+                    "exp": "The zebra turns around and walks towards the pool of water"
+                },
+                "6": {
+                    "exp": "The zebra turns around and walks toward the water pool."
+                },
+                "7": {
                     "exp": "The zebra moves its head up and turns in a circle"
+                },
+                "8": {
+                    "exp": "The zebra raises its head and spins in a circle."
                 }
             },
             "frames": [
@@ -618,7 +744,13 @@
                     "exp": "The car disappears to the right side of the frame"
                 },
                 "2": {
+                    "exp": "A car disappears off the right side of the frame."
+                },
+                "3": {
                     "exp": "The car appears from the left side of the frame"
+                },
+                "4": {
+                    "exp": "A car appears from the left side of the frame."
                 }
             },
             "frames": [
@@ -666,19 +798,37 @@
                     "exp": "The biker disappears from the right side of the frame"
                 },
                 "2": {
-                    "exp": "The bike disappears from the right side of the frame"
+                    "exp": "The biker disappears from the right side of the frame."
                 },
                 "3": {
-                    "exp": "The biker falls on the ground from a levitating position"
+                    "exp": "The bike disappears from the right side of the frame"
                 },
                 "4": {
-                    "exp": "The person looks behind"
+                    "exp": "The bike disappears from the right side of the frame."
                 },
                 "5": {
-                    "exp": "The biker jumps in the air with his bike"
+                    "exp": "The biker falls on the ground from a levitating position"
                 },
                 "6": {
+                    "exp": "The biker falls to the ground from a lifted position."
+                },
+                "7": {
+                    "exp": "The person looks behind"
+                },
+                "8": {
+                    "exp": "The person looks over their shoulder."
+                },
+                "9": {
+                    "exp": "The biker jumps in the air with his bike"
+                },
+                "10": {
+                    "exp": "The biker jumps into the air with his bike."
+                },
+                "11": {
                     "exp": "The bike jumps in the air"
+                },
+                "12": {
+                    "exp": "The bike jumps into the air."
                 }
             },
             "frames": [
@@ -720,28 +870,55 @@
                     "exp": "The horse turns from the left to the right"
                 },
                 "2": {
-                    "exp": "The horse walks behind another horse"
+                    "exp": "The horse turns from left to right."
                 },
                 "3": {
-                    "exp": "The horse starts walking to the right"
+                    "exp": "The horse walks behind another horse"
                 },
                 "4": {
-                    "exp": "The person walks the horse to the right"
+                    "exp": "The horse walks behind another horse."
                 },
                 "5": {
-                    "exp": "The person moves the camera down from his face"
+                    "exp": "The horse starts walking to the right"
                 },
                 "6": {
-                    "exp": "The person lowers his body a little bit from a standing position"
+                    "exp": "The horse begins walking to the right."
                 },
                 "7": {
-                    "exp": "The person watches the horses"
+                    "exp": "The person walks the horse to the right"
                 },
                 "8": {
-                    "exp": "The person hands something to another person"
+                    "exp": "The person leads the horse to the right."
                 },
                 "9": {
+                    "exp": "The person moves the camera down from his face"
+                },
+                "10": {
+                    "exp": "The person lowers the camera from their face."
+                },
+                "11": {
+                    "exp": "The person lowers his body a little bit from a standing position"
+                },
+                "12": {
+                    "exp": "The person slightly lowers their body from a standing position."
+                },
+                "13": {
+                    "exp": "The person watches the horses"
+                },
+                "14": {
+                    "exp": "The person observes the horses."
+                },
+                "15": {
+                    "exp": "The person hands something to another person"
+                },
+                "16": {
+                    "exp": "The person hands something to another individual."
+                },
+                "17": {
                     "exp": "The person runs and grabs a horse's body"
+                },
+                "18": {
+                    "exp": "The person runs and grabs the horse's body."
                 }
             },
             "frames": [
@@ -789,10 +966,19 @@
                     "exp": "The cat sits on the floor"
                 },
                 "2": {
-                    "exp": "The cat turns around and walks back"
+                    "exp": "The cat is sitting on the floor."
                 },
                 "3": {
+                    "exp": "The cat turns around and walks back"
+                },
+                "4": {
+                    "exp": "The cat turns around and returns."
+                },
+                "5": {
                     "exp": "The cat lays down from a sitting position"
+                },
+                "6": {
+                    "exp": "The cat lays down from a seated position."
                 }
             },
             "frames": [
@@ -839,7 +1025,13 @@
                     "exp": "The horse walks to the right slightly and faces away from the camera"
                 },
                 "2": {
+                    "exp": "The horse slightly moves to the right and faces away from the camera."
+                },
+                "3": {
                     "exp": "The horse turns from the right to the left"
+                },
+                "4": {
+                    "exp": "The horse turns from right to left."
                 }
             },
             "frames": [
@@ -881,19 +1073,37 @@
                     "exp": "The turtle disappears to the right side of the frame"
                 },
                 "2": {
-                    "exp": "The turtle takes a left turn"
+                    "exp": "The turtle exits the frame to the right."
                 },
                 "3": {
-                    "exp": "The turtle turns around and moves away from the camera"
+                    "exp": "The turtle takes a left turn"
                 },
                 "4": {
-                    "exp": "The turtle gets covered by the shadows of another turtle above"
+                    "exp": "The turtle takes a left turn."
                 },
                 "5": {
-                    "exp": "The turtle appears from the left side of the frame"
+                    "exp": "The turtle turns around and moves away from the camera"
                 },
                 "6": {
+                    "exp": "The turtle turns around and moves away from the camera."
+                },
+                "7": {
+                    "exp": "The turtle gets covered by the shadows of another turtle above"
+                },
+                "8": {
+                    "exp": "The turtle is covered by the shadow of another turtle above it."
+                },
+                "9": {
+                    "exp": "The turtle appears from the left side of the frame"
+                },
+                "10": {
+                    "exp": "A turtle enters the frame from the left."
+                },
+                "11": {
                     "exp": "The turtle sits on the floor below another turtle"
+                },
+                "12": {
+                    "exp": "The turtle sits on the floor below another turtle."
                 }
             },
             "frames": [
@@ -942,25 +1152,49 @@
                     "exp": "The boat moves behind other boats"
                 },
                 "2": {
-                    "exp": "The person moves behind other boats"
+                    "exp": "A boat moves behind other boats."
                 },
                 "3": {
-                    "exp": "The boat moves in front of other boats"
+                    "exp": "The person moves behind other boats"
                 },
                 "4": {
-                    "exp": "The person moves in front of other boats"
+                    "exp": "The person moves behind other boats."
                 },
                 "5": {
-                    "exp": "The boat moves between other boats"
+                    "exp": "The boat moves in front of other boats"
                 },
                 "6": {
-                    "exp": "The person moves between other boats"
+                    "exp": "A boat moves in front of other boats."
                 },
                 "7": {
-                    "exp": "The boat turns from the right to the left"
+                    "exp": "The person moves in front of other boats"
                 },
                 "8": {
+                    "exp": "The person moves in front of other boats."
+                },
+                "9": {
+                    "exp": "The boat moves between other boats"
+                },
+                "10": {
+                    "exp": "A boat navigates between other boats."
+                },
+                "11": {
+                    "exp": "The person moves between other boats"
+                },
+                "12": {
+                    "exp": "The person navigates between other boats."
+                },
+                "13": {
+                    "exp": "The boat turns from the right to the left"
+                },
+                "14": {
+                    "exp": "A boat turns from the right to the left."
+                },
+                "15": {
                     "exp": "The person turns the boat from the right to the left"
+                },
+                "16": {
+                    "exp": "The person steers the boat from the right to the left."
                 }
             },
             "frames": [
@@ -1002,7 +1236,13 @@
                     "exp": "The turtle turns around and faces towards the direction of the camera"
                 },
                 "2": {
+                    "exp": "The turtle turns around and faces the camera."
+                },
+                "3": {
                     "exp": "The turtle moves away from the camera"
+                },
+                "4": {
+                    "exp": "The turtle moves away from the camera."
                 }
             },
             "frames": [
@@ -1086,25 +1326,49 @@
                     "exp": "The panda lays down on the ground from a seated position"
                 },
                 "2": {
-                    "exp": "The person puts a cloth near the face of the panda"
+                    "exp": "The panda lays down on the ground after sitting."
                 },
                 "3": {
-                    "exp": "The person grabs the arm of the panda with her hand"
+                    "exp": "The person puts a cloth near the face of the panda"
                 },
                 "4": {
-                    "exp": "The panda follows the person with cloth"
+                    "exp": "The person places a cloth near the panda's face."
                 },
                 "5": {
-                    "exp": "The panda appears from the left side of the frame"
+                    "exp": "The person grabs the arm of the panda with her hand"
                 },
                 "6": {
-                    "exp": "The person appears from the left side of the frame"
+                    "exp": "The person grabs the panda's arm with her hand."
                 },
                 "7": {
-                    "exp": "The person appears from the right side of the frame"
+                    "exp": "The panda follows the person with cloth"
                 },
                 "8": {
+                    "exp": "The panda follows a person carrying cloth."
+                },
+                "9": {
+                    "exp": "The panda appears from the left side of the frame"
+                },
+                "10": {
+                    "exp": "The panda enters the frame from the left side."
+                },
+                "11": {
+                    "exp": "The person appears from the left side of the frame"
+                },
+                "12": {
+                    "exp": "A person enters the frame from the left side."
+                },
+                "13": {
+                    "exp": "The person appears from the right side of the frame"
+                },
+                "14": {
+                    "exp": "A person enters the frame from the right side."
+                },
+                "15": {
                     "exp": "The panda appears from the right side of the frame"
+                },
+                "16": {
+                    "exp": "The panda enters the frame from the right side."
                 }
             },
             "frames": [
@@ -1236,10 +1500,19 @@
                     "exp": "The lion stands up from a seated position"
                 },
                 "2": {
-                    "exp": "The zebra pushes the lion with its head"
+                    "exp": "The lion rises from a seated position."
                 },
                 "3": {
+                    "exp": "The zebra pushes the lion with its head"
+                },
+                "4": {
+                    "exp": "The zebra nudges the lion with its head."
+                },
+                "5": {
                     "exp": "The zebra escapes from the jaws of the lion"
+                },
+                "6": {
+                    "exp": "The zebra escapes from the lion's jaws."
                 }
             },
             "frames": [
@@ -1359,7 +1632,13 @@
                     "exp": "The boat moves in a circle around a yellow object on the sea"
                 },
                 "2": {
+                    "exp": "A boat circles around a yellow object in the sea."
+                },
+                "3": {
                     "exp": "The person moves in a circle around a yellow object on the sea"
+                },
+                "4": {
+                    "exp": "The person moves in a circle around a yellow object on the sea."
                 }
             },
             "frames": [
@@ -1416,7 +1695,13 @@
                     "exp": "The fish turns from the left to the right"
                 },
                 "2": {
+                    "exp": "The fish turns from left to right."
+                },
+                "3": {
                     "exp": "The fish swims slightly to the right"
+                },
+                "4": {
+                    "exp": "The fish swims slightly to the right."
                 }
             },
             "frames": [
@@ -1572,16 +1857,31 @@
                     "exp": "The cycle makes a u-turn"
                 },
                 "2": {
-                    "exp": "The boy makes a u-turn with the cycle"
+                    "exp": "The bicycle makes a U-turn."
                 },
                 "3": {
-                    "exp": "The cycle turns around from the left to the right"
+                    "exp": "The boy makes a u-turn with the cycle"
                 },
                 "4": {
-                    "exp": "The boy turns around from the left to the right"
+                    "exp": "A boy makes a U-turn with his bicycle."
                 },
                 "5": {
+                    "exp": "The cycle turns around from the left to the right"
+                },
+                "6": {
+                    "exp": "The bicycle turns from left to right."
+                },
+                "7": {
+                    "exp": "The boy turns around from the left to the right"
+                },
+                "8": {
+                    "exp": "A boy turns around from left to right."
+                },
+                "9": {
                     "exp": "The person gets covered for a bit behind the boy"
+                },
+                "10": {
+                    "exp": "The person is briefly covered behind a boy."
                 }
             },
             "frames": [
@@ -1629,13 +1929,25 @@
                     "exp": "The zebra gets up from the water container to the ground"
                 },
                 "2": {
-                    "exp": "The zebra turns around and walks away from the water container"
+                    "exp": "The zebra rises from the water container to the ground."
                 },
                 "3": {
-                    "exp": "The zebra is pushed into the surface that contains water"
+                    "exp": "The zebra turns around and walks away from the water container"
                 },
                 "4": {
+                    "exp": "The zebra turns around and walks away from the water container."
+                },
+                "5": {
+                    "exp": "The zebra is pushed into the surface that contains water"
+                },
+                "6": {
+                    "exp": "The zebra is pushed into the water surface."
+                },
+                "7": {
                     "exp": "The zebra turns around from the left to the right"
+                },
+                "8": {
+                    "exp": "The zebra turns from left to right."
                 }
             },
             "frames": [
@@ -1747,10 +2059,19 @@
                     "exp": "The zebra kick the gate and turns to the right"
                 },
                 "2": {
-                    "exp": "The zebra turns around and faces away from the gate"
+                    "exp": "The zebra kicks the gate and turns to the right."
                 },
                 "3": {
+                    "exp": "The zebra turns around and faces away from the gate"
+                },
+                "4": {
+                    "exp": "The zebra turns around and faces away from the gate."
+                },
+                "5": {
                     "exp": "The zebra walks across the face of the gate"
+                },
+                "6": {
+                    "exp": "The zebra crosses in front of the gate."
                 }
             },
             "frames": [
@@ -1793,22 +2114,43 @@
                     "exp": "The bird turns to the left"
                 },
                 "2": {
-                    "exp": "The bird looks to the right"
+                    "exp": "A bird turns to the left."
                 },
                 "3": {
-                    "exp": "The bird flies towards the camera"
+                    "exp": "The bird looks to the right"
                 },
                 "4": {
-                    "exp": "The bird jumps up to a higher platform"
+                    "exp": "A bird gazes to the right."
                 },
                 "5": {
-                    "exp": "The bird looks to its right and left"
+                    "exp": "The bird flies towards the camera"
                 },
                 "6": {
-                    "exp": "The bird turns around and looks away from the camera"
+                    "exp": "A bird flies toward the camera."
                 },
                 "7": {
+                    "exp": "The bird jumps up to a higher platform"
+                },
+                "8": {
+                    "exp": "A bird jumps up to a higher perch."
+                },
+                "9": {
+                    "exp": "The bird looks to its right and left"
+                },
+                "10": {
+                    "exp": "A bird looks both right and left."
+                },
+                "11": {
+                    "exp": "The bird turns around and looks away from the camera"
+                },
+                "12": {
+                    "exp": "A bird turns around and looks away from the camera."
+                },
+                "13": {
                     "exp": "The bird looks slightly to its left"
+                },
+                "14": {
+                    "exp": "A bird glances slightly to its left."
                 }
             },
             "frames": [
@@ -1915,10 +2257,19 @@
                     "exp": "The panda falls on its back"
                 },
                 "2": {
-                    "exp": "The panda pushes another panda to the ground"
+                    "exp": "The panda falls onto its back."
                 },
                 "3": {
+                    "exp": "The panda pushes another panda to the ground"
+                },
+                "4": {
+                    "exp": "The panda knocks another panda to the ground."
+                },
+                "5": {
                     "exp": "The panda scratches its face with its paws"
+                },
+                "6": {
+                    "exp": "The panda uses its paws to scratch its face."
                 }
             },
             "frames": [
@@ -1988,6 +2339,9 @@
             "expressions": {
                 "1": {
                     "exp": "The fish rotates and faces the opposite direction"
+                },
+                "2": {
+                    "exp": "The fish rotates and faces the opposite direction."
                 }
             },
             "frames": [
@@ -2039,16 +2393,31 @@
                     "exp": "The zebra walks away from the camera"
                 },
                 "2": {
-                    "exp": "The zebra moves its head to the left on the grass"
+                    "exp": "The zebra moves away from the camera."
                 },
                 "3": {
-                    "exp": "The zebra takes a slight turn to the right"
+                    "exp": "The zebra moves its head to the left on the grass"
                 },
                 "4": {
-                    "exp": "The zebra disappears from the frame to the left side of the camera"
+                    "exp": "The zebra tilts its head to the left while on the grass."
                 },
                 "5": {
+                    "exp": "The zebra takes a slight turn to the right"
+                },
+                "6": {
+                    "exp": "The zebra makes a slight turn to the right."
+                },
+                "7": {
+                    "exp": "The zebra disappears from the frame to the left side of the camera"
+                },
+                "8": {
+                    "exp": "The zebra exits the frame to the left."
+                },
+                "9": {
                     "exp": "The zebra rotates its body and faces left"
+                },
+                "10": {
+                    "exp": "The zebra rotates its body and faces left."
                 }
             },
             "frames": [
@@ -2111,13 +2480,25 @@
                     "exp": "The duck turns around and walks to the right"
                 },
                 "2": {
-                    "exp": "The duck turns around and faces right"
+                    "exp": "The duck turns around and walks toward the right."
                 },
                 "3": {
-                    "exp": "The duck walks away from the camera and turns to the left"
+                    "exp": "The duck turns around and faces right"
                 },
                 "4": {
+                    "exp": "The duck turns around and faces to the right."
+                },
+                "5": {
+                    "exp": "The duck walks away from the camera and turns to the left"
+                },
+                "6": {
+                    "exp": "The duck moves away from the camera and turns to the left."
+                },
+                "7": {
                     "exp": "The duck starts walking"
+                },
+                "8": {
+                    "exp": "The duck begins to walk."
                 }
             },
             "frames": [
@@ -2177,7 +2558,13 @@
                     "exp": "The horse walks behind another horse"
                 },
                 "2": {
+                    "exp": "The horse walks behind another horse."
+                },
+                "3": {
                     "exp": "The horse rotates its body slightly to the left"
+                },
+                "4": {
+                    "exp": "The horse slightly rotates its body to the left."
                 }
             },
             "frames": [
@@ -2381,10 +2768,19 @@
                     "exp": "The cat turns around and walks away from the camera"
                 },
                 "2": {
-                    "exp": "The cat licks its leg"
+                    "exp": "The cat turns around and walks away from the camera."
                 },
                 "3": {
+                    "exp": "The cat licks its leg"
+                },
+                "4": {
+                    "exp": "The cat licks its leg."
+                },
+                "5": {
                     "exp": "The cat turns around and looks back"
+                },
+                "6": {
+                    "exp": "The cat turns around and looks back."
                 }
             },
             "frames": [
@@ -2560,7 +2956,13 @@
                     "exp": "The dog stands up from a lied down position"
                 },
                 "2": {
+                    "exp": "The dog rises from a lying position."
+                },
+                "3": {
                     "exp": "The dog pushes another dog with its head"
+                },
+                "4": {
+                    "exp": "The dog nudges another dog with its head."
                 }
             },
             "frames": [
@@ -2618,10 +3020,19 @@
                     "exp": "The person disappears from the frame"
                 },
                 "2": {
-                    "exp": "The cow moves to the right"
+                    "exp": "The person is no longer visible in the frame."
                 },
                 "3": {
+                    "exp": "The cow moves to the right"
+                },
+                "4": {
+                    "exp": "The cow shifts to the right."
+                },
+                "5": {
                     "exp": "The cow moves to the left"
+                },
+                "6": {
+                    "exp": "The cow shifts to the left."
                 }
             },
             "frames": [
@@ -2654,7 +3065,13 @@
                     "exp": "The panda stands down on 4 legs"
                 },
                 "2": {
+                    "exp": "The panda stands up on all fours."
+                },
+                "3": {
                     "exp": "The panda engages in a fight with another panda"
+                },
+                "4": {
+                    "exp": "The panda engages in a scuffle with another panda."
                 }
             },
             "frames": [
@@ -2720,13 +3137,25 @@
                     "exp": "The ship remains still on the water"
                 },
                 "2": {
-                    "exp": "The boat slightly changes its direction to the right"
+                    "exp": "The ship remains stationary on the water."
                 },
                 "3": {
-                    "exp": "The person looks down from the edge of the ship"
+                    "exp": "The boat slightly changes its direction to the right"
                 },
                 "4": {
+                    "exp": "A boat slightly alters its direction to the right."
+                },
+                "5": {
+                    "exp": "The person looks down from the edge of the ship"
+                },
+                "6": {
+                    "exp": "The person looks down from the edge of the ship."
+                },
+                "7": {
                     "exp": "The person walks away from the edge of the boat"
+                },
+                "8": {
+                    "exp": "The person moves away from the edge of the boat."
                 }
             },
             "frames": [
@@ -2768,7 +3197,13 @@
                     "exp": "The tiger moves down its head to the ground"
                 },
                 "2": {
+                    "exp": "The tiger lowers its head to the ground."
+                },
+                "3": {
                     "exp": "The tiger pushes another tiger to the ground"
+                },
+                "4": {
+                    "exp": "The tiger pushes another tiger down."
                 }
             },
             "frames": [
@@ -2822,22 +3257,43 @@
                     "exp": "The bus disappears from the frame to the right"
                 },
                 "2": {
-                    "exp": "The car disappears from the frame to the right"
+                    "exp": "A bus disappears off the frame to the right."
                 },
                 "3": {
-                    "exp": "The person disappears behind a box as she walks"
+                    "exp": "The car disappears from the frame to the right"
                 },
                 "4": {
-                    "exp": "The person disappears behind a car"
+                    "exp": "A car exits the frame to the right."
                 },
                 "5": {
-                    "exp": "The car disappears behind another car"
+                    "exp": "The person disappears behind a box as she walks"
                 },
                 "6": {
-                    "exp": "The bus appears from the left side of the frame"
+                    "exp": "The person walks and disappears behind a box."
                 },
                 "7": {
+                    "exp": "The person disappears behind a car"
+                },
+                "8": {
+                    "exp": "The person vanishes behind a car."
+                },
+                "9": {
+                    "exp": "The car disappears behind another car"
+                },
+                "10": {
+                    "exp": "A car disappears behind another car."
+                },
+                "11": {
+                    "exp": "The bus appears from the left side of the frame"
+                },
+                "12": {
+                    "exp": "A bus appears from the left side of the frame."
+                },
+                "13": {
                     "exp": "The car appears from the left side of the frame"
+                },
+                "14": {
+                    "exp": "A car appears from the left side of the frame."
                 }
             },
             "frames": [
@@ -2885,31 +3341,61 @@
                     "exp": "The person disappears from the right side of the frame"
                 },
                 "2": {
-                    "exp": "The person overtakes other cycles"
+                    "exp": "The person exits the frame to the right."
                 },
                 "3": {
-                    "exp": "The cycle overtakes other cycles"
+                    "exp": "The person overtakes other cycles"
                 },
                 "4": {
-                    "exp": "The cycle gets blocked from the view by another cyclist"
+                    "exp": "The person overtakes other cyclists."
                 },
                 "5": {
-                    "exp": "The person gets blocked from the view by another cyclist"
+                    "exp": "The cycle overtakes other cycles"
                 },
                 "6": {
-                    "exp": "The person on the cycle looks from his right to front"
+                    "exp": "The bicycle overtakes other bicycles."
                 },
                 "7": {
-                    "exp": "The cycle goes past other cycles"
+                    "exp": "The cycle gets blocked from the view by another cyclist"
                 },
                 "8": {
-                    "exp": "The person appears from the left side of the frame"
+                    "exp": "The bicycle is obstructed from view by another cyclist."
                 },
                 "9": {
-                    "exp": "The cycle appears from the left side of the frame"
+                    "exp": "The person gets blocked from the view by another cyclist"
                 },
                 "10": {
+                    "exp": "The person is obstructed from view by another cyclist."
+                },
+                "11": {
+                    "exp": "The person on the cycle looks from his right to front"
+                },
+                "12": {
+                    "exp": "The cyclist looks from their right to the front."
+                },
+                "13": {
+                    "exp": "The cycle goes past other cycles"
+                },
+                "14": {
+                    "exp": "The bicycle passes by other bicycles."
+                },
+                "15": {
+                    "exp": "The person appears from the left side of the frame"
+                },
+                "16": {
+                    "exp": "A person enters the frame from the left side."
+                },
+                "17": {
+                    "exp": "The cycle appears from the left side of the frame"
+                },
+                "18": {
+                    "exp": "A bicycle enters the frame from the left side."
+                },
+                "19": {
                     "exp": "The cyclist goes past other cycles"
+                },
+                "20": {
+                    "exp": "The cyclist goes past other bicycles."
                 }
             },
             "frames": [
@@ -2981,16 +3467,31 @@
                     "exp": "The person moves in a circle"
                 },
                 "2": {
-                    "exp": "The cycle moves in a circle"
+                    "exp": "The person circles around."
                 },
                 "3": {
-                    "exp": "The car is still in the side of the road"
+                    "exp": "The cycle moves in a circle"
                 },
                 "4": {
-                    "exp": "The person turns around and walks towards the camera"
+                    "exp": "The bicycle moves in a circular path."
                 },
                 "5": {
+                    "exp": "The car is still in the side of the road"
+                },
+                "6": {
+                    "exp": "A car remains parked at the side of the road."
+                },
+                "7": {
+                    "exp": "The person turns around and walks towards the camera"
+                },
+                "8": {
+                    "exp": "The person turns around and walks toward the camera."
+                },
+                "9": {
                     "exp": "The person turns around and moves towards the camera"
+                },
+                "10": {
+                    "exp": "The person turns around and approaches the camera."
                 }
             },
             "frames": [
@@ -3133,7 +3634,13 @@
                     "exp": "The cow stops walking"
                 },
                 "2": {
+                    "exp": "The cow halts its movement."
+                },
+                "3": {
                     "exp": "The cow starts eating the leaves"
+                },
+                "4": {
+                    "exp": "The cow begins to eat the leaves."
                 }
             },
             "frames": [
@@ -3259,10 +3766,19 @@
                     "exp": "The tiger walks behind another tiger"
                 },
                 "2": {
-                    "exp": "The tiger walks towards another tiger"
+                    "exp": "The tiger walks behind another tiger."
                 },
                 "3": {
+                    "exp": "The tiger walks towards another tiger"
+                },
+                "4": {
+                    "exp": "The tiger approaches another tiger."
+                },
+                "5": {
                     "exp": "The tiger appears from the upper side of the frame"
+                },
+                "6": {
+                    "exp": "The tiger enters from the top of the frame."
                 }
             },
             "frames": [
@@ -3346,7 +3862,13 @@
                     "exp": "The lizard turns to the left"
                 },
                 "2": {
+                    "exp": "The lizard turns to the left."
+                },
+                "3": {
                     "exp": "The person's hand disappears from the left"
+                },
+                "4": {
+                    "exp": "The person's hand vanishes from the left."
                 }
             },
             "frames": [
@@ -3383,10 +3905,19 @@
                     "exp": "The elephant walks under the trunk of another elephant"
                 },
                 "2": {
-                    "exp": "The elephant walks backwards"
+                    "exp": "The elephant walks beneath the trunk of another elephant."
                 },
                 "3": {
+                    "exp": "The elephant walks backwards"
+                },
+                "4": {
+                    "exp": "The elephant walks backward."
+                },
+                "5": {
                     "exp": "The elephant straightens its trunk across the face of another elephant"
+                },
+                "6": {
+                    "exp": "The elephant extends its trunk across the face of another elephant."
                 }
             },
             "frames": [
@@ -3519,16 +4050,31 @@
                     "exp": "The fish swims out from behind the rock"
                 },
                 "2": {
-                    "exp": "The fish turns to the right"
+                    "exp": "The fish emerges from behind the rock."
                 },
                 "3": {
-                    "exp": "The fish swims downwards"
+                    "exp": "The fish turns to the right"
                 },
                 "4": {
-                    "exp": "The fish slowly descends"
+                    "exp": "The fish turns to the right."
                 },
                 "5": {
+                    "exp": "The fish swims downwards"
+                },
+                "6": {
+                    "exp": "The fish swims downward."
+                },
+                "7": {
+                    "exp": "The fish slowly descends"
+                },
+                "8": {
+                    "exp": "The fish gradually descends."
+                },
+                "9": {
                     "exp": "The fish swims up from between a rock and platform"
+                },
+                "10": {
+                    "exp": "The fish rises between a rock and a platform."
                 }
             },
             "frames": [
@@ -3584,10 +4130,19 @@
                     "exp": "The cows slips and sits on the ground"
                 },
                 "2": {
-                    "exp": "The cow turns to the right and looks away from the camera"
+                    "exp": "The cow slips and sits down on the ground."
                 },
                 "3": {
+                    "exp": "The cow turns to the right and looks away from the camera"
+                },
+                "4": {
+                    "exp": "The cow turns to the right and looks away from the camera."
+                },
+                "5": {
                     "exp": "The cow walks starts walking"
+                },
+                "6": {
+                    "exp": "The cow resumes walking."
                 }
             },
             "frames": [
@@ -3695,7 +4250,13 @@
                     "exp": "The lizard looks down on the food bowl"
                 },
                 "2": {
+                    "exp": "The lizard looks down at the food bowl."
+                },
+                "3": {
                     "exp": "The lizard leans forward into the food bowl"
+                },
+                "4": {
+                    "exp": "The lizard leans forward toward the food bowl."
                 }
             },
             "frames": [
@@ -3737,7 +4298,13 @@
                     "exp": "The dog stands up from a lied down position"
                 },
                 "2": {
+                    "exp": "The dog rises from a lying position."
+                },
+                "3": {
                     "exp": "The dog jumps on another dog"
+                },
+                "4": {
+                    "exp": "The dog jumps onto another dog."
                 }
             },
             "frames": [
@@ -3778,19 +4345,37 @@
                     "exp": "The horse overtakes other horses"
                 },
                 "2": {
-                    "exp": "The horseman overtakes other horsemen"
+                    "exp": "The horse overtakes other horses."
                 },
                 "3": {
-                    "exp": "The horse disappears from the right side of the frame"
+                    "exp": "The horseman overtakes other horsemen"
                 },
                 "4": {
-                    "exp": "The horseman disappears from the right side of the frame"
+                    "exp": "The horseman overtakes other horsemen."
                 },
                 "5": {
-                    "exp": "The horse gets blocked from the view by another horseman"
+                    "exp": "The horse disappears from the right side of the frame"
                 },
                 "6": {
+                    "exp": "The horse vanishes from the right side of the frame."
+                },
+                "7": {
+                    "exp": "The horseman disappears from the right side of the frame"
+                },
+                "8": {
+                    "exp": "The horseman disappears from the right side of the frame."
+                },
+                "9": {
+                    "exp": "The horse gets blocked from the view by another horseman"
+                },
+                "10": {
+                    "exp": "The horse is obscured by another horseman."
+                },
+                "11": {
                     "exp": "The horseman gets blocked from the view by another horseman"
+                },
+                "12": {
+                    "exp": "The horseman is blocked from view by another horseman."
                 }
             },
             "frames": [
@@ -3827,7 +4412,13 @@
                     "exp": "The horse collides with another horse"
                 },
                 "2": {
+                    "exp": "The horse collides with another horse."
+                },
+                "3": {
                     "exp": "The horse stands on its two back legs"
+                },
+                "4": {
+                    "exp": "The horse stands on its hind legs."
                 }
             },
             "frames": [
@@ -3860,10 +4451,19 @@
                     "exp": "The fish turns from the right to the left"
                 },
                 "2": {
-                    "exp": "The fish swims to the surface of the water"
+                    "exp": "The fish turns from right to left."
                 },
                 "3": {
+                    "exp": "The fish swims to the surface of the water"
+                },
+                "4": {
+                    "exp": "The fish swims to the surface of the water."
+                },
+                "5": {
                     "exp": "The fish swims away from the camera"
+                },
+                "6": {
+                    "exp": "The fish swims away from the camera."
                 }
             },
             "frames": [
@@ -4007,10 +4607,19 @@
                     "exp": "The fish swims to the surface of the water"
                 },
                 "2": {
-                    "exp": "The fish ascends upwards"
+                    "exp": "The fish swims to the surface of the water."
                 },
                 "3": {
+                    "exp": "The fish ascends upwards"
+                },
+                "4": {
+                    "exp": "The fish rises upward."
+                },
+                "5": {
                     "exp": "The fish turns from the right to the left"
+                },
+                "6": {
+                    "exp": "The fish turns from right to left."
                 }
             },
             "frames": [
@@ -4094,10 +4703,19 @@
                     "exp": "The dog starts walking to the left"
                 },
                 "2": {
-                    "exp": "The dog jumps at another dog"
+                    "exp": "The dog starts walking to the left."
                 },
                 "3": {
+                    "exp": "The dog jumps at another dog"
+                },
+                "4": {
+                    "exp": "The dog leaps at another dog."
+                },
+                "5": {
                     "exp": "The dog walks backwards"
+                },
+                "6": {
+                    "exp": "The dog walks backward."
                 }
             },
             "frames": [
@@ -4192,7 +4810,13 @@
                     "exp": "The person rotates in a circle"
                 },
                 "2": {
+                    "exp": "The person rotates in a circle."
+                },
+                "3": {
                     "exp": "The bike rotates on its back tire in a standing position"
+                },
+                "4": {
+                    "exp": "The bike balances on its back tire in a standing position."
                 }
             },
             "frames": [
@@ -4246,10 +4870,19 @@
                     "exp": "The elephant stops walking"
                 },
                 "2": {
-                    "exp": "The elephant raises its front legs on the body of another elephant"
+                    "exp": "The elephant halts its movement."
                 },
                 "3": {
+                    "exp": "The elephant raises its front legs on the body of another elephant"
+                },
+                "4": {
+                    "exp": "The elephant raises its front legs onto another elephant's body."
+                },
+                "5": {
                     "exp": "The person sits down on the ground"
+                },
+                "6": {
+                    "exp": "The person sits down on the ground."
                 }
             },
             "frames": [
@@ -4492,10 +5125,19 @@
                     "exp": "The car takes a right turn"
                 },
                 "2": {
-                    "exp": "The car disappears behind another car"
+                    "exp": "A car makes a right turn."
                 },
                 "3": {
+                    "exp": "The car disappears behind another car"
+                },
+                "4": {
+                    "exp": "A car disappears behind another car."
+                },
+                "5": {
                     "exp": "The car disappears from the frame to the right"
+                },
+                "6": {
+                    "exp": "A car exits the frame to the right."
                 }
             },
             "frames": [
@@ -4573,7 +5215,13 @@
                     "exp": "The panda jumps on another panda"
                 },
                 "2": {
+                    "exp": "The panda leaps onto another panda."
+                },
+                "3": {
                     "exp": "The panda throws another panda off of its body"
+                },
+                "4": {
+                    "exp": "The panda throws another panda off its body."
                 }
             },
             "frames": [
@@ -4612,7 +5260,13 @@
                     "exp": "The cat looks towards the camera"
                 },
                 "2": {
+                    "exp": "The cat gazes toward the camera."
+                },
+                "3": {
                     "exp": "The cat grabs the toy with its paw"
+                },
+                "4": {
+                    "exp": "A cat grabs a toy with its paw."
                 }
             },
             "frames": [
@@ -4725,16 +5379,31 @@
                     "exp": "The goat moves its mouth to the right and bites food"
                 },
                 "2": {
-                    "exp": "The goat walks towards the food near the steel bars"
+                    "exp": "The goat moves its mouth to the right and nibbles at some food."
                 },
                 "3": {
-                    "exp": "The goat brings its head out between the steel bars"
+                    "exp": "The goat walks towards the food near the steel bars"
                 },
                 "4": {
-                    "exp": "The goat turns around and walks back"
+                    "exp": "The goat approaches the food near the steel bars."
                 },
                 "5": {
+                    "exp": "The goat brings its head out between the steel bars"
+                },
+                "6": {
+                    "exp": "The goat sticks its head through the steel bars."
+                },
+                "7": {
+                    "exp": "The goat turns around and walks back"
+                },
+                "8": {
+                    "exp": "The goat turns around and walks back."
+                },
+                "9": {
                     "exp": "The goat moves its head away to the left"
+                },
+                "10": {
+                    "exp": "The goat turns its head to the left."
                 }
             },
             "frames": [
@@ -4782,16 +5451,31 @@
                     "exp": "The zebra disappears from the frame to the left side of the camera"
                 },
                 "2": {
-                    "exp": "The zebra takes a slight step to the left"
+                    "exp": "The zebra exits the frame to the left."
                 },
                 "3": {
-                    "exp": "The zebra makes a swift leap"
+                    "exp": "The zebra takes a slight step to the left"
                 },
                 "4": {
-                    "exp": "The zebra walks to the left"
+                    "exp": "The zebra takes a small step to the left."
                 },
                 "5": {
+                    "exp": "The zebra makes a swift leap"
+                },
+                "6": {
+                    "exp": "The zebra leaps swiftly."
+                },
+                "7": {
+                    "exp": "The zebra walks to the left"
+                },
+                "8": {
+                    "exp": "The zebra heads to the left."
+                },
+                "9": {
                     "exp": "The cow appears from the right side of the frame"
+                },
+                "10": {
+                    "exp": "A cow enters the frame from the right side."
                 }
             },
             "frames": [
@@ -4833,7 +5517,13 @@
                     "exp": "The cat bites at the hand"
                 },
                 "2": {
+                    "exp": "A cat is biting at a hand."
+                },
+                "3": {
                     "exp": "The hand rises up to the face of the cat"
+                },
+                "4": {
+                    "exp": "The hand rises to the cat's face."
                 }
             },
             "frames": [
@@ -4879,6 +5569,9 @@
             "expressions": {
                 "1": {
                     "exp": "The plane changes direction to the left"
+                },
+                "2": {
+                    "exp": "The plane alters its direction to the left."
                 }
             },
             "frames": [
@@ -4935,10 +5628,19 @@
                     "exp": "The bird moves slightly to the left"
                 },
                 "2": {
-                    "exp": "The bird leans its mouth down on a food bowl"
+                    "exp": "A bird shifts slightly to the left."
                 },
                 "3": {
+                    "exp": "The bird leans its mouth down on a food bowl"
+                },
+                "4": {
+                    "exp": "A bird leans down to a food bowl."
+                },
+                "5": {
                     "exp": "The bird looks down on the food bow;"
+                },
+                "6": {
+                    "exp": "A bird looks down at the food bowl."
                 }
             },
             "frames": [
@@ -4975,19 +5677,37 @@
                     "exp": "The rabbit disappears to the left side of the frame"
                 },
                 "2": {
-                    "exp": "The rabbit starts walking from a seated position"
+                    "exp": "The rabbit exits the frame to the left."
                 },
                 "3": {
-                    "exp": "The rabbit turns around and walks towards the red bowl"
+                    "exp": "The rabbit starts walking from a seated position"
                 },
                 "4": {
-                    "exp": "The rabbit walks underneath other rabbits"
+                    "exp": "The rabbit begins to walk from a seated position."
                 },
                 "5": {
-                    "exp": "The rabbit moves its head from the right to the left"
+                    "exp": "The rabbit turns around and walks towards the red bowl"
                 },
                 "6": {
+                    "exp": "The rabbit turns around and walks toward the red bowl."
+                },
+                "7": {
+                    "exp": "The rabbit walks underneath other rabbits"
+                },
+                "8": {
+                    "exp": "The rabbit hops beneath other rabbits."
+                },
+                "9": {
+                    "exp": "The rabbit moves its head from the right to the left"
+                },
+                "10": {
+                    "exp": "The rabbit moves its head from right to left."
+                },
+                "11": {
                     "exp": "The rabbit brings down its head from the top of the cage"
+                },
+                "12": {
+                    "exp": "The rabbit lowers its head from the top of the cage."
                 }
             },
             "frames": [
@@ -5033,7 +5753,13 @@
                     "exp": "The bull moves to the right"
                 },
                 "2": {
+                    "exp": "A bull moves to the right."
+                },
+                "3": {
                     "exp": "The bull moves to the left"
+                },
+                "4": {
+                    "exp": "A bull moves to the left."
                 }
             },
             "frames": [
@@ -5075,7 +5801,13 @@
                     "exp": "The bird hops on another bird"
                 },
                 "2": {
+                    "exp": "A bird hops onto another bird."
+                },
+                "3": {
                     "exp": "The bird walks around another bird"
+                },
+                "4": {
+                    "exp": "A bird walks around another bird."
                 }
             },
             "frames": [
@@ -5127,6 +5859,9 @@
             "expressions": {
                 "1": {
                     "exp": "The bear moves around the tree"
+                },
+                "2": {
+                    "exp": "The bear is circling around the tree."
                 }
             },
             "frames": [
@@ -5186,7 +5921,13 @@
                     "exp": "The cat attacks another cat"
                 },
                 "2": {
+                    "exp": "A cat attacks another cat."
+                },
+                "3": {
                     "exp": "The cat is being rolled over by another cat"
+                },
+                "4": {
+                    "exp": "A cat is being flipped over by another cat."
                 }
             },
             "frames": [
@@ -5252,10 +5993,19 @@
                     "exp": "The boat moves sideways to the left and straightens itself"
                 },
                 "2": {
-                    "exp": "The ships falls on the water from an elevated surface"
+                    "exp": "A boat shifts sideways to the left and straightens itself."
                 },
                 "3": {
+                    "exp": "The ships falls on the water from an elevated surface"
+                },
+                "4": {
+                    "exp": "The ship falls onto the water from a height."
+                },
+                "5": {
                     "exp": "The boat moves sideways to the right and straightens itself"
+                },
+                "6": {
+                    "exp": "A boat shifts sideways to the right and straightens itself."
                 }
             },
             "frames": [
@@ -5297,25 +6047,49 @@
                     "exp": "The monkey walks away from the box"
                 },
                 "2": {
-                    "exp": "The monkey grabs a yellow object"
+                    "exp": "The monkey walks away from the box."
                 },
                 "3": {
-                    "exp": "The monkey puts a yellow object in its mouth"
+                    "exp": "The monkey grabs a yellow object"
                 },
                 "4": {
-                    "exp": "The monkey takes an object from the box"
+                    "exp": "The monkey grabs a yellow object."
                 },
                 "5": {
-                    "exp": "The monkey disappears from the frame to the right side of the camera"
+                    "exp": "The monkey puts a yellow object in its mouth"
                 },
                 "6": {
-                    "exp": "The monkey grabs a yellow object and puts it in its mouth"
+                    "exp": "The monkey places a yellow object in its mouth."
                 },
                 "7": {
-                    "exp": "The monkey stands by the edge of the box and looks at the contents in it"
+                    "exp": "The monkey takes an object from the box"
                 },
                 "8": {
+                    "exp": "The monkey retrieves an object from the box."
+                },
+                "9": {
+                    "exp": "The monkey disappears from the frame to the right side of the camera"
+                },
+                "10": {
+                    "exp": "The monkey exits the frame to the right."
+                },
+                "11": {
+                    "exp": "The monkey grabs a yellow object and puts it in its mouth"
+                },
+                "12": {
+                    "exp": "The monkey takes a yellow object and puts it in its mouth."
+                },
+                "13": {
+                    "exp": "The monkey stands by the edge of the box and looks at the contents in it"
+                },
+                "14": {
+                    "exp": "The monkey stands at the edge of the box and examines its contents."
+                },
+                "15": {
                     "exp": "The monkey appears from behind another monkey"
+                },
+                "16": {
+                    "exp": "The monkey comes into view from behind another monkey."
                 }
             },
             "frames": [
@@ -5393,13 +6167,25 @@
                     "exp": "The bike leans from the left to the right"
                 },
                 "2": {
-                    "exp": "The biker leans from the left to the right"
+                    "exp": "The bike tilts from the left to the right."
                 },
                 "3": {
-                    "exp": "The bike overtakes another bike"
+                    "exp": "The biker leans from the left to the right"
                 },
                 "4": {
+                    "exp": "The biker leans from left to right."
+                },
+                "5": {
+                    "exp": "The bike overtakes another bike"
+                },
+                "6": {
+                    "exp": "The bike passes another bike."
+                },
+                "7": {
                     "exp": "The biker overtakes another biker"
+                },
+                "8": {
+                    "exp": "The biker passes another biker."
                 }
             },
             "frames": [
@@ -5472,13 +6258,25 @@
                     "exp": "The sheep stands still"
                 },
                 "2": {
-                    "exp": "The sheep starts walking"
+                    "exp": "The sheep stands motionless."
                 },
                 "3": {
-                    "exp": "The sheep turns to the left"
+                    "exp": "The sheep starts walking"
                 },
                 "4": {
+                    "exp": "The sheep begins to walk."
+                },
+                "5": {
+                    "exp": "The sheep turns to the left"
+                },
+                "6": {
+                    "exp": "The sheep turns to the left."
+                },
+                "7": {
                     "exp": "The sheep appears in the frame from the right side of the camera"
+                },
+                "8": {
+                    "exp": "A sheep enters the frame from the right."
                 }
             },
             "frames": [
@@ -5556,7 +6354,13 @@
                     "exp": "Panda is going to climb a tree"
                 },
                 "2": {
+                    "exp": "A panda is preparing to climb a tree."
+                },
+                "3": {
                     "exp": "Panda remains in the same position and refrains for going towards the tree"
+                },
+                "4": {
+                    "exp": "A panda is remaining still and not moving towards the tree."
                 }
             },
             "frames": [
@@ -5598,7 +6402,13 @@
                     "exp": "Dog is walking towards the opposite of the camera"
                 },
                 "2": {
+                    "exp": "A dog is walking away from the camera."
+                },
+                "3": {
                     "exp": "Dog remains in the same position and refrains from walking"
+                },
+                "4": {
+                    "exp": "A dog is staying in the same position and not moving."
                 }
             },
             "frames": [
@@ -5645,13 +6455,25 @@
                     "exp": "Horse is walking towards the left side"
                 },
                 "2": {
-                    "exp": "Horse starts to walk towards the left side"
+                    "exp": "A horse is moving to the left."
                 },
                 "3": {
-                    "exp": "Horse is circling around a person"
+                    "exp": "Horse starts to walk towards the left side"
                 },
                 "4": {
+                    "exp": "A horse begins to walk to the left."
+                },
+                "5": {
+                    "exp": "Horse is circling around a person"
+                },
+                "6": {
+                    "exp": "A horse is circling around a person."
+                },
+                "7": {
                     "exp": "Person is giving commands to the horse"
+                },
+                "8": {
+                    "exp": "A person is giving commands to a horse."
                 }
             },
             "frames": [
@@ -5705,7 +6527,13 @@
                     "exp": "Bird is flying towards the right side"
                 },
                 "2": {
+                    "exp": "A bird is flying towards the right."
+                },
+                "3": {
                     "exp": "Bird refrains from flying"
+                },
+                "4": {
+                    "exp": "A bird is refraining from flying."
                 }
             },
             "frames": [
@@ -5802,10 +6630,19 @@
                     "exp": "Goat is going to the railing"
                 },
                 "2": {
-                    "exp": "Goat is walking towards the camera"
+                    "exp": "A goat is approaching the railing."
                 },
                 "3": {
+                    "exp": "Goat is walking towards the camera"
+                },
+                "4": {
+                    "exp": "A goat is walking toward the camera."
+                },
+                "5": {
                     "exp": "Goat is looking towards left side"
+                },
+                "6": {
+                    "exp": "A goat is looking to the left."
                 }
             },
             "frames": [
@@ -5853,10 +6690,19 @@
                     "exp": "Bird is going inside of the food container from floor"
                 },
                 "2": {
-                    "exp": "Bird is disturbing other birds"
+                    "exp": "A bird is entering the food container from the floor."
                 },
                 "3": {
+                    "exp": "Bird is disturbing other birds"
+                },
+                "4": {
+                    "exp": "A bird is disturbing other birds."
+                },
+                "5": {
                     "exp": "Bird is circling around the food container"
+                },
+                "6": {
+                    "exp": "A bird is circling around the food container."
                 }
             },
             "frames": [
@@ -5955,7 +6801,13 @@
                     "exp": "Bunny is sniffing on the bed sheet"
                 },
                 "2": {
+                    "exp": "A bunny is sniffing the bed sheet."
+                },
+                "3": {
                     "exp": "Bunny is eating leaves"
+                },
+                "4": {
+                    "exp": "A bunny is eating leaves."
                 }
             },
             "frames": [
@@ -5997,7 +6849,13 @@
                     "exp": "Person on bicycle is going towards the opposite of the camera"
                 },
                 "2": {
+                    "exp": "A person on a bicycle is moving away from the camera."
+                },
+                "3": {
                     "exp": "Bicycle is going towards the opposite of the camera"
+                },
+                "4": {
+                    "exp": "A bicycle is moving away from the camera."
                 }
             },
             "frames": [
@@ -6069,10 +6927,19 @@
                     "exp": "Tiger is walking towards the left side"
                 },
                 "2": {
-                    "exp": "Tiger is sniffing on the bus"
+                    "exp": "The tiger walks to the left."
                 },
                 "3": {
+                    "exp": "Tiger is sniffing on the bus"
+                },
+                "4": {
+                    "exp": "The tiger is sniffing a bus."
+                },
+                "5": {
                     "exp": "Tiger refrains from walking"
+                },
+                "6": {
+                    "exp": "The tiger is not moving."
                 }
             },
             "frames": [
@@ -6170,6 +7037,9 @@
             "expressions": {
                 "1": {
                     "exp": "Bunny is fighting with another bunny"
+                },
+                "2": {
+                    "exp": "A bunny is fighting with another bunny."
                 }
             },
             "frames": [
@@ -6209,10 +7079,19 @@
                     "exp": "Chicken is eating food from the floor"
                 },
                 "2": {
-                    "exp": "Chicken on the wall is going towards left side"
+                    "exp": "A chicken is eating food off the floor."
                 },
                 "3": {
+                    "exp": "Chicken on the wall is going towards left side"
+                },
+                "4": {
+                    "exp": "A chicken on the wall is moving to the left."
+                },
+                "5": {
                     "exp": "Chicken is going from the floor to the top of the wall"
+                },
+                "6": {
+                    "exp": "A chicken is climbing from the floor to the top of the wall."
                 }
             },
             "frames": [
@@ -6284,7 +7163,13 @@
                     "exp": "Airplane is moving faster than another airplane"
                 },
                 "2": {
+                    "exp": "The airplane is flying faster than another one."
+                },
+                "3": {
                     "exp": "Airplane is moving slower than another airplane"
+                },
+                "4": {
+                    "exp": "The airplane is flying slower than another one."
                 }
             },
             "frames": [
@@ -6404,10 +7289,19 @@
                     "exp": "Person is getting on a bicycle"
                 },
                 "2": {
-                    "exp": "Person is going towards left side with bicycle"
+                    "exp": "A person is getting onto a bicycle."
                 },
                 "3": {
+                    "exp": "Person is going towards left side with bicycle"
+                },
+                "4": {
+                    "exp": "A person is riding their bicycle towards the left."
+                },
+                "5": {
                     "exp": "Bicycle is moving towards left side"
+                },
+                "6": {
+                    "exp": "The bicycle is heading to the left."
                 }
             },
             "frames": [
@@ -6601,6 +7495,9 @@
             "expressions": {
                 "1": {
                     "exp": "Dog is fighting with another dog"
+                },
+                "2": {
+                    "exp": "A dog is fighting with another dog."
                 }
             },
             "frames": [
@@ -6683,16 +7580,31 @@
                     "exp": "Bird pecked another bird"
                 },
                 "2": {
-                    "exp": "Bird is going towards left side"
+                    "exp": "One bird pecks another bird."
                 },
                 "3": {
-                    "exp": "Bird is falling down from plastic bottle"
+                    "exp": "Bird is going towards left side"
                 },
                 "4": {
-                    "exp": "Bird has been pecked by another bird"
+                    "exp": "A bird is moving to the left."
                 },
                 "5": {
+                    "exp": "Bird is falling down from plastic bottle"
+                },
+                "6": {
+                    "exp": "A bird is falling from a plastic bottle."
+                },
+                "7": {
+                    "exp": "Bird has been pecked by another bird"
+                },
+                "8": {
+                    "exp": "A bird has been pecked by another bird."
+                },
+                "9": {
                     "exp": "Bird in the queue briefly comes the camera"
+                },
+                "10": {
+                    "exp": "A bird in line briefly approaches the camera."
                 }
             },
             "frames": [
@@ -6746,7 +7658,13 @@
                     "exp": "Sheep is fighting with cow"
                 },
                 "2": {
+                    "exp": "A sheep is fighting with a cow."
+                },
+                "3": {
                     "exp": "Cow is fighting with sheep"
+                },
+                "4": {
+                    "exp": "A cow is fighting with a sheep."
                 }
             },
             "frames": [
@@ -6818,10 +7736,19 @@
                     "exp": "Person is going to right side to park her bike"
                 },
                 "2": {
-                    "exp": "Bike is being taken to right side to park"
+                    "exp": "A person is moving to the right to park their bike."
                 },
                 "3": {
+                    "exp": "Bike is being taken to right side to park"
+                },
+                "4": {
+                    "exp": "A bike is being taken to the right side for parking."
+                },
+                "5": {
                     "exp": "Bike is stationary and parked"
+                },
+                "6": {
+                    "exp": "The bike is parked and stationary."
                 }
             },
             "frames": [
@@ -6869,7 +7796,13 @@
                     "exp": "Bear is fighting with another bear"
                 },
                 "2": {
+                    "exp": "A bear is fighting with another bear."
+                },
+                "3": {
                     "exp": "Bear entering into frame from right side is going towards left side"
+                },
+                "4": {
+                    "exp": "A bear is entering the frame from the right and moving to the left."
                 }
             },
             "frames": [
@@ -6899,22 +7832,43 @@
                     "exp": "Vehicle entering into frame from left side is going outside of the frame in right side"
                 },
                 "2": {
-                    "exp": "Vehicle entering into frame from right side is going outside of the frame in left side"
+                    "exp": "The vehicle is entering the frame from the left and exiting on the right."
                 },
                 "3": {
-                    "exp": "Person entering into frame from right side is going outside of the frame in left side"
+                    "exp": "Vehicle entering into frame from right side is going outside of the frame in left side"
                 },
                 "4": {
-                    "exp": "Vehicle entering into frame from right side is going towards left side"
+                    "exp": "The vehicle is entering the frame from the right and going off-screen to the left."
                 },
                 "5": {
-                    "exp": "Person entering into frame from right side is going towards left side"
+                    "exp": "Person entering into frame from right side is going outside of the frame in left side"
                 },
                 "6": {
-                    "exp": "Vehicle is stationary and parked along the road"
+                    "exp": "A person is entering the frame from the right and exiting on the left."
                 },
                 "7": {
+                    "exp": "Vehicle entering into frame from right side is going towards left side"
+                },
+                "8": {
+                    "exp": "The vehicle is coming into view from the right and moving to the left."
+                },
+                "9": {
+                    "exp": "Person entering into frame from right side is going towards left side"
+                },
+                "10": {
+                    "exp": "A person entering from the right is moving to the left."
+                },
+                "11": {
+                    "exp": "Vehicle is stationary and parked along the road"
+                },
+                "12": {
+                    "exp": "The vehicle is parked and stationary along the road."
+                },
+                "13": {
                     "exp": "Person is seated"
+                },
+                "14": {
+                    "exp": "A person is seated."
                 }
             },
             "frames": [
@@ -6961,7 +7915,13 @@
                     "exp": "Airplane is landing"
                 },
                 "2": {
+                    "exp": "The airplane is touching down."
+                },
+                "3": {
                     "exp": "Airplane is stationary and remains in the same position"
+                },
+                "4": {
+                    "exp": "The airplane is stationary and remains in its current position."
                 }
             },
             "frames": [
@@ -7066,6 +8026,9 @@
             "expressions": {
                 "1": {
                     "exp": "Tiger is fighting with another tiger"
+                },
+                "2": {
+                    "exp": "The tiger is engaging in a fight with another tiger."
                 }
             },
             "frames": [
@@ -7117,7 +8080,13 @@
                     "exp": "Monkey is eating something from the ground"
                 },
                 "2": {
+                    "exp": "A monkey is eating something from the ground."
+                },
+                "3": {
                     "exp": "Monkey is going in front of another monkey"
+                },
+                "4": {
+                    "exp": "A monkey is moving in front of another monkey."
                 }
             },
             "frames": [
@@ -7154,19 +8123,37 @@
                     "exp": "Elephant is picking up the basket with its trunk and giving it to the person"
                 },
                 "2": {
-                    "exp": "Person is receiving the basket from the elephant's trunk"
+                    "exp": "An elephant is picking up a basket with its trunk and handing it to a person."
                 },
                 "3": {
-                    "exp": "Person is giving signal with his right hand to start the race"
+                    "exp": "Person is receiving the basket from the elephant's trunk"
                 },
                 "4": {
-                    "exp": "Person watching the race from boundary"
+                    "exp": "A person is receiving a basket from the trunk of an elephant."
                 },
                 "5": {
-                    "exp": "Person is standing with his elephant and watching the race"
+                    "exp": "Person is giving signal with his right hand to start the race"
                 },
                 "6": {
+                    "exp": "A person is signaling with their right hand to start the race."
+                },
+                "7": {
+                    "exp": "Person watching the race from boundary"
+                },
+                "8": {
+                    "exp": "A person is watching the race from the sidelines."
+                },
+                "9": {
+                    "exp": "Person is standing with his elephant and watching the race"
+                },
+                "10": {
+                    "exp": "A person is standing next to their elephant and watching the race."
+                },
+                "11": {
                     "exp": "Elephant is standing with his master and watching the race"
+                },
+                "12": {
+                    "exp": "An elephant is standing with its handler and watching the race."
                 }
             },
             "frames": [
@@ -7228,7 +8215,13 @@
                     "exp": "Ship is coming towards the camera"
                 },
                 "2": {
+                    "exp": "A ship is approaching the camera."
+                },
+                "3": {
                     "exp": "Ship is going towards the right side"
+                },
+                "4": {
+                    "exp": "A ship is heading to the right."
                 }
             },
             "frames": [
@@ -7271,6 +8264,9 @@
             "expressions": {
                 "1": {
                     "exp": "Duck is going towards the left side"
+                },
+                "2": {
+                    "exp": "A duck is moving to the left."
                 }
             },
             "frames": [
@@ -7318,7 +8314,13 @@
                     "exp": "Bird is flying towards the right and then perching on top of another bird."
                 },
                 "2": {
+                    "exp": "A bird is flying to the right and then landing on another bird."
+                },
+                "3": {
                     "exp": "Bird is going outside of the frame in bottom side by flying"
+                },
+                "4": {
+                    "exp": "A bird is flying out of the frame from the bottom."
                 }
             },
             "frames": [
@@ -7361,7 +8363,13 @@
                     "exp": "Turtle is swimming towards left side"
                 },
                 "2": {
+                    "exp": "The turtle swims to the left."
+                },
+                "3": {
                     "exp": "Turtle is swimming towards right side"
+                },
+                "4": {
+                    "exp": "The turtle swims to the right."
                 }
             },
             "frames": [
@@ -7409,10 +8417,19 @@
                     "exp": "Tiger is walking towards the right side"
                 },
                 "2": {
-                    "exp": "Tiger is lying on the ground"
+                    "exp": "The tiger walks to the right."
                 },
                 "3": {
+                    "exp": "Tiger is lying on the ground"
+                },
+                "4": {
+                    "exp": "The tiger is lying down on the ground."
+                },
+                "5": {
                     "exp": "Tiger is keeping its front legs on top of another tiger"
+                },
+                "6": {
+                    "exp": "The tiger has its front legs resting on another tiger."
                 }
             },
             "frames": [
@@ -7472,7 +8489,13 @@
                     "exp": "Airplane on the runway is going towards left side"
                 },
                 "2": {
+                    "exp": "The airplane on the runway is turning to the left."
+                },
+                "3": {
                     "exp": "Airplane on the runway is stationary and remains in the same position"
+                },
+                "4": {
+                    "exp": "The airplane on the runway is stationary and remains in place."
                 }
             },
             "frames": [
@@ -7511,10 +8534,19 @@
                     "exp": "Bunny is going from the middle of the bunnies to the left of the bunnies"
                 },
                 "2": {
-                    "exp": "Bunny is going from the lef of the bunnies to the middle of the bunnies"
+                    "exp": "A bunny is moving from the center of the group to the left side."
                 },
                 "3": {
+                    "exp": "Bunny is going from the lef of the bunnies to the middle of the bunnies"
+                },
+                "4": {
+                    "exp": "A bunny is moving from the left side of the group to the center."
+                },
+                "5": {
                     "exp": "Bunny is looking towards the camera"
+                },
+                "6": {
+                    "exp": "A bunny is looking at the camera."
                 }
             },
             "frames": [
@@ -7566,16 +8598,31 @@
                     "exp": "Monkey is sniffing another monkey"
                 },
                 "2": {
-                    "exp": "Monkey is pushing another monkey"
+                    "exp": "A monkey is sniffing another monkey."
                 },
                 "3": {
-                    "exp": "Monkey is being pushed another monkey"
+                    "exp": "Monkey is pushing another monkey"
                 },
                 "4": {
-                    "exp": "Monkey is being dragged by another monkey"
+                    "exp": "A monkey is pushing another monkey."
                 },
                 "5": {
+                    "exp": "Monkey is being pushed another monkey"
+                },
+                "6": {
+                    "exp": "One monkey is being pushed by another monkey."
+                },
+                "7": {
+                    "exp": "Monkey is being dragged by another monkey"
+                },
+                "8": {
+                    "exp": "One monkey is being pulled by another monkey."
+                },
+                "9": {
                     "exp": "Monkey is stationary and remains in the same position"
+                },
+                "10": {
+                    "exp": "A monkey is stationary and remains in the same position."
                 }
             },
             "frames": [
@@ -7657,13 +8704,25 @@
                     "exp": "Person on bike is circling around another bike"
                 },
                 "2": {
-                    "exp": "Bike is circling around another bike"
+                    "exp": "A person on a bike is circling around another bike."
                 },
                 "3": {
-                    "exp": "Person is getting off the bike"
+                    "exp": "Bike is circling around another bike"
                 },
                 "4": {
+                    "exp": "A bike is circling around another bike."
+                },
+                "5": {
+                    "exp": "Person is getting off the bike"
+                },
+                "6": {
+                    "exp": "A person is getting off the bike."
+                },
+                "7": {
                     "exp": "Bike is stationary and remains in the same place"
+                },
+                "8": {
+                    "exp": "The bike is stationary and stays in the same place."
                 }
             },
             "frames": [
@@ -7747,7 +8806,13 @@
                     "exp": "Giraffe is lifting another giraffe's back leg with its head"
                 },
                 "2": {
+                    "exp": "A giraffe is lifting another giraffe's back leg with its head."
+                },
+                "3": {
                     "exp": "Giraffe's back leg is being lifted by another giraffe"
+                },
+                "4": {
+                    "exp": "Another giraffe is lifting the back leg of a giraffe."
                 }
             },
             "frames": [
@@ -7873,16 +8938,31 @@
                     "exp": "Person is moving the bike towards the left side"
                 },
                 "2": {
-                    "exp": "Bike is being moved towards the left side by a person"
+                    "exp": "A person is shifting the bike to the left."
                 },
                 "3": {
-                    "exp": "Bike is stationary and remains in the same place"
+                    "exp": "Bike is being moved towards the left side by a person"
                 },
                 "4": {
-                    "exp": "Person on bike is going from right side to left side"
+                    "exp": "A person is pushing the bike to the left."
                 },
                 "5": {
+                    "exp": "Bike is stationary and remains in the same place"
+                },
+                "6": {
+                    "exp": "The bike is stationary and stays in the same place."
+                },
+                "7": {
+                    "exp": "Person on bike is going from right side to left side"
+                },
+                "8": {
+                    "exp": "A person on a bike is moving from right to left."
+                },
+                "9": {
                     "exp": "Bike is going from right side to left side"
+                },
+                "10": {
+                    "exp": "The bike is moving from right to left."
                 }
             },
             "frames": [
@@ -7934,6 +9014,9 @@
             "expressions": {
                 "1": {
                     "exp": "Giraffe is attacking another giraffe"
+                },
+                "2": {
+                    "exp": "A giraffe is attacking another giraffe."
                 }
             },
             "frames": [
@@ -8029,10 +9112,19 @@
                     "exp": "Zebra is going towards right side"
                 },
                 "2": {
-                    "exp": "Zebra facing to the left side is turing towards the opposite of the camera"
+                    "exp": "The zebra is heading to the right."
                 },
                 "3": {
+                    "exp": "Zebra facing to the left side is turing towards the opposite of the camera"
+                },
+                "4": {
+                    "exp": "The zebra looking to the left is turning away from the camera."
+                },
+                "5": {
                     "exp": "Zebra facing to the camera is turing towards the left side"
+                },
+                "6": {
+                    "exp": "The zebra facing the camera is turning to the left."
                 }
             },
             "frames": [
@@ -8079,13 +9171,25 @@
                     "exp": "Goat is keeping its front legs on the back of another goat"
                 },
                 "2": {
-                    "exp": "Goat is looking for something on the ground"
+                    "exp": "A goat is resting its front legs on the back of another goat."
                 },
                 "3": {
-                    "exp": "Person is going towards the goats"
+                    "exp": "Goat is looking for something on the ground"
                 },
                 "4": {
+                    "exp": "A goat is searching for something on the ground."
+                },
+                "5": {
+                    "exp": "Person is going towards the goats"
+                },
+                "6": {
+                    "exp": "A person is heading towards the goats."
+                },
+                "7": {
                     "exp": "Person is stationary and remains in the same position"
+                },
+                "8": {
+                    "exp": "A person is stationary and remains in the same position."
                 }
             },
             "frames": [
@@ -8157,10 +9261,19 @@
                     "exp": "Monkey is getting down to ground from the back of another monkey"
                 },
                 "2": {
-                    "exp": "Monkey is keeping its right hand on the left shoulder of another monkey"
+                    "exp": "A monkey is climbing down from the back of another monkey."
                 },
                 "3": {
+                    "exp": "Monkey is keeping its right hand on the left shoulder of another monkey"
+                },
+                "4": {
+                    "exp": "A monkey has its right hand resting on the left shoulder of another monkey."
+                },
+                "5": {
                     "exp": "Monkey is inspecting the front side of another monkey's body with its hand."
+                },
+                "6": {
+                    "exp": "A monkey is examining the front of another monkey's body with its hand."
                 }
             },
             "frames": [
@@ -8215,6 +9328,9 @@
             "expressions": {
                 "1": {
                     "exp": "Lizard is fighting with another lizard"
+                },
+                "2": {
+                    "exp": "A lizard is fighting with another lizard."
                 }
             },
             "frames": [
@@ -8241,10 +9357,19 @@
                     "exp": "Elephant is walking towards the right side"
                 },
                 "2": {
-                    "exp": "Elephant is walking towards the left side"
+                    "exp": "An elephant is walking to the right."
                 },
                 "3": {
+                    "exp": "Elephant is walking towards the left side"
+                },
+                "4": {
+                    "exp": "An elephant is walking to the left."
+                },
+                "5": {
                     "exp": "Elephant is walking towards the camera"
+                },
+                "6": {
+                    "exp": "An elephant is walking toward the camera."
                 }
             },
             "frames": [
@@ -8290,6 +9415,9 @@
             "expressions": {
                 "1": {
                     "exp": "Bird is going from the bottom of the cage to bird perch stand"
+                },
+                "2": {
+                    "exp": "A bird is moving from the bottom of the cage to the perch."
                 }
             },
             "frames": [
@@ -8551,7 +9679,13 @@
                     "exp": "Cat is going from right to left side"
                 },
                 "2": {
+                    "exp": "A cat is moving from right to left."
+                },
+                "3": {
                     "exp": "Cat is stationary and remains in the same position"
+                },
+                "4": {
+                    "exp": "A cat is stationary and stays in the same position."
                 }
             },
             "frames": [
@@ -8611,6 +9745,9 @@
             "expressions": {
                 "1": {
                     "exp": "Bird fighting with another bird"
+                },
+                "2": {
+                    "exp": "A bird is fighting with another bird."
                 }
             },
             "frames": [
@@ -8743,10 +9880,19 @@
                     "exp": "Cow is eating food from food container"
                 },
                 "2": {
-                    "exp": "Cow is walking backwards"
+                    "exp": "A cow is eating from the food container."
                 },
                 "3": {
+                    "exp": "Cow is walking backwards"
+                },
+                "4": {
+                    "exp": "A cow is walking backward."
+                },
+                "5": {
                     "exp": "Cow is sniffing on the food container"
+                },
+                "6": {
+                    "exp": "A cow is sniffing the food container."
                 }
             },
             "frames": [
@@ -8830,7 +9976,13 @@
                     "exp": "Yacht is going towards the right side"
                 },
                 "2": {
+                    "exp": "The yacht is moving to the right."
+                },
+                "3": {
                     "exp": "Yacht is going towards the left side"
+                },
+                "4": {
+                    "exp": "The yacht is moving to the left."
                 }
             },
             "frames": [
@@ -8887,10 +10039,19 @@
                     "exp": "Zebra is eating grass in the field"
                 },
                 "2": {
-                    "exp": "Zebra is keeping its front legs on the back of another zebra"
+                    "exp": "The zebra is grazing on grass in the field."
                 },
                 "3": {
+                    "exp": "Zebra is keeping its front legs on the back of another zebra"
+                },
+                "4": {
+                    "exp": "The zebra has its front legs resting on the back of another zebra."
+                },
+                "5": {
                     "exp": "Zebra is looking towards the camera"
+                },
+                "6": {
+                    "exp": "The zebra is gazing at the camera."
                 }
             },
             "frames": [
@@ -9026,6 +10187,9 @@
             "expressions": {
                 "1": {
                     "exp": "Sheep is walking towards the opposite of the camera"
+                },
+                "2": {
+                    "exp": "A sheep is moving away from the camera."
                 }
             },
             "frames": [
@@ -9122,7 +10286,13 @@
                     "exp": "Dog is asserting dominance in the fight with another dog."
                 },
                 "2": {
+                    "exp": "A dog is asserting its dominance in a fight with another dog."
+                },
+                "3": {
                     "exp": "Dog is being dominated during the fight with another dog."
+                },
+                "4": {
+                    "exp": "A dog is being dominated in a fight with another dog."
                 }
             },
             "frames": [
@@ -9230,10 +10400,19 @@
                     "exp": "Giraffe standing near the fence is going towards the right side"
                 },
                 "2": {
-                    "exp": "Giraffe standing near the fence is eating leaves"
+                    "exp": "A giraffe near the fence is moving to the right."
                 },
                 "3": {
+                    "exp": "Giraffe standing near the fence is eating leaves"
+                },
+                "4": {
+                    "exp": "A giraffe near the fence is eating leaves."
+                },
+                "5": {
                     "exp": "Person is looking to the giraffe"
+                },
+                "6": {
+                    "exp": "A person is looking at the giraffe."
                 }
             },
             "frames": [
@@ -9275,7 +10454,13 @@
                     "exp": "Person on bike is jumping"
                 },
                 "2": {
+                    "exp": "A person on a bike is jumping."
+                },
+                "3": {
                     "exp": "Bike is jumping"
+                },
+                "4": {
+                    "exp": "The bike is jumping."
                 }
             },
             "frames": [
@@ -9317,7 +10502,13 @@
                     "exp": "Dog is fighting with another dog"
                 },
                 "2": {
+                    "exp": "A dog is fighting with another dog."
+                },
+                "3": {
                     "exp": "Dog is abstaining from participating in the fighting"
+                },
+                "4": {
+                    "exp": "A dog is refraining from participating in the fight."
                 }
             },
             "frames": [
@@ -9357,6 +10548,9 @@
             "expressions": {
                 "1": {
                     "exp": "Cat is fighting with another cat"
+                },
+                "2": {
+                    "exp": "A cat is fighting with another cat."
                 }
             },
             "frames": [
@@ -9468,6 +10662,9 @@
             "expressions": {
                 "1": {
                     "exp": "Bear is fighting with another bear"
+                },
+                "2": {
+                    "exp": "A bear is fighting with another bear."
                 }
             },
             "frames": [
@@ -9539,13 +10736,25 @@
                     "exp": "Fish is going towards the right side"
                 },
                 "2": {
-                    "exp": "Fish in the water is going outside of the frame in bottom side"
+                    "exp": "A fish is swimming to the right."
                 },
                 "3": {
-                    "exp": "Fish in the water is going outside of the frame in left side"
+                    "exp": "Fish in the water is going outside of the frame in bottom side"
                 },
                 "4": {
+                    "exp": "A fish in the water is exiting the frame from the bottom."
+                },
+                "5": {
+                    "exp": "Fish in the water is going outside of the frame in left side"
+                },
+                "6": {
+                    "exp": "A fish in the water is exiting the frame to the left."
+                },
+                "7": {
                     "exp": "Fish entering into frame in right side is going towards the left side"
+                },
+                "8": {
+                    "exp": "A fish entering the frame from the right is moving to the left."
                 }
             },
             "frames": [
@@ -9593,16 +10802,31 @@
                     "exp": "Bird is going from the bottom of the cage to bird perch stand"
                 },
                 "2": {
-                    "exp": "Bird is making right turn"
+                    "exp": "A bird is moving from the bottom of the cage to the perch."
                 },
                 "3": {
-                    "exp": "Bird seated on the bird perch stand moves to right side briefly"
+                    "exp": "Bird is making right turn"
                 },
                 "4": {
-                    "exp": "Bird on the bottom of the cage is stationary and remains in the same position all times"
+                    "exp": "A bird is making a right turn."
                 },
                 "5": {
+                    "exp": "Bird seated on the bird perch stand moves to right side briefly"
+                },
+                "6": {
+                    "exp": "A bird on the perch briefly moves to the right."
+                },
+                "7": {
+                    "exp": "Bird on the bottom of the cage is stationary and remains in the same position all times"
+                },
+                "8": {
+                    "exp": "A bird at the bottom of the cage is stationary and remains in place at all times."
+                },
+                "9": {
                     "exp": "Bird seated on bird perch stand is stationary and remains in the same position all times"
+                },
+                "10": {
+                    "exp": "A bird perched on the stand is stationary and remains in place at all times."
                 }
             },
             "frames": [
@@ -9644,7 +10868,13 @@
                     "exp": "Duck is eating something from ground"
                 },
                 "2": {
+                    "exp": "A duck is eating something from the ground."
+                },
+                "3": {
                     "exp": "Duck abstain from eating food from ground"
+                },
+                "4": {
+                    "exp": "A duck is refusing to eat food from the ground."
                 }
             },
             "frames": [
@@ -9749,6 +10979,9 @@
             "expressions": {
                 "1": {
                     "exp": "Panda is eating food from food container"
+                },
+                "2": {
+                    "exp": "A panda is eating food from a container."
                 }
             },
             "frames": [
@@ -9796,13 +11029,25 @@
                     "exp": "Monkey is stationary and remains in the same position all times"
                 },
                 "2": {
-                    "exp": "Monkey is going outside of the frame in right side"
+                    "exp": "A monkey is stationary and stays in place at all times."
                 },
                 "3": {
-                    "exp": "Monkey entering into frame from left side is sitting on a stone"
+                    "exp": "Monkey is going outside of the frame in right side"
                 },
                 "4": {
+                    "exp": "A monkey is exiting the frame to the right."
+                },
+                "5": {
+                    "exp": "Monkey entering into frame from left side is sitting on a stone"
+                },
+                "6": {
+                    "exp": "A monkey coming into the frame from the left is sitting on a stone."
+                },
+                "7": {
                     "exp": "Monkey entering into frame from left"
+                },
+                "8": {
+                    "exp": "A monkey is entering the frame from the left."
                 }
             },
             "frames": [
@@ -9844,10 +11089,19 @@
                     "exp": "Turtle is getting on the back of another turtle"
                 },
                 "2": {
-                    "exp": "Turtle is carrying another turtle on its back"
+                    "exp": "The turtle climbs onto the back of another turtle."
                 },
                 "3": {
+                    "exp": "Turtle is carrying another turtle on its back"
+                },
+                "4": {
+                    "exp": "The turtle is carrying another turtle on its shell."
+                },
+                "5": {
                     "exp": "Turtle is eating something in water"
+                },
+                "6": {
+                    "exp": "The turtle is eating something in the water."
                 }
             },
             "frames": [
@@ -9932,7 +11186,13 @@
                     "exp": "Cat is watching at something"
                 },
                 "2": {
+                    "exp": "A cat is watching something."
+                },
+                "3": {
                     "exp": "Cat is stationary and remains in the same position all times"
+                },
+                "4": {
+                    "exp": "A cat is stationary and remains in place at all times."
                 }
             },
             "frames": [
@@ -9996,7 +11256,13 @@
                     "exp": "Bird is touching another bird's mouth with its beak"
                 },
                 "2": {
+                    "exp": "A bird is touching another bird's beak with its own."
+                },
+                "3": {
                     "exp": "Bird is brought into frame by a person's hand"
+                },
+                "4": {
+                    "exp": "A person's hand brings a bird into the frame."
                 }
             },
             "frames": [
@@ -10038,13 +11304,25 @@
                     "exp": "Goat is looking towards the camera"
                 },
                 "2": {
-                    "exp": "Goat is sniffing on the wall"
+                    "exp": "A goat is facing the camera."
                 },
                 "3": {
-                    "exp": "Goat is looking right side while keeping its backside towards the camera"
+                    "exp": "Goat is sniffing on the wall"
                 },
                 "4": {
+                    "exp": "A goat is sniffing the wall."
+                },
+                "5": {
+                    "exp": "Goat is looking right side while keeping its backside towards the camera"
+                },
+                "6": {
+                    "exp": "A goat is looking to the right while facing away from the camera."
+                },
+                "7": {
                     "exp": "Goat from the right side is going at the back of other goats"
+                },
+                "8": {
+                    "exp": "A goat from the right is moving behind other goats."
                 }
             },
             "frames": [
@@ -10116,43 +11394,85 @@
                     "exp": "Person on bike is going outside of the frame in right side"
                 },
                 "2": {
-                    "exp": "Bike is going outside of the frame in right side"
+                    "exp": "A person on a bike is exiting the frame to the right."
                 },
                 "3": {
-                    "exp": "Vehicle is going outside of the frame in right side"
+                    "exp": "Bike is going outside of the frame in right side"
                 },
                 "4": {
-                    "exp": "Vehicle is stationary and remains in the same position all times"
+                    "exp": "The bike is exiting the frame to the right."
                 },
                 "5": {
-                    "exp": "Person on bike is going from right towards the left side"
+                    "exp": "Vehicle is going outside of the frame in right side"
                 },
                 "6": {
-                    "exp": "Bike is going from right towards the left side"
+                    "exp": "The vehicle is exiting the frame on the right side."
                 },
                 "7": {
-                    "exp": "Person on bike coming from right side is going outside of the frame in left side"
+                    "exp": "Vehicle is stationary and remains in the same position all times"
                 },
                 "8": {
-                    "exp": "Bike coming from right side is going outside of the frame in left side"
+                    "exp": "The vehicle remains in the same spot at all times."
                 },
                 "9": {
-                    "exp": "Person on bike entering into frame from left side is going outside of the frame in right side"
+                    "exp": "Person on bike is going from right towards the left side"
                 },
                 "10": {
-                    "exp": "Bike entering into frame from left side is going outside of the frame in right side"
+                    "exp": "A person on a bike is going from right to left."
                 },
                 "11": {
-                    "exp": "Person on bike entering into frame from left side is going towards the right side"
+                    "exp": "Bike is going from right towards the left side"
                 },
                 "12": {
-                    "exp": "Bike entering into frame from left side is going towards the right side"
+                    "exp": "The bike is going from right to left."
                 },
                 "13": {
-                    "exp": "Vehicle entering into frame from left side is going towards the right side"
+                    "exp": "Person on bike coming from right side is going outside of the frame in left side"
                 },
                 "14": {
+                    "exp": "A person on a bike coming from the right is exiting the frame to the left."
+                },
+                "15": {
+                    "exp": "Bike coming from right side is going outside of the frame in left side"
+                },
+                "16": {
+                    "exp": "A bike coming from the right is exiting the frame to the left."
+                },
+                "17": {
+                    "exp": "Person on bike entering into frame from left side is going outside of the frame in right side"
+                },
+                "18": {
+                    "exp": "A person on a bike entering from the left is exiting the frame to the right."
+                },
+                "19": {
+                    "exp": "Bike entering into frame from left side is going outside of the frame in right side"
+                },
+                "20": {
+                    "exp": "A bike entering the frame from the left is exiting the frame to the right."
+                },
+                "21": {
+                    "exp": "Person on bike entering into frame from left side is going towards the right side"
+                },
+                "22": {
+                    "exp": "A person on a bike entering the frame from the left is moving to the right."
+                },
+                "23": {
+                    "exp": "Bike entering into frame from left side is going towards the right side"
+                },
+                "24": {
+                    "exp": "A bike coming in from the left is moving to the right."
+                },
+                "25": {
+                    "exp": "Vehicle entering into frame from left side is going towards the right side"
+                },
+                "26": {
+                    "exp": "The vehicle is coming into view from the left and moving to the right."
+                },
+                "27": {
                     "exp": "Vehicle entering into frame from right side is going towards the left side"
+                },
+                "28": {
+                    "exp": "The vehicle is entering the frame from the right and heading towards the left."
                 }
             },
             "frames": [
@@ -10195,7 +11515,13 @@
                     "exp": "Goat is peeking over the wall"
                 },
                 "2": {
+                    "exp": "A goat is peeking over the wall."
+                },
+                "3": {
                     "exp": "Goat abstains from peeking over the wall"
+                },
+                "4": {
+                    "exp": "A goat is not peeking over the wall."
                 }
             },
             "frames": [
@@ -10318,7 +11644,13 @@
                     "exp": "Person on bicycle is making a slight right turn"
                 },
                 "2": {
+                    "exp": "A person on a bicycle is making a slight right turn."
+                },
+                "3": {
                     "exp": "Bicycle is making a slight right turn"
+                },
+                "4": {
+                    "exp": "The bicycle is making a slight right turn."
                 }
             },
             "frames": [
@@ -10373,6 +11705,9 @@
             "expressions": {
                 "1": {
                     "exp": "Fish is swimming in the aquarium"
+                },
+                "2": {
+                    "exp": "A fish is swimming in the aquarium."
                 }
             },
             "frames": [
@@ -10442,6 +11777,9 @@
             "expressions": {
                 "1": {
                     "exp": "Rabbit is playing with another rabbit"
+                },
+                "2": {
+                    "exp": "A rabbit is playing with another rabbit."
                 }
             },
             "frames": [
@@ -10505,6 +11843,9 @@
             "expressions": {
                 "1": {
                     "exp": "Bird is flying in the sky"
+                },
+                "2": {
+                    "exp": "A bird is flying in the sky."
                 }
             },
             "frames": [

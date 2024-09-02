@@ -151,8 +151,8 @@ def generate_yvos_meta_expressions(input_path, output_path, isTrain):
     with open(output_path, 'w') as json_file:
         json.dump(result, json_file, indent=4)
 
-ovis_train_json = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/OVIS-training.json'
-ovis_valid_json = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/OVIS-valid.json'
+ovis_train_json = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/OVIS-training-doubled.json'
+ovis_valid_json = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/OVIS-valid-doubled.json'
 meta_train_file = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/ovis/meta_expressions/train/meta_expressions.json'
 meta_valid_file = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/ovis/meta_expressions/valid/meta_expressions.json'
 
@@ -170,8 +170,8 @@ def make_dir(path):
 make_dir(meta_train_file)
 make_dir(meta_valid_file)
 
-# generate_yvos_meta_expressions(ovis_train_json, meta_train_file, True)
-# generate_yvos_meta_expressions(ovis_valid_json, meta_valid_file, False)
+generate_yvos_meta_expressions(ovis_train_json, meta_train_file, True)
+generate_yvos_meta_expressions(ovis_valid_json, meta_valid_file, False)
 
 
 def sort_json_by_obj_id(file_path, output_file):
@@ -180,8 +180,9 @@ def sort_json_by_obj_id(file_path, output_file):
 
     for video_id, video_data in data['videos'].items():
         for expression_id, expression_list in video_data['expressions'].items():
-            sorted_list = sorted(expression_list, key=lambda x: int(x['obj_id']))
-            video_data['expressions'][expression_id] = sorted_list
+            sorted_list = sorted(expression_list['obj'], key=lambda x: int(x['obj_id']))
+            # video_data['expressions'][expression_id] = sorted_list
+            expression_list['obj'] = sorted_list
 
     with open(output_file, 'w') as file:
         json.dump(data, file, indent=4)
@@ -189,7 +190,7 @@ def sort_json_by_obj_id(file_path, output_file):
     print(f"Sorted data has been saved to {output_file}")
 
 
-# sort_json_by_obj_id(meta_train_file, meta_train_file)
+sort_json_by_obj_id(meta_train_file, meta_train_file)
 
 ovis_train_videos = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/OVIS/train'
 ovis_valid_videos = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/OVIS/valid'
@@ -302,7 +303,7 @@ def generate_train_meta_json(input_path, output_path):
 
 
 train_meta_file = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/ovis/train/meta.json'
-generate_train_meta_json(ovis_train_json, train_meta_file)
+# generate_train_meta_json(ovis_train_json, train_meta_file)
 
 frame_length_path = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/Information/train_frames_length.json'
 output_directory = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/ovis/train/GTs'
