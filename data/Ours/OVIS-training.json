@@ -1832,7 +1832,7 @@
     {
         "Video": "85d694d7",
         "QID": "",
-        "Language Query": "The bicycle is falls on the ground",
+        "Language Query": "The bicycle is falling on the ground",
         "Type": "M",
         "IDs": "3",
         "Start": "40",
@@ -2222,7 +2222,7 @@
     {
         "Video": "88ab50cd",
         "QID": "",
-        "Language Query": "The monitor pushes another lizard on top of it sends it underneath",
+        "Language Query": "The monitor lizard pushes another lizard on top of it sends it underneath",
         "Type": "M",
         "IDs": "1",
         "Start": "79",
@@ -5192,7 +5192,7 @@
     {
         "Video": "a5cf4c8d",
         "QID": "",
-        "Language Query": "The truck slowed down at the right side of the road",
+        "Language Query": "The truck slows down at the right side of the road",
         "Type": "M",
         "IDs": "3",
         "Start": "36",
@@ -6792,7 +6792,7 @@
     {
         "Video": "b1faf52b",
         "QID": "",
-        "Language Query": "The panda walks backward as its pushed by another panda",
+        "Language Query": "The panda walks backward as it's pushed by another panda",
         "Type": "M",
         "IDs": "2",
         "Start": "2",
@@ -9632,7 +9632,7 @@
     {
         "Video": "c5398714",
         "QID": "",
-        "Language Query": "The giraffe moves its back and forth from the left to the right",
+        "Language Query": "The giraffe moves its body back and forth from the left to the right",
         "Type": "M",
         "IDs": "2",
         "Start": "9",
@@ -9642,7 +9642,7 @@
     {
         "Video": "c5398714",
         "QID": "",
-        "Language Query": "The giraffe moves its back and forth from the left to the right",
+        "Language Query": "The giraffe moves its body back and forth from the left to the right",
         "Type": "M",
         "IDs": "1",
         "Start": "12",
@@ -10402,7 +10402,7 @@
     {
         "Video": "d37a5857",
         "QID": "",
-        "Language Query": "The panda walks away from another panda as its pushed away",
+        "Language Query": "The panda walks away from another panda as it's pushed away",
         "Type": "M",
         "IDs": "2",
         "Start": "11",
@@ -10702,7 +10702,7 @@
     {
         "Video": "d0722d0f",
         "QID": "",
-        "Language Query": "The bumps with another goat",
+        "Language Query": "The goat bumps with another goat",
         "Type": "M",
         "IDs": "2",
         "Start": "44",
@@ -16882,7 +16882,7 @@
     {
         "Video": "1b8bb699",
         "QID": "",
-        "Language Query": "Scooter is coming inside of the frame from left side is going outside of the frame in right side",
+        "Language Query": "Scooter coming inside of the frame from left side is going outside of the frame in right side",
         "Type": "M",
         "IDs": "5",
         "Start": "3",
@@ -16892,7 +16892,7 @@
     {
         "Video": "1b8bb699",
         "QID": "",
-        "Language Query": "Person is coming inside of the frame from left side is going outside of the frame in right side",
+        "Language Query": "Person coming inside of the frame from left side is going outside of the frame in right side",
         "Type": "M",
         "IDs": "6",
         "Start": "4",
@@ -22282,7 +22282,7 @@
     {
         "Video": "5f3e8022",
         "QID": "",
-        "Language Query": "Duck is turing its right side to left side",
+        "Language Query": "Duck is turning its right side to left side",
         "Type": "M",
         "IDs": "1",
         "Start": "1",
@@ -29352,7 +29352,7 @@
     {
         "Video": "76b18413",
         "QID": "",
-        "Language Query": "Person entering nto frame from right side is controlling the steering of the boat",
+        "Language Query": "Person entering into frame from right side is controlling the steering of the boat",
         "Type": "M",
         "IDs": "5",
         "Start": "4",
@@ -29362,7 +29362,7 @@
     {
         "Video": "76b18413",
         "QID": "",
-        "Language Query": "Person entering nto frame from right side is going outside of the frame in right side",
+        "Language Query": "Person entering into frame from right side is going outside of the frame in right side",
         "Type": "M",
         "IDs": "5",
         "Start": "3",
@@ -29552,7 +29552,7 @@
     {
         "Video": "561f6380",
         "QID": "",
-        "Language Query": "Tiger is being touched another tiger backside with its front right leg",
+        "Language Query": "Tiger is being touched by another tiger backside with its front right leg",
         "Type": "M",
         "IDs": "2",
         "Start": "6",
@@ -29922,7 +29922,7 @@
     {
         "Video": "138c81fe",
         "QID": "",
-        "Language Query": "Bunny is comi towards the camera side",
+        "Language Query": "Bunny is coming towards the camera side",
         "Type": "M",
         "IDs": "2",
         "Start": "21",
