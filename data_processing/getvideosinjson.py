@@ -131,6 +131,9 @@ mot17_training_json = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/
 mot17_valid_json = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT17-valid.json'
 mot20_training_json = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT20-training.json'
 mot20_valid_json = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT20-valid.json'
+
+videos = [ovis_training_json, ovis_valid_json, mot17_training_json, mot17_valid_json, mot20_training_json, mot20_valid_json]
+
 csv_to_json(ovis_training_csv, ovis_training_json)
 csv_to_json(ovis_valid_csv, ovis_valid_json)
 csv_to_json(mot17_training_csv, mot17_training_json)
@@ -157,9 +160,17 @@ def get_videos(file_path):
     return list(videos)
 
 
+def get_all_videos():
+    sum_videos = 0
+    for video in videos:
+        sum_videos += len(get_videos(video))
+    print('Total number of videos: {}'.format(sum_videos))
+
+
 print(f"All ovis train videos ({len(get_videos(ovis_training_json))}): {get_videos(ovis_training_json)}")
 print(f"All ovis valid videos ({len(get_videos(ovis_valid_json))}): {get_videos(ovis_valid_json)}")
 print(f"All mot17 train videos ({len(get_videos(mot17_training_json))}): {get_videos(mot17_training_json)}")
 print(f"All mot17 valid videos ({len(get_videos(mot17_valid_json))}): {get_videos(mot17_valid_json)}")
 print(f"All mot20 train videos ({len(get_videos(mot20_training_json))}): {get_videos(mot20_training_json)}")
 print(f"All mot20 valid videos ({len(get_videos(mot20_valid_json))}): {get_videos(mot20_valid_json)}")
+get_all_videos()

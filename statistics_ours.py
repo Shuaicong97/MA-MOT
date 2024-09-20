@@ -34,13 +34,13 @@ def generate_all_jsons():
 #          'data/generated_by_code/ours_json/gta_mot17_test_ashiq.json',
 #          'data/generated_by_code/ours_json/gta_mot17_test_seenat.json']
 
-paths_all = ['data/Ours/MOT17-training-doubled.json', 'data/Ours/MOT17-valid-doubled.json',
-             'data/Ours/OVIS-training-doubled.json', 'data/Ours/OVIS-valid-doubled.json',
-             'data/Ours/MOT20-training-doubled.json', 'data/Ours/MOT20-valid-doubled.json']
+paths_all = ['data/Ours/MOT17-training-doubled-3.json', 'data/Ours/MOT17-valid-doubled-3.json',
+             'data/Ours/OVIS-training-doubled-3.json', 'data/Ours/OVIS-valid-doubled-3.json',
+             'data/Ours/MOT20-training-doubled-3.json', 'data/Ours/MOT20-valid-doubled-3.json']
 
-paths_mot17 = ['data/Ours/MOT17-training-doubled.json', 'data/Ours/MOT17-valid-doubled.json']
-paths_ovis = ['data/Ours/OVIS-training-doubled.json', 'data/Ours/OVIS-valid-doubled.json']
-paths_mot20 = ['data/Ours/MOT20-training-doubled.json', 'data/Ours/MOT20-valid-doubled.json']
+paths_mot17 = ['data/Ours/MOT17-training-doubled-3.json', 'data/Ours/MOT17-valid-doubled-3.json']
+paths_ovis = ['data/Ours/OVIS-training-doubled-3.json', 'data/Ours/OVIS-valid-doubled-3.json']
+paths_mot20 = ['data/Ours/MOT20-training-doubled-3.json', 'data/Ours/MOT20-valid-doubled-3.json']
 
 
 def get_all_queries(file_paths):
@@ -94,6 +94,7 @@ def get_verb_and_frequency_from_sentences(dataset, sentences, output_file_path):
     # count frequency of the words
     item_frequency = Counter(verbs_list)
     # all: 486, mot17: 150, ovis: 388, mot20: 117
+    # all: 876, mot17: 260, ovis: 739, mot20: 219 (use -3.json)
     print(f'The number of different verbs (include tense) in {dataset}: {len(item_frequency)}')
 
     sorted_items = sorted(item_frequency.items(), key=lambda x: x[1], reverse=True)

@@ -65,6 +65,61 @@ def compare_files_and_store_json(file_a, file_b, output_file):
 # compare_files_and_store_json(file_ovis_valid_re_path, file_ovis_valid_path, output_ovis_valid_path)
 
 
+def add_new_item(data_type, a_item, new_a_data, rephrased):
+    if data_type == 'mot17':
+        new_item = {
+            "Video": a_item['Video'],
+            "Query ID": a_item['Query ID'],
+            "Language Query": rephrased,
+            "Type": a_item['Type'],
+            "Track ID": a_item['Track ID'],
+            "Start Frame": a_item['Start Frame'],
+            "End Frame": a_item['End Frame'],
+            "Revision": a_item['Revision']
+        }
+        new_a_data.append(new_item)
+
+    if data_type == 'mot20':
+        new_item = {
+            "Video": a_item['Video'],
+            "Query ID": a_item['Query ID'],
+            "Language Query": rephrased,
+            "Type": a_item['Type'],
+            "IDs": a_item['IDs'],
+            "Start": a_item['Start'],
+            "End": a_item['End'],
+            "Revision": a_item['Revision']
+        }
+        new_a_data.append(new_item)
+
+    if data_type == 'ovis training':
+        new_item = {
+            "Video": a_item['Video'],
+            "QID": a_item['QID'],
+            "Language Query": rephrased,
+            "Type": a_item['Type'],
+            "IDs": a_item['IDs'],
+            "Start": a_item['Start'],
+            "End": a_item['End'],
+            "Revision": a_item['Revision']
+        }
+        new_a_data.append(new_item)
+
+    if data_type == 'ovis valid':
+        new_item = {
+            "ID mark frame": a_item['ID mark frame'],
+            "Video": a_item['Video'],
+            "QID": a_item['QID'],
+            "Language Query": rephrased,
+            "Type": a_item['Type'],
+            "IDs": a_item['IDs'],
+            "Start": a_item['Start'],
+            "End": a_item['End'],
+            "Revision": a_item['Revision']
+        }
+        new_a_data.append(new_item)
+
+
 def combine_queries(data_type, info_json, rephrased_json, output_json):
     with open(info_json, 'r') as file_a, open(rephrased_json, 'r') as file_b:
         a_data = json.load(file_a)
@@ -80,6 +135,12 @@ def combine_queries(data_type, info_json, rephrased_json, output_json):
         for b_item in b_data:
             if b_item['original_content'] == original_query:
                 matched_rephrased = b_item['rephrased_content']
+
+                if 'extra_rephrased' in b_item:
+                    for extra_rephrased_item in b_item['extra_rephrased']:
+                        if extra_rephrased_item:
+                            add_new_item(data_type, a_item, a_data, extra_rephrased_item)
+                            print(extra_rephrased_item)
                 break
 
         # 保留原始对象
@@ -87,58 +148,7 @@ def combine_queries(data_type, info_json, rephrased_json, output_json):
 
         # 如果找到了匹配的 rephrased_content，创建新的对象
         if matched_rephrased:
-            if data_type == 'mot17':
-                new_item = {
-                    "Video": a_item['Video'],
-                    "Query ID": a_item['Query ID'],
-                    "Language Query": matched_rephrased,
-                    "Type": a_item['Type'],
-                    "Track ID": a_item['Track ID'],
-                    "Start Frame": a_item['Start Frame'],
-                    "End Frame": a_item['End Frame'],
-                    "Revision": a_item['Revision']
-                }
-                new_a_data.append(new_item)
-
-            if data_type == 'mot20':
-                new_item = {
-                    "Video": a_item['Video'],
-                    "Query ID": a_item['Query ID'],
-                    "Language Query": matched_rephrased,
-                    "Type": a_item['Type'],
-                    "IDs": a_item['IDs'],
-                    "Start": a_item['Start'],
-                    "End": a_item['End'],
-                    "Revision": a_item['Revision']
-                }
-                new_a_data.append(new_item)
-
-            if data_type == 'ovis training':
-                new_item = {
-                    "Video": a_item['Video'],
-                    "QID": a_item['QID'],
-                    "Language Query": matched_rephrased,
-                    "Type": a_item['Type'],
-                    "IDs": a_item['IDs'],
-                    "Start": a_item['Start'],
-                    "End": a_item['End'],
-                    "Revision": a_item['Revision']
-                }
-                new_a_data.append(new_item)
-
-            if data_type == 'ovis valid':
-                new_item = {
-                    "ID mark frame": a_item['ID mark frame'],
-                    "Video": a_item['Video'],
-                    "QID": a_item['QID'],
-                    "Language Query": matched_rephrased,
-                    "Type": a_item['Type'],
-                    "IDs": a_item['IDs'],
-                    "Start": a_item['Start'],
-                    "End": a_item['End'],
-                    "Revision": a_item['Revision']
-                }
-                new_a_data.append(new_item)
+            add_new_item(data_type, a_item, a_data, matched_rephrased)
 
     # 保存新的数据到新的 JSON 文件
     with open(output_json, 'w') as file_a_updated:
@@ -147,12 +157,12 @@ def combine_queries(data_type, info_json, rephrased_json, output_json):
     print(f"更新完成，已保存为{output_json}")
 
 
-# combine_queries('mot17', '../data/Ours/MOT17-training.json', output_mot17_training_path, '../data/Ours/MOT17-training-doubled.json')
-# combine_queries('mot17', '../data/Ours/MOT17-valid.json', output_mot17_valid_path, '../data/Ours/MOT17-valid-doubled.json')
-# combine_queries('mot20', '../data/Ours/MOT20-training.json', output_mot20_training_path, '../data/Ours/MOT20-training-doubled.json')
-# combine_queries('mot20', '../data/Ours/MOT20-valid.json', output_mot20_valid_path, '../data/Ours/MOT20-valid-doubled.json')
-# combine_queries('ovis training', '../data/Ours/OVIS-training.json', output_ovis_training_path, '../data/Ours/OVIS-training-doubled.json')
-# combine_queries('ovis valid', '../data/Ours/OVIS-valid.json', output_ovis_valid_path, '../data/Ours/OVIS-valid-doubled.json')
+combine_queries('mot17', '../data/Ours/MOT17-training.json', output_mot17_training_path, '../data/Ours/MOT17-training-doubled-3.json')
+combine_queries('mot17', '../data/Ours/MOT17-valid.json', output_mot17_valid_path, '../data/Ours/MOT17-valid-doubled-3.json')
+combine_queries('mot20', '../data/Ours/MOT20-training.json', output_mot20_training_path, '../data/Ours/MOT20-training-doubled-3.json')
+combine_queries('mot20', '../data/Ours/MOT20-valid.json', output_mot20_valid_path, '../data/Ours/MOT20-valid-doubled-3.json')
+combine_queries('ovis training', '../data/Ours/OVIS-training.json', output_ovis_training_path, '../data/Ours/OVIS-training-doubled-3.json')
+combine_queries('ovis valid', '../data/Ours/OVIS-valid.json', output_ovis_valid_path, '../data/Ours/OVIS-valid-doubled-3.json')
 
 
 def calculate_tracks(data_type, input_file):
@@ -188,21 +198,21 @@ def calculate_tracks(data_type, input_file):
 
 
 sum_all_ours = 0
-sum_all_ours += calculate_tracks('mot17', '../data/Ours/MOT17-training-doubled.json')
+sum_all_ours += calculate_tracks('mot17', '../data/Ours/MOT17-training-doubled-3.json')
 print(sum_all_ours)
-sum_all_ours += calculate_tracks('mot17', '../data/Ours/MOT17-valid-doubled.json')
-print(sum_all_ours)
-
-sum_all_ours += calculate_tracks('mot20', '../data/Ours/MOT20-training-doubled.json')
+sum_all_ours += calculate_tracks('mot17', '../data/Ours/MOT17-valid-doubled-3.json')
 print(sum_all_ours)
 
-sum_all_ours += calculate_tracks('mot20', '../data/Ours/MOT20-valid-doubled.json')
+sum_all_ours += calculate_tracks('mot20', '../data/Ours/MOT20-training-doubled-3.json')
 print(sum_all_ours)
 
-sum_all_ours += calculate_tracks('ovis', '../data/Ours/OVIS-training-doubled.json')
+sum_all_ours += calculate_tracks('mot20', '../data/Ours/MOT20-valid-doubled-3.json')
 print(sum_all_ours)
 
-sum_all_ours += calculate_tracks('ovis', '../data/Ours/OVIS-valid-doubled.json')
+sum_all_ours += calculate_tracks('ovis', '../data/Ours/OVIS-training-doubled-3.json')
+print(sum_all_ours)
+
+sum_all_ours += calculate_tracks('ovis', '../data/Ours/OVIS-valid-doubled-3.json')
 print(sum_all_ours)
 
 # 4503
