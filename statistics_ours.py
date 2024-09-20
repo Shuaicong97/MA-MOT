@@ -97,7 +97,7 @@ def get_verb_and_frequency_from_sentences(dataset, sentences, output_file_path):
     # all: 876, mot17: 260, ovis: 739, mot20: 219 (use -3.json)
     print(f'The number of different verbs (include tense) in {dataset}: {len(item_frequency)}')
 
-    sorted_items = sorted(item_frequency.items(), key=lambda x: x[1], reverse=True)
+    sorted_items = sorted(item_frequency.items(), key=lambda x: (-x[1], x[0]))
 
     data_dict = {}
 
