@@ -39,10 +39,10 @@ def get_all_videos():
     print('Total number of videos: {}'.format(sum_videos))
 
 
-print(f"All ovis train videos ({len(get_videos(ovis_training_json))}): {get_videos(ovis_training_json)}")
-print(f"All ovis valid videos ({len(get_videos(ovis_valid_json))}): {get_videos(ovis_valid_json)}")
-print(f"All mot17 train videos ({len(get_videos(mot17_training_json))}): {get_videos(mot17_training_json)}")
-print(f"All mot17 valid videos ({len(get_videos(mot17_valid_json))}): {get_videos(mot17_valid_json)}")
-print(f"All mot20 train videos ({len(get_videos(mot20_training_json))}): {get_videos(mot20_training_json)}")
-print(f"All mot20 valid videos ({len(get_videos(mot20_valid_json))}): {get_videos(mot20_valid_json)}")
+print(f"All ovis videos ({len(get_videos(ovis_training_json))+len(get_videos(ovis_valid_json))}): {get_videos(ovis_training_json)}")
+print(f"All ovis train, valid videos ({len(get_videos(ovis_training_json)), len(get_videos(ovis_valid_json))}): {get_videos(ovis_valid_json)}")
+print(f"All mot17 videos ({len(get_videos(mot17_training_json))+len(get_videos(mot17_valid_json))}): {get_videos(mot17_training_json)}")
+print(f"All mot17 train, valid videos ({len(get_videos(mot17_training_json)), len(get_videos(mot17_valid_json))}): {get_videos(mot17_valid_json)}")
+print(f"All mot20 videos ({len(get_videos(mot20_training_json))+len(get_videos(mot20_valid_json))}): {get_videos(mot20_training_json)}")
+print(f"All mot20 train, valid videos ({len(get_videos(mot20_training_json)), len(get_videos(mot20_valid_json))}): {get_videos(mot20_valid_json)}")
 get_all_videos()

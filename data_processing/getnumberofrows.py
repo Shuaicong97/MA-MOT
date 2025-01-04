@@ -5,21 +5,21 @@ import json
 import os
 
 sum_length = 0
-# mot17_training = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT17-training.json'  # 773
-# mot17_valid = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT17-valid.json'  # 698
-# mot20_training = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT20-training.json'  # 2275
-# mot20_valid = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT20-valid.json'  # 1670
-# ovis_training = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/OVIS-training.json'  # 3685
-# ovis_valid = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/OVIS-valid.json'  # 678
+mot17_training = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT17-training.json'  # 773
+mot17_valid = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT17-valid.json'  # 698
+mot20_training = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT20-training.json'  # 2275
+mot20_valid = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT20-valid.json'  # 1670
+ovis_training = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/OVIS-training.json'  # 3685
+ovis_valid = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/OVIS-valid.json'  # 678
 
 # 9779
 
-mot17_training = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT17-training-doubled-3.json'  # 773 -> 1539 / 1532
-mot17_valid = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT17-valid-doubled-3.json'  # 698 -> 1396 / 1396
-mot20_training = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT20-training-doubled-3.json'  # 2275 -> 4545 / 4543
-mot20_valid = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT20-valid-doubled-3.json'  # 1670 -> 3340 / 3338
-ovis_training = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/OVIS-training-doubled-3.json'  # 3685 -> 7370 / 7336
-ovis_valid = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/OVIS-valid-doubled-3.json'  # 678 -> 1356 / 1334
+# mot17_training = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT17-training-doubled-3.json'  # 773 -> 1539 / 1532
+# mot17_valid = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT17-valid-doubled-3.json'  # 698 -> 1396 / 1396
+# mot20_training = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT20-training-doubled-3.json'  # 2275 -> 4545 / 4543
+# mot20_valid = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT20-valid-doubled-3.json'  # 1670 -> 3340 / 3338
+# ovis_training = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/OVIS-training-doubled-3.json'  # 3685 -> 7370 / 7336
+# ovis_valid = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/OVIS-valid-doubled-3.json'  # 678 -> 1356 / 1334
 
 # 19546 / 19479 / 19495 (double-3)
 
@@ -68,7 +68,7 @@ for file_path in datasets:
     sum_length += object_count
     print(f'The number of objects in the JSON file is: {object_count}')
 
-print(f'The number of total length is: {sum_length}')  # 19546
+print(f'The number of total length is: {sum_length}')  # 19495
 
 
 def print_json_hierarchy(data, indent=0, file=None):

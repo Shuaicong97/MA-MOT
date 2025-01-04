@@ -170,29 +170,38 @@ def generate_yvos_meta_expressions(dataset, input_path, output_path, is_train):
         json.dump(result, json_file, indent=4)
 
 
-mot17_training_json = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT17-training-doubled.json'
-meta_expressions_train = 'data/Ours/mot17/meta_expressions/train/meta_expressions.json'
-mot17_valid_json = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT17-valid-doubled.json'
-meta_expressions_valid = 'data/Ours/mot17/meta_expressions/valid/meta_expressions.json'
+mot17_training_json = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT17-training-doubled-3.json'
+meta_expressions_train = 'data/Ours/Rephrased/mot17/meta_expressions/train/meta_expressions.json'
+mot17_valid_json = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT17-valid-doubled-3.json'
+meta_expressions_valid = 'data/Ours/Rephrased/mot17/meta_expressions/valid/meta_expressions.json'
 
-directory = os.path.dirname(meta_expressions_train)
-if not os.path.exists(directory):
-    os.makedirs(directory)
-    print(f"Directory {directory} created.")
-else:
-    print(f"Directory {directory} already exists.")
 
-directory = os.path.dirname(meta_expressions_valid)
-if not os.path.exists(directory):
-    os.makedirs(directory)
-    print(f"Directory {directory} created.")
-else:
-    print(f"Directory {directory} already exists.")
+def create_new_directory(filename):
+    directory = os.path.dirname(filename)
+    if not os.path.exists(directory):
+        os.makedirs(directory)
+        print(f"Directory {directory} created.")
+    else:
+        print(f"Directory {directory} already exists.")
 
-mot20_training_json = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT20-training-doubled.json'
-meta_expressions_train_mot20 = 'data/Ours/mot20/meta_expressions/train/meta_expressions.json'
-mot20_valid_json = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT20-valid-doubled.json'
-meta_expressions_valid_mot20 = 'data/Ours/mot20/meta_expressions/valid/meta_expressions.json'
+# directory = os.path.dirname(meta_expressions_valid)
+# if not os.path.exists(directory):
+#     os.makedirs(directory)
+#     print(f"Directory {directory} created.")
+# else:
+#     print(f"Directory {directory} already exists.")
+
+
+mot20_training_json = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT20-training-doubled-3.json'
+meta_expressions_train_mot20 = 'data/Ours/Rephrased/mot20/meta_expressions/train/meta_expressions.json'
+mot20_valid_json = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT20-valid-doubled-3.json'
+meta_expressions_valid_mot20 = 'data/Ours/Rephrased/mot20/meta_expressions/valid/meta_expressions.json'
+
+create_new_directory(meta_expressions_train)
+create_new_directory(meta_expressions_valid)
+create_new_directory(meta_expressions_train_mot20)
+create_new_directory(meta_expressions_valid_mot20)
+
 
 generate_yvos_meta_expressions('mot17', mot17_training_json, meta_expressions_train, True)
 generate_yvos_meta_expressions('mot17', mot17_valid_json, meta_expressions_valid, False)
@@ -240,14 +249,10 @@ def generate_train_meta_json(dataset, input_path, output_path):
         json.dump(result, json_file, indent=4)
 
 
-meta_path = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/mot17/train/meta.json'
-meta_path_mot20 = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/mot20/train/meta.json'
-directory = os.path.dirname(meta_path)
-if not os.path.exists(directory):
-    os.makedirs(directory)
-    print(f"Directory {directory} created.")
-else:
-    print(f"Directory {directory} already exists.")
+meta_path = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/Rephrased/mot17/train/meta.json'
+meta_path_mot20 = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/Rephrased/mot20/train/meta.json'
+create_new_directory(meta_path)
+create_new_directory(meta_path_mot20)
 
 generate_train_meta_json('mot17', mot17_training_json, meta_path)
 generate_train_meta_json('mot20', mot20_training_json, meta_path_mot20)
