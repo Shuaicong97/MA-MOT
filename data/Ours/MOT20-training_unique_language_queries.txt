@@ -35,13 +35,13 @@ A lady is shifting her cloth from right hand to the left hand while going toward
 A lady is shifting her cloth from right hand to the left hand while walking
 A lady is shifting her cloth from right hand to the left hand while walking towards the camera
 A lady walking with another person is looking right side briefly
-A person approaching from the left side is extending both arms outward.
-A person approaching from the left side is making contact between both hands.
-A person in an open space is fixing the hair.
-A person in the open space is arranging the hair.
-A person in the open space is arranging the pant.
+A person approaching from the left side is extending both arms outward
+A person approaching from the left side is making contact between both hands
+A person in an open space is fixing the hair
+A person in the open space is arranging the hair
+A person in the open space is arranging the pant
 A person in the open space is arranging the t-shirt
-A person in the open space is fixing the pant.
+A person in the open space is fixing the pant
 A person in the open space is fixing the t-shirt
 A person in the open space is stretching his left hand
 A person is adjusting the hair while coming to right side
@@ -51,13 +51,13 @@ A person is adjusting the hair while moving towards the camera
 A person is adjusting the hair while walking
 A person is adjusting the hair while walking to right side
 A person is adjusting the hair while walking towards the camera
-A person is approaching from the camera side in the open space.
-A person is approaching from the left in the open space.
-A person is approaching from the right in the open space.
+A person is approaching from the camera side in the open space
+A person is approaching from the left in the open space
+A person is approaching from the right in the open space
 A person is keeping his left hand in his pant pocket while walking
-A person is standing in an open space and fixing the hair.
+A person is standing in an open space and fixing the hair
 A person is touching her face while walking and talking with another person
-A person walking in the open space is fixing the pant.
+A person walking in the open space is fixing the pant
 A person walking in the open space is fixing the t-shirt
 A trolly coming from the right side is going towards the camera
 A trolly coming from the right side is heading towards the camera
@@ -150,21 +150,21 @@ Person coming from the right side is standing briefly in the open area
 Person coming from the right side is touching the face
 Person coming from the right side is walking towards the camera
 Person coming from the right side stops walking briefly in the open area
-Person halts drinking while moving to the left.
+Person halts drinking while moving to the left
 Person in the open area is giving high-five
 Person in the open area is moving towards the camera side
-Person in the open area is moving towards the camera.
-Person in the open area is moving towards the left.
-Person in the open area is moving towards the right.
+Person in the open area is moving towards the camera
+Person in the open area is moving towards the left
+Person in the open area is moving towards the right
 Person in the open area is not walking
-Person in the open area is stationary and not walking.
+Person in the open area is stationary and not walking
 Person in the open space is arranging the sweater
 Person in the open space is fixing the sweater
 Person in the open space is giving information to the other persons
 Person in the open space is heading to the camera side
-Person in the open space is heading to the camera.
-Person in the open space is heading to the left.
-Person in the open space is heading to the right.
+Person in the open space is heading to the camera
+Person in the open space is heading to the left
+Person in the open space is heading to the right
 Person in the open space is looking back
 Person in the open space is looking opposite side of the camera
 Person in the open space stops walking briefly
@@ -334,23 +334,23 @@ Person standing in the open area is adjusting the hair
 Person stops drinking Drink before going to the left side
 Person stops walking briefly in the right side
 Person walking in an open area is heading in the direction to the camera side
-Person walking in an open area is heading in the direction to the camera.
-Person walking in an open area is heading in the direction to the left.
-Person walking in an open area is heading in the direction to the right.
+Person walking in an open area is heading in the direction to the camera
+Person walking in an open area is heading in the direction to the left
+Person walking in an open area is heading in the direction to the right
 Person walking in the open area is adjusting his pant
 Person walking in the open area is adjusting his t-shirt
 Person walking in the open area is adjusting the pant
 Person walking in the open area is adjusting the sweater
 Person walking in the open area is moving towards the camera side
-Person walking in the open area is moving towards the camera.
-Person walking in the open area is moving towards the left.
-Person walking in the open area is moving towards the right.
+Person walking in the open area is moving towards the camera
+Person walking in the open area is moving towards the left
+Person walking in the open area is moving towards the right
 Person walking in the open area is standing briefly in the right side
 Person walking in the open area is using both hands to show directions to others
 Person walking in the open area is using left hand to show directions to others
 Person walking in the open area is using right hand to show directions to others
-Person walking in the open area is using the right hand to indicate towards the right side.
-Person walking in the open area is using their left hand to point towards the right side.
+Person walking in the open area is using the right hand to indicate towards the right side
+Person walking in the open area is using their left hand to point towards the right side
 Person walking in the open space is fixing the sweater
 Person walking in the open space is going inside the food court
 Person walking in the open space is going to the camera side

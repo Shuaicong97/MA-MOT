@@ -56,7 +56,7 @@ def compare_files_and_store_json(file_a, file_b, output_file):
         json.dump(result, f, ensure_ascii=False, indent=4)
 
 
-# 使用示例
+# # 不再使用，因为后续combine文件有人工修改
 # compare_files_and_store_json(file_mot17_training_re_path, file_mot17_training_path, output_mot17_training_path)
 # compare_files_and_store_json(file_mot17_valid_re_path, file_mot17_valid_path, output_mot17_valid_path)
 # compare_files_and_store_json(file_mot20_training_re_path, file_mot20_training_path, output_mot20_training_path)
@@ -140,7 +140,6 @@ def combine_queries(data_type, info_json, rephrased_json, output_json):
                     for extra_rephrased_item in b_item['extra_rephrased']:
                         if extra_rephrased_item:
                             add_new_item(data_type, a_item, a_data, extra_rephrased_item)
-                            print(extra_rephrased_item)
                 break
 
         # 保留原始对象
@@ -157,64 +156,10 @@ def combine_queries(data_type, info_json, rephrased_json, output_json):
     print(f"更新完成，已保存为{output_json}")
 
 
-combine_queries('mot17', '../data/Ours/MOT17-training.json', output_mot17_training_path, '../data/Ours/MOT17-training-doubled-3.json')
-combine_queries('mot17', '../data/Ours/MOT17-valid.json', output_mot17_valid_path, '../data/Ours/MOT17-valid-doubled-3.json')
-combine_queries('mot20', '../data/Ours/MOT20-training.json', output_mot20_training_path, '../data/Ours/MOT20-training-doubled-3.json')
-combine_queries('mot20', '../data/Ours/MOT20-valid.json', output_mot20_valid_path, '../data/Ours/MOT20-valid-doubled-3.json')
-combine_queries('ovis training', '../data/Ours/OVIS-training.json', output_ovis_training_path, '../data/Ours/OVIS-training-doubled-3.json')
-combine_queries('ovis valid', '../data/Ours/OVIS-valid.json', output_ovis_valid_path, '../data/Ours/OVIS-valid-doubled-3.json')
-
-
-def calculate_tracks(data_type, input_file):
-    with open(input_file, 'r') as file_a:
-        a_data = json.load(file_a)
-
-    # 用于存储不同视频的 Track ID
-    video_track_ids = {}
-    sum_tracks = 0
-
-    # 遍历 A.json 数据
-    for item in a_data:
-        video = item['Video']
-        track_id = -1
-        if data_type == 'mot17':
-            track_id = item['Track ID']
-        elif data_type == 'mot20' or 'ovis':
-            track_id = item['IDs']
-
-        # 如果视频不在字典中，则初始化一个集合
-        if video not in video_track_ids:
-            video_track_ids[video] = set()
-
-        # 将 Track ID 添加到集合中
-        video_track_ids[video].add(track_id)
-
-    # 输出每个 Video 的不同 Track ID 的数量
-    for video, track_ids in video_track_ids.items():
-        sum_tracks += len(track_ids)
-        # print(f"Video: {video}, Unique Track ID Count: {len(track_ids)}")
-
-    return sum_tracks
-
-
-sum_all_ours = 0
-sum_all_ours += calculate_tracks('mot17', '../data/Ours/MOT17-training-doubled-3.json')
-print(sum_all_ours)
-sum_all_ours += calculate_tracks('mot17', '../data/Ours/MOT17-valid-doubled-3.json')
-print(sum_all_ours)
-
-sum_all_ours += calculate_tracks('mot20', '../data/Ours/MOT20-training-doubled-3.json')
-print(sum_all_ours)
-
-sum_all_ours += calculate_tracks('mot20', '../data/Ours/MOT20-valid-doubled-3.json')
-print(sum_all_ours)
-
-sum_all_ours += calculate_tracks('ovis', '../data/Ours/OVIS-training-doubled-3.json')
-print(sum_all_ours)
-
-sum_all_ours += calculate_tracks('ovis', '../data/Ours/OVIS-valid-doubled-3.json')
-print(sum_all_ours)
-
-# 4503
-
+combine_queries('mot17', '../data/Ours/MOT17-training.json', 'rephrase_queries/MOT17-training_combined_language_queries.json', 'rephrase_queries/MOT17-training-doubled.json')
+combine_queries('mot17', '../data/Ours/MOT17-valid.json', 'rephrase_queries/MOT17-valid_combined_language_queries.json', 'rephrase_queries/MOT17-valid-doubled.json')
+combine_queries('mot20', '../data/Ours/MOT20-training.json', 'rephrase_queries/MOT20-training_combined_language_queries.json', 'rephrase_queries/MOT20-training-doubled.json')
+combine_queries('mot20', '../data/Ours/MOT20-valid.json', 'rephrase_queries/MOT20-valid_combined_language_queries.json', 'rephrase_queries/MOT20-valid-doubled.json')
+combine_queries('ovis training', '../data/Ours/OVIS-training.json', 'rephrase_queries/OVIS-training_combined_language_queries.json', 'rephrase_queries/OVIS-training-doubled.json')
+combine_queries('ovis valid', '../data/Ours/OVIS-valid.json', 'rephrase_queries/OVIS-valid_combined_language_queries.json', 'rephrase_queries/OVIS-valid-doubled.json')
 

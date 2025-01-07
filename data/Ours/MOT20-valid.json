@@ -6062,7 +6062,7 @@
     {
         "Video": "MOT20-03",
         "Query ID": "74",
-        "Language Query": "A person places her hands behind her back to carry the bag.",
+        "Language Query": "A person places her hands behind her back to carry the bag",
         "Type": "M",
         "IDs": "179",
         "Start": "1945",
@@ -6072,7 +6072,7 @@
     {
         "Video": "MOT20-03",
         "Query ID": "75",
-        "Language Query": "A person positions hers hands behind her back to hold the bag.",
+        "Language Query": "A person positions hers hands behind her back to hold the bag",
         "Type": "M",
         "IDs": "179",
         "Start": "1945",
@@ -6552,7 +6552,7 @@
     {
         "Video": "MOT20-03",
         "Query ID": "101",
-        "Language Query": "A person shifts their jacket from one hand to the other.",
+        "Language Query": "A person shifts their jacket from one hand to the other",
         "Type": "M",
         "IDs": "186",
         "Start": "281",
@@ -10022,7 +10022,7 @@
     {
         "Video": "MOT20-03",
         "Query ID": "161",
-        "Language Query": "A person transfers their jacket from right hand to the left.",
+        "Language Query": "A person transfers their jacket from right hand to the left",
         "Type": "M",
         "IDs": "186",
         "Start": "281",

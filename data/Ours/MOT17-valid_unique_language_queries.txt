@@ -177,7 +177,7 @@ A woman walks out of the frame in the right side of the camera
 A woman walks out of the store with a bag
 Child moving on Baby Stroller is going outside of the frame in left side
 Cycle entering into frame from right side is moving in the open area
-Person by the roadside barrier is waiting for his friend to arrive.
+Person by the roadside barrier is waiting for his friend to arrive
 Person coming from a shop in the left side is gossiping in front of it
 Person coming from the left side is going outside of the frame in right side
 Person coming from the right side is going towards the opposite side of the camera
@@ -210,12 +210,12 @@ Person is having interaction with a child
 Person is standing behind a by-cycle with a child
 Person is using the flash of his mobile while taking picture with his mobile
 Person is walking towards the right side
-Person next to the lamppost is consistently using the mobile phone.
-Person on the left side of the road is smoking a cigarette.
-Person remains seated continuously.
+Person next to the lamppost is consistently using the mobile phone
+Person on the left side of the road is smoking a cigarette
+Person remains seated continuously
 Person seated on a wheel chair is waiting in front of a building
 Person seated on the bench is eating street food
-Person sitting on a bicycle is searching for something.
+Person sitting on a bicycle is searching for something
 Person walking in open area is going outside of the frame in camera side
 Person walking in open area is going outside of the frame in opposite side of the camera
 Person walking in open area is going towards the camera side
@@ -231,7 +231,7 @@ Person walking on the street is going towards the right side
 Person who is buying from a shop
 Person who is gossiping in the left side in front of a shop
 Person who is gossiping in the right side in front of a building
-Person who is seated on a roadside barrier, is observing the surroundings.
+Person who is seated on a roadside barrier, is observing the surroundings
 Person who is standing beside the traffic cones
 Person with other two people is waiting in front of a building
 The baby stroller disappears from the frame to the right side of the camera

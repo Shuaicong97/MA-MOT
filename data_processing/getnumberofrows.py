@@ -1,51 +1,27 @@
-# number of rows as number of queries
+# number of rows as number of queries/tracks
 import pandas as pd
 from io import StringIO
 import json
 import os
 
-sum_length = 0
 mot17_training = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT17-training.json'  # 773
 mot17_valid = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT17-valid.json'  # 698
 mot20_training = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT20-training.json'  # 2275
 mot20_valid = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT20-valid.json'  # 1670
 ovis_training = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/OVIS-training.json'  # 3685
 ovis_valid = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/OVIS-valid.json'  # 678
+# #Tracks=9779
 
-# 9779
-
-# mot17_training = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT17-training-doubled-3.json'  # 773 -> 1539 / 1532
-# mot17_valid = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT17-valid-doubled-3.json'  # 698 -> 1396 / 1396
-# mot20_training = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT20-training-doubled-3.json'  # 2275 -> 4545 / 4543
-# mot20_valid = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/MOT20-valid-doubled-3.json'  # 1670 -> 3340 / 3338
-# ovis_training = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/OVIS-training-doubled-3.json'  # 3685 -> 7370 / 7336
-# ovis_valid = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/OVIS-valid-doubled-3.json'  # 678 -> 1356 / 1334
-
-# 19546 / 19479 / 19495 (double-3)
+mot17_training_rephrased = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data_processing/rephrase_queries/MOT17-training-doubled.json'
+mot17_valid_rephrased = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data_processing/rephrase_queries/MOT17-valid-doubled.json'
+mot20_training_rephrased = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data_processing/rephrase_queries/MOT20-training-doubled.json'
+mot20_valid_rephrased = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data_processing/rephrase_queries/MOT20-valid-doubled.json'
+ovis_training_rephrased = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data_processing/rephrase_queries/OVIS-training-doubled.json'
+ovis_valid_rephrased = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data_processing/rephrase_queries/OVIS-valid-doubled.json'
+# #Queries=9779
 
 datasets = [mot17_training, mot17_valid, mot20_training, mot20_valid, ovis_training, ovis_valid]
-
-
-# def count_rows_in_csv(file_path):
-#     try:
-#         df = pd.read_csv(file_path)
-#         return len(df)
-#     except Exception as e:
-#         print(e)
-#         return None
-#
-#
-# row_counts = {}
-# for file_path in datasets:
-#     row_count = count_rows_in_csv(file_path)
-#     sum_length += row_count
-#     if row_count is not None:
-#         row_counts[file_path] = row_count
-#
-# for file_path, row_count in row_counts.items():
-#     print(f"{file_path}: {row_count} rows")
-#
-# print(sum_length)  # 9779
+datasets_rephrased = [mot17_training_rephrased, mot17_valid_rephrased, mot20_training_rephrased, mot20_valid_rephrased, ovis_training_rephrased, ovis_valid_rephrased]
 
 
 def count_objects_in_json(json_file):
@@ -62,87 +38,18 @@ def count_objects_in_json(json_file):
         return 0
 
 
-# 使用示例
+sum_length = 0
 for file_path in datasets:
     object_count = count_objects_in_json(file_path)
     sum_length += object_count
     print(f'The number of objects in the JSON file is: {object_count}')
 
-print(f'The number of total length is: {sum_length}')  # 19495
+print(f'The number of tracks is: {sum_length}')  # 9779
 
+sum_length = 0
+for file_path in datasets_rephrased:
+    object_count = count_objects_in_json(file_path)
+    sum_length += object_count
+    print(f'The number of objects in the JSON file is: {object_count}')
 
-def print_json_hierarchy(data, indent=0, file=None):
-    if isinstance(data, dict):
-        for key, value in data.items():
-            if file:
-                file.write(' ' * indent + str(key) + '\n')
-            else:
-                print(' ' * indent + str(key))
-            print_json_hierarchy(value, indent + 4, file)
-    elif isinstance(data, list):
-        for i, item in enumerate(data):
-            if file:
-                file.write(' ' * indent + f'[{i}]' + '\n')
-            else:
-                print(' ' * indent + f'[{i}]')
-            print_json_hierarchy(item, indent + 4, file)
-    else:
-        if file:
-            file.write(' ' * indent + str(data) + '\n')
-        else:
-            print(' ' * indent + str(data))
-
-
-file_path1 = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Type-to-Track/annotations/v1.0/mot17_train_coco.json'
-file_path2 = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Type-to-Track/annotations/v1.0/mot17_test_coco.json'
-file_path3 = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Type-to-Track/annotations/v1.0/tao_train_coco.json'
-
-
-def load_json_file(file_path):
-    if not os.path.exists(file_path):
-        print(f"Error: File '{file_path}' does not exist.")
-        return None
-    if os.path.getsize(file_path) == 0:
-        print(f"Error: File '{file_path}' is empty.")
-        return None
-    try:
-        with open(file_path, 'r') as file:
-            return json.load(file)
-    except json.JSONDecodeError as e:
-        print(f"Error: Failed to decode JSON from file '{file_path}'.")
-        print(f"Details: {e}")
-        return None
-
-
-output_file_path1 = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Type-to-Track/hierachy_mot17_train_coco.txt'
-output_file_path2 = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Type-to-Track/hierachy_mot17_test_coco.txt'
-output_file_path3 = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Type-to-Track/hierachy_tao_train_coco.txt'
-
-
-# def write_json_file(file_path, output_file_path):
-#     json_data = load_json_file(file_path)
-#     if json_data:
-#         with open(output_file_path, 'w') as output_file:
-#             print_json_hierarchy(json_data, file=output_file)
-
-
-# write_json_file(file_path1, output_file_path1)
-# write_json_file(file_path2, output_file_path2)
-# write_json_file(file_path3, output_file_path3)
-
-caption_count = 0
-
-
-# def get_data(filepath):
-#     with open(filepath, 'r') as file:
-#         data = json.load(file)
-#     return data
-#
-#
-# file1 = get_data(file_path1)
-# for annotation in file1['annotations']:
-#     if 'captions' in annotation:
-#         caption_count += len(annotation['captions'])
-#         print(annotation['captions'])
-#
-# print(f'Total captions count: {caption_count}')
+print(f'The number of queries is: {sum_length}')  # 19563

@@ -47,7 +47,7 @@ A child riding on bicycle came to stop for a while and then starts moving again
 A child riding on bicycle is coming towards his friend
 A child riding on bicycle is waiting for other friends come to him
 A child riding on bicycle stars moving after standing for a while
-A child stops walking while her mother picking up the bottle cap.
+A child stops walking while her mother picking up the bottle cap
 A construction worker is working on the road
 A lad clasped her hands together on her stomach while crossing the road from the other side
 A lady approaching from the primary road halts in front of the sidewalk
@@ -140,7 +140,7 @@ A man is crossing the road by using the zebra crossing
 A man is going left side after leaving the showroom
 A man is going right side in the left Sidewalk after leaving the shop
 A man is going right side in the right Sidewalk after leaving the shop
-A man is heading to the left after exiting the supermarket.
+A man is heading to the left after exiting the supermarket
 A man is looking at Electronics showroom while walking
 A man is looking at his mobile while keeping his foot on a Road barrier in the Sidewalk
 A man is looking left side while walking with his partner
@@ -241,9 +241,9 @@ A man with jacket on his right shoulder is keeping his right hand in his right p
 A man with jacket on his right shoulder looks left side after crossing the road
 A man with mobile is recording the left side of the mall
 A man with mobile is recording the right side of the mall
-A man with no intention of departing the store.
-A man with no plans to exit the store.
-A man with no plans to leave the store.
+A man with no intention of departing the store
+A man with no plans to exit the store
+A man with no plans to leave the store
 A mannequin is for displaying inside the shopping
 An old man is going left side after coming out from Supermarket
 An old man is wearing cup on his hand and carrying a green shopping bag on his left shoulder
@@ -252,8 +252,8 @@ An old woman wearing green shirt is walking with old man
 A person coming from the roadside is standing briefly in the main road
 A person crosses the street and reaches the sidewalk
 A person in black suit stops walking as the cars drive off in green signal
-A person inside shop is heading their way towards the street.
-A person inside shop is navigating their way towards the street.
+A person inside shop is heading their way towards the street
+A person inside shop is navigating their way towards the street
 A person is keeping his foot on a Road barrier in the Sidewalk
 A person is looking back while standing on Main road
 A person is looking up while going from right sidewalk to left sidewalk
@@ -261,8 +261,8 @@ A person is looking up while standing on Main road
 A person is looking up while walking on left sidewalk
 A person is not crossing the road but walking along the road
 A person is walking after standing under a tree for few seconds
-A person is walking alongside the road rather than crossing it.
-A person is walking alongside the road, not crossing it.
+A person is walking alongside the road rather than crossing it
+A person is walking alongside the road, not crossing it
 A person leans against a tree
 A person peaks at the exhibition products of the shopping mall for second times
 A person riding on Cycle in the main road is going from the right side to left side
@@ -352,14 +352,14 @@ Man in blue shirt standing and on his phone
 Man wearing Waistcoat is looking at his mobile
 Mannequin in display on the shop
 People sitting on the bench
-Person is standing beneath a tree.
+Person is standing beneath a tree
 Person is standing in front of Supermarket briefly after leaving the Supermarket
-Person on the left side of the road is not heading towards the main road.
-Person on the main road is not heading towards the roadside.
-Person on the right side of the road is not heading towards the main road.
-Person walking on the left side of the road does not move towards the main road.
-Person walking on the main road does not move towards the roadside.
-Person walking on the right side of the road does not move towards the main road.
+Person on the left side of the road is not heading towards the main road
+Person on the main road is not heading towards the roadside
+Person on the right side of the road is not heading towards the main road
+Person walking on the left side of the road does not move towards the main road
+Person walking on the main road does not move towards the roadside
+Person walking on the right side of the road does not move towards the main road
 Person walking past not entering the mall in the right side
 Person walking past the mall in the right side
 Person who is walking in the street does not enter a shop
@@ -378,18 +378,18 @@ The man who is sitting on a bench under a tree and doing nothing
 The old lady is walking with an old man is looking right sides for few seconds
 The old lady starts walking after standing for few seconds
 The people who are sitting on a bench
-The person from the shop is going towards the street.
-The person from the shop is heading towards the street.
+The person from the shop is going towards the street
+The person from the shop is heading towards the street
 The person goes through two building
-The person in the shop is moving towards the street.
-The person inside the shop is heading towards the street.
-The person inside the shop is moving towards the street.
+The person in the shop is moving towards the street
+The person inside the shop is heading towards the street
+The person inside the shop is moving towards the street
 The person is talking on his mobile
 The person is walking after leaving the bench
 The person walking on the street is going towards the Shop from street
 The person who is inside Electronics showroom
 The people who are standing against the walls
-a lady waiting with her bicycle at the roadside begins to cross the road
-a person waiting at the roadside begins to cross the road
-a person waiting at the roadside starts crossing the road
-the children with By-cycles
+A lady waiting with her bicycle at the roadside begins to cross the road
+A person waiting at the roadside begins to cross the road
+A person waiting at the roadside starts crossing the road
+The children with By-cycles

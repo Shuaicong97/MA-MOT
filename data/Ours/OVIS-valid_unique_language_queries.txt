@@ -29,7 +29,7 @@ Bird is circling around the food container
 Bird is disturbing other birds
 Bird is falling down from plastic bottle
 Bird is flying in the sky
-Bird is flying towards the right and then perching on top of another bird.
+Bird is flying towards the right and then perching on top of another bird
 Bird is flying towards the right side
 Bird is going from the bottom of the cage to bird perch stand
 Bird is going inside of the food container from floor
@@ -61,8 +61,8 @@ Cow is fighting with sheep
 Cow is sniffing on the food container
 Cow is walking backwards
 Dog is abstaining from participating in the fighting
-Dog is asserting dominance in the fight with another dog.
-Dog is being dominated during the fight with another dog.
+Dog is asserting dominance in the fight with another dog
+Dog is being dominated during the fight with another dog
 Dog is fighting with another dog
 Dog is walking towards the opposite of the camera
 Dog remains in the same position and refrains from walking
@@ -107,7 +107,7 @@ Monkey is eating something from the ground
 Monkey is getting down to ground from the back of another monkey
 Monkey is going in front of another monkey
 Monkey is going outside of the frame in right side
-Monkey is inspecting the front side of another monkey's body with its hand.
+Monkey is inspecting the front side of another monkey's body with its hand
 Monkey is keeping its right hand on the left shoulder of another monkey
 Monkey is pushing another monkey
 Monkey is sniffing another monkey
@@ -165,7 +165,7 @@ The bird flies towards the camera
 The bird hops on another bird
 The bird jumps up to a higher platform
 The bird leans its mouth down on a food bowl
-The bird looks down on the food bow;
+The bird looks down on the food bow
 The bird looks slightly to its left
 The bird looks to its right and left
 The bird looks to the right

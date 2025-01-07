@@ -34,13 +34,18 @@ def generate_all_jsons():
 #          'data/generated_by_code/ours_json/gta_mot17_test_ashiq.json',
 #          'data/generated_by_code/ours_json/gta_mot17_test_seenat.json']
 
-paths_all = ['data/Ours/MOT17-training-doubled-3.json', 'data/Ours/MOT17-valid-doubled-3.json',
-             'data/Ours/OVIS-training-doubled-3.json', 'data/Ours/OVIS-valid-doubled-3.json',
-             'data/Ours/MOT20-training-doubled-3.json', 'data/Ours/MOT20-valid-doubled-3.json']
+mot17_training_rephrased = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data_processing/rephrase_queries/MOT17-training-doubled.json'
+mot17_valid_rephrased = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data_processing/rephrase_queries/MOT17-valid-doubled.json'
+mot20_training_rephrased = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data_processing/rephrase_queries/MOT20-training-doubled.json'
+mot20_valid_rephrased = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data_processing/rephrase_queries/MOT20-valid-doubled.json'
+ovis_training_rephrased = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data_processing/rephrase_queries/OVIS-training-doubled.json'
+ovis_valid_rephrased = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data_processing/rephrase_queries/OVIS-valid-doubled.json'
 
-paths_mot17 = ['data/Ours/MOT17-training-doubled-3.json', 'data/Ours/MOT17-valid-doubled-3.json']
-paths_ovis = ['data/Ours/OVIS-training-doubled-3.json', 'data/Ours/OVIS-valid-doubled-3.json']
-paths_mot20 = ['data/Ours/MOT20-training-doubled-3.json', 'data/Ours/MOT20-valid-doubled-3.json']
+paths_all = [mot17_training_rephrased, mot17_valid_rephrased, mot20_training_rephrased, mot20_valid_rephrased, ovis_training_rephrased, ovis_valid_rephrased]
+
+paths_mot17 = [mot17_training_rephrased, mot17_valid_rephrased]
+paths_mot20 = [mot20_training_rephrased, mot20_valid_rephrased]
+paths_ovis = [ovis_training_rephrased, ovis_valid_rephrased]
 
 
 def get_all_queries(file_paths):

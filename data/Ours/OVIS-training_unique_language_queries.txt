@@ -80,14 +80,14 @@ Airplane on the runway is going towards the left side
 Airplane on the runway is going towards the right side
 Airplane on the runway is gradually decreasing its speed
 Airplane on the runway is gradually reducing its speed
-Airplane on the runway is maintaining its stationary position.
+Airplane on the runway is maintaining its stationary position
 Airplane on the runway is passing by another airplane
 Airplane on the runway is standing still
 Baby bear coming towards the camera is going outside of the frame in right side
-Baby bear is stationary and remains in the same place.
+Baby bear is stationary and remains in the same place
 Baby bear on the field is coming towards the camera
 Baby dog is being pushed by another dog
-Baby dog is going between the front and back legs of baby dog.
+Baby dog is going between the front and back legs of baby dog
 Baby dog is looking outside from truck tailgate
 Baby dog is pushing another baby dog with its head
 Baby dog is sitting down on the truck tailgate
@@ -115,12 +115,12 @@ Bear is being pushed back by the another bear, using its head
 Bear is chasing another bear
 Bear is coming towards the camera
 Bear is coming towards the person
-Bear is deviating from its usual walking path.
+Bear is deviating from its usual walking path
 Bear is eating grass from the field
-Bear is engaging in play with another bears.
+Bear is engaging in play with another bears
 Bear is forcing another bear to move towards the water during fighting
 Bear is going outside of the frame in left side by walking after going towards the right side
-Bear is going through the front legs of another bear.
+Bear is going through the front legs of another bear
 Bear is keeping his right hand on the head of another bear during fight
 Bear is making U-turn
 Bear is passing by another bear while walking
@@ -132,9 +132,9 @@ Bear is pushing back another bear with head
 Bear is searching for something on the ground
 Bear is sitting down on the ground
 Bear is standing on its hind legs
-Bear is stationary and remains in the same place.
-Bear is stationary and remains seated in the same place.
-Bear is strolling around another bear.
+Bear is stationary and remains in the same place
+Bear is stationary and remains seated in the same place
+Bear is strolling around another bear
 Bear is taking food from a person
 Bear is tilting its head to the right during the fight
 Bear is using its head to push back another bear
@@ -161,8 +161,8 @@ Bicycle is moving towards the left side
 Bicycle is moving towards the right side
 Bicycle is stationary and parked along the side of the road
 Bicycle is traveling in a circular motion
-Bicycle passes by five lampposts.
-Bicycle passes by four lampposts.
+Bicycle passes by five lampposts
+Bicycle passes by four lampposts
 Bicycle that is racing on the track has taken a jump
 Bike entering into frame from left side is going towards the opposite of the camera
 Bike is going outside of the frame in left side
@@ -195,7 +195,7 @@ Bird is going towards right side
 Bird is inside a cage
 Bird is jumping from the field
 Bird is jumping over another bird
-Bird is leaping from one spot to another.
+Bird is leaping from one spot to another
 Bird is moving circular path in anticlockwise direction
 Bird is moving towards the left side
 Bird is moving towards the right side
@@ -204,12 +204,12 @@ Bird is playing or fighting with another bird
 Bird is seated on bird perch stand
 Bird is soaring down to land on person's outstretched hand
 Bird is standing on top of the food container
-Bird is stationary and remains in the same place.
+Bird is stationary and remains in the same place
 Bird is turing from the camera side to the opposite of the camera
 Bird is turning towards the left side
 Bird is walking over the food container while disturbing another birds
 Bird on the bottom of the cage
-Bird remains stationary while consuming its food in one location.
+Bird remains stationary while consuming its food in one location
 Boat is crashing with ship
 Boat is departing from the shore
 Boat is going from right side towards the left side
@@ -294,7 +294,7 @@ Cat is jumping from right side towards the left side
 Cat is keeping its upper body in contact with the wall
 Cat is looking towards the camera
 Cat is lying down on the ground while playing with another cat
-Cat is moving from behind to the front of another cat.
+Cat is moving from behind to the front of another cat
 Cat is moving its upper body backwards
 Cat is moving its upper body forwards, attacking another cat
 Cat is playing with another cat
@@ -305,7 +305,7 @@ Cat is rubbing its face with another cat face
 Cat is running after another cat
 Cat is searching for something under the furniture
 Cat is standing on its back legs while fighting with another cat
-Cat is stationary and remains in the same place.
+Cat is stationary and remains in the same place
 Cat is taking a momentary pause in the midst of the fight
 Cat is top of another cat during fighting
 Cat is trying to catch the feather teaser toy
@@ -325,7 +325,7 @@ Chameleon is going outside of the frame in the left side
 Chameleon is moving on top of another chameleon
 Chameleon is walking over another chameleon
 Chicken is revolving in place
-Chicken is spinning in place.
+Chicken is spinning in place
 Chicken is walking on the wooden log
 Child is feeding the goats
 Cow coming from right side is walking towards the opposite of the camera
@@ -367,7 +367,7 @@ Cow is moving towards the right side while fighting
 Cow is pushing another cow backwards during fighting
 Cow is running towards the opposite of the camera after jumping on the ground
 Cow is running towards the opposite of the camera after making U-turn
-Cow is turning its body from the right side to the left side.
+Cow is turning its body from the right side to the left side
 Cow is walking in the opposite direction of the other cows
 Cow is walking on the left side of the road
 Cow is walking on the open field
@@ -394,11 +394,11 @@ Dog entering into frame from bottom side is walking towards the opposite of the 
 Dog entering into frame from right side is looking something on the ground
 Dog entering into frame from right side is meeting with another dogs
 Dog falls to the ground
-Dog is asserting dominance in the fight with another dog.
+Dog is asserting dominance in the fight with another dog
 Dog is becoming frightened as a person walks past it
 Dog is being attempted to be attacked by another dog
 Dog is being disturbed by another dog
-Dog is being dominated during the fight with another dog.
+Dog is being dominated during the fight with another dog
 Dog is being followed by another dog
 Dog is being obstructed on its path by another dog
 Dog is being pushed by another dog against the wall while playing
@@ -422,7 +422,7 @@ Dog is moving in a circular way
 Dog is obstructing the path for another dog
 Dog is peeing on the bushes
 Dog is peeing on the tier of a car
-Dog is placing its front legs on the back of another dog.
+Dog is placing its front legs on the back of another dog
 Dog is playing with another dog
 Dog is pushing another dog against the wall while playing
 Dog is pushing another dog while playing
@@ -433,7 +433,7 @@ Dog is running towards the right side
 Dog is slipping on the floor
 Dog is sniffing on the pee place
 Dog is sniffing something in the field
-Dog is stationary and remains in the same place.
+Dog is stationary and remains in the same place
 Dog is the first to go toward the car
 Dog is the last to go toward the car
 Dog is top of another dog during fighting
@@ -452,7 +452,7 @@ Duck is leading other ducks
 Duck is looking for food in the water while swimming
 Duck is looking towards the camera
 Duck is searching for food in the water while swimming
-Duck is staying in the same position while swimming.
+Duck is staying in the same position while swimming
 Duck is stepping over the leg of another duck while moving
 Duck is swimming on the water
 Duck is swimming towards the camera side is turing to the left side
@@ -508,23 +508,23 @@ Fish coming into the frame from top side of the aquarium is moving towards the b
 Fish coming into the frame from top side of the aquarium is swimming towards the bottom of aquarium
 Fish entering into frame from bottom side is moving in the aquarium
 Fish entering into frame from bottom side is swimming in the aquarium
-Fish entering into frame from right side is moving at the bottom of the aquarium.
+Fish entering into frame from right side is moving at the bottom of the aquarium
 Fish entering into frame from right side is moving in the aquarium
 Fish entering into frame from right side is swimming in the aquarium
 Fish entering into frame from upper side is moving towards the lower side
 Fish entering into frame from upper side is swimming towards the lower side
 Fish in the water is moving towards the left side
 Fish in the water is swimming towards the left side
-Fish is asserting dominance in the fight with another fish.
+Fish is asserting dominance in the fight with another fish
 Fish is attacking another fish
 Fish is being attacked by another fish
-Fish is being dominated during the fight with another fish.
+Fish is being dominated during the fight with another fish
 Fish is coming out from the bottom of the turtle
 Fish is facing towards the camera
 Fish is fighting with another fish
-Fish is moving at the bottom of the aquarium.
-Fish is moving at the middle of the aquarium.
-Fish is moving at the top of the aquarium.
+Fish is moving at the bottom of the aquarium
+Fish is moving at the middle of the aquarium
+Fish is moving at the top of the aquarium
 Fish is moving faster than other fishes
 Fish is moving from bottom of the aquarium to the middle of the aquarium
 Fish is moving from bottom of the aquarium to the top of the aquarium
@@ -532,8 +532,8 @@ Fish is moving from middle of the aquarium to the bottom of aquarium
 Fish is moving from middle of the aquarium to the top of aquarium
 Fish is moving from top of the aquarium to the bottom of the aquarium
 Fish is moving from top of the aquarium to the middle of the aquarium
-Fish is moving in a circular motion from the top to the middle of the aquarium.
-Fish is stationary and remains in the same place.
+Fish is moving in a circular motion from the top to the middle of the aquarium
+Fish is stationary and remains in the same place
 Fish is stationary at the bottom of the aquarium
 Fish is stationary, swimming in the same place continuously
 Fish is swimming behind a wooden branch
@@ -544,8 +544,8 @@ Fish is swimming from middle of the aquarium to the bottom of aquarium
 Fish is swimming from middle of the aquarium to the top of aquarium
 Fish is swimming from top of the aquarium to the bottom of the aquarium
 Fish is swimming from top of the aquarium to the middle of the aquarium
-Fish is swimming in a circular motion from the bottom to the middle of the aquarium.
-Fish is swimming in a circular motion from the top to the middle of the aquarium.
+Fish is swimming in a circular motion from the bottom to the middle of the aquarium
+Fish is swimming in a circular motion from the top to the middle of the aquarium
 Fish moving at bottom of the aquarium is going outside of the frame at right side
 Fish moving at bottom of the aquarium is going to the middle of aquarium
 Fish moving at bottom of the aquarium is going to the top of aquarium
@@ -617,7 +617,7 @@ Goat is being followed by another goat
 Goat is coming from from the middle of the group of goats to the right side of the others
 Goat is coming out from bush
 Goat is eating food from a person
-Goat is eating food from a storage container.
+Goat is eating food from a storage container
 Goat is eating grass from the field
 Goat is eating grass on the field
 Goat is eating leaves from a child
@@ -634,10 +634,10 @@ Goat is running after another goat
 Goat is running from right side towards the left side
 Goat is running in circular way
 Goat is running in clockwise direction
-Goat is searching for food.
+Goat is searching for food
 Goat is sniffing on the right side wall
-Goat is stationary and eating grass on the same place of the field.
-Goat is stationary and remains in the same place.
+Goat is stationary and eating grass on the same place of the field
+Goat is stationary and remains in the same place
 Goat is turning its head towards the opposite of the camera
 Goat is turning its whole body from left side to right side
 Goat is walking behind everyone
@@ -646,9 +646,9 @@ Goat is walking towards the left side
 Goat is walking towards the opposite of the camera
 Goat moving towards the opposite of the camera is attacking another goat
 Goat on the field is going outside of the frame in left side
-Goat refrains from attacking the other goats.
-Horse approaching from the right side, is heading toward the opposite side of the camera.
-Horse coming from the right side, is going toward the opposite side of the camera.
+Goat refrains from attacking the other goats
+Horse approaching from the right side, is heading toward the opposite side of the camera
+Horse coming from the right side, is going toward the opposite side of the camera
 Horse coming inside of the frame in right side is going outside of the frame in left side from the race field
 Horse coming inside of the frame in right side is running on the race field
 Horse coming into frame from right side is going outside of frame in right side
@@ -659,10 +659,10 @@ Horse entering into frame from right side is going outside of the frame in left 
 Horse entering into frame from right side is going outside of the frame in right side
 Horse entering into frame from right side is going slower than others
 Horse entering into frame from right side is going towards to the left side
-Horse is asserting dominance in the fight with another horse.
-Horse is attempting to kick another horse with its hind legs.
+Horse is asserting dominance in the fight with another horse
+Horse is attempting to kick another horse with its hind legs
 Horse is being controlled by a person
-Horse is being dominated during the fight with another Horse.
+Horse is being dominated during the fight with another Horse
 Horse is falling ahead of everyone
 Horse is falling behind everyone
 Horse is fighting with another horse
@@ -673,12 +673,12 @@ Horse is going towards the left side
 Horse is going towards the opposite of the camera
 Horse is going towards the right side
 Horse is kicking something with its front left leg
-Horse is making a U-turn.
+Horse is making a U-turn
 Horse is moving its body from camera side towards the right side
 Horse is running faster than others on the race field
 Horse is turning backward
 Horse is turning its head slightly left side while running on the ground
-Horse is using its hind legs to kick another horse.
+Horse is using its hind legs to kick another horse
 Horse is using its left front leg to kick something
 Horse moving on the field is going outside of the frame in right side
 Horse on the field is coming towards the camera
@@ -695,7 +695,7 @@ Horse running on the road is going towards the left side
 Horse running towards the camera is going outside of the frame in right side
 Horse running towards the left side is coming towards the camera side
 Lizard is being moved by person's hand
-Lizard is consuming its food.
+Lizard is consuming its food
 Lizard is consuming the food thrown to it by someone
 Lizard is eating its food
 Lizard is eating the food thrown to it by someone
@@ -712,8 +712,8 @@ Lizard is moving
 Lizard is moving in the sunny side
 Lizard is moving its body from left side towards the right side during fighting
 Lizard is moving its body from right side towards the left side during fighting
-Lizard is searching for something in the sand.
-Lizard is stationary and remains in the same place.
+Lizard is searching for something in the sand
+Lizard is stationary and remains in the same place
 Lizard is taking food from the floor
 Lizard is turning towards the left side
 Monkey coming from right side is attacking another monkey
@@ -733,13 +733,13 @@ Monkey is attacking another monkey
 Monkey is being attacked by another monkey
 Monkey is being attacked by three monkey
 Monkey is being attacked by two monkey
-Monkey is being dominated during the fight with another Monkey.
+Monkey is being dominated during the fight with another Monkey
 Monkey is being pushed by another monkey
-Monkey is cuddling another monkey.
+Monkey is cuddling another monkey
 Monkey is drinking water from boat
 Monkey is drinking water from lake
 Monkey is eating the banana peel
-Monkey is embracing another monkey.
+Monkey is embracing another monkey
 Monkey is fighting with another monkey
 Monkey is fighting with three monkeys
 Monkey is fighting with two monkeys
@@ -801,8 +801,8 @@ Motorcycle is going towards the left side
 Motorcycle is going towards the right side
 Motorcycle is making U turn
 Motorcycle is making u turn
-Motorcycle is maneuvering in circles around a scooter.
-Motorcycle is stationary and remains in the same place.
+Motorcycle is maneuvering in circles around a scooter
+Motorcycle is stationary and remains in the same place
 One horse comes in front of another horse, while the second horse positions itself behind the first
 Panda is being pushed by another panda
 Panda is facing its face at the opposite of the camera
@@ -851,7 +851,7 @@ Parrot is nibbling on the neck of another parrot
 Parrot is picking dry straw
 Parrot is refraining from attacking another parrot
 Parrot is searching for something on person's hand
-Parrot is shifting its head from a backward position to a forward position.
+Parrot is shifting its head from a backward position to a forward position
 Parrot is trying to bite another parrot
 Parrot is trying to fly
 Parrot is turing its backside from left side towards the camera side
@@ -884,8 +884,8 @@ Person is being offered fruit by another person
 Person is clapping continuously
 Person is clapping continuously while walking backwards
 Person is coming inside of the frame from left side is going outside of the frame in right side
-Person is crashing their face against the wall as they fall to the floor.
-Person is engaged in conversation using a mobile phone.
+Person is crashing their face against the wall as they fall to the floor
+Person is engaged in conversation using a mobile phone
 Person is falling to the floor while trying to keep holding the puppy
 Person is feeding the bear
 Person is feeding the panda
@@ -896,11 +896,11 @@ Person is jumping with his bicycle while racing on the track
 Person is looking towards the left side
 Person is looking towards the left side while standing in front of the railing
 Person is maintaining balance on the sailboat by extending their entire body outside of it
-Person is moving away from the shore as the ship approaches.
+Person is moving away from the shore as the ship approaches
 Person is offering fruit to another person
 Person is picking up food from the ground
 Person is preparing to take a seat
-Person is providing food to the goat.
+Person is providing food to the goat
 Person is putting the hila hoop around his neck
 Person is receiving bird with both hands
 Person is seated on the right side of the road
@@ -921,7 +921,7 @@ Person is walking towards the railing
 Person is walking towards the right side
 Person is walking with a bicycle
 Person lying on the ground is rising up
-Person on a motorcycle is maneuvering in circles around a scooter.
+Person on a motorcycle is maneuvering in circles around a scooter
 Person on bicycle coming from opposite of camera is going outside of the frame in right side
 Person on bicycle crosses five lampposts
 Person on bicycle crosses four lampposts
@@ -952,8 +952,8 @@ Person on horse is going towards the opposite of the camera
 Person on horse is looking right side
 Person on horse is waving his left hand in the air
 Person on horse racing on the field is going outside of the frame in right side
-Person on horseback approaching from the right side, is heading toward the opposite side of the camera.
-Person on horseback coming from the right side, is going toward the opposite side of the camera.
+Person on horseback approaching from the right side, is heading toward the opposite side of the camera
+Person on horseback coming from the right side, is going toward the opposite side of the camera
 Person on motorcycle coming into frame from left side is going faster than others
 Person on motorcycle coming into frame from left side is going towards the opposite of the camera
 Person on motorcycle coming into frame from left side is racing on the track
@@ -976,8 +976,8 @@ Person on motorcycle is going towards the left side
 Person on motorcycle is going towards the right side
 Person on motorcycle is making U turn
 Person on motorcycle is making u turn
-Person on the bicycle passes by five lampposts.
-Person on the bicycle passes by four lampposts.
+Person on the bicycle passes by five lampposts
+Person on the bicycle passes by four lampposts
 Person on the bike is making a left turn
 Person on the bike is making a right turn
 Person on the boat is adjusting his hat during collision
@@ -992,8 +992,8 @@ Person on the sailboat is controlling the tiller
 Person on the sailboat is moving his right hand
 Person on the ship is going outside of the frame from top side
 Person on the stage is going outside of the frame from right side
-Person riding a horse, approaching from the right side, is heading toward the opposite side of the camera.
-Person riding a horse, coming from the right side, is going toward the opposite side of the camera.
+Person riding a horse, approaching from the right side, is heading toward the opposite side of the camera
+Person riding a horse, coming from the right side, is going toward the opposite side of the camera
 Person riding on horse is coming inside of the frame in right side and going outside of the frame in left side from the race field
 Person riding on horse is coming inside of the frame in right side and moving on the race field
 Person riding on horse is going outside of the frame in left side from the race field
@@ -1013,7 +1013,7 @@ Pigeon is eating food from the floor
 Pigeon is going towards the left side and then going towards the camera
 Pigeon is going towards the right side and then going opposite of the camera
 Pigeon is moving in the cage
-Pigeon is stationary and remains in the same place.
+Pigeon is stationary and remains in the same place
 Pigeon is walking behind the plastic bowl
 Pigeon is walking in the cage
 Poultry coming from the ground is moving on the upper side
@@ -1033,7 +1033,7 @@ Poultry is going from right side towards the left side
 Poultry is keeping its left leg on the food container
 Poultry is keeping its one leg on the food container
 Poultry is keeping its right leg on the food container
-Poultry is stationary and remains in the same place.
+Poultry is stationary and remains in the same place
 Poultry is walking a short distance
 Poultry is walking over the food
 Poultry moving on the upper side is coming down to the ground
@@ -1043,7 +1043,7 @@ Poultry walking in the room is going outside of the frame in left side
 Poultry walking in the room is going towards the left side
 Puppy is being pushed by another puppy while playing
 Puppy is getting released from person
-Puppy is going between the front and back legs of another puppy.
+Puppy is going between the front and back legs of another puppy
 Puppy is looking outside from truck tailgate
 Puppy is lying down on the ground while playing
 Puppy is making U-turn
@@ -1057,13 +1057,13 @@ Rabbit coming into the frame from left side is joining with other rabbits
 Rabbit coming into the frame from right side is going outside of the frame in right side
 Rabbit coming out from left side is joining with other rabbits
 Rabbit is attempting to go over another rabbit
-Rabbit is descending to the ground.
+Rabbit is descending to the ground
 Rabbit is eating leaves
 Rabbit is falling down on the ground
 Rabbit is searching for something at the upper part of the cage
 Rabbit is walking over the food
 Rabbit on the open ground is going outside of the frame in right side
-Rabbit remains stationary while consuming its food in one location.
+Rabbit remains stationary while consuming its food in one location
 Scooter is being parked in front of a building
 Scooter is being parked inside of a building
 Scooter is coming inside of the frame from left side is going outside of the frame in right side
@@ -1077,7 +1077,7 @@ Sheep is looking for something on the field
 Sheep is looking towards the camera
 Sheep is turing to the left side
 Sheep moving on the area is going outside of the frame in right side
-Sheep that are walking are assembling in front of the gate.
+Sheep that are walking are assembling in front of the gate
 Sheep walking on the area is going towards the right side
 Sheep walking on the field is standing on the field
 Ship is anchored at port
@@ -1087,7 +1087,7 @@ Ship is crashing with another ship while coming towards the shore
 Ship is crashing with boat
 Ship is docked at port
 Ship is moving towards the boat
-Ship is stationary and remains in the same place.
+Ship is stationary and remains in the same place
 Speedboat is going from left side towards the right side
 Speedboat is jumping over the water
 Speedboat is passing by the splashing water
@@ -2200,12 +2200,12 @@ The zebra wrestles with another zebra
 Tiger entering into frame from left side is ling on the ground
 Tiger entering into frame from left side is lying down on a wooden bed
 Tiger entering into frame from right side is walking
-Tiger is asserting dominance in the fight with another tiger.
+Tiger is asserting dominance in the fight with another tiger
 Tiger is attacking another tiger
-Tiger is attempting to bite another tiger.
+Tiger is attempting to bite another tiger
 Tiger is being attacked by another tiger
 Tiger is being disturbed by another tiger
-Tiger is being dominated during the fight with another tiger.
+Tiger is being dominated during the fight with another tiger
 Tiger is being followed by another tiger
 Tiger is being touched another tiger backside with its front right leg
 Tiger is blocking the camera view
@@ -2304,7 +2304,7 @@ Vehicle is stationary and parked along the side of the road
 Vehicle is stationary and parked on the left side of the road
 Vehicle is stationary and parked on the right side of the road
 Vehicle is stationary and parked on the road
-Vehicle is stationary and remains in the same place.
+Vehicle is stationary and remains in the same place
 Vehicle on the road is going outside of the frame from right side
 Vehicle on the road is going outside of the frame in left side
 Vehicle on the road is going outside of the frame in right side
@@ -2343,7 +2343,7 @@ Zebra is running towards the left side
 Zebra is running towards the opposite of the camera
 Zebra is running towards the right side
 Zebra is searching for something on the ground
-Zebra is stationary and remains in the same place.
+Zebra is stationary and remains in the same place
 Zebra is trying to save itself from tiger's paw
 Zebra is walking from left side towards the right side
 Zebra is walking from the left side corner of the boundary towards the right side
@@ -2357,17 +2357,17 @@ Zebra walking on the field is going outside of the frame in right side
 Zebra walking on the field is going towards the right side
 Zebra walking on the field is standing in left side
 Zebra, initially moving towards the camera, is briefly going to the left side
-cat is being attacked by another cat
-cat is walking beneath the wooden stair
-fish entering into frame from bottom side is moving at the bottom of the aquarium.
-fish entering into frame from bottom side is swimming at the bottom of the aquarium.
-fish entering into frame from bottom-right corner side is moving at the bottom of the aquarium.
-fish entering into frame from bottom-right corner side is swimming at the bottom of the aquarium.
-fish entering into frame from right side is moving at the middle of the aquarium.
-fish entering into frame from right side is swimming at the bottom of the aquarium.
-fish entering into frame from right side is swimming at the middle of the aquarium.
-fish is swimming at the bottom of the aquarium.
-fish is swimming at the middle of the aquarium.
-fish is swimming at the top of the aquarium.
-goat is grazing on leaves from a bush
-puppy is on top of another puppy
+Cat is being attacked by another cat
+Cat is walking beneath the wooden stair
+Fish entering into frame from bottom side is moving at the bottom of the aquarium
+Fish entering into frame from bottom side is swimming at the bottom of the aquarium
+Fish entering into frame from bottom-right corner side is moving at the bottom of the aquarium
+Fish entering into frame from bottom-right corner side is swimming at the bottom of the aquarium
+Fish entering into frame from right side is moving at the middle of the aquarium
+Fish entering into frame from right side is swimming at the bottom of the aquarium
+Fish entering into frame from right side is swimming at the middle of the aquarium
+Fish is swimming at the bottom of the aquarium
+Fish is swimming at the middle of the aquarium
+Fish is swimming at the top of the aquarium
+Goat is grazing on leaves from a bush
+Puppy is on top of another puppy

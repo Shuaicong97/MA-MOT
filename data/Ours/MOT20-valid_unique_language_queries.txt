@@ -69,8 +69,8 @@ A person moves from behind another person and goes beside that person
 A person moves her jacket from one hand to another
 A person moves her shoulder to avoid colliding with another person
 A person observes around him
-A person places her hands behind her back to carry the bag.
-A person positions hers hands behind her back to hold the bag.
+A person places her hands behind her back to carry the bag
+A person positions hers hands behind her back to hold the bag
 A person proceeds to the right direction
 A person put both hands on his head
 A person puts away his phone and looks up
@@ -92,7 +92,7 @@ A person reduces his running pace
 A person reverses their direction and starts walking back
 A person rotates and faces right
 A person shakes his hand with another person
-A person shifts their jacket from one hand to the other.
+A person shifts their jacket from one hand to the other
 A person sits down
 A person slows down running
 A person slows down walking and looks back
@@ -151,7 +151,7 @@ A person taps on the back of another person with his hand
 A person throws something in the bin
 A person throws something in the trash
 A person throws trash in the bin
-A person transfers their jacket from right hand to the left.
+A person transfers their jacket from right hand to the left
 A person turns and looks back
 A person turns around and faces right
 A person turns around and looks back
