@@ -33,9 +33,8 @@ def get_unique_objects(file_a, file_b, output_file):
         json.dump(unique_objects, fo, indent=4)
 
 
-# 使用示例
-# get_unique_objects('../../data/Ours/OVIS-training.json', '../../data/Ours/OVIS-training-doubled-3.json', 'unique_objects.json')
-# get_unique_objects('../../data/Ours/OVIS-valid.json', '../../data/Ours/OVIS-valid-doubled-3.json', 'unique_objects-valid.json')
+get_unique_objects('../../data/Ours/OVIS-training.json', '../rephrase_queries/OVIS-training-doubled.json', 'unique_objects_ovis-training.json')
+get_unique_objects('../../data/Ours/OVIS-valid.json', '../rephrase_queries/OVIS-valid-doubled.json', 'unique_objects_ovis-valid.json')
 
 def add_raw_sentences(unique_file, file_a):
     # 读取unique.json和A.json的内容
@@ -54,11 +53,10 @@ def add_raw_sentences(unique_file, file_a):
                 unique_obj["End"] == a_obj["End"]):
                 # 将A.json中的Language Query赋值给unique.json的Raw sentence
                 unique_obj["Raw sentence"] = a_obj["Language Query"]
-                print(a_obj["Language Query"])
 
     # 将更新后的unique.json保存回去
     with open(unique_file, 'w') as fu:
         json.dump(unique_data, fu, indent=4)
 
-# add_raw_sentences('unique_objects.json', '../../data/Ours/OVIS-training.json')
-add_raw_sentences('unique_objects-valid.json', '../../data/Ours/OVIS-valid.json')
+add_raw_sentences('unique_objects_ovis-training.json', '../../data/Ours/OVIS-training.json')
+add_raw_sentences('unique_objects_ovis-valid.json', '../../data/Ours/OVIS-valid.json')

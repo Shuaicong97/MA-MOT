@@ -4,8 +4,10 @@ import shutil
 
 
 # 假设文件路径和目标目录
-input_file = "../../data/Ours/OVIS-training.json"
-output_dir = "../../data/refer-ovis/expression"
+input_ovis_training_file = "../../data/Ours/OVIS-training.json"
+output_ovis_training_path = "../../data/refer-ovis/expression/training"
+input_ovis_valid_file = "../../data/Ours/OVIS-valid.json"
+output_ovis_valid_path = "../../data/refer-ovis/expression/valid"
 
 def clear_folder(folder_path):
     # 检查文件夹是否存在
@@ -26,7 +28,8 @@ def clear_folder(folder_path):
 
     print(f"已清空文件夹：{folder_path}")
 
-clear_folder(output_dir)
+clear_folder(output_ovis_training_path)
+clear_folder(output_ovis_valid_path)
 
 def gen_original_json(input_f, output):
     with open(input_f, "r", encoding="utf-8") as f:
@@ -76,7 +79,9 @@ def gen_original_json(input_f, output):
 
     print("所有 JSON 文件已生成！")
 
-gen_original_json(input_file, output_dir)
+gen_original_json(input_ovis_training_file, output_ovis_training_path)
+gen_original_json(input_ovis_valid_file, output_ovis_valid_path)
+
 
 def gen_rephrased_json(input_f, output):
     with open(input_f, "r", encoding="utf-8") as f:
@@ -132,5 +137,6 @@ def gen_rephrased_json(input_f, output):
 
     print("Rephrased内容生成！")
 
-gen_rephrased_json('unique_objects.json', output_dir)
+gen_rephrased_json('unique_objects_ovis-training.json', output_ovis_training_path)
+gen_rephrased_json('unique_objects_ovis-valid.json', output_ovis_valid_path)
 

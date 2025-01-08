@@ -1,11 +1,11 @@
 import os
 import json
 
-
 # 输入目录路径
 gt_train_dir = "../../data/Ours/ovis/train/GTs"  # 替换为实际目录a路径
 info_json_path = "video_info.json"  # 替换为实际b.json路径
 output_dir = "../../data/refer-ovis/OVIS/labels_with_ids"  # 替换为目标输出路径
+
 
 # 加载 b.json 数据
 with open(info_json_path, "r") as f:

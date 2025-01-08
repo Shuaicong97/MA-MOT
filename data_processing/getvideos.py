@@ -28,6 +28,7 @@ def get_videos(file_path):
     video_name_path = file_name_without_extension + '-videos-name.json'
     with open(video_name_path, 'w') as json_file:
         json.dump(videos_list, json_file)
+        print(video_name_path)
 
     return videos_list
 
