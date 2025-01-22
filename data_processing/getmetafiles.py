@@ -151,7 +151,7 @@ def generate_yvos_meta_expressions(input_path, output_path, isTrain):
     with open(output_path, 'w') as json_file:
         json.dump(result, json_file, indent=4)
 
-ovis_train_json = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/OVIS-training-doubled-3.json'
+ovis_train_json = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data_processing/rephrase_queries/OVIS-training-doubled.json'
 ovis_valid_json = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/OVIS-valid-doubled-3.json'
 meta_train_file = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/Rephrased/ovis/meta_expressions/train/meta_expressions.json'
 meta_valid_file = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/Rephrased/ovis/meta_expressions/valid/meta_expressions.json'
@@ -167,11 +167,11 @@ def make_dir(path):
         print(f"Directory {directory} already exists.")
 
 
-make_dir(meta_train_file)
-make_dir(meta_valid_file)
-
-generate_yvos_meta_expressions(ovis_train_json, meta_train_file, True)
-generate_yvos_meta_expressions(ovis_valid_json, meta_valid_file, False)
+# make_dir(meta_train_file)
+# make_dir(meta_valid_file)
+#
+# generate_yvos_meta_expressions(ovis_train_json, meta_train_file, True)
+# generate_yvos_meta_expressions(ovis_valid_json, meta_valid_file, False)
 
 
 def sort_json_by_obj_id(file_path, output_file):
@@ -190,7 +190,7 @@ def sort_json_by_obj_id(file_path, output_file):
     print(f"Sorted data has been saved to {output_file}")
 
 
-sort_json_by_obj_id(meta_train_file, meta_train_file)
+# sort_json_by_obj_id(meta_train_file, meta_train_file)
 
 ovis_train_videos = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/OVIS/train'
 ovis_valid_videos = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/OVIS/valid'
@@ -302,8 +302,8 @@ def generate_train_meta_json(input_path, output_path):
         json.dump(result, json_file, indent=4)
 
 
-train_meta_file = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/Rephrased/ovis/train/meta.json'
-make_dir(train_meta_file)
+train_meta_file = 'meta.json'
+# make_dir(train_meta_file)
 # generate_train_meta_json(ovis_train_json, train_meta_file)
 
 frame_length_path = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/Information/train_frames_length.json'
@@ -351,5 +351,23 @@ def generate_gt_file():
 
 
 # generate_gt_file()
+
+
+import json
+
+# 读取 JSON 文件
+with open('/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/ovis/train/meta.json', 'r', encoding='utf-8') as file:
+    data = json.load(file)
+
+# 遍历所有对象并检查 category 属性
+for video_id, video_data in data.get('videos', {}).items():
+    for obj_id, obj_data in video_data.get('objects', {}).items():
+        if obj_data.get('category') == 'Vehicle':
+            obj_data['category'] = 'Vehical'
+
+# 将修改后的内容保存回文件
+with open('/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/ovis/train/meta.json', 'w', encoding='utf-8') as file:
+    json.dump(data, file, ensure_ascii=False, indent=4)
+
 
 print('Process completed')

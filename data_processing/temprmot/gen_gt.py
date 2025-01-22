@@ -2,9 +2,9 @@ import os
 import json
 
 # 输入目录路径
-gt_train_dir = "../../data/Ours/ovis/train/GTs"  # 替换为实际目录a路径
-info_json_path = "video_info.json"  # 替换为实际b.json路径
-output_dir = "../../data/refer-ovis/OVIS/labels_with_ids"  # 替换为目标输出路径
+gt_train_dir = "../../data/MOT20/train"  # 替换为实际目录a路径
+info_json_path = "mot_video_info.json"  # 替换为实际b.json路径
+output_dir = "../../data/refer-mot20/MOT20/labels_with_ids"  # 替换为目标输出路径
 
 
 # 加载 b.json 数据
@@ -31,7 +31,7 @@ for folder_name in os.listdir(gt_train_dir):
     height = matched_entry["height"]
 
     # 读取 gt.txt 文件
-    gt_file_path = os.path.join(folder_path, "gt.txt")
+    gt_file_path = os.path.join(folder_path, "gt/gt.txt")
     if not os.path.isfile(gt_file_path):
         print(f"{gt_file_path} 文件不存在，跳过。")
         continue

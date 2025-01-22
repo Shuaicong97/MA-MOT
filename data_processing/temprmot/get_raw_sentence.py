@@ -33,8 +33,8 @@ def get_unique_objects(file_a, file_b, output_file):
         json.dump(unique_objects, fo, indent=4)
 
 
-get_unique_objects('../../data/Ours/OVIS-training.json', '../rephrase_queries/OVIS-training-doubled.json', 'unique_objects_ovis-training.json')
-get_unique_objects('../../data/Ours/OVIS-valid.json', '../rephrase_queries/OVIS-valid-doubled.json', 'unique_objects_ovis-valid.json')
+get_unique_objects('../../data/Ours/MOT20-training.json', '../rephrase_queries/MOT20-training-doubled.json', 'unique_objects_mot20-training.json')
+get_unique_objects('../../data/Ours/MOT20-valid.json', '../rephrase_queries/MOT20-valid-doubled.json', 'unique_objects_mot20-valid.json')
 
 def add_raw_sentences(unique_file, file_a):
     # 读取unique.json和A.json的内容
@@ -58,5 +58,5 @@ def add_raw_sentences(unique_file, file_a):
     with open(unique_file, 'w') as fu:
         json.dump(unique_data, fu, indent=4)
 
-add_raw_sentences('unique_objects_ovis-training.json', '../../data/Ours/OVIS-training.json')
-add_raw_sentences('unique_objects_ovis-valid.json', '../../data/Ours/OVIS-valid.json')
+add_raw_sentences('unique_objects_mot20-training.json', '../../data/Ours/MOT20-training.json')
+add_raw_sentences('unique_objects_mot20-valid.json', '../../data/Ours/MOT20-valid.json')
