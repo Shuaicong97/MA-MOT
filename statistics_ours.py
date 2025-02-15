@@ -115,10 +115,10 @@ def get_verb_and_frequency_from_sentences(dataset, sentences, output_file_path):
     print("Data saved to:", output_file_path)
 
 
-get_verb_and_frequency_from_sentences('all', unique_queries_all, 'data/generated_by_code/verbs_json/verbs_ours_all.json')
-get_verb_and_frequency_from_sentences('mot17', unique_queries_mot17, 'data/generated_by_code/verbs_json/verbs_mot17.json')
-get_verb_and_frequency_from_sentences('ovis', unique_queries_ovis, 'data/generated_by_code/verbs_json/verbs_ovis.json')
-get_verb_and_frequency_from_sentences('mot20', unique_queries_mot20, 'data/generated_by_code/verbs_json/verbs_mot20.json')
+get_verb_and_frequency_from_sentences('all', unique_queries_all, 'data/generated_by_code/verbs_json/verbs/verbs_ours_all.json')
+get_verb_and_frequency_from_sentences('mot17', unique_queries_mot17, 'data/generated_by_code/verbs_json/verbs/verbs_mot17.json')
+get_verb_and_frequency_from_sentences('ovis', unique_queries_ovis, 'data/generated_by_code/verbs_json/verbs/verbs_ovis.json')
+get_verb_and_frequency_from_sentences('mot20', unique_queries_mot20, 'data/generated_by_code/verbs_json/verbs/verbs_mot20.json')
 
 
 def get_subject_frequency_from_sentences(sentences, output_file_path):

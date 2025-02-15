@@ -3504,7 +3504,7 @@
         "Language Query": "The monkey takes an object from the box",
         "Type": "M",
         "IDs": "4",
-        "Start": "16",
+        "Start": "17",
         "End": "21",
         "Revision": ""
     },
@@ -4031,7 +4031,7 @@
         "QID": "",
         "Language Query": "Bird is disturbing other birds",
         "Type": "M",
-        "IDs": "6",
+        "IDs": "5",
         "Start": "25",
         "End": "51",
         "Revision": ""
@@ -4042,7 +4042,7 @@
         "QID": "",
         "Language Query": "Bird is disturbing other birds",
         "Type": "M",
-        "IDs": "7",
+        "IDs": "5",
         "Start": "79",
         "End": "87",
         "Revision": ""
@@ -4680,7 +4680,7 @@
         "QID": "",
         "Language Query": "Monkey is going in front of another monkey",
         "Type": "M",
-        "IDs": "7",
+        "IDs": "2",
         "Start": "7",
         "End": "21",
         "Revision": ""
@@ -10885,7 +10885,7 @@
         "Language Query": "The monkey retrieves an object from the box.",
         "Type": "M",
         "IDs": "4",
-        "Start": "16",
+        "Start": "17",
         "End": "21",
         "Revision": ""
     },
@@ -11984,7 +11984,7 @@
         "QID": "",
         "Language Query": "A monkey is moving in front of another monkey.",
         "Type": "M",
-        "IDs": "7",
+        "IDs": "2",
         "Start": "7",
         "End": "21",
         "Revision": ""

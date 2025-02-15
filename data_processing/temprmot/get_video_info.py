@@ -2,8 +2,8 @@ import json
 from pathlib import Path
 
 # 输入 JSON 文件路径
-input_json_path = "../../data/OVIS/annotations_train.json"
-output_json_path = "video_info.json"
+input_json_path = "../../data/OVIS/annotations_valid.json"
+output_json_path = "video_info_valid.json"
 
 # 加载 JSON 文件
 with open(input_json_path, "r") as f:

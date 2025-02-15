@@ -307,11 +307,14 @@ train_meta_file = 'meta.json'
 # generate_train_meta_json(ovis_train_json, train_meta_file)
 
 frame_length_path = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/Information/train_frames_length.json'
-output_directory = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/ovis/train/GTs'
+output_directory = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/OVIS_GTs'
 
 if not os.path.exists(output_directory):
     os.makedirs(output_directory)
 
+def extract_frame_number(file_name):
+    # 提取帧号部分，例如 "img_0000053.jpg" 提取为 53
+    return int(file_name.split('_')[-1].split('.')[0])
 
 def generate_gt_file():
     with open(frame_length_path, 'r') as file:
@@ -333,41 +336,47 @@ def generate_gt_file():
                 with open(file_path, 'w') as f:
                     object_id_counter = 0
 
+                    frame_numbers = sorted(extract_frame_number(name) for name in video['file_names'])
+
                     for annotation in data['annotations']:
-                        frame_id_counter = 1  # start frame ID from 1
                         if annotation['video_id'] == video_id:
                             object_id_counter += 1
-                            for bbox in annotation['bboxes']:
-                                if bbox is not None:
-                                    x, y, w, h = bbox
-                                    # last three parameters (1, 1, 1) are fake default
-                                    gt_line = f'{frame_id_counter}, {object_id_counter}, {x}, {y}, {w}, {h}, 1, 1, 1\n'
-                                    # print(f'{frame_id_counter}, {object_id_counter}, {x}, {y}, {w}, {h}, 1, 1, 1')
-                                    f.write(gt_line)
+                            bbox_index = 0
 
-                                frame_id_counter += 1
+                            # 遍历帧号与 bboxes
+                            for frame_index in frame_numbers:
+                                if bbox_index < len(annotation['bboxes']):
+                                    bbox = annotation['bboxes'][bbox_index]
+                                    if bbox is not None:
+                                        x, y, w, h = bbox
+                                        # 将帧号写入 gt.txt 文件
+                                        gt_line = f'{frame_index}, {object_id_counter}, {x}, {y}, {w}, {h}, 1, 1, 1\n'
+                                        f.write(gt_line)
+
+                                # 移动到下一个 bbox
+                                bbox_index += 1
 
     print("conversion to gt.txt complete.")
 
 
-# generate_gt_file()
+generate_gt_file()
 
 
-import json
-
-# 读取 JSON 文件
-with open('/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/ovis/train/meta.json', 'r', encoding='utf-8') as file:
-    data = json.load(file)
-
-# 遍历所有对象并检查 category 属性
-for video_id, video_data in data.get('videos', {}).items():
-    for obj_id, obj_data in video_data.get('objects', {}).items():
-        if obj_data.get('category') == 'Vehicle':
-            obj_data['category'] = 'Vehical'
-
-# 将修改后的内容保存回文件
-with open('/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/ovis/train/meta.json', 'w', encoding='utf-8') as file:
-    json.dump(data, file, ensure_ascii=False, indent=4)
-
-
-print('Process completed')
+# import json
+#
+# # 读取 JSON 文件
+# with open('/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/ovis/train/meta.json', 'r', encoding='utf-8') as file:
+#     data = json.load(file)
+#
+# # 遍历所有对象并检查 category 属性
+# for video_id, video_data in data.get('videos', {}).items():
+#     for obj_id, obj_data in video_data.get('objects', {}).items():
+#         if obj_data.get('category') == 'Vehicle':
+#             obj_data['category'] = 'Vehical'
+#
+# # 将修改后的内容保存回文件
+# with open('/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/ovis/train/meta.json', 'w', encoding='utf-8') as file:
+#     json.dump(data, file, ensure_ascii=False, indent=4)
+#
+#
+# print('Process completed')
