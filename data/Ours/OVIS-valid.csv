@@ -268,7 +268,7 @@ ID mark frame,Video,QID,Language Query,Type,IDs,Start,End,Revision
 ,ac8ecb27,,The car takes a right turn,M,2,13,30,
 ,ac8ecb27,,The car takes a right turn,M,3,40,63,
 ,ac8ecb27,,The car takes a right turn,M,4,53,66,
-,ac8ecb27,,The car disappears behind another car,M,5,60,62,
+,ac8ecb27,,The car disappears behind another car,M,5,50,55,
 ,ac8ecb27,,The car disappears from the frame to the right,M,1,14,19,
 ,ac8ecb27,,The car disappears behind another car,M,6,33,37,
 ,aaa8bd16,,The panda jumps on another panda,M,1,8,14,

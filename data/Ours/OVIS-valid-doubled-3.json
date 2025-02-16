@@ -2965,8 +2965,8 @@
         "Language Query": "The car disappears behind another car",
         "Type": "M",
         "IDs": "5",
-        "Start": "60",
-        "End": "62",
+        "Start": "50",
+        "End": "55",
         "Revision": ""
     },
     {
@@ -10357,8 +10357,8 @@
         "Language Query": "A car vanishes behind another car.",
         "Type": "M",
         "IDs": "5",
-        "Start": "60",
-        "End": "62",
+        "Start": "50",
+        "End": "55",
         "Revision": ""
     },
     {
