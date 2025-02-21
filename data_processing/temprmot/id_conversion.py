@@ -3,8 +3,10 @@ import csv
 
 # 定义路径
 root_dir = "/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Filtered Results by Annotation"  # 根目录，包含多个 video_name 文件夹
-output_dir = "/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data_processing/temprmot/id_conversion_gt"  # 处理后文件的存储目录
+output_dir = "/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data_processing/temprmot/id_conversion_gt_v2"  # 处理后文件的存储目录
 csv_file = "Id conversion - Our OVIS valid set.csv"  # CSV 数据文件路径
+
+os.makedirs(output_dir, exist_ok=True)
 
 # 读取 CSV，创建 { (video_id, ovis_id) -> annotation_id } 映射
 id_mapping = {}

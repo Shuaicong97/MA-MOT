@@ -33,8 +33,10 @@ def get_unique_objects(file_a, file_b, output_file):
         json.dump(unique_objects, fo, indent=4)
 
 
-get_unique_objects('../../data/Ours/OVIS-training.json', '../rephrase_queries/OVIS-training-doubled.json', 'unique_objects_ovis-training.json')
-get_unique_objects('../../data/Ours/OVIS-valid.json', '../rephrase_queries/OVIS-valid-doubled.json', 'unique_objects_ovis-valid.json')
+get_unique_objects('../../data/Ours/OVIS-training.json',
+                   '../rephrase_queries/rephrased annotations/OVIS-training-doubled.json', 'unique_objects_ovis-training.json')
+get_unique_objects('../../data/Ours/OVIS-valid.json',
+                   '../rephrase_queries/rephrased annotations/OVIS-valid-doubled.json', 'unique_objects_ovis-valid.json')
 
 def add_raw_sentences(unique_file, file_a):
     # 读取unique.json和A.json的内容

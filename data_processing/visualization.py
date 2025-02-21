@@ -2,10 +2,11 @@ import json
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 
-verbs_ours_all = '../data/generated_by_code/verbs_json/verbs_ours_all.json'
-verbs_mot17 = '../data/generated_by_code/verbs_json/verbs_mot17.json'
-verbs_ovis = '../data/generated_by_code/verbs_json/verbs_ovis.json'
-verbs_mot20 = '../data/generated_by_code/verbs_json/verbs_mot20.json'
+# remove left and rightward as adj. or adv.
+verbs_ours_all = '../data/generated_by_code/verbs_json/verbs/verbs_ours_all.json'
+verbs_mot17 = '../data/generated_by_code/verbs_json/verbs/verbs_mot17.json'
+verbs_ovis = '../data/generated_by_code/verbs_json/verbs/verbs_ovis.json'
+verbs_mot20 = '../data/generated_by_code/verbs_json/verbs/verbs_mot20.json'
 
 
 def draw_wordcloud(input_path, output_path):
