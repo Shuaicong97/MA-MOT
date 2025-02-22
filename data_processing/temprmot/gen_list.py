@@ -22,7 +22,7 @@
 import os
 
 # 定义目标目录
-directory_A = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/refer-ovis/OVIS/labels_with_ids'
+directory_A = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/refer-mot20/MOT20/labels_with_ids'
 
 # 用于保存文件路径的列表
 txt_files = []
@@ -33,16 +33,18 @@ for root, dirs, files in os.walk(directory_A):
         if file.endswith('.txt'):  # 判断是否是 txt 文件
             # 获取从 OVIS 开始的路径部分
             relative_path = os.path.relpath(root, directory_A)
-            full_path = os.path.join('OVIS', relative_path, file)
-            txt_files.append(full_path)  # 保存从 OVIS 开始的文件路径
+            full_path = os.path.join('MOT20', relative_path, file)
+            # 跳过 test 目录下的文件
+            if 'MOT20-05' not in full_path and 'MOT20-03' not in full_path:
+                txt_files.append(full_path)
 
 txt_files.sort(key=lambda x: (x.split('/')[1], int(x.split('/')[-1].split('.')[0])))
 
 # 将所有文件路径写入 refer-ovis.train 文件
-with open('refer-ovis.train', 'w') as f:
+with open('refer-mot20.train', 'w') as f:
     for txt_file in txt_files:
-        adjusted_path = txt_file.replace('OVIS/', 'OVIS/training/').replace('.txt', '.jpg')
+        adjusted_path = txt_file.replace('MOT20/', 'MOT20/training/').replace('.txt', '.jpg')
         f.write(adjusted_path + '\n')
 
-print("所有txt文件路径已保存至 'refer-ovis.train' 文件中。")
+print("所有txt文件路径已保存至 'refer-mot20.train' 文件中。")
 

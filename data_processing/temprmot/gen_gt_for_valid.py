@@ -2,9 +2,9 @@ import os
 import json
 
 # 输入目录路径
-gt_train_dir = "id_conversion_gt_v2"  # 替换为实际目录a路径
-info_json_path = "video_info_valid.json"  # 替换为实际b.json路径
-output_dir = "../../data/refer-ovis/OVIS/labels_with_ids/test"  # 替换为目标输出路径
+gt_train_dir = "/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/mot17-gt"  # 替换为实际目录a路径
+info_json_path = "mot_video_info.json"  # 替换为实际b.json路径
+output_dir = "../../data/refer-mot17/MOT17/labels_with_ids/test"  # 替换为目标输出路径
 
 # 加载 b.json 数据
 with open(info_json_path, "r") as f:
@@ -25,7 +25,7 @@ for folder_name in os.listdir(gt_train_dir):
         continue  # 跳过非文件夹
 
     # 构造文件路径
-    file_path = os.path.join(folder_path, f"{folder_name}.txt")
+    file_path = os.path.join(folder_path, f"gt/gt.txt")
     if not os.path.isfile(file_path):
         print(f"{file_path} 文件不存在，跳过。")
         continue
@@ -49,7 +49,7 @@ for folder_name in os.listdir(gt_train_dir):
     with open(file_path, "r") as gt_file:
         for line in gt_file:
             # 提取数据行的前六个字段
-            frame_id, obj_id, x, y, w, h, *_ = map(float, line.strip().split(" "))
+            frame_id, obj_id, x, y, w, h, *_ = map(float, line.strip().split(","))
             frame_id = int(frame_id)
             obj_id = int(obj_id)
 

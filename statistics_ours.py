@@ -35,12 +35,12 @@ def generate_all_jsons():
 #          'data/generated_by_code/ours_json/gta_mot17_test_ashiq.json',
 #          'data/generated_by_code/ours_json/gta_mot17_test_seenat.json']
 
-mot17_training_rephrased = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data_processing/rephrase_queries/MOT17-training-doubled.json'
-mot17_valid_rephrased = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data_processing/rephrase_queries/MOT17-valid-doubled.json'
-mot20_training_rephrased = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data_processing/rephrase_queries/MOT20-training-doubled.json'
-mot20_valid_rephrased = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data_processing/rephrase_queries/MOT20-valid-doubled.json'
-ovis_training_rephrased = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data_processing/rephrase_queries/OVIS-training-doubled.json'
-ovis_valid_rephrased = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data_processing/rephrase_queries/OVIS-valid-doubled.json'
+mot17_training_rephrased = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data_processing/rephrase_queries/rephrased_annotations/MOT17-training-doubled.json'
+mot17_valid_rephrased = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data_processing/rephrase_queries/rephrased_annotations/MOT17-valid-doubled.json'
+mot20_training_rephrased = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data_processing/rephrase_queries/rephrased_annotations/MOT20-training-doubled.json'
+mot20_valid_rephrased = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data_processing/rephrase_queries/rephrased_annotations/MOT20-valid-doubled.json'
+ovis_training_rephrased = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data_processing/rephrase_queries/rephrased_annotations/OVIS-training-doubled.json'
+ovis_valid_rephrased = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data_processing/rephrase_queries/rephrased_annotations/OVIS-valid-doubled.json'
 
 paths_all = [mot17_training_rephrased, mot17_valid_rephrased, mot20_training_rephrased, mot20_valid_rephrased, ovis_training_rephrased, ovis_valid_rephrased]
 
@@ -109,7 +109,7 @@ def get_word_count_distribution(unique_queries, output_path):
 
 
 
-get_word_count_distribution(unique_queries_all, '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/Visualization/word_count_distribution_all.png')
+# get_word_count_distribution(unique_queries_all, '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/Visualization/word_count_distribution_all.png')
 
 
 
