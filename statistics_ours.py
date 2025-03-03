@@ -109,7 +109,7 @@ def get_word_count_distribution(unique_queries, output_path):
 
 
 
-# get_word_count_distribution(unique_queries_all, '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/Visualization/word_count_distribution_all.png')
+get_word_count_distribution(unique_queries_all, '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/Visualization/word_count_distribution_all.png')
 
 
 
@@ -125,10 +125,10 @@ def get_number_of_entries(file_paths):
     print(f"The number of items in all three datasets is: {total_entries}")
 
 
-# get_number_of_entries(paths_all)
-# get_number_of_entries(paths_mot17)
-# get_number_of_entries(paths_ovis)
-# get_number_of_entries(paths_mot20)
+get_number_of_entries(paths_all)
+get_number_of_entries(paths_mot17)
+get_number_of_entries(paths_ovis)
+get_number_of_entries(paths_mot20)
 
 # print()
 #
@@ -146,7 +146,7 @@ def get_verb_and_frequency_from_sentences(dataset, sentences, output_file_path):
         # type of verbs is <list>
         verbs = [token.text for token in doc if token.pos_ == 'VERB']
         if len(verbs) == 1 and verbs[0] in ('left', 'rightward'):
-            print(f"跳过的句子: {sentence}")
+            # print(f"跳过的句子: {sentence}")
             continue
         verbs_list.extend(verbs)
 
@@ -168,10 +168,10 @@ def get_verb_and_frequency_from_sentences(dataset, sentences, output_file_path):
     print("Data saved to:", output_file_path)
 
 
-# get_verb_and_frequency_from_sentences('all', unique_queries_all, 'data/generated_by_code/verbs_json/verbs/verbs_ours_all.json')
-# get_verb_and_frequency_from_sentences('mot17', unique_queries_mot17, 'data/generated_by_code/verbs_json/verbs/verbs_mot17.json')
-# get_verb_and_frequency_from_sentences('ovis', unique_queries_ovis, 'data/generated_by_code/verbs_json/verbs/verbs_ovis.json')
-# get_verb_and_frequency_from_sentences('mot20', unique_queries_mot20, 'data/generated_by_code/verbs_json/verbs/verbs_mot20.json')
+get_verb_and_frequency_from_sentences('all', unique_queries_all, 'data/generated_by_code/verbs_json/verbs/verbs_ours_all.json')
+get_verb_and_frequency_from_sentences('mot17', unique_queries_mot17, 'data/generated_by_code/verbs_json/verbs/verbs_mot17.json')
+get_verb_and_frequency_from_sentences('ovis', unique_queries_ovis, 'data/generated_by_code/verbs_json/verbs/verbs_ovis.json')
+get_verb_and_frequency_from_sentences('mot20', unique_queries_mot20, 'data/generated_by_code/verbs_json/verbs/verbs_mot20.json')
 
 
 def get_subject_frequency_from_sentences(sentences, output_file_path):
@@ -189,9 +189,9 @@ def get_subject_frequency_from_sentences(sentences, output_file_path):
 
 # get_subject_frequency_from_sentences(unique_queries_ovis, 'data/generated_by_code/subs_json/subs_ovis.json')
 
-# There are in total 7838 different kinds of queries.
+# There are in total 7863 different kinds of queries.
 # There are in total 1255 different kinds of queries in mot17.
-# There are in total 5474 different kinds of queries in ovis.
+# There are in total 5499 different kinds of queries in ovis.
 # There are in total 1127 different kinds of queries in mot20.
 # The number of items in all three datasets is: 19563
 # The number of different verbs (include tense) in all: 878

@@ -21,7 +21,7 @@ def draw_wordcloud(input_path, output_path):
     plt.imshow(wordcloud, interpolation='bilinear')
     plt.axis('off')
 
-    plt.savefig(output_path, format='png', dpi=300)
+    plt.savefig(output_path, format='png', dpi=300, bbox_inches='tight', pad_inches=0)
     # plt.show()
 
 

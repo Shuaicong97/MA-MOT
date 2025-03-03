@@ -34,8 +34,10 @@ video_expression_dict = {}
 
 video_expression_dict = process_json_file('data/Ref-YT/meta_expressions/test/meta_expressions.json',
                                           video_expression_dict)
+print(f"Total length of expression_dict: {len(video_expression_dict)}")  # 305
 video_expression_dict = process_json_file('data/Ref-YT/meta_expressions/train/meta_expressions.json',
                                           video_expression_dict)
+print(f"Total length of expression_dict: {len(video_expression_dict)}")  # 3776
 video_expression_dict = process_json_file('data/Ref-YT/meta_expressions/valid/meta_expressions.json',
                                           video_expression_dict)
 print(f"Total length of expression_dict: {len(video_expression_dict)}")  # 3978
@@ -70,7 +72,7 @@ def get_all_expressions(file_paths):
 
 
 unique_queries = get_all_expressions(paths)
-print(f'There are in total {len(unique_queries)} different kinds of queries.')  # 634
+print(f'There are in total {len(unique_queries)} different kinds of queries.')  # 634  14289
 
 
 def get_all_videos(file_paths):
@@ -117,4 +119,4 @@ def get_verb_and_frequency_from_sentences(sentences):
 
     print("Data saved to:", output_file_path)
 
-# get_verb_and_frequency_from_sentences(unique_expression_set)
+get_verb_and_frequency_from_sentences(unique_expression_set)

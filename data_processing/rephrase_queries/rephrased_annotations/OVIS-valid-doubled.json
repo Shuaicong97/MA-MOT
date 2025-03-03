@@ -1037,6 +1037,17 @@
         "ID mark frame": "",
         "Video": "e7ef3b9d",
         "QID": "",
+        "Language Query": "The boat swerves from the right to the left",
+        "Type": "M",
+        "IDs": "7",
+        "Start": "9",
+        "End": "25",
+        "Revision": ""
+    },
+    {
+        "ID mark frame": "",
+        "Video": "e7ef3b9d",
+        "QID": "",
         "Language Query": "The person turns the boat from the right to the left",
         "Type": "M",
         "IDs": "8",
@@ -3809,7 +3820,29 @@
         "ID mark frame": "",
         "Video": "1b664206",
         "QID": "",
+        "Language Query": "Horse is trotting in circles around a person",
+        "Type": "M",
+        "IDs": "6",
+        "Start": "1",
+        "End": "18",
+        "Revision": ""
+    },
+    {
+        "ID mark frame": "",
+        "Video": "1b664206",
+        "QID": "",
         "Language Query": "Person is giving commands to the horse",
+        "Type": "O",
+        "IDs": "7",
+        "Start": "1",
+        "End": "16",
+        "Revision": "Only one person"
+    },
+    {
+        "ID mark frame": "",
+        "Video": "1b664206",
+        "QID": "",
+        "Language Query": "Person is commanding the horse",
         "Type": "O",
         "IDs": "7",
         "Start": "1",
@@ -4029,7 +4062,29 @@
         "ID mark frame": "",
         "Video": "9323c19c",
         "QID": "",
+        "Language Query": "Bird is annoying other birds",
+        "Type": "M",
+        "IDs": "5",
+        "Start": "3",
+        "End": "10",
+        "Revision": ""
+    },
+    {
+        "ID mark frame": "",
+        "Video": "9323c19c",
+        "QID": "",
         "Language Query": "Bird is disturbing other birds",
+        "Type": "M",
+        "IDs": "5",
+        "Start": "25",
+        "End": "51",
+        "Revision": ""
+    },
+    {
+        "ID mark frame": "",
+        "Video": "9323c19c",
+        "QID": "",
+        "Language Query": "Bird is harassing other birds",
         "Type": "M",
         "IDs": "5",
         "Start": "25",
@@ -4060,6 +4115,17 @@
     },
     {
         "ID mark frame": "",
+        "Video": "9323c19c",
+        "QID": "",
+        "Language Query": "Bird is looping around the food container",
+        "Type": "M",
+        "IDs": "2",
+        "Start": "1",
+        "End": "87",
+        "Revision": ""
+    },
+    {
+        "ID mark frame": "",
         "Video": "7223bf62",
         "QID": "",
         "Language Query": "Bunny is sniffing on the bed sheet",
@@ -4074,6 +4140,17 @@
         "Video": "7223bf62",
         "QID": "",
         "Language Query": "Bunny is eating leaves",
+        "Type": "M",
+        "IDs": "2",
+        "Start": "1",
+        "End": "30",
+        "Revision": ""
+    },
+    {
+        "ID mark frame": "1",
+        "Video": "7223bf62",
+        "QID": "",
+        "Language Query": "Bunny is munching on leaves",
         "Type": "M",
         "IDs": "2",
         "Start": "1",
@@ -4213,6 +4290,17 @@
         "Revision": ""
     },
     {
+        "ID mark frame": "1",
+        "Video": "4027a35b",
+        "QID": "",
+        "Language Query": "Bunny is tussling with another bunny",
+        "Type": "M",
+        "IDs": "1",
+        "Start": "1",
+        "End": "28",
+        "Revision": ""
+    },
+    {
         "ID mark frame": "",
         "Video": "4027a35b",
         "QID": "",
@@ -4301,6 +4389,17 @@
         "Revision": ""
     },
     {
+        "ID mark frame": "",
+        "Video": "1806a28d",
+        "QID": "",
+        "Language Query": "The airplane is outpacing another airplane",
+        "Type": "M",
+        "IDs": "1",
+        "Start": "1",
+        "End": "108",
+        "Revision": ""
+    },
+    {
         "ID mark frame": "1",
         "Video": "1806a28d",
         "QID": "",
@@ -4381,6 +4480,17 @@
         "ID mark frame": "",
         "Video": "957c33a7",
         "QID": "",
+        "Language Query": "Bird jabbed another bird with its beak",
+        "Type": "M",
+        "IDs": "4",
+        "Start": "13",
+        "End": "15",
+        "Revision": ""
+    },
+    {
+        "ID mark frame": "",
+        "Video": "957c33a7",
+        "QID": "",
         "Language Query": "Bird is going towards left side",
         "Type": "M",
         "IDs": "1",
@@ -4444,6 +4554,17 @@
         "Revision": ""
     },
     {
+        "ID mark frame": "1",
+        "Video": "768c5810",
+        "QID": "",
+        "Language Query": "Cow is contending with sheep",
+        "Type": "M",
+        "IDs": "2",
+        "Start": "1",
+        "End": "60",
+        "Revision": ""
+    },
+    {
         "ID mark frame": "",
         "Video": "454c7bb5",
         "QID": "",
@@ -4488,10 +4609,32 @@
         "Revision": ""
     },
     {
+        "ID mark frame": "",
+        "Video": "97f5bbc8",
+        "QID": "",
+        "Language Query": "Bear is struggling with another bear",
+        "Type": "M",
+        "IDs": "1",
+        "Start": "1",
+        "End": "18",
+        "Revision": ""
+    },
+    {
         "ID mark frame": "18",
         "Video": "97f5bbc8",
         "QID": "",
         "Language Query": "Bear is fighting with another bear",
+        "Type": "M",
+        "IDs": "2",
+        "Start": "1",
+        "End": "18",
+        "Revision": ""
+    },
+    {
+        "ID mark frame": "18",
+        "Video": "97f5bbc8",
+        "QID": "",
+        "Language Query": "Bear is wrestling with another bear",
         "Type": "M",
         "IDs": "2",
         "Start": "1",
@@ -4723,6 +4866,17 @@
         "Video": "75a8cadb",
         "QID": "",
         "Language Query": "Person is receiving the basket from the elephant's trunk",
+        "Type": "M",
+        "IDs": "4",
+        "Start": "15",
+        "End": "18",
+        "Revision": ""
+    },
+    {
+        "ID mark frame": "1",
+        "Video": "75a8cadb",
+        "QID": "",
+        "Language Query": "Person is accepting the basket from the elephant's trunk",
         "Type": "M",
         "IDs": "4",
         "Start": "15",
@@ -5423,6 +5577,17 @@
         "Revision": ""
     },
     {
+        "ID mark frame": "",
+        "Video": "06eb2803",
+        "QID": "",
+        "Language Query": "Goat is investigating something on the ground",
+        "Type": "M",
+        "IDs": "2",
+        "Start": "53",
+        "End": "60",
+        "Revision": ""
+    },
+    {
         "ID mark frame": "1",
         "Video": "06eb2803",
         "QID": "",
@@ -5885,6 +6050,28 @@
         "Revision": ""
     },
     {
+        "ID mark frame": "33",
+        "Video": "2ab06287",
+        "QID": "",
+        "Language Query": "Dog is being outmatched in the fight with another dog",
+        "Type": "M",
+        "IDs": "2",
+        "Start": "1",
+        "End": "96",
+        "Revision": ""
+    },
+    {
+        "ID mark frame": "33",
+        "Video": "2ab06287",
+        "QID": "",
+        "Language Query": "Dog is losing dominance in the fight with another dog",
+        "Type": "M",
+        "IDs": "2",
+        "Start": "1",
+        "End": "96",
+        "Revision": ""
+    },
+    {
         "ID mark frame": "",
         "Video": "2b6e117d",
         "QID": "",
@@ -6053,6 +6240,17 @@
         "ID mark frame": "",
         "Video": "2b84174e",
         "QID": "",
+        "Language Query": "Dog is clashing with another dog",
+        "Type": "M",
+        "IDs": "1",
+        "Start": "1",
+        "End": "30",
+        "Revision": ""
+    },
+    {
+        "ID mark frame": "",
+        "Video": "2b84174e",
+        "QID": "",
         "Language Query": "Dog is fighting with another dog",
         "Type": "M",
         "IDs": "2",
@@ -6109,6 +6307,17 @@
         "Video": "2c22cd4e",
         "QID": "",
         "Language Query": "Cat is fighting with another cat",
+        "Type": "M",
+        "IDs": "1",
+        "Start": "1",
+        "End": "92",
+        "Revision": ""
+    },
+    {
+        "ID mark frame": "",
+        "Video": "2c22cd4e",
+        "QID": "",
+        "Language Query": "Cat is sparring with another cat",
         "Type": "M",
         "IDs": "1",
         "Start": "1",
@@ -6842,6 +7051,17 @@
         "Revision": ""
     },
     {
+        "ID mark frame": "30",
+        "Video": "5251dbb9",
+        "QID": "",
+        "Language Query": "Bird is introduced into the frame by a person's hand",
+        "Type": "M",
+        "IDs": "5",
+        "Start": "28",
+        "End": "30",
+        "Revision": ""
+    },
+    {
         "ID mark frame": "",
         "Video": "2112a80d",
         "QID": "",
@@ -7238,6 +7458,17 @@
         "Revision": ""
     },
     {
+        "ID mark frame": "1",
+        "Video": "435d99e0",
+        "QID": "",
+        "Language Query": "Bicycle is drifting rightward slightly",
+        "Type": "M",
+        "IDs": "2",
+        "Start": "11",
+        "End": "15",
+        "Revision": ""
+    },
+    {
         "ID mark frame": "",
         "Video": "435d99e0",
         "QID": "",
@@ -7359,10 +7590,32 @@
         "Revision": ""
     },
     {
+        "ID mark frame": "",
+        "Video": "6a6547d7",
+        "QID": "",
+        "Language Query": "Rabbit is frolicking with another rabbit",
+        "Type": "M",
+        "IDs": "1",
+        "Start": "1",
+        "End": "54",
+        "Revision": ""
+    },
+    {
         "ID mark frame": "7",
         "Video": "6a6547d7",
         "QID": "",
         "Language Query": "Rabbit is playing with another rabbit",
+        "Type": "M",
+        "IDs": "2",
+        "Start": "1",
+        "End": "54",
+        "Revision": ""
+    },
+    {
+        "ID mark frame": "7",
+        "Video": "6a6547d7",
+        "QID": "",
+        "Language Query": "Rabbit is romping with another rabbit",
         "Type": "M",
         "IDs": "2",
         "Start": "1",

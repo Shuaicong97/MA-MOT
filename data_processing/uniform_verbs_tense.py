@@ -51,4 +51,4 @@ def convert_verbs_to_base(json_file, output_file, output_path):
 
 # 示例用法
 convert_verbs_to_base('/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/generated_by_code/verbs_json/verbs/verbs_ours_all.json',
-                      'verbs_output.json', '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/Visualization/top50_verbs.png')
+                      'verbs_output.json', '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/Visualization/top50_verbs-.png')
