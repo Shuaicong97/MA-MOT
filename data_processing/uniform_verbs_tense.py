@@ -1,14 +1,27 @@
 import json
 import nltk
+nltk.download('averaged_perceptron_tagger_eng')
 import matplotlib.pyplot as plt
 from nltk.stem import WordNetLemmatizer
 from nltk.corpus import wordnet
 
-# 确保 nltk 资源已下载
-nltk.download('wordnet')
-nltk.download('omw-1.4')
-nltk.download('punkt')
+from nltk import word_tokenize, pos_tag
 
+# Sample sentence
+sentence = 'She starts running in the park.'
+
+# Tokenize the sentence
+tokens = word_tokenize(sentence)
+
+# Perform POS tagging
+pos_tags = pos_tag(tokens)
+
+# POS Tags:  [('She', 'PRP'), ('starts', 'VBZ'), ('running', 'VBG'), ('in', 'IN'), ('the', 'DT'), ('park', 'NN'), ('.', '.')]
+# Detected Verbs: ['starts', 'running']
+# Display the POS tags
+print("POS Tags: ", pos_tags)
+verbs = [word for word, tag in pos_tags if tag.startswith('VB')]
+print("Detected Verbs:", verbs)
 
 def convert_verbs_to_base(json_file, output_file, output_path):
     with open(json_file, 'r', encoding='utf-8') as f:
@@ -49,6 +62,5 @@ def convert_verbs_to_base(json_file, output_file, output_path):
     # plt.show()
 
 
-# 示例用法
 convert_verbs_to_base('/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/generated_by_code/verbs_json/verbs/verbs_ours_all.json',
                       'verbs_output.json', '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/Visualization/top50_verbs-.png')

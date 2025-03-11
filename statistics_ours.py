@@ -4,8 +4,7 @@ import spacy
 from collections import Counter
 import matplotlib.pyplot as plt
 
-nlp = spacy.load("en_core_web_sm")
-
+nlp = spacy.load("en_core_web_lg")
 
 def csv_to_json(csv_file_path, json_file_path):
     csv_data = []
@@ -76,10 +75,10 @@ unique_queries_mot17 = get_all_queries(paths_mot17)
 unique_queries_ovis = get_all_queries(paths_ovis)
 unique_queries_mot20 = get_all_queries(paths_mot20)
 
-print(f'There are in total {len(unique_queries_all)} different kinds of queries.')  # 7838
-print(f'There are in total {len(unique_queries_mot17)} different kinds of queries in mot17.')  # 1255
-print(f'There are in total {len(unique_queries_ovis)} different kinds of queries in ovis.')  # 5474
-print(f'There are in total {len(unique_queries_mot20)} different kinds of queries in mot20.')  # 1127
+# print(f'There are in total {len(unique_queries_all)} different kinds of queries.')  # 7838
+# print(f'There are in total {len(unique_queries_mot17)} different kinds of queries in mot17.')  # 1255
+# print(f'There are in total {len(unique_queries_ovis)} different kinds of queries in ovis.')  # 5474
+# print(f'There are in total {len(unique_queries_mot20)} different kinds of queries in mot20.')  # 1127
 
 
 def get_word_count_distribution(unique_queries, output_path):
@@ -109,7 +108,7 @@ def get_word_count_distribution(unique_queries, output_path):
 
 
 
-get_word_count_distribution(unique_queries_all, '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/Visualization/word_count_distribution_all.png')
+# get_word_count_distribution(unique_queries_all, '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/Visualization/word_count_distribution_all.png')
 
 
 
@@ -125,10 +124,10 @@ def get_number_of_entries(file_paths):
     print(f"The number of items in all three datasets is: {total_entries}")
 
 
-get_number_of_entries(paths_all)
-get_number_of_entries(paths_mot17)
-get_number_of_entries(paths_ovis)
-get_number_of_entries(paths_mot20)
+# get_number_of_entries(paths_all)
+# get_number_of_entries(paths_mot17)
+# get_number_of_entries(paths_ovis)
+# get_number_of_entries(paths_mot20)
 
 # print()
 #
@@ -144,11 +143,38 @@ def get_verb_and_frequency_from_sentences(dataset, sentences, output_file_path):
     for sentence in sentences:
         doc = nlp(sentence)
         # type of verbs is <list>
-        verbs = [token.text for token in doc if token.pos_ == 'VERB']
-        if len(verbs) == 1 and verbs[0] in ('left', 'rightward'):
+        verbs = [token for token in doc if token.pos_ == "VERB" and token.dep_ != "AUX"]
+        # print(sentence, "Detected Verbs:", verbs)
+
+        if any(verb in ('left', 'rightward') for verb in verbs):
             # print(f"跳过的句子: {sentence}")
             continue
-        verbs_list.extend(verbs)
+
+        walk_verbs = ['walk', 'walks', 'walking', 'walked']
+
+        # 如果 'walk' 系列动词在 verbs 中，并且还有其他动词，移除 'walk' 系列动词
+        if any(verb.text in walk_verbs for verb in verbs) and len(verbs) > 1:
+            verbs = [verb for verb in verbs if verb.text not in walk_verbs]
+            print(verbs, sentence)
+
+        filtered_verbs = []
+        for i, cur_verb in enumerate(verbs):
+            cur_verb_index = cur_verb.i
+
+            # 查找 cur_verb 前一个单词
+            if cur_verb_index > 0:
+                pre_verb = doc[cur_verb_index - 1]
+
+                # 如果 pre_verb 是动词并且在 verbs 中，说明是连续动词，应该跳过当前动词
+                if pre_verb.pos_ == "VERB" and pre_verb in verbs:
+                    continue  # 跳过当前动词
+
+            # 如果没有移除，则保留当前动词
+            filtered_verbs.append(cur_verb.text)
+
+        # print(filtered_verbs, sentence)
+
+        verbs_list.extend(filtered_verbs)
 
 
     # count frequency of the words
@@ -167,11 +193,12 @@ def get_verb_and_frequency_from_sentences(dataset, sentences, output_file_path):
 
     print("Data saved to:", output_file_path)
 
-
+# 在结果处手动添加 "brushes": 1, "sprints": 1 => 900
 get_verb_and_frequency_from_sentences('all', unique_queries_all, 'data/generated_by_code/verbs_json/verbs/verbs_ours_all.json')
-get_verb_and_frequency_from_sentences('mot17', unique_queries_mot17, 'data/generated_by_code/verbs_json/verbs/verbs_mot17.json')
-get_verb_and_frequency_from_sentences('ovis', unique_queries_ovis, 'data/generated_by_code/verbs_json/verbs/verbs_ovis.json')
-get_verb_and_frequency_from_sentences('mot20', unique_queries_mot20, 'data/generated_by_code/verbs_json/verbs/verbs_mot20.json')
+# get_verb_and_frequency_from_sentences('mot17', unique_queries_mot17, 'data/generated_by_code/verbs_json/verbs/verbs_mot17.json')
+# get_verb_and_frequency_from_sentences('ovis', unique_queries_ovis, 'data/generated_by_code/verbs_json/verbs/verbs_ovis.json')
+# get_verb_and_frequency_from_sentences('mot20', unique_queries_mot20, 'data/generated_by_code/verbs_json/verbs/verbs_mot20.json')
+
 
 
 def get_subject_frequency_from_sentences(sentences, output_file_path):
