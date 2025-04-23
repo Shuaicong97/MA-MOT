@@ -39,7 +39,7 @@ folder_path = 'video_29_bboxes'  # 替换为实际目录路径
 
 # 遍历文件夹中的所有 JSON 文件
 for file_name in os.listdir(folder_path):
-    if file_name.endswith('.json'):  # 只处理 JSON 文件
+    if file_name.endswith('.json') and file_name == 'annotation_215_bboxes.json':  # 只处理 JSON 文件
         file_path = os.path.join(folder_path, file_name)
 
         # 读取 JSON 文件
@@ -50,5 +50,10 @@ for file_name in os.listdir(folder_path):
         bboxes = data.get('bboxes', [])
         bboxes_length = len(bboxes)
 
+        non_null_indices = [i + 1 for i, bbox in enumerate(bboxes) if bbox is not None]
+        print("非空 bboxes 的索引（从 1 开始）:")
+        print(non_null_indices)
+
         # 输出结果
         print(f"文件: {file_name}, bboxes 的长度（包含 null）: {bboxes_length}")
+

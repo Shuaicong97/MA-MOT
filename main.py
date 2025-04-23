@@ -5,7 +5,7 @@ import torch
 with open('annotations_train.json', 'r') as f:
     data = json.load(f)
 
-target_folder = './gt'
+target_folder = '/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/Ours/OVIS_GTs/train'
 
 
 def generate_mot_file():
@@ -13,7 +13,10 @@ def generate_mot_file():
         video_id = video['id']
         file_name = video['file_names'][0].split('/')[0]
         # print(f'filename: {file_name}')
-        file_path = os.path.join(target_folder, f'gt_{file_name}.txt')
+        new_dir = os.path.join(target_folder, file_name)
+        os.makedirs(new_dir, exist_ok=True)  # 如果目录不存在则创建
+
+        file_path = os.path.join(new_dir, 'gt.txt')
 
         with open(file_path, 'w') as f:
             object_id_counter = 0
@@ -48,8 +51,8 @@ def print_keys(d, depth=0):
             print_keys(value, depth + 1)
 
 
-ctvis_vitl_ovis = torch.load('data/DVIS/weights/dinov2_vitl14_pretrain_.pth', map_location=torch.device('cpu'))
-instances_predictions = torch.load('data/DVIS/output_DVIS_Plus_Offline_VitAdapterL_OVIS/inference/instances_predictions.pth', map_location=torch.device('cpu'))
+# ctvis_vitl_ovis = torch.load('data/DVIS/weights/dinov2_vitl14_pretrain_.pth', map_location=torch.device('cpu'))
+# instances_predictions = torch.load('data/DVIS/output_DVIS_Plus_Offline_VitAdapterL_OVIS/inference/instances_predictions.pth', map_location=torch.device('cpu'))
 
 
 def print_json_keys(data, indent=0):
@@ -69,8 +72,8 @@ def read_json_file(file_path):
     return data
 
 
-file_path = 'data/DVIS/output_DVIS_Plus_Offline_VitAdapterL_OVIS/inference/results.json'
-json_data = read_json_file(file_path)
+# file_path = 'data/DVIS/output_DVIS_Plus_Offline_VitAdapterL_OVIS/inference/results.json'
+# json_data = read_json_file(file_path)
 
 
 def rename_files_in_folder(folder_path):
@@ -95,19 +98,19 @@ def rename_files_in_subfolders(parent_folder_path):
 
 
 if __name__ == '__main__':
-    # generate_mot_file()
+    generate_mot_file()
     # calculate_move()
     # read_pth_file()
     # print(instances_predictions)
     # print_json_keys(json_data)
-    parent_folder_path = [
-        'data/Ours/mot17/train/JPEGImages',
-        'data/Ours/mot17/valid/JPEGImages',
-        'data/Ours/mot20/train/JPEGImages',
-        'data/Ours/mot20/valid/JPEGImages'
-    ]
-    for folder in parent_folder_path:
-        rename_files_in_subfolders(folder)
+    # parent_folder_path = [
+    #     'data/Ours/mot17/train/JPEGImages',
+    #     'data/Ours/mot17/valid/JPEGImages',
+    #     'data/Ours/mot20/train/JPEGImages',
+    #     'data/Ours/mot20/valid/JPEGImages'
+    # ]
+    # for folder in parent_folder_path:
+    #     rename_files_in_subfolders(folder)
 
 
 
