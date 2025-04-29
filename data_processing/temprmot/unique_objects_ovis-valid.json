@@ -1,5 +1,189 @@
 [
     {
+        "Video": "e7ef3b9d",
+        "Language Query": "The boat swerves from the right to the left",
+        "IDs": "7",
+        "Start": "9",
+        "End": "25",
+        "Raw sentence": "The boat turns from the right to the left"
+    },
+    {
+        "Video": "1b664206",
+        "Language Query": "Horse is trotting in circles around a person",
+        "IDs": "6",
+        "Start": "1",
+        "End": "18",
+        "Raw sentence": "Horse is circling around a person"
+    },
+    {
+        "Video": "1b664206",
+        "Language Query": "Person is commanding the horse",
+        "IDs": "7",
+        "Start": "1",
+        "End": "16",
+        "Raw sentence": "Person is giving commands to the horse"
+    },
+    {
+        "Video": "9323c19c",
+        "Language Query": "Bird is annoying other birds",
+        "IDs": "5",
+        "Start": "3",
+        "End": "10",
+        "Raw sentence": "Bird is disturbing other birds"
+    },
+    {
+        "Video": "9323c19c",
+        "Language Query": "Bird is harassing other birds",
+        "IDs": "5",
+        "Start": "25",
+        "End": "51",
+        "Raw sentence": "Bird is disturbing other birds"
+    },
+    {
+        "Video": "9323c19c",
+        "Language Query": "Bird is looping around the food container",
+        "IDs": "2",
+        "Start": "1",
+        "End": "87",
+        "Raw sentence": "Bird is circling around the food container"
+    },
+    {
+        "Video": "7223bf62",
+        "Language Query": "Bunny is munching on leaves",
+        "IDs": "2",
+        "Start": "1",
+        "End": "30",
+        "Raw sentence": "Bunny is eating leaves"
+    },
+    {
+        "Video": "4027a35b",
+        "Language Query": "Bunny is tussling with another bunny",
+        "IDs": "1",
+        "Start": "1",
+        "End": "28",
+        "Raw sentence": "Bunny is fighting with another bunny"
+    },
+    {
+        "Video": "1806a28d",
+        "Language Query": "The airplane is outpacing another airplane",
+        "IDs": "1",
+        "Start": "1",
+        "End": "108",
+        "Raw sentence": "Airplane is moving faster than another airplane"
+    },
+    {
+        "Video": "957c33a7",
+        "Language Query": "Bird jabbed another bird with its beak",
+        "IDs": "4",
+        "Start": "13",
+        "End": "15",
+        "Raw sentence": "Bird pecked another bird"
+    },
+    {
+        "Video": "768c5810",
+        "Language Query": "Cow is contending with sheep",
+        "IDs": "2",
+        "Start": "1",
+        "End": "60",
+        "Raw sentence": "Cow is fighting with sheep"
+    },
+    {
+        "Video": "97f5bbc8",
+        "Language Query": "Bear is struggling with another bear",
+        "IDs": "1",
+        "Start": "1",
+        "End": "18",
+        "Raw sentence": "Bear is fighting with another bear"
+    },
+    {
+        "Video": "97f5bbc8",
+        "Language Query": "Bear is wrestling with another bear",
+        "IDs": "2",
+        "Start": "1",
+        "End": "18",
+        "Raw sentence": "Bear is fighting with another bear"
+    },
+    {
+        "Video": "75a8cadb",
+        "Language Query": "Person is accepting the basket from the elephant's trunk",
+        "IDs": "4",
+        "Start": "15",
+        "End": "18",
+        "Raw sentence": "Person is receiving the basket from the elephant's trunk"
+    },
+    {
+        "Video": "06eb2803",
+        "Language Query": "Goat is investigating something on the ground",
+        "IDs": "2",
+        "Start": "53",
+        "End": "60",
+        "Raw sentence": "Goat is looking for something on the ground"
+    },
+    {
+        "Video": "2ab06287",
+        "Language Query": "Dog is being outmatched in the fight with another dog",
+        "IDs": "2",
+        "Start": "1",
+        "End": "96",
+        "Raw sentence": "Dog is being dominated during the fight with another dog"
+    },
+    {
+        "Video": "2ab06287",
+        "Language Query": "Dog is losing dominance in the fight with another dog",
+        "IDs": "2",
+        "Start": "1",
+        "End": "96",
+        "Raw sentence": "Dog is being dominated during the fight with another dog"
+    },
+    {
+        "Video": "2b84174e",
+        "Language Query": "Dog is clashing with another dog",
+        "IDs": "1",
+        "Start": "1",
+        "End": "30",
+        "Raw sentence": "Dog is fighting with another dog"
+    },
+    {
+        "Video": "2c22cd4e",
+        "Language Query": "Cat is sparring with another cat",
+        "IDs": "1",
+        "Start": "1",
+        "End": "92",
+        "Raw sentence": "Cat is fighting with another cat"
+    },
+    {
+        "Video": "5251dbb9",
+        "Language Query": "Bird is introduced into the frame by a person's hand",
+        "IDs": "5",
+        "Start": "28",
+        "End": "30",
+        "Raw sentence": "Bird is brought into frame by a person's hand"
+    },
+    {
+        "Video": "435d99e0",
+        "Language Query": "Bicycle is drifting rightward slightly",
+        "IDs": "2",
+        "Start": "11",
+        "End": "15",
+        "Raw sentence": "Bicycle is making a slight right turn"
+    },
+    {
+        "Video": "6a6547d7",
+        "Language Query": "Rabbit is frolicking with another rabbit",
+        "IDs": "1",
+        "Start": "1",
+        "End": "54",
+        "Raw sentence": "Rabbit is playing with another rabbit"
+    },
+    {
+        "Video": "6a6547d7",
+        "Language Query": "Rabbit is romping with another rabbit",
+        "IDs": "2",
+        "Start": "1",
+        "End": "54",
+        "Raw sentence": "Rabbit is playing with another rabbit"
+    },
+    {
         "Video": "63263f3f",
         "Language Query": "The rabbit begins to eat",
         "IDs": "1",

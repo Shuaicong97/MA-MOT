@@ -17676,7 +17676,7 @@
         "Type": "M",
         "IDs": "8",
         "Start": "20",
-        "End": "26",
+        "End": "25",
         "Revision": ""
     },
     {
@@ -17686,7 +17686,7 @@
         "Type": "M",
         "IDs": "6",
         "Start": "1",
-        "End": "26",
+        "End": "25",
         "Revision": ""
     },
     {
@@ -18876,7 +18876,7 @@
         "Type": "M",
         "IDs": "6",
         "Start": "15",
-        "End": "70",
+        "End": "48",
         "Revision": ""
     },
     {
@@ -18886,7 +18886,7 @@
         "Type": "M",
         "IDs": "6",
         "Start": "15",
-        "End": "70",
+        "End": "48",
         "Revision": ""
     },
     {
@@ -18896,7 +18896,7 @@
         "Type": "M",
         "IDs": "7",
         "Start": "23",
-        "End": "70",
+        "End": "48",
         "Revision": ""
     },
     {
@@ -18906,7 +18906,7 @@
         "Type": "M",
         "IDs": "7",
         "Start": "23",
-        "End": "70",
+        "End": "48",
         "Revision": ""
     },
     {
@@ -18916,7 +18916,7 @@
         "Type": "M",
         "IDs": "8",
         "Start": "33",
-        "End": "70",
+        "End": "48",
         "Revision": ""
     },
     {
@@ -18926,7 +18926,7 @@
         "Type": "M",
         "IDs": "8",
         "Start": "33",
-        "End": "70",
+        "End": "48",
         "Revision": ""
     },
     {
@@ -18936,7 +18936,7 @@
         "Type": "M",
         "IDs": "4",
         "Start": "1",
-        "End": "70",
+        "End": "48",
         "Revision": ""
     },
     {
@@ -18946,7 +18946,7 @@
         "Type": "M",
         "IDs": "4",
         "Start": "1",
-        "End": "70",
+        "End": "48",
         "Revision": ""
     },
     {
@@ -19036,7 +19036,7 @@
         "Type": "O",
         "IDs": "1",
         "Start": "1",
-        "End": "70",
+        "End": "7",
         "Revision": ""
     },
     {
@@ -24196,7 +24196,7 @@
         "Type": "M",
         "IDs": "1",
         "Start": "39",
-        "End": "45",
+        "End": "42",
         "Revision": ""
     },
     {
@@ -24226,7 +24226,7 @@
         "Type": "M",
         "IDs": "2",
         "Start": "42",
-        "End": "45",
+        "End": "42",
         "Revision": ""
     },
     {
@@ -25946,7 +25946,7 @@
         "Type": "M",
         "IDs": "1",
         "Start": "22",
-        "End": "411",
+        "End": "41",
         "Revision": ""
     },
     {
@@ -35712,7 +35712,7 @@
     {
         "Video": "62529cd4",
         "QID": "",
-        "Language Query": "Pigeon is being disturbing by another pigeon",
+        "Language Query": "Pigeon is being disturbed by another pigeon",
         "Type": "M",
         "IDs": "2",
         "Start": "29",
