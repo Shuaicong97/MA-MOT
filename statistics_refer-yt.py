@@ -112,7 +112,7 @@ def get_verb_and_frequency_from_sentences(sentences):
 
     # count frequency of the words
     item_frequency = Counter(verbs_list)
-    print(f'The number of different verbs (include tense): {len(item_frequency)}')  # 882
+    print(f'The number of different verbs (include tense): {len(item_frequency)}')  # 878
 
     sorted_items = sorted(item_frequency.items(), key=lambda x: (-x[1], x[0]))
 
