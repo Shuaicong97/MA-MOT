@@ -4,7 +4,7 @@ echo "🚀 脚本开始执行了！"
 # 设置输入目录（可通过参数传入，默认当前目录）
 json_file="/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data_processing/report/ovis_info_train_533.txt"
 input_dir="/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/OVIS/train"
-output_dir="/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/ovis_videos/train"
+output_dir="/Users/shuaicongwu/Documents/study/Master/MA/MA-MOT/data/ovis_videos"
 
 # 确保输出目录存在
 mkdir -p "$output_dir"
