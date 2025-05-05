@@ -22,7 +22,7 @@ def get_verb_and_frequency_from_sentences(sentences):
     for sentence in sentences:
         doc = nlp(sentence)
         # type of verbs is <list>
-        verbs = [token for token in doc if token.pos_ == "VERB" and token.dep_ != "AUX"]
+        verbs = [token for token in doc if token.pos_ == "VERB"]
         ignore_verbs = ['hand']
         if any(verb.text in ignore_verbs for verb in verbs):
             verbs = [verb for verb in verbs if verb.text not in ignore_verbs]
@@ -34,9 +34,9 @@ def get_verb_and_frequency_from_sentences(sentences):
             if cur_verb_index > 0:
                 pre_verb = doc[cur_verb_index - 1]
 
-                # 如果 pre_verb 是动词并且在 verbs 中，说明是连续动词，应该跳过当前动词
+                # 如果 pre_verb 是动词并且在 verbs 中，说明是连续动词，应该移除前面的动词
                 if pre_verb.pos_ == "VERB" and pre_verb in verbs:
-                    continue  # 跳过当前动词
+                    filtered_verbs.remove(pre_verb.text)
 
             # 如果没有移除，则保留当前动词
             filtered_verbs.append(cur_verb.text)
@@ -49,7 +49,7 @@ def get_verb_and_frequency_from_sentences(sentences):
 
     # count frequency of the words
     item_frequency = Counter(verbs_list)
-    print(f'The number of different verbs (include tense): {len(item_frequency)}')  # 512
+    print(f'The number of different verbs (include tense): {len(item_frequency)}')  # 515
 
     sorted_items = sorted(item_frequency.items(), key=lambda x: (-x[1], x[0]))
     data_dict = {}
